@@ -77,7 +77,7 @@
     </tr>
     <tr>
       <td>🧩 <a href="#2-cei-framework-gpi-view">2. CEI Framework</a></td>
-      <td align="center" colspan="2">
+      <td colspan="2">
         <a href="#control">Control</a> · <a href="#evaluate">Evaluate</a> · <a href="#improve">Improve</a>
       </td>
     </tr>
@@ -106,13 +106,13 @@
     <tr>
       <td>🏁 <a href="#5-benchmarks--evaluation">5. Benchmarks &amp; Evaluation</a></td>
       <td>
-        <a href="#51-goal-driven">5.1 Goal-driven</a><br>
-        <a href="#53-temporal--planning">5.3 Temporal &amp; Planning</a><br>
-        <a href="#55-self-reflection">5.5 Self-Reflection</a>
+        <a href="#51-goal-driven-reasoning">5.1 Goal-driven Reasoning</a><br>
+        <a href="#53-temporal--planning-reasoning">5.3 Temporal &amp; Planning Reasoning</a><br>
+        <a href="#55-self-reflection-reasoning">5.5 Self-Reflection Reasoning</a>
       </td>
       <td>
-        <a href="#52-causal--verifiable">5.2 Causal &amp; Verifiable</a><br>
-        <a href="#54-tool-enhanced--embodied">5.4 Tool-Enhanced &amp; Embodied</a>
+        <a href="#52-causal--verifiable-reasoning">5.2 Causal &amp; Verifiable Reasoning</a><br>
+        <a href="#54-tool-enhanced--embodied-reasoning">5.4 Tool-Enhanced &amp; Embodied Reasoning</a>
       </td>
     </tr>
   </tbody>
