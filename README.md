@@ -87,7 +87,7 @@
     <tr>
       <td>🏗️ <a href="#3-train-time-optimization">3. Train-time Optimization</a></td>
       <td>
-        <a href="#31-initialization">3.1 Initialization</a><br>
+        <a href="#31-training-initialization">3.1 Training Initialization</a><br>
         <a href="#33-trajectory-sampling">3.3 Trajectory Sampling</a>
       </td>
       <td>
@@ -158,7 +158,35 @@ establishes an integrated framework and clarifies the inter relationship between
 ### <a id="improve"></a>Improve
 
 ## 3. Train-time Optimization
-### <a id="train-31-initialization"></a>3.1 Initialization
+### <a id="train-31--training-initialization"></a>3.1 Training Initialization
+
+<p align="center">
+  <img src="figures\initialization.png" width="80%" />
+<!--   <img src="./Images/methods.jpg" width="45%" height="50%" /> -->
+</p>
+
+Training Initialization focuses on how to initially bootstrap an effective reasoning policy before large-scale RL optimization. We divide the existing methods into three categories:
+
+3.1.1 From-scratch policy initialization, which acquires reasoning behaviors solely from RL signals without reliance on pre-existing policies; 
+
+3.1.2 Cold-start policy initialization, which leverages a strong foundational MLLM prior through knowledge transfer, command interaction, or trajectory injection to enhance training stability in early phases; 
+
+3.1.3 Curriculum-guided multistage optimization, which systematically refines the policy across sequential stages to improve robustness and generalization. 
+
+As illustrated, existing approaches can be characterized along two dimensions, strength of behavioral prior and required level of interaction granularity (ranging from static perception to tool-level interaction and fine-grained control), providing a unified framework for understanding the trade-offs among training stability, controllability, and sample efficiency in different initialization strategies.
+
+
+
+| Date | Name | Title | Paper | Github |
+|:-:|:-:|:-|:-:|:-:|
+| 2025.03 | `VisualThinker-R1-Zero` | R1-Zero's "Aha Moment" in Visual Reasoning on a 2B Non-SFT Model | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2503.05132) | [![GitHub Stars](https://img.shields.io/github/stars/turningpoint-ai/VisualThinker-R1-Zero?style=for-the-badge&logo=github&label=GitHub&)](https://github.com/turningpoint-ai/VisualThinker-R1-Zero) |
+
+
+
+
+
+
+
 ### <a id="train-32-reward-modeling"></a>3.2 Reward Modeling
 ### <a id="train-33-trajectory-sampling"></a>3.3 Trajectory Sampling
 ### <a id="train-34-alignment--algorithms"></a>3.4 Alignment & Algorithms
