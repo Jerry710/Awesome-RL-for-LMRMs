@@ -57,9 +57,14 @@
 
 <table width="100%; table-layout:fixed;">
   <thead>
+    <colgroup>
+    <col style="width:40%;">
+    <col style="width:60%;">
+  </colgroup>
+  <thead>
     <tr>
-      <th align="left" width="40%">Section</th>
-      <th align="left" width="60%">Subsection</th>
+      <th align="left">Section</th>
+      <th align="left">Subsection</th>
     </tr>
   </thead>
   <tbody>
