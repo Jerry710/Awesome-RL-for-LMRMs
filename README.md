@@ -129,7 +129,7 @@
     <tr>
       <td>🏁 <a href="#5-benchmarks--evaluation">5. Benchmarks &amp; Evaluation</a></td>
       <td>
-        <table width="100%" style="border-collapse:collapse;">
+        <table>
           <tr style="border:none !important; background:transparent !important;">
             <td style="border:none !important; padding:0 !important; background:transparent !important; width:50%;">
               <a href="#51-goal-driven-reasoning">5.1 Goal-driven</a><br>
