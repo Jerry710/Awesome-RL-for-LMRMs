@@ -75,10 +75,10 @@
         <a href="#contributions">Contributions</a> -->
         <table width="100%" style="border-collapse:collapse;">
           <tr>
-            <td style="border:none; padding:0; width:50%;">
+            <td style="border:none !important; padding:0 !important; background:transparent !important; width:50%;">
               <a href="#related-surveys">Related surveys</a>
             </td>
-            <td style="border:none; padding:0; width:50%;">
+            <td style="border:none !important; padding:0 !important; background:transparent !important; width:50%;">
               <a href="#contributions">Contributions</a>
             </td>
           </tr>
@@ -98,11 +98,11 @@
       <td>
         <table width="100%" style="border-collapse:collapse;">
           <tr>
-            <td style="border:none; padding:0; width:50%;">
+            <td style="border:none !important; padding:0 !important; background:transparent !important; width:50%;">
               <a href="#31-initialization">3.1 Initialization</a><br>
               <a href="#33-trajectory-sampling">3.3 Trajectory Sampling</a><br>
             </td>
-            <td style="border:none; padding:0; width:50%;">
+            <td style="border:none !important; padding:0 !important; background:transparent !important; width:50%;">
               <a href="#32-reward-modeling">3.2 Reward Modeling</a><br>
               <a href="#34-alignment--algorithms">3.4 Alignment &amp; Algorithms</a>
             </td>
@@ -114,11 +114,11 @@
       <td>
         <table width="100%" style="border-collapse:collapse;">
           <tr>
-            <td style="border:none; padding:0; width:50%;">
+            <td style="border:none !important; padding:0 !important; background:transparent !important; width:50%;">
               <a href="#41-sampling">4.1 Sampling</a><br>
               <a href="#43-dynamic-verification">4.3 Dynamic Verification</a>
             </td>
-            <td style="border:none; padding:0; width:50%;">
+            <td style="border:none !important; padding:0 !important; background:transparent !important; width:50%;">
               <a href="#42-search">4.2 Search</a><br>
               <a href="#44-trajectory-optimization">4.4 Trajectory Optimization</a>
             </td>
@@ -131,14 +131,15 @@
       <td>
         <table width="100%" style="border-collapse:collapse;">
           <tr>
-            <td style="border:none; padding:0; width:50%;">
+            <td style="border:none !important; padding:0 !important; background:transparent !important; width:50%;">
               <a href="#51-goal-driven-reasoning">5.1 Goal-driven</a><br>
               <a href="#53-temporal--planning-reasoning">5.3 Temporal &amp; Planning</a><br>
               <a href="#55-self-reflection-reasoning">5.5 Self-Reflection</a>
             </td>
-            <td style="border:none; padding:0; width:50%;">
+            <td style="border:none !important; padding:0 !important; background:transparent !important; width:50%;">
               <a href="#52-causal--verifiable-reasoning">5.2 Causal &amp; Verifiable</a><br>
-              <a href="#54-tool-enhanced--embodied-reasoning">5.4 Tool-Enhanced &amp; Embodied</a>
+              <a href="#54-tool-enhanced--embodied-reasoning">5.4 Tool-Enhanced &amp; Embodied</a><br>
+              <a></a>
             </td>
           </table>
       </td>
