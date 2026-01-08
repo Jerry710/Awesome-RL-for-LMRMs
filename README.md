@@ -52,101 +52,14 @@
 - [Citation](#citation)
 --- -->
 
-
 ## 🧭 Contents
-
-<table width="100%; table-layout:fixed;">
-  <thead>
-    <colgroup>
-    <col style="width:30%;">
-    <col style="width:70%;">
-  </colgroup>
-  <thead>
-    <tr>
-      <th align="left">Section</th>
-      <th align="left">Subsection</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>📚 <a href="#1-introduction">1. Introduction</a></td>
-      <td>
-        <!-- <a href="#related-surveys">Related surveys</a> ·
-        <a href="#contributions">Contributions</a> -->
-        <table width="100%" style="border-collapse:collapse;">
-          <tr>
-            <td style="border:none !important; padding:0 !important; background:transparent !important; width:50%;">
-              <a href="#related-surveys">Related surveys</a>
-            </td>
-            <td style="border:none !important; padding:0 !important; background:transparent !important; width:50%;">
-              <a href="#contributions">Contributions</a>
-            </td>
-          </tr>
-        </table>
-      </td>
-    </tr>
-    <tr>
-      <td>🧩 <a href="#2-cei-framework-gpi-view">2. CEI Framework (GPI View)</a></td>
-      <td>
-        <a href="#control">Control</a> ·
-        <a href="#evaluate">Evaluate</a> ·
-        <a href="#improve">Improve</a>
-      </td>
-    </tr>
-    <tr>
-      <td>🏗️ <a href="#3-train-time-optimization">3. Train-time Optimization</a></td>
-      <td>
-        <table width="100%" style="border-collapse:collapse;">
-          <tr>
-            <td style="border:none !important; padding:0 !important; background:transparent !important; width:50%;">
-              <a href="#31-initialization">3.1 Initialization</a><br>
-              <a href="#33-trajectory-sampling">3.3 Trajectory Sampling</a><br>
-            </td>
-            <td style="border:none !important; padding:0 !important; background:transparent !important; width:50%;">
-              <a href="#32-reward-modeling">3.2 Reward Modeling</a><br>
-              <a href="#34-alignment--algorithms">3.4 Alignment &amp; Algorithms</a>
-            </td>
-          </tr>
-        </table>
-      </td>
-    <tr>
-      <td>🧠 <a href="#4-test-time-inference">4. Test-time Inference</a></td>
-      <td>
-        <table width="100%" style="border-collapse:collapse;">
-          <tr>
-            <td style="border:none !important; padding:0 !important; background:transparent !important; width:50%;">
-              <a href="#41-sampling">4.1 Sampling</a><br>
-              <a href="#43-dynamic-verification">4.3 Dynamic Verification</a>
-            </td>
-            <td style="border:none !important; padding:0 !important; background:transparent !important; width:50%;">
-              <a href="#42-search">4.2 Search</a><br>
-              <a href="#44-trajectory-optimization">4.4 Trajectory Optimization</a>
-            </td>
-          </tr>
-        </table>
-      </td>
-    </tr>
-    <tr>
-      <td>🏁 <a href="#5-benchmarks--evaluation">5. Benchmarks &amp; Evaluation</a></td>
-      <td>
-        <table>
-          <tr style="border:none !important; background:transparent !important;">
-            <td style="border:none !important; padding:0 !important; background:transparent !important; width:50%;">
-              <a href="#51-goal-driven-reasoning">5.1 Goal-driven</a><br>
-              <a href="#53-temporal--planning-reasoning">5.3 Temporal &amp; Planning</a><br>
-              <a href="#55-self-reflection-reasoning">5.5 Self-Reflection</a>
-            </td>
-            <td style="border:none !important; padding:0 !important; background:transparent !important; width:50%;">
-              <a href="#52-causal--verifiable-reasoning">5.2 Causal &amp; Verifiable</a><br>
-              <a href="#54-tool-enhanced--embodied-reasoning">5.4 Tool-Enhanced &amp; Embodied</a><br>
-            </td>
-          </tr>
-          </table>
-      </td>
-    </tr>
-    
-  </tbody>
-</table>
+| Section | Subsection |  |
+|:--|:--|:--|
+| 📚 [1. Introduction](#1-introduction) | [Related surveys](#related-surveys) | [Contributions](#contributions) |
+| 🧩 [2. CEI Framework](#2-cei-framework-gpi-view) | [Control](#control) · [Evaluate](#evaluate) · [Improve](#improve) |
+| 🏗️ [3. Train-time Optimization](#3-train-time-optimization) | [3.1 Initialization](#31-initialization)<br> [3.3 Trajectory Sampling](#33-trajectory-sampling) | [3.2 Reward Modeling](#32-reward-modeling)<br> [3.4 Alignment & Algorithms](#34-alignment--algorithms) |
+| 🧠 [4. Test-time Inference](#4-test-time-inference) | [4.1 Sampling](#41-sampling)<br> [4.3 Dynamic Verification](#43-dynamic-verification) | [4.2 Search](#42-search)<br> [4.4 Trajectory Optimization](#44-trajectory-optimization) |
+| 🏁 [5. Benchmarks & Evaluation](#5-benchmarks--evaluation) | [5.1 Goal-driven](#51-goal-driven)<br> [5.3 Temporal & Planning](#53-temporal--planning)<br> [5.5 Self-Reflection](#55-self-reflection) | [5.2 Causal & Verifiable](#52-causal--verifiable)<br> [5.4 Tool-Enhanced & Embodied](#54-tool-enhanced--embodied) |
 
 ---
 
@@ -154,7 +67,7 @@
 ### <a name="related surveys"></a>Related surveys
 ### <a name="contributions"></a>Contributions
 
-## 2. CEI Framework (GPI View)
+## 2. CEI Framework
 ### <a name="control"></a>Control
 ### <a name="evaluate"></a>Evaluate
 ### <a name="improve"></a>Improve
