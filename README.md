@@ -55,7 +55,7 @@
 
 ## 🧭 Contents
 
-<table width="100%">
+<table width="100%; table-layout:fixed;">
   <thead>
     <tr>
       <th align="left" width="40%">Section</th>
