@@ -55,15 +55,61 @@
 
 ## 🧭 Contents
 
-| Section | Subsection |
-|:---|:---|
-| [📚 1. Introduction](#1-introduction) | [Related surveys](#related-surveys) · [Contributions](#contributions) |
-| [🧩 2. CEI Framework (GPI View)](#2-cei-framework-gpi-view) | [Control](#control) · [Evaluate](#evaluate) · [Improve](#improve) |
-| [🏗️ 3. Train-time Optimization](#3-train-time-optimization) | [3.1 Initialization](#train-31-initialization) <br> [3.2 Reward Modeling](#train-32-reward-modeling) <br> [3.3 Trajectory Sampling](#train-33-trajectory-sampling) <br> [3.4 Alignment & Algorithms](#train-34-alignment--algorithms) |
-| [🧠 4. Test-time Inference](#4-test-time-inference) | [4.1 Sampling](#test-41-sampling) <br> [4.2 Search](#test-42-search) <br> [4.3 Dynamic Verification](#test-43-dynamic-verification) <br> [4.4 Trajectory Optimization](#test-44-trajectory-optimization) |
-| [🏁 5. Benchmarks & Evaluation](#5-benchmarks--evaluation) | [5.1 Goal-driven](#bench-51-goal-driven) <br> [5.2 Causal & Verifiable](#bench-52-causal--verifiable) <br> [5.3 Temporal & Planning](#bench-53-temporal--planning) <br> [5.4 Tool-Enhanced & Embodied](#bench-54-tool-enhanced--embodied) <br> [5.5 Self-Reflection](#bench-55-self-reflection) |
----
+<table width="100%">
+  <thead>
+    <tr>
+      <th align="left" width="40%">Section</th>
+      <th align="left" width="60%">Subsection</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>📚 <a href="#1-introduction">1. Introduction</a></td>
+      <td>
+        <a href="#related-surveys">Related surveys</a> ·
+        <a href="#contributions">Contributions</a>
+      </td>
+    </tr>
+    <tr>
+      <td>🧩 <a href="#2-cei-framework-gpi-view">2. CEI Framework (GPI View)</a></td>
+      <td>
+        <a href="#control">Control</a> ·
+        <a href="#evaluate">Evaluate</a> ·
+        <a href="#improve">Improve</a>
+      </td>
+    </tr>
+    <tr>
+      <td>🏗️ <a href="#3-train-time-optimization">3. Train-time Optimization</a></td>
+      <td>
+        <a href="#31-initialization">3.1 Initialization</a><br>
+        <a href="#32-reward-modeling">3.2 Reward Modeling</a><br>
+        <a href="#33-trajectory-sampling">3.3 Trajectory Sampling</a><br>
+        <a href="#34-alignment--algorithms">3.4 Alignment &amp; Algorithms</a>
+      </td>
+    <tr>
+      <td>🧠 <a href="#4-test-time-inference">4. Test-time Inference</a></td>
+      <td>
+        <a href="#41-sampling">4.1 Sampling</a><br>
+        <a href="#42-search">4.2 Search</a><br>
+        <a href="#43-dynamic-verification">4.3 Dynamic Verification</a><br>
+        <a href="#44-trajectory-optimization">4.4 Trajectory Optimization</a>
+      </td>
+    </tr>
+    <tr>
+      <td>🏁 <a href="#5-benchmarks--evaluation">5. Benchmarks &amp; Evaluation</a></td>
+      <td>
+        <a href="#51-goal-driven-reasoning">5.1 Goal-driven</a><br>
+        <a href="#52-causal--verifiable-reasoning">5.2 Causal &amp; Verifiable</a><br>
+        <a href="#53-temporal--planning-reasoning">5.3 Temporal &amp; Planning</a><br>
+        <a href="#54-tool-enhanced--embodied-reasoning">5.4 Tool-Enhanced &amp; Embodied</a><br>
+        <a href="#55-self-reflection-reasoning">5.5 Self-Reflection</a>
+      </td>
+    </tr>
+    
+  </tbody>
+</table>
 
+---
 
 ## 1. Introduction
 ### <a name="related surveys"></a>Related surveys
@@ -87,11 +133,11 @@
 ### <a name="test-44-trajectory-optimization"></a>4.4 Trajectory Optimization
 
 ## 5. Benchmarks & Evaluation
-### <a name="bench-51-goal-driven"></a>5.1 Goal-driven
-### <a name="bench-52-causal--verifiable"></a>5.2 Causal & Verifiable
-### <a name="bench-53-temporal--planning"></a>5.3 Temporal & Planning
-### <a name="bench-54-tool-enhanced--embodied"></a>5.4 Tool-Enhanced & Embodied
-### <a name="bench-55-self-reflection"></a>5.5 Self-Reflection
+### <a name="bench-51-goal-driven-reasoning"></a>5.1 Goal-driven Reasoning
+### <a name="bench-52-causal--verifiable-reasoning"></a>5.2 Causal & Verifiable Reasoning 
+### <a name="bench-53-temporal--planning-reasoning"></a>5.3 Temporal & Planning Reasoning
+### <a name="bench-54-tool-enhanced--embodied-reasoning"></a>5.4 Tool-Enhanced & Embodied Reasoning
+### <a name="bench-55-self-reflection-reasoning"></a>5.5 Self-Reflection Reasoning
 
 
 
