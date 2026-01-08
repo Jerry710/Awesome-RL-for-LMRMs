@@ -127,23 +127,23 @@
 
 
 ## 1. Introduction
-### <a name="related surveys"></a>:page_with_curl:Related surveys
+### <a id="related-surveys"></a>:page_with_curl:Related surveys
 | Date | Title | Paper | Project Page |
 |:-:|:-|:-:|:-:|
-| 2025-02 | From System 1 to System 2: A Survey of Reasoning Large Language Models | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2502.17419) |[![GitHub Stars](https://img.shields.io/github/stars/zzli2022/Awesome-System2-Reasoning-LLM?style=for-the-badge&logo=github&label=GitHub&color=black)](https://github.com/zzli2022/Awesome-System2-Reasoning-LLM)|
-| 2025-03 | A Survey of Efficient Reasoning for Large Reasoning Models: Language Multimodality and Beyond  | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2503.21614) | [![GitHub Stars](https://img.shields.io/github/stars/XiaoYee/Awesome_Efficient_LRM_Reasoning?style=for-the-badge&logo=github&label=GitHub&color=black)](https://github.com/XiaoYee/Awesome_Efficient_LRM_Reasoning) | 
-| 2025-03 | Mind with Eyes: from Language Reasoning to Multimodal Reasoning | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2503.18071) |[![GitHub Stars](https://img.shields.io/github/stars/ADaM-BJTU/Mind_with_eyes_Awesome_MLLMs_Reasoning?style=for-the-badge&logo=github&label=GitHub&color=black)](https://github.com/ADaM-BJTU/Mind_with_eyes_Awesome_MLLMs_Reasoning) | 
+| 2025-02 | From System 1 to System 2: A Survey of Reasoning Large Language Models | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2502.17419) | [![Stars](https://img.shields.io/github/stars/zzli2022/Awesome-System2-Reasoning-LLM?style=for-the-badge&logo=github&label=GitHub)](https://github.com/zzli2022/Awesome-System2-Reasoning-LLM)|
+| 2025-03 | A Survey of Efficient Reasoning for Large Reasoning Models: Language Multimodality and Beyond  | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2503.21614) | [![GitHub Stars](https://img.shields.io/github/stars/XiaoYee/Awesome_Efficient_LRM_Reasoning?style=for-the-badge&logo=github&label=GitHub&)](https://github.com/XiaoYee/Awesome_Efficient_LRM_Reasoning) | 
+| 2025-03 | Mind with Eyes: from Language Reasoning to Multimodal Reasoning | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2503.18071) |[![GitHub Stars](https://img.shields.io/github/stars/ADaM-BJTU/Mind_with_eyes_Awesome_MLLMs_Reasoning?style=for-the-badge&logo=github&label=GitHub&)](https://github.com/ADaM-BJTU/Mind_with_eyes_Awesome_MLLMs_Reasoning) | 
 | 2025-04 | Reinforced MLLM: A Survey on RL-Based Reasoning in Multimodal Large Language Models | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2504.21277) | - | 
 | 2025-04 | Why Reasoning Matters? A Survey of Advancements in Multimodal Reasoning | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2504.03151) | - | 
 | 2025-05 | A Survey of Slow Thinking-based Reasoning LLMs using Reinforced Learning and Inference-time Scaling Law | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2505.02665) | - |
-| 2025-05 | Perception, Reason, Think, and Plan: A Survey on Large Multimodal Reasoning Models | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2505.04921) | [![GitHub Stars](https://img.shields.io/github/stars/HITsz-TMG/Awesome-Large-Multimodal-Reasoning-Models?style=for-the-badge&logo=github&label=GitHub&color=black)](https://github.com/HITsz-TMG/Awesome-Large-Multimodal-Reasoning-Models) | 
-| 2025-05 | Reinforcement Fine-Tuning Powers Reasoning Capability of Multimodal Large Language Models | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2505.18536) | [![GitHub Stars](https://img.shields.io/github/stars/Sun-Haoyuan23/Awesome-RL-based-Reasoning-MLLMs?style=for-the-badge&logo=github&label=GitHub&color=black)](https://github.com/Sun-Haoyuan23/Awesome-RL-based-Reasoning-MLLMs) |
-| 2025-08 | Reinforcement Learning for Large Model: A Survey | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2508.08189) | [![GitHub Stars](https://img.shields.io/github/stars/weijiawu/Awesome-Visual-Reinforcement-Learning?style=for-the-badge&logo=github&label=GitHub&color=black)](https://github.com/weijiawu/Awesome-Visual-Reinforcement-Learning) |
+| 2025-05 | Perception, Reason, Think, and Plan: A Survey on Large Multimodal Reasoning Models | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2505.04921) | [![GitHub Stars](https://img.shields.io/github/stars/HITsz-TMG/Awesome-Large-Multimodal-Reasoning-Models?style=for-the-badge&logo=github&label=GitHub&)](https://github.com/HITsz-TMG/Awesome-Large-Multimodal-Reasoning-Models) | 
+| 2025-05 | Reinforcement Fine-Tuning Powers Reasoning Capability of Multimodal Large Language Models | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2505.18536) | [![GitHub Stars](https://img.shields.io/github/stars/Sun-Haoyuan23/Awesome-RL-based-Reasoning-MLLMs?style=for-the-badge&logo=github&label=GitHub&)](https://github.com/Sun-Haoyuan23/Awesome-RL-based-Reasoning-MLLMs) |
+| 2025-08 | Reinforcement Learning for Large Model: A Survey | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2508.08189) | [![GitHub Stars](https://img.shields.io/github/stars/weijiawu/Awesome-Visual-Reinforcement-Learning?style=for-the-badge&logo=github&label=GitHub&)](https://github.com/weijiawu/Awesome-Visual-Reinforcement-Learning) |
 | 2025-09 | Reinforcement Learning Meets Large Language Models: A Survey of Advancements and Applications Across the LLM Lifecycle | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2509.16679) | - |
-| 2025-09 | A Survey of Reinforcement Learning for Large Reasoning Models | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2509.08827) |[![GitHub Stars](https://img.shields.io/github/stars/TsinghuaC3I/Awesome-RL-for-LRMs?style=for-the-badge&logo=github&label=GitHub&color=black)](https://github.com/TsinghuaC3I/Awesome-RL-for-LRMs) | 
+| 2025-09 | A Survey of Reinforcement Learning for Large Reasoning Models | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2509.08827) |[![GitHub Stars](https://img.shields.io/github/stars/TsinghuaC3I/Awesome-RL-for-LRMs?style=for-the-badge&logo=github&label=GitHub&)](https://github.com/TsinghuaC3I/Awesome-RL-for-LRMs) | 
 
 
-### <a name="contributions"></a> :star2: Contributions
+### <a id="contributions"></a> :star2: Contributions
 :one: Sections 3 and 4 follow the CEI framework systematically review and compare methods in the training and testing phases under a unified GPI perspective. This
 establishes an integrated framework and clarifies the inter relationship between the two phases.
 
@@ -153,28 +153,28 @@ establishes an integrated framework and clarifies the inter relationship between
 
 
 ## 2. CEI Framework
-### <a name="control"></a>Control
-### <a name="evaluate"></a>Evaluate
-### <a name="improve"></a>Improve
+### <a id="control"></a>Control
+### <a id="evaluate"></a>Evaluate
+### <a id="improve"></a>Improve
 
 ## 3. Train-time Optimization
-### <a name="train-31-initialization"></a>3.1 Initialization
-### <a name="train-32-reward-modeling"></a>3.2 Reward Modeling
-### <a name="train-33-trajectory-sampling"></a>3.3 Trajectory Sampling
-### <a name="train-34-alignment--algorithms"></a>3.4 Alignment & Algorithms
+### <a id="train-31-initialization"></a>3.1 Initialization
+### <a id="train-32-reward-modeling"></a>3.2 Reward Modeling
+### <a id="train-33-trajectory-sampling"></a>3.3 Trajectory Sampling
+### <a id="train-34-alignment--algorithms"></a>3.4 Alignment & Algorithms
 
 ## 4. Test-time Inference
-### <a name="test-41-sampling"></a>4.1 Sampling
-### <a name="test-42-search"></a>4.2 Search
-### <a name="test-43-dynamic-verification"></a>4.3 Dynamic Verification
-### <a name="test-44-trajectory-optimization"></a>4.4 Trajectory Optimization
+### <a id="test-41-sampling"></a>4.1 Sampling
+### <a id="test-42-search"></a>4.2 Search
+### <a id="test-43-dynamic-verification"></a>4.3 Dynamic Verification
+### <a id="test-44-trajectory-optimization"></a>4.4 Trajectory Optimization
 
 ## 5. Benchmarks & Evaluation
-### <a name="bench-51-goal-driven-reasoning"></a>5.1 Goal-driven Reasoning
-### <a name="bench-52-causal--verifiable-reasoning"></a>5.2 Causal & Verifiable Reasoning 
-### <a name="bench-53-temporal--planning-reasoning"></a>5.3 Temporal & Planning Reasoning
-### <a name="bench-54-tool-enhanced--embodied-reasoning"></a>5.4 Tool-Enhanced & Embodied Reasoning
-### <a name="bench-55-self-reflection-reasoning"></a>5.5 Self-Reflection Reasoning
+### <a id="bench-51-goal-driven-reasoning"></a>5.1 Goal-driven Reasoning
+### <a id="bench-52-causal--verifiable-reasoning"></a>5.2 Causal & Verifiable Reasoning 
+### <a id="bench-53-temporal--planning-reasoning"></a>5.3 Temporal & Planning Reasoning
+### <a id="bench-54-tool-enhanced--embodied-reasoning"></a>5.4 Tool-Enhanced & Embodied Reasoning
+### <a id="bench-55-self-reflection-reasoning"></a>5.5 Self-Reflection Reasoning
 
 
 
@@ -239,31 +239,31 @@ establishes an integrated framework and clarifies the inter relationship between
 
 | Date | Name | Title | Paper | Github |
 |:-:|:-:|:-|:-:|:-:|
-| 2025-08 | `Intern-S1` | Intern-S1: A Scientific Multimodal Foundation Model | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2508.15763v1) | [![GitHub Stars](https://img.shields.io/github/stars/InternLM/Intern-S1?style=for-the-badge&logo=github&label=GitHub&color=black)](https://github.com/InternLM/Intern-S1) |
+| 2025-08 | `Intern-S1` | Intern-S1: A Scientific Multimodal Foundation Model | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2508.15763v1) | [![GitHub Stars](https://img.shields.io/github/stars/InternLM/Intern-S1?style=for-the-badge&logo=github&label=GitHub&)](https://github.com/InternLM/Intern-S1) |
 
 ### 4.2 Causal and Verifiable Reasoning
 
 | Date | Name | Title | Paper | Github |
 |:-:|:-:|:-|:-:|:-:|
-| 2025-08 | `Intern-S1` | Intern-S1: A Scientific Multimodal Foundation Model | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2508.15763v1) | [![GitHub Stars](https://img.shields.io/github/stars/InternLM/Intern-S1?style=for-the-badge&logo=github&label=GitHub&color=black)](https://github.com/InternLM/Intern-S1) |
+| 2025-08 | `Intern-S1` | Intern-S1: A Scientific Multimodal Foundation Model | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2508.15763v1) | [![GitHub Stars](https://img.shields.io/github/stars/InternLM/Intern-S1?style=for-the-badge&logo=github&label=GitHub&)](https://github.com/InternLM/Intern-S1) |
 
 ### 4.3 Temporal and Planning-Oriented Reasoning
 
 | Date | Name | Title | Paper | Github |
 |:-:|:-:|:-|:-:|:-:|
-| 2025-08 | `Intern-S1` | Intern-S1: A Scientific Multimodal Foundation Model | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2508.15763v1) | [![GitHub Stars](https://img.shields.io/github/stars/InternLM/Intern-S1?style=for-the-badge&logo=github&label=GitHub&color=black)](https://github.com/InternLM/Intern-S1) |
+| 2025-08 | `Intern-S1` | Intern-S1: A Scientific Multimodal Foundation Model | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2508.15763v1) | [![GitHub Stars](https://img.shields.io/github/stars/InternLM/Intern-S1?style=for-the-badge&logo=github&label=GitHub&)](https://github.com/InternLM/Intern-S1) |
 
 ### 4.4 Tool-Enhanced and Embodied Reasoning
 
 | Date | Name | Title | Paper | Github |
 |:-:|:-:|:-|:-:|:-:|
-| 2025-08 | `Intern-S1` | Intern-S1: A Scientific Multimodal Foundation Model | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2508.15763v1) | [![GitHub Stars](https://img.shields.io/github/stars/InternLM/Intern-S1?style=for-the-badge&logo=github&label=GitHub&color=black)](https://github.com/InternLM/Intern-S1) |
+| 2025-08 | `Intern-S1` | Intern-S1: A Scientific Multimodal Foundation Model | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2508.15763v1) | [![GitHub Stars](https://img.shields.io/github/stars/InternLM/Intern-S1?style=for-the-badge&logo=github&label=GitHub&)](https://github.com/InternLM/Intern-S1) |
 
 ### 4.5  Self-Reflection and Multi-Round Reasoning
 
 | Date | Name | Title | Paper | Github |
 |:-:|:-:|:-|:-:|:-:|
-| 2025-08 | `Intern-S1` | Intern-S1: A Scientific Multimodal Foundation Model | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2508.15763v1) | [![GitHub Stars](https://img.shields.io/github/stars/InternLM/Intern-S1?style=for-the-badge&logo=github&label=GitHub&color=black)](https://github.com/InternLM/Intern-S1) |
+| 2025-08 | `Intern-S1` | Intern-S1: A Scientific Multimodal Foundation Model | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2508.15763v1) | [![GitHub Stars](https://img.shields.io/github/stars/InternLM/Intern-S1?style=for-the-badge&logo=github&label=GitHub&)](https://github.com/InternLM/Intern-S1) |
 
 ---
 
