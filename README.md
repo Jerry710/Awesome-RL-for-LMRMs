@@ -27,7 +27,10 @@
 
 ## 🧭 Overview
 
-一句话说明这是什么综述（领域 + 目标 + 覆盖范围）。
+<p align="center">
+  <img src="figures\Fig-1.png" width="80%" />
+<!--   <img src="./Images/methods.jpg" width="45%" height="50%" /> -->
+</p>
 
 ---
 
@@ -124,8 +127,30 @@
 
 
 ## 1. Introduction
-### <a name="related surveys"></a>Related surveys
-### <a name="contributions"></a>Contributions
+### <a name="related surveys"></a>:page_with_curl:Related surveys
+| Date | Title | Paper | Project Page |
+|:-:|:-|:-:|:-:|
+| 2025-02 | From System 1 to System 2: A Survey of Reasoning Large Language Models | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2502.17419) |[![GitHub Stars](https://img.shields.io/github/stars/zzli2022/Awesome-System2-Reasoning-LLM?style=for-the-badge&logo=github&label=GitHub&color=black)](https://github.com/zzli2022/Awesome-System2-Reasoning-LLM)|
+| 2025-03 | A Survey of Efficient Reasoning for Large Reasoning Models: Language Multimodality and Beyond  | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2503.21614) | [![GitHub Stars](https://img.shields.io/github/stars/XiaoYee/Awesome_Efficient_LRM_Reasoning?style=for-the-badge&logo=github&label=GitHub&color=black)](https://github.com/XiaoYee/Awesome_Efficient_LRM_Reasoning) | 
+| 2025-03 | Mind with Eyes: from Language Reasoning to Multimodal Reasoning | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2503.18071) |[![GitHub Stars](https://img.shields.io/github/stars/ADaM-BJTU/Mind_with_eyes_Awesome_MLLMs_Reasoning?style=for-the-badge&logo=github&label=GitHub&color=black)](https://github.com/ADaM-BJTU/Mind_with_eyes_Awesome_MLLMs_Reasoning) | 
+| 2025-04 | Reinforced MLLM: A Survey on RL-Based Reasoning in Multimodal Large Language Models | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2504.21277) | - | 
+| 2025-04 | Why Reasoning Matters? A Survey of Advancements in Multimodal Reasoning | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2504.03151) | - | 
+| 2025-05 | A Survey of Slow Thinking-based Reasoning LLMs using Reinforced Learning and Inference-time Scaling Law | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2505.02665) | - |
+| 2025-05 | Perception, Reason, Think, and Plan: A Survey on Large Multimodal Reasoning Models | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2505.04921) | [![GitHub Stars](https://img.shields.io/github/stars/HITsz-TMG/Awesome-Large-Multimodal-Reasoning-Models?style=for-the-badge&logo=github&label=GitHub&color=black)](https://github.com/HITsz-TMG/Awesome-Large-Multimodal-Reasoning-Models) | 
+| 2025-05 | Reinforcement Fine-Tuning Powers Reasoning Capability of Multimodal Large Language Models | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2505.18536) | [![GitHub Stars](https://img.shields.io/github/stars/Sun-Haoyuan23/Awesome-RL-based-Reasoning-MLLMs?style=for-the-badge&logo=github&label=GitHub&color=black)](https://github.com/Sun-Haoyuan23/Awesome-RL-based-Reasoning-MLLMs) |
+| 2025-08 | Reinforcement Learning for Large Model: A Survey | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2508.08189) | [![GitHub Stars](https://img.shields.io/github/stars/weijiawu/Awesome-Visual-Reinforcement-Learning?style=for-the-badge&logo=github&label=GitHub&color=black)](https://github.com/weijiawu/Awesome-Visual-Reinforcement-Learning) |
+| 2025-09 | Reinforcement Learning Meets Large Language Models: A Survey of Advancements and Applications Across the LLM Lifecycle | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2509.16679) | - |
+| 2025-09 | A Survey of Reinforcement Learning for Large Reasoning Models | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2509.08827) |[![GitHub Stars](https://img.shields.io/github/stars/TsinghuaC3I/Awesome-RL-for-LRMs?style=for-the-badge&logo=github&label=GitHub&color=black)](https://github.com/TsinghuaC3I/Awesome-RL-for-LRMs) | 
+
+
+### <a name="contributions"></a> :star2: Contributions
+:one: Sections 3 and 4 follow the CEI framework systematically review and compare methods in the training and testing phases under a unified GPI perspective. This
+establishes an integrated framework and clarifies the inter relationship between the two phases.
+
+:two: Section 5 introduces a novel RL-based benchmark taxonomy, achieving a CEI-aligned restructuring of multimodal reasoning benchmarks.
+
+:three: Section 6 explores the challenges and future directions of RL-centric multimodal reasoning, with a particular emphasis on the intrinsic coupling between RL mechanisms and multimodal scenarios.
+
 
 ## 2. CEI Framework
 ### <a name="control"></a>Control
