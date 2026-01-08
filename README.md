@@ -130,7 +130,7 @@
       <td>🏁 <a href="#5-benchmarks--evaluation">5. Benchmarks &amp; Evaluation</a></td>
       <td>
         <table width="100%" style="border-collapse:collapse;">
-          <tr>
+          <tr style="border:none !important; background:transparent !important;">
             <td style="border:none !important; padding:0 !important; background:transparent !important; width:50%;">
               <a href="#51-goal-driven-reasoning">5.1 Goal-driven</a><br>
               <a href="#53-temporal--planning-reasoning">5.3 Temporal &amp; Planning</a><br>
@@ -139,8 +139,8 @@
             <td style="border:none !important; padding:0 !important; background:transparent !important; width:50%;">
               <a href="#52-causal--verifiable-reasoning">5.2 Causal &amp; Verifiable</a><br>
               <a href="#54-tool-enhanced--embodied-reasoning">5.4 Tool-Enhanced &amp; Embodied</a><br>
-              <a></a>
             </td>
+          </tr>
           </table>
       </td>
     </tr>
