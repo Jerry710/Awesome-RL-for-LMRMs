@@ -226,115 +226,47 @@ As illustrated, existing approaches can be characterized along two dimensions, s
 
 ## 5. Benchmarks & Evaluation
 ### <a id="bench-51-goal-driven-reasoning"></a>5.1 Goal-driven Reasoning
+
+
 ### <a id="bench-52-causal--verifiable-reasoning"></a>5.2 Causal & Verifiable Reasoning 
+
+| Date | Name | Title | Paper | Github |
+|:-:|:-:|:-|:-:|:-:|
+| 2025-08 | `Intern-S1` | Intern-S1: A Scientific Multimodal Foundation Model | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2508.15763v1) | [![GitHub Stars](https://img.shields.io/github/stars/InternLM/Intern-S1?style=for-the-badge&logo=github&label=GitHub&)](https://github.com/InternLM/Intern-S1) |
+
+
 ### <a id="bench-53-temporal--planning-reasoning"></a>5.3 Temporal & Planning Reasoning
+
+| Date | Name | Title | Paper | Github |
+|:-:|:-:|:-|:-:|:-:|
+| 2025-08 | `Intern-S1` | Intern-S1: A Scientific Multimodal Foundation Model | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2508.15763v1) | [![GitHub Stars](https://img.shields.io/github/stars/InternLM/Intern-S1?style=for-the-badge&logo=github&label=GitHub&)](https://github.com/InternLM/Intern-S1) |
+
 ### <a id="bench-54-tool-enhanced--embodied-reasoning"></a>5.4 Tool-Enhanced & Embodied Reasoning
+
+| Date | Name | Title | Paper | Github |
+|:-:|:-:|:-|:-:|:-:|
+| 2025-08 | `Intern-S1` | Intern-S1: A Scientific Multimodal Foundation Model | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2508.15763v1) | [![GitHub Stars](https://img.shields.io/github/stars/InternLM/Intern-S1?style=for-the-badge&logo=github&label=GitHub&)](https://github.com/InternLM/Intern-S1) |
+
+
 ### <a id="bench-55-self-reflection-reasoning"></a>5.5 Self-Reflection Reasoning
 
-
-
-<!-- ## 1. Introduction & Background
-
-简单 1–2 段，复述论文中的背景与动机。
-
----
-
-## 3. Train-time Optimization
-### 3.1 Learning Strategies & Initialization
-- From-scratch
-- Cold-start
-- Curriculum-guided multistage
-(See `docs/train/3.1-initialization.md`)
-
-### 3.2 Reward Modeling & Supervision
-(See `docs/train/3.2-reward.md`)
-
-### 3.3 Trajectory Sampling
-(See `docs/train/3.3-sampling.md`)
-
-### 3.4 Modal Alignment & Learning Algorithm
-(See `docs/train/3.4-alignment-algo.md`)
-
-## 4. Test-time Inference
-### 4.1 Sampling-based Inference
-### 4.2 Search-based Inference
-### 4.3 Dynamic Verification
-### 4.4 Trajectory Optimization -->
-
-
-## 2. Taxonomy of Methods
-
-列出分类：
-
-- Category A: ...
-- Category B: ...
-- Category C: ...
-
----
-
-## 3. Paper List
-
-按类别预留结构：
-
-### 3.1 Category A
-
-| Date | Name | Title | Paper | Code |
-|------|------|-------|-------|------|
-
-### 3.2 Category B
-
-| Date | Name | Title | Paper | Code |
-|------|------|-------|-------|------|
-
----
-
-## 4. Datasets and Benchmarks
-
-### 4.1 Goal-Driven Reasoning
-
 | Date | Name | Title | Paper | Github |
 |:-:|:-:|:-|:-:|:-:|
 | 2025-08 | `Intern-S1` | Intern-S1: A Scientific Multimodal Foundation Model | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2508.15763v1) | [![GitHub Stars](https://img.shields.io/github/stars/InternLM/Intern-S1?style=for-the-badge&logo=github&label=GitHub&)](https://github.com/InternLM/Intern-S1) |
 
-### 4.2 Causal and Verifiable Reasoning
-
-| Date | Name | Title | Paper | Github |
-|:-:|:-:|:-|:-:|:-:|
-| 2025-08 | `Intern-S1` | Intern-S1: A Scientific Multimodal Foundation Model | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2508.15763v1) | [![GitHub Stars](https://img.shields.io/github/stars/InternLM/Intern-S1?style=for-the-badge&logo=github&label=GitHub&)](https://github.com/InternLM/Intern-S1) |
-
-### 4.3 Temporal and Planning-Oriented Reasoning
-
-| Date | Name | Title | Paper | Github |
-|:-:|:-:|:-|:-:|:-:|
-| 2025-08 | `Intern-S1` | Intern-S1: A Scientific Multimodal Foundation Model | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2508.15763v1) | [![GitHub Stars](https://img.shields.io/github/stars/InternLM/Intern-S1?style=for-the-badge&logo=github&label=GitHub&)](https://github.com/InternLM/Intern-S1) |
-
-### 4.4 Tool-Enhanced and Embodied Reasoning
-
-| Date | Name | Title | Paper | Github |
-|:-:|:-:|:-|:-:|:-:|
-| 2025-08 | `Intern-S1` | Intern-S1: A Scientific Multimodal Foundation Model | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2508.15763v1) | [![GitHub Stars](https://img.shields.io/github/stars/InternLM/Intern-S1?style=for-the-badge&logo=github&label=GitHub&)](https://github.com/InternLM/Intern-S1) |
-
-### 4.5  Self-Reflection and Multi-Round Reasoning
-
-| Date | Name | Title | Paper | Github |
-|:-:|:-:|:-|:-:|:-:|
-| 2025-08 | `Intern-S1` | Intern-S1: A Scientific Multimodal Foundation Model | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2508.15763v1) | [![GitHub Stars](https://img.shields.io/github/stars/InternLM/Intern-S1?style=for-the-badge&logo=github&label=GitHub&)](https://github.com/InternLM/Intern-S1) |
 
 ---
 
+## Open Problems
 
-## 5. Open Problems
+先写 3–5 条已经总结好的 future directions 的标题。
 
-先写 3–5 条你在论文里已经总结好的 future directions 的标题。
 
----
+## Citation
 
-## 6. Citation
-
-预留 BibTeX 区域：
 
 ```bibtex
-@article{YourKey,
+@article{Key,
   title={...},
   author={...},
   journal={...},
