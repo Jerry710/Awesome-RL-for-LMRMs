@@ -700,30 +700,30 @@ This section focuses on *how* RL-centric LMRMs maintain cross-modal consistency 
 
 #### 3.4.1 Modal Alignment
 
-- **Data-level alignment**: regulate input distribution via (1) multimodal data construction (paired/interleaved), (2) augmentation, and (3) modality transformation (*e.g.*, I2T textualization).  
+(1) **Data-level alignment**: regulate input distribution via (1) multimodal data construction (paired/interleaved), (2) augmentation, and (3) modality transformation (*e.g.*, I2T textualization).  
 
-[VLM-R1: A Stable and Generalizable R1-style Large Vision-Language Model](https://arxiv.org/abs/2504.07615) [![Paper](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2504.07615) [![GitHub Stars](https://img.shields.io/github/stars/om-ai-lab/VLM-R1?style=social&label=Star)](https://github.com/om-ai-lab/VLM-R1)
+:diamond_shape_with_a_dot_inside: [VLM-R1: A Stable and Generalizable R1-style Large Vision-Language Model](https://arxiv.org/abs/2504.07615) [![Paper](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2504.07615) [![GitHub Stars](https://img.shields.io/github/stars/om-ai-lab/VLM-R1?style=social&label=Star)](https://github.com/om-ai-lab/VLM-R1)
 
-[Infi-MMR: Curriculum-based Unlocking Multimodal Reasoning via Phased Reinforcement Learning in Multimodal Small Language Models](https://arxiv.org/abs/2505.23091) [![Paper](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2505.23091) [![GitHub Stars](https://img.shields.io/github/stars/Reallm-Labs/Infi-MMR?style=social&label=Star)](https://github.com/Reallm-Labs/Infi-MMR)
+:diamond_shape_with_a_dot_inside: [Infi-MMR: Curriculum-based Unlocking Multimodal Reasoning via Phased Reinforcement Learning in Multimodal Small Language Models](https://arxiv.org/abs/2505.23091) [![Paper](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2505.23091) [![GitHub Stars](https://img.shields.io/github/stars/Reallm-Labs/Infi-MMR?style=social&label=Star)](https://github.com/Reallm-Labs/Infi-MMR)
 
-[R1-ShareVL: Incentivizing Reasoning Capability of Multimodal Large Language Models via Share-GRPO](https://arxiv.org/abs/2505.16673) [![Paper](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2505.16673) [![GitHub Stars](https://img.shields.io/github/stars/HJYao00/R1-ShareVL?style=social&label=Star)](https://github.com/HJYao00/R1-ShareVL)
+:diamond_shape_with_a_dot_inside: [R1-ShareVL: Incentivizing Reasoning Capability of Multimodal Large Language Models via Share-GRPO](https://arxiv.org/abs/2505.16673) [![Paper](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2505.16673) [![GitHub Stars](https://img.shields.io/github/stars/HJYao00/R1-ShareVL?style=social&label=Star)](https://github.com/HJYao00/R1-ShareVL)
 
-[C2-Evo: Co-Evolving Multimodal Data and Model for Self-Improving Reasoning](https://arxiv.org/abs/2507.16518) [![Paper](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2507.16518) [![GitHub Stars](https://img.shields.io/github/stars/chen-xw/C2-Evo?style=social&label=Star)](https://github.com/chen-xw/C2-Evo)
+:diamond_shape_with_a_dot_inside: [C2-Evo: Co-Evolving Multimodal Data and Model for Self-Improving Reasoning](https://arxiv.org/abs/2507.16518) [![Paper](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2507.16518) [![GitHub Stars](https://img.shields.io/github/stars/chen-xw/C2-Evo?style=social&label=Star)](https://github.com/chen-xw/C2-Evo)
 
-[Vision-R1: Incentivizing Reasoning Capability in Multimodal Large Language Models](https://arxiv.org/abs/2503.06749) [![Paper](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2503.06749) [![GitHub Stars](https://img.shields.io/github/stars/Osilly/Vision-R1?style=social&label=Star)](https://github.com/Osilly/Vision-R1)
+:diamond_shape_with_a_dot_inside: [Vision-R1: Incentivizing Reasoning Capability in Multimodal Large Language Models](https://arxiv.org/abs/2503.06749) [![Paper](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2503.06749) [![GitHub Stars](https://img.shields.io/github/stars/Osilly/Vision-R1?style=social&label=Star)](https://github.com/Osilly/Vision-R1)
 
-[R2-MultiOmnia: Leading Multilingual Multimodal Reasoning via Self-Training](https://aclanthology.org/2025.acl-long.402/) [![Paper](https://img.shields.io/badge/Paper-ACL-blue.svg)](https://aclanthology.org/2025.acl-long.402/) [![GitHub](https://img.shields.io/badge/GitHub-TODO-lightgrey.svg?logo=github)](#)
+:diamond_shape_with_a_dot_inside: [R2-MultiOmnia: Leading Multilingual Multimodal Reasoning via Self-Training](https://aclanthology.org/2025.acl-long.402/) [![Paper](https://img.shields.io/badge/ACL-b31b1b.svg)](https://aclanthology.org/2025.acl-long.402/)
 
-[Visionary-R1: Mitigating Shortcuts in Visual Reasoning with Reinforcement Learning](https://arxiv.org/abs/2505.14677) [![Paper](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2505.14677) [![GitHub Stars](https://img.shields.io/github/stars/maifoundations/Visionary-R1?style=social&label=Star)](https://github.com/maifoundations/Visionary-R1)
+:diamond_shape_with_a_dot_inside: [Visionary-R1: Mitigating Shortcuts in Visual Reasoning with Reinforcement Learning](https://arxiv.org/abs/2505.14677) [![Paper](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2505.14677) [![GitHub Stars](https://img.shields.io/github/stars/maifoundations/Visionary-R1?style=social&label=Star)](https://github.com/maifoundations/Visionary-R1)
 
-[R1-Onevision: Advancing Generalized Multimodal Reasoning through Cross-Modal Formalization](https://arxiv.org/abs/2503.10615) [![Paper](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2503.10615) [![GitHub Stars](https://img.shields.io/github/stars/Fancy-MLLM/R1-Onevision?style=social&label=Star)](https://github.com/Fancy-MLLM/R1-Onevision)
+:diamond_shape_with_a_dot_inside: [R1-Onevision: Advancing Generalized Multimodal Reasoning through Cross-Modal Formalization](https://arxiv.org/abs/2503.10615) [![Paper](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2503.10615) [![GitHub Stars](https://img.shields.io/github/stars/Fancy-MLLM/R1-Onevision?style=social&label=Star)](https://github.com/Fancy-MLLM/R1-Onevision)
 
-[MathCoder-VL: Bridging Vision and Code for Enhanced Multimodal Mathematical Reasoning](https://arxiv.org/abs/2505.10557) [![Paper](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2505.10557) [![GitHub Stars](https://img.shields.io/github/stars/mathllm/MathCoder?style=social&label=Star)](https://github.com/mathllm/MathCoder)
-
-
+:diamond_shape_with_a_dot_inside: [MathCoder-VL: Bridging Vision and Code for Enhanced Multimodal Mathematical Reasoning](https://arxiv.org/abs/2505.10557) [![Paper](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2505.10557) [![GitHub Stars](https://img.shields.io/github/stars/mathllm/MathCoder?style=social&label=Star)](https://github.com/mathllm/MathCoder)
 
 
-- **Model-level alignment**: integrate heterogeneous signals into the reasoning policy via (1) adapters & projection layers, (2) visual tools-based alignment, and (3) grounding tools-based alignment for evidence-faithful reasoning.
+
+
+(2) **Model-level alignment**: integrate heterogeneous signals into the reasoning policy via (1) adapters & projection layers, (2) visual tools-based alignment, and (3) grounding tools-based alignment for evidence-faithful reasoning.
 
 [Skywork R1V2: Multimodal Hybrid Reinforcement Learning for Reasoning](https://arxiv.org/abs/2504.16656) [![Paper](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2504.16656) [![GitHub Stars](https://img.shields.io/github/stars/SkyworkAI/Skywork-R1V?style=social&label=Star)](https://github.com/SkyworkAI/Skywork-R1V)
 
@@ -739,7 +739,7 @@ This section focuses on *how* RL-centric LMRMs maintain cross-modal consistency 
 
 [From Answers to Rationales: Self-Aligning Multimodal Reasoning with Answer-Oriented Chain-of-Thought](https://arxiv.org/abs/2507.02984) [![Paper](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2507.02984) [![GitHub Stars](https://img.shields.io/github/stars/ByteDance-Seed/Seed1.5-VL?style=social&label=Star)](https://github.com/ByteDance-Seed/Seed1.5-VL)
 
-[]() [![Paper](https://img.shields.io/badge/arXiv-b31b1b.svg)]() [![GitHub Stars](https://img.shields.io/github/stars/ByteDance-Seed/Seed1.5-VL?style=social&label=Star)](https://github.com/ByteDance-Seed/Seed1.5-VL)
+[Embodied-R: Collaborative Framework for Activating Embodied Spatial Reasoning in Foundation Models via Reinforcement Learning](https://arxiv.org/abs/2504.12680) [![Paper](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2504.12680) [![GitHub Stars](https://img.shields.io/github/stars/ByteDance-Seed/Seed1.5-VL?style=social&label=Star)](https://github.com/ByteDance-Seed/Seed1.5-VL)
 
 []() [![Paper](https://img.shields.io/badge/arXiv-b31b1b.svg)]() [![GitHub Stars](https://img.shields.io/github/stars/ByteDance-Seed/Seed1.5-VL?style=social&label=Star)](https://github.com/ByteDance-Seed/Seed1.5-VL)
 
