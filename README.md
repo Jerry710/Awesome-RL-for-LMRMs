@@ -723,7 +723,7 @@ Summary of reward modeling in RL-centric MLRMs, organized by reward channel. For
 
 
 <table style="width:100%; table-layout:fixed;">
-  <!-- <colgroup>
+  <colgroup>
     <col style="width:18%;"> 
     <col style="width:15%;">
     <col style="width:12%;">
@@ -731,20 +731,19 @@ Summary of reward modeling in RL-centric MLRMs, organized by reward channel. For
     <col style="width:4%;">
     <col style="width:5%;">
     <col style="width:7%;">
-    <col style="width:8%;">
     <col style="width:18%;">
-  </colgroup> -->
+  </colgroup>
   <thead>
     <tr>
-      <th style="width:25%;">MLRM</th>
-      <th style="width:10%;">MM Char.</th>
-      <th style="width:10%;">Gran.</th>
-      <th style="width:22%;">Target</th>
-      <th style="width:5%;">RM</th>
-      <th style="width:5%;">ET</th>
-      <th style="width:10%;">Init.</th>
+      <th>MLRM</th>
+      <th>MM Char.</th>
+      <th>Gran.</th>
+      <th>Target</th>
+      <th>RM</th>
+      <th>ET</th>
+      <th>Init.</th>
       <!-- <th style="width:8%;">Alg.</th> -->
-      <th style="width:18%;">Tasks</th>
+      <th>Tasks</th>
     </tr>
   </thead>
   <tbody>
