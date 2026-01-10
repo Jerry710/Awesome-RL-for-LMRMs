@@ -768,7 +768,7 @@ Summary of reward modeling in RL-centric MLRMs, organized by reward channel. For
       <td>H</td>
       <td>RL</td>
       <td>GRPO</td>
-      <td><small>Math, Detection, Classification</td>
+      <td><small>Math, Detection, Classification</small></td>
     </tr>
     <tr>
       <td>MedVLThinker<br><a href="https://arxiv.org/abs/2508.02669">
