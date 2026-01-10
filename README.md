@@ -217,7 +217,7 @@ As illustrated, existing approaches can be characterized along two dimensions, s
 ### <a id="train-32-reward-modeling"></a>3.2 Reward Modeling
 Summary of reward modeling in RL-centric MLRMs, organized by reward channel. For each method we report the input modalities, multimodal reasoning characteristics, feedback granularity, optimization target, reward type, evaluation type, initialization, learning algorithm, and tasks.
 <table>
-  <colgroup>
+  <!-- <colgroup>
     <col style="width:10%;">
     <col style="width:8%;">
     <col style="width:8%;">
@@ -228,7 +228,7 @@ Summary of reward modeling in RL-centric MLRMs, organized by reward channel. For
     <col style="width:10%;">
     <col style="width:15%;">
     <col style="width:15%;">
-  </colgroup>
+  </colgroup> -->
   <thead>
     <tr>
       <th>MLRM</th>
