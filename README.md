@@ -722,7 +722,7 @@ Summary of reward modeling in RL-centric MLRMs, organized by reward channel. For
 </table>
 
 
-<table style="width:100%; table-layout:fixed; font-size:0.8em;">
+<table style="width:100%; table-layout:fixed;">
   <!-- <colgroup>
     <col style="width:18%;"> 
     <col style="width:15%;">
