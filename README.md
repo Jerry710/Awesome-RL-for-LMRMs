@@ -736,7 +736,7 @@ Summary of reward modeling in RL-centric MLRMs, organized by reward channel. For
   </colgroup> -->
   <thead>
     <tr>
-      <th style="width:18%;">MLRM</th>
+      <th style="width:20%;">MLRM</th>
       <th style="width:10%;">MM Char.</th>
       <th style="width:12%;">Gran.</th>
       <th style="width:22%;">Target</th>
