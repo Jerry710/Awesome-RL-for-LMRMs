@@ -92,7 +92,7 @@
       </td>
       <td>
         <a href="#32-reward-modeling">3.2 Reward Modeling</a><br>
-        <a href="#34-alignment--algorithms">3.4 Alignment &amp; Algorithms</a>
+        <a href="#train-34-modal-alignment--learning-algorithm">3.4 Modal Alignment &amp; Learning Algorithm</a>
       </td>
     </tr>
     <tr>
@@ -167,11 +167,14 @@ establishes an integrated framework and clarifies the inter relationship between
 
 Training Initialization focuses on how to initially bootstrap an effective reasoning policy before large-scale RL optimization. We divide the existing methods into three categories:
 
-:one: From-scratch policy initialization, which acquires reasoning behaviors solely from RL signals without reliance on pre-existing policies; 
+#### 3.1.1 From-Scratch Policy Initialization
+From-scratch policy initialization acquires reasoning behaviors solely from RL signals without reliance on pre-existing policies. 
 
-:two: Cold-start policy initialization, which leverages a strong foundational MLLM prior through knowledge transfer, command interaction, or trajectory injection to enhance training stability in early phases; 
+#### 3.1.2 Cold-Start Policy Initialization
+Cold-start policy initialization leverages a strong foundational MLLM prior through knowledge transfer, command interaction, or trajectory injection to enhance training stability in early phases.
 
-:three: Curriculum-guided multistage optimization, which systematically refines the policy across sequential stages to improve robustness and generalization. 
+#### 3.1.3 Curriculum-Guided Multistage Policy Optimization
+Curriculum-guided multistage optimization systematically refines the policy across sequential stages to improve robustness and generalization. 
 
 As illustrated, existing approaches can be characterized along two dimensions, strength of behavioral prior and required level of interaction granularity (ranging from static perception to tool-level interaction and fine-grained control), providing a unified framework for understanding the trade-offs among training stability, controllability, and sample efficiency in different initialization strategies.
 
@@ -686,7 +689,59 @@ Sampling governs how the policy generates reasoning trajectories for exploration
 [Seed1.5-VL Technical Report](https://arxiv.org/abs/2505.07062) [![Paper](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2505.07062) [![GitHub Stars](https://img.shields.io/github/stars/ByteDance-Seed/Seed1.5-VL?style=social&label=Star)](https://github.com/ByteDance-Seed/Seed1.5-VL)
 
 
-### <a id="train-34-alignment--algorithms"></a>3.4 Alignment & Algorithms
+### <a id="train-34-modal-alignment--learning-algorithm"></a>3.4 Modal Alignment & Learning Algorithm
+
+This section focuses on *how* RL-centric LMRMs maintain cross-modal consistency during reasoning and *how* the policy is optimized. We view **cross-modal alignment** as the behavior generation mechanism under multimodal observations, and **training optimization strategies** as the update rules refining this policy. Together, they determine whether System-2 reasoning can generalize stably across modalities and tasks.
+
+<p align="center">
+  <img src="figures\alignment.png" width="80%" />
+<!--   <img src="./Images/methods.jpg" width="45%" height="50%" /> -->
+</p>
+
+#### 3.4.1 Modal Alignment
+
+- **Data-level alignment**: regulate input distribution via (1) multimodal data construction (paired/interleaved), (2) augmentation, and (3) modality transformation (*e.g.*, I2T textualization).  
+
+[VLM-R1: A Stable and Generalizable R1-style Large Vision-Language Model](https://arxiv.org/abs/2504.07615) [![Paper](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2504.07615) [![GitHub Stars](https://img.shields.io/github/stars/om-ai-lab/VLM-R1?style=social&label=Star)](https://github.com/om-ai-lab/VLM-R1)
+
+[Infi-MMR: Curriculum-based Unlocking Multimodal Reasoning via Phased Reinforcement Learning in Multimodal Small Language Models](https://arxiv.org/abs/2505.23091) [![Paper](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2505.23091) [![GitHub Stars](https://img.shields.io/github/stars/Reallm-Labs/Infi-MMR?style=social&label=Star)](https://github.com/Reallm-Labs/Infi-MMR)
+
+[R1-ShareVL: Incentivizing Reasoning Capability of Multimodal Large Language Models via Share-GRPO](https://arxiv.org/abs/2505.16673) [![Paper](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2505.16673) [![GitHub Stars](https://img.shields.io/github/stars/HJYao00/R1-ShareVL?style=social&label=Star)](https://github.com/HJYao00/R1-ShareVL)
+
+[C2-Evo: Co-Evolving Multimodal Data and Model for Self-Improving Reasoning](https://arxiv.org/abs/2507.16518) [![Paper](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2507.16518) [![GitHub Stars](https://img.shields.io/github/stars/chen-xw/C2-Evo?style=social&label=Star)](https://github.com/chen-xw/C2-Evo)
+
+[Vision-R1: Incentivizing Reasoning Capability in Multimodal Large Language Models](https://arxiv.org/abs/2503.06749) [![Paper](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2503.06749) [![GitHub Stars](https://img.shields.io/github/stars/Osilly/Vision-R1?style=social&label=Star)](https://github.com/Osilly/Vision-R1)
+
+[R2-MultiOmnia: Leading Multilingual Multimodal Reasoning via Self-Training](https://aclanthology.org/2025.acl-long.402/) [![Paper](https://img.shields.io/badge/Paper-ACL-blue.svg)](https://aclanthology.org/2025.acl-long.402/) [![GitHub](https://img.shields.io/badge/GitHub-TODO-lightgrey.svg?logo=github)](#)
+
+[Visionary-R1: Mitigating Shortcuts in Visual Reasoning with Reinforcement Learning](https://arxiv.org/abs/2505.14677) [![Paper](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2505.14677) [![GitHub Stars](https://img.shields.io/github/stars/maifoundations/Visionary-R1?style=social&label=Star)](https://github.com/maifoundations/Visionary-R1)
+
+[R1-Onevision: Advancing Generalized Multimodal Reasoning through Cross-Modal Formalization](https://arxiv.org/abs/2503.10615) [![Paper](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2503.10615) [![GitHub Stars](https://img.shields.io/github/stars/Fancy-MLLM/R1-Onevision?style=social&label=Star)](https://github.com/Fancy-MLLM/R1-Onevision)
+
+[MathCoder-VL: Bridging Vision and Code for Enhanced Multimodal Mathematical Reasoning](https://arxiv.org/abs/2505.10557) [![Paper](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2505.10557) [![GitHub Stars](https://img.shields.io/github/stars/mathllm/MathCoder?style=social&label=Star)](https://github.com/mathllm/MathCoder)
+
+
+
+
+- **Model-level alignment**: integrate heterogeneous signals into the reasoning policy via (1) adapters & projection layers, (2) visual tools-based alignment, and (3) grounding tools-based alignment for evidence-faithful reasoning.
+
+[Skywork R1V2: Multimodal Hybrid Reinforcement Learning for Reasoning](https://arxiv.org/abs/2504.16656) [![Paper](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2504.16656) [![GitHub Stars](https://img.shields.io/github/stars/SkyworkAI/Skywork-R1V?style=social&label=Star)](https://github.com/SkyworkAI/Skywork-R1V)
+
+[Skywork R1V: Pioneering Multimodal Reasoning with Chain-of-Thought](https://arxiv.org/abs/2504.05599) [![Paper](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2504.05599) [![GitHub Stars](https://img.shields.io/github/stars/ByteDance-Seed/Seed1.5-VL?style=social&label=Star)](https://github.com/ByteDance-Seed/Seed1.5-VL)
+
+[Skywork-R1V3 Technical Report](https://arxiv.org/abs/2507.06167) [![Paper](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2507.06167) [![GitHub Stars](https://img.shields.io/github/stars/ByteDance-Seed/Seed1.5-VL?style=social&label=Star)](https://github.com/ByteDance-Seed/Seed1.5-VL)
+
+[MiMo-VL Technical Report](https://arxiv.org/abs/2506.03569) [![Paper](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2506.03569) [![GitHub Stars](https://img.shields.io/github/stars/ByteDance-Seed/Seed1.5-VL?style=social&label=Star)](https://github.com/ByteDance-Seed/Seed1.5-VL)
+
+[Kimi-VL Technical Report](https://arxiv.org/abs/2504.07491) [![Paper](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2504.07491) [![GitHub Stars](https://img.shields.io/github/stars/ByteDance-Seed/Seed1.5-VL?style=social&label=Star)](https://github.com/ByteDance-Seed/Seed1.5-VL)
+
+[Seed1.5-VL Technical Report](https://arxiv.org/abs/2505.07062) [![Paper](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2505.07062) [![GitHub Stars](https://img.shields.io/github/stars/ByteDance-Seed/Seed1.5-VL?style=social&label=Star)](https://github.com/ByteDance-Seed/Seed1.5-VL)
+
+[From Answers to Rationales: Self-Aligning Multimodal Reasoning with Answer-Oriented Chain-of-Thought](https://arxiv.org/abs/2507.02984) [![Paper](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2507.02984) [![GitHub Stars](https://img.shields.io/github/stars/ByteDance-Seed/Seed1.5-VL?style=social&label=Star)](https://github.com/ByteDance-Seed/Seed1.5-VL)
+
+[]() [![Paper](https://img.shields.io/badge/arXiv-b31b1b.svg)]() [![GitHub Stars](https://img.shields.io/github/stars/ByteDance-Seed/Seed1.5-VL?style=social&label=Star)](https://github.com/ByteDance-Seed/Seed1.5-VL)
+
+[]() [![Paper](https://img.shields.io/badge/arXiv-b31b1b.svg)]() [![GitHub Stars](https://img.shields.io/github/stars/ByteDance-Seed/Seed1.5-VL?style=social&label=Star)](https://github.com/ByteDance-Seed/Seed1.5-VL)
 
 ## 4. Test-time Inference
 ### <a id="test-41-sampling"></a>4.1 Sampling
