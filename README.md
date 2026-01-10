@@ -6,11 +6,11 @@
 
 ## Control, Evaluate, and Improve: A Reinforcement Learning-Centric Multimodal Reasoning Survey
 
-[![Awesome](https://img.shields.io/badge/Awesome-0066CC?style=for-the-badge&logo=awesome-lists&logoColor=white)](https://github.com/sindresorhus/awesome) 
-[![Survey](https://img.shields.io/badge/Paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](#) 
-[![Github](https://img.shields.io/badge/Awesome--RL--for--LRMs-000000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Jerry710/Awesome-RL-for-LMRMs) 
-[![HF Papers](https://img.shields.io/badge/HF--Paper-%23FFD14D?style=for-the-badge&logo=huggingface&logoColor=black)]() 
-[![Twitter](https://img.shields.io/badge/Twitter-%23000000.svg?style=for-the-badge&logo=x&logoColor=white)]( )
+[![Awesome](https://img.shields.io/badge/Awesome-0066CC?style=flat&logo=awesome-lists&logoColor=white)](https://github.com/sindresorhus/awesome) 
+[![Survey](https://img.shields.io/badge/Paper-A42C25?style=flat&logo=arxiv&logoColor=white)](#) 
+[![Github](https://img.shields.io/badge/Awesome--RL--for--LRMs-000000?style=flat&logo=github&logoColor=white)](https://github.com/Jerry710/Awesome-RL-for-LMRMs) 
+[![HF Papers](https://img.shields.io/badge/HF--Paper-%23FFD14D?style=flat&logo=huggingface&logoColor=black)]() 
+[![Twitter](https://img.shields.io/badge/Twitter-%23000000.svg?style=flat&logo=x&logoColor=white)]( )
 
 </div>
 
@@ -96,7 +96,7 @@
       </td>
     </tr>
     <tr>
-      <td>🧠 <a href="#4-test-time-inference">4. Test-time Inference</a></td>
+      <td>🧠 <a href="#4-test-time-inference-of-RL-centric-multimodal-reasoning">4. Test-time Inference of RL-centric Multimodal Reasoning</a></td>
       <td>
         <a href="#41-sampling">4.1 Sampling</a><br>
         <a href="#43-dynamic-verification">4.3 Dynamic Verification</a>
@@ -211,7 +211,7 @@ As illustrated, existing approaches can be characterized along two dimensions, s
 | 2025.05 | `Seed1.5-VL` | Seed1.5-VL Technical Report | [![Paper](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2505.07062) | [![GitHub Stars](https://img.shields.io/github/stars/ByteDance-Seed/Seed1.5-VL?style=social&label=Star)](https://github.com/ByteDance-Seed/Seed1.5-VL)  |
 | 2025.07 | `GLM-4.1V-Thinking` | GLM-4.5V and GLM-4.1V-Thinking: Towards Versatile Multimodal Reasoning with Scalable Reinforcement Learning | [![Paper](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2507.01006) | [![GitHub Stars](https://img.shields.io/github/stars/zai-org/GLM-V?style=social&label=Star)](https://github.com/zai-org/GLM-V)  |
 | 2025.08 | `CX-Mind` | CX-Mind: A Pioneering Multimodal Large Language Model for Interleaved Reasoning in Chest X-ray via Curriculum-Guided Reinforcement Learning | [![Paper](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2508.03733) | [![GitHub Stars](https://img.shields.io/github/stars/SII-WenjieLisjtu/CX-Mind?style=social&label=Star)](https://github.com/SII-WenjieLisjtu/CX-Mind)  |
-| 2025.06 | `Lingshu` | Lingshu: A Generalist Foundation Model for Unified Multimodal Medical Understanding and Reasoning | [![Paper](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2506.07044) | [![Hugging Face](https://img.shields.io/badge/Hugging%20Face-white?style=plastic&logo=huggingface&logocolor=white)](https://huggingface.co/collections/lingshu-medical-mllm/lingshu-mllms) |
+| 2025.06 | `Lingshu` | Lingshu: A Generalist Foundation Model for Unified Multimodal Medical Understanding and Reasoning | [![Paper](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2506.07044) | [![Hugging Face](https://img.shields.io/badge/HF%20Model-white?style=flat&logo=huggingface&logoColor=%23FFD14D)](https://huggingface.co/collections/lingshu-medical-mllm/lingshu-mllms) |
 | 2025.06 | `MMedAgent-RL` | MMedAgent-RL: Optimizing Multi-Agent Collaboration for Multimodal Medical Reasoning | [![Paper](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2506.00555) | - |
 
 
@@ -833,22 +833,57 @@ This section focuses on *how* RL-centric LMRMs maintain cross-modal consistency 
 :diamond_shape_with_a_dot_inside: [Kwai Keye-VL Technical Report](https://arxiv.org/abs/2507.01949) [![Paper](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2507.01949) [![GitHub Stars](https://img.shields.io/github/stars/Kwai-Keye/Keye?style=social&label=Star)](https://github.com/Kwai-Keye/Keye) 
 
 
-## 4. Test-time Inference
+## 4. Test-time Inference of RL-centric Multimodal Reasoning
 ### <a id="test-41-sampling"></a>4.1 Sampling
 
-:diamond_shape_with_a_dot_inside: :diamond_shape_with_a_dot_inside: []() [![Paper](https://img.shields.io/badge/arXiv-b31b1b.svg)]() [![GitHub Stars](https://img.shields.io/github/stars/?style=social&label=Star)]() 
+Test-time decoding and sampling strategies strongly influence the coherence and diversity of reasoning outputs. The objective is to explore the solution space efficiently under a limited compute budget and generate high-quality candidate outputs.
+Common strategies include [greedy decoding](https://arxiv.org/abs/1409.0473), random sampling, [Top-k](https://arxiv.org/abs/1805.04833), [Top-p](https://arxiv.org/abs/1904.09751), and [beam search](https://arxiv.org/abs/1409.3215).
+
+:o: **Multimodal-specific bottleneck**
+
+Sampling is no longer confined to language tokens. It must also account for visual tokens and cross-modal interaction states. Consequently, the output shifts from a text sequence to a cross-modally consistent reasoning trajectory.
+
+
+:no_entry_sign: **Limitation** 
+
+(1) Deterministic decoding incurs substantially higher cost and exhibits greater instability in multimodal settings.
+
+:diamond_shape_with_a_dot_inside: [MLLM can see? Dynamic Correction Decoding for Hallucination Mitigation](https://arxiv.org/abs/2410.11779) [![Paper](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2410.11779) [![GitHub Stars](https://img.shields.io/github/stars/zjunlp/DeCo?style=social&label=Star)](https://github.com/zjunlp/DeCo) 
+
+:diamond_shape_with_a_dot_inside: [Curing Semantic Drift: A Dynamic Approach to Grounding Generation in Large Vision-Language Models](https://arxiv.org/abs/2506.21509v3) [![Paper](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2506.21509v3) [![GitHub Stars](https://img.shields.io/github/stars/JiaheChen2002/DLC?style=social&label=Star)](https://github.com/JiaheChen2002/DLC) 
+
+(2) It is difficult to calibrate random-sampling thresholds consistently in multimodal settings.
+
+:diamond_shape_with_a_dot_inside: [Assessing Diversity Collapse in Reasoning](https://openreview.net/forum?id=AMiKsHLjQh) [![Paper](https://img.shields.io/badge/ICLRW-green.svg)](https://openreview.net/forum?id=AMiKsHLjQh)
+
+:diamond_shape_with_a_dot_inside: [AgentCPM-GUI: Building Mobile-Use Agents with Reinforcement Fine-Tuning](https://arxiv.org/abs/2506.01391) [![Paper](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2506.01391) [![GitHub Stars](https://img.shields.io/github/stars/OpenBMB/AgentCPM-GUI?style=social&label=Star)](https://github.com/OpenBMB/AgentCPM-GUI) 
+
+Existing methods still primarily rely on likelihood-driven generation and lack test-time alignment constraints, making them prone to hallucinations that are linguistically plausible yet visually incorrect.
+
+:round_pushpin: **Improvement direction**
+
+Incorporating RL reward signals enables reinforcement feedback for candidate trajectories (*e.g.*, correctness, vision–language and temporal consistency, and safety), thereby dynamically reshaping the sampling distribution and prioritizing high-value trajectories, particularly on difficult cases or in uncertain regions. This shift moves TTI from probability-driven to constraint-guided generation. 
+
+Highlight an open question: rather than relying on single-modality heuristics, we need a slow thinking strategy that can adaptively define the sampling space and state representation based on the joint multimodal distribution.
+
+:diamond_shape_with_a_dot_inside: [Rethinking the Sampling Criteria in Reinforcement Learning for LLM Reasoning: A Competence-Difficulty Alignment Perspective](https://arxiv.org/abs/2505.17652) [![Paper](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2505.17652)
+
+:diamond_shape_with_a_dot_inside: [LlamaV-o1: Rethinking Step-by-step Visual Reasoning in LLMs](https://arxiv.org/abs/2501.06186) [![Paper](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2501.06186) [![GitHub Stars](https://img.shields.io/github/stars/mbzuai-oryx/LlamaV-o1?style=social&label=Star)](https://github.com/mbzuai-oryx/LlamaV-o1) 
+
+:diamond_shape_with_a_dot_inside: [LLaVA-CoT: Let Vision Language Models Reason Step-by-Step](https://arxiv.org/abs/2411.10440) [![Paper](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2411.10440) [![GitHub Stars](https://img.shields.io/github/stars/PKU-YuanGroup/LLaVA-CoT?style=social&label=Star)](https://github.com/PKU-YuanGroup/LLaVA-CoT) 
+
 ### <a id="test-42-search"></a>4.2 Search
 
-:diamond_shape_with_a_dot_inside: :diamond_shape_with_a_dot_inside: []() [![Paper](https://img.shields.io/badge/arXiv-b31b1b.svg)]() [![GitHub Stars](https://img.shields.io/github/stars/?style=social&label=Star)]() 
+:diamond_shape_with_a_dot_inside: []() [![Paper](https://img.shields.io/badge/arXiv-b31b1b.svg)]() [![GitHub Stars](https://img.shields.io/github/stars/?style=social&label=Star)]() 
 
 
 ### <a id="test-43-dynamic-verification"></a>4.3 Dynamic Verification
 
-:diamond_shape_with_a_dot_inside: []() :diamond_shape_with_a_dot_inside: []() [![Paper](https://img.shields.io/badge/arXiv-b31b1b.svg)]() [![GitHub Stars](https://img.shields.io/github/stars/?style=social&label=Star)]() 
+:diamond_shape_with_a_dot_inside: []() [![Paper](https://img.shields.io/badge/arXiv-b31b1b.svg)]() [![GitHub Stars](https://img.shields.io/github/stars/?style=social&label=Star)]() 
 
 ### <a id="test-44-trajectory-optimization"></a>4.4 Trajectory Optimization
 
-:diamond_shape_with_a_dot_inside: []() :diamond_shape_with_a_dot_inside: []() [![Paper](https://img.shields.io/badge/arXiv-b31b1b.svg)]() [![GitHub Stars](https://img.shields.io/github/stars/?style=social&label=Star)]() 
+:diamond_shape_with_a_dot_inside: []() [![Paper](https://img.shields.io/badge/arXiv-b31b1b.svg)]() [![GitHub Stars](https://img.shields.io/github/stars/?style=social&label=Star)]() 
 
 
 ## 5. Benchmarks & Evaluation
@@ -883,10 +918,6 @@ This section focuses on *how* RL-centric LMRMs maintain cross-modal consistency 
 
 
 ---
-
-## Open Problems
-
-先写 3–5 条已经总结好的 future directions 的标题。
 
 
 ## Citation
