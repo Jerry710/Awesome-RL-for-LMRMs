@@ -744,7 +744,7 @@ Summary of reward modeling in RL-centric MLRMs, organized by reward channel. For
       <th>ET</th>
       <th>Init.</th>
       <th>Alg.</th>
-      <th style="width:18%; font-size:12px;">Tasks</th>
+      <th style="width:18%;">Tasks</th>
     </tr>
   </thead>
   <tbody>
@@ -768,7 +768,7 @@ Summary of reward modeling in RL-centric MLRMs, organized by reward channel. For
       <td>H</td>
       <td>RL</td>
       <td>GRPO</td>
-      <td>Math, Detection, Classification</td>
+      <td><small>Math, Detection, Classification</td>
     </tr>
     <tr>
       <td>MedVLThinker<br><a href="https://arxiv.org/abs/2508.02669">
