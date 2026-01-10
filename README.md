@@ -759,7 +759,7 @@ Summary of reward modeling in RL-centric MLRMs, organized by reward channel. For
         <a href="https://arxiv.org/abs/2503.07065">
         <img src="https://img.shields.io/badge/arXiv-b31b1b.svg" alt="arXiv"></a>
         <a href="https://github.com/ding523/Curr_REFT">
-        <img src="https://img.shields.io/github/stars/divelab/E2H-Reasoning?style=social&label" alt="Stars"></a></td>
+        <img src="https://img.shields.io/github/stars/divelab/E2H-Reasoning?style=social" alt="Stars"></a></td>
       <td>Ground</td>
       <td>Traj, Field</td>
       <td>Out.-Acc., Spat.-Temp.</td>
@@ -773,7 +773,7 @@ Summary of reward modeling in RL-centric MLRMs, organized by reward channel. For
       <td>MedVLThinker<br><a href="https://arxiv.org/abs/2508.02669">
         <img src="https://img.shields.io/badge/arXiv-b31b1b.svg" alt="arXiv"></a>
         <a href="https://github.com/UCSC-VLAA/MedVLThinker">
-        <img src="https://img.shields.io/github/stars/UCSC-VLAA/MedVLThinker?style=social&label" alt="Stars"></a></td>
+        <img src="https://img.shields.io/github/stars/UCSC-VLAA/MedVLThinker?style=social" alt="Stars"></a></td>
       <td>Dom.</td>
       <td>Traj</td>
       <td>Out.-Acc.</td>
@@ -787,7 +787,7 @@ Summary of reward modeling in RL-centric MLRMs, organized by reward channel. For
       <td>R1-VL<br><a href="https://arxiv.org/abs/2503.12937">
           <img src="https://img.shields.io/badge/arXiv-b31b1b.svg" alt="arXiv"></a>
           <a href="https://github.com/jingyi0000/R1-VL">
-          <img src="https://img.shields.io/github/stars/jingyi0000/R1-VL?style=social&label" alt="Stars"></a></td>
+          <img src="https://img.shields.io/github/stars/jingyi0000/R1-VL?style=social" alt="Stars"></a></td>
         <td>Struct, Dom.</td>
         <td>Step</td>
         <td>Proc.-Acc., Struct-Form</td>
@@ -801,7 +801,7 @@ Summary of reward modeling in RL-centric MLRMs, organized by reward channel. For
       <td>GRIT<br><a href="https://arxiv.org/abs/2505.15879">
         <img src="https://img.shields.io/badge/arXiv-b31b1b.svg" alt="arXiv"></a>
         <a href="https://github.com/eric-ai-lab/GRIT">
-        <img src="https://img.shields.io/github/stars/eric-ai-lab/GRIT?style=social&label" alt="Stars"></a></td>
+        <img src="https://img.shields.io/github/stars/eric-ai-lab/GRIT?style=social" alt="Stars"></a></td>
       <td>Spat., Align, Ground</td>
       <td>Traj, Field, Step</td>
       <td>Struct-Form, Spat.-Temp., Out.-Acc. </td>
@@ -815,7 +815,7 @@ Summary of reward modeling in RL-centric MLRMs, organized by reward channel. For
       <td>Kimi k1.5<br><a href="https://arxiv.org/abs/2501.12599">
         <img src="https://img.shields.io/badge/arXiv-b31b1b.svg" alt="arXiv"></a>
         <a href="https://github.com/MoonshotAI/Kimi-k1.5">
-        <img src="https://img.shields.io/github/stars/MoonshotAI/Kimi-k1.5?style=social&label" alt="Stars"></a></td>
+        <img src="https://img.shields.io/github/stars/MoonshotAI/Kimi-k1.5?style=social" alt="Stars"></a></td>
       <td>Spat., Struct, Dom.</td>
       <td>Traj</td>
       <td>Out.-Acc., Struct-Form</td>
@@ -834,7 +834,7 @@ Summary of reward modeling in RL-centric MLRMs, organized by reward channel. For
           <img src="https://img.shields.io/badge/arXiv-b31b1b.svg" alt="arXiv">
         </a>
         <a href="https://github.com/maifoundations/Visionary-R1">
-          <img src="https://img.shields.io/github/stars/maifoundations/Visionary-R1?style=social&label" alt="Stars">
+          <img src="https://img.shields.io/github/stars/maifoundations/Visionary-R1?style=social" alt="Stars">
         </a></td>
       <td>Ground, Align</td>
       <td>Traj, Field</td>
@@ -863,7 +863,7 @@ Summary of reward modeling in RL-centric MLRMs, organized by reward channel. For
           <img src="https://img.shields.io/badge/arXiv-b31b1b.svg" alt="arXiv">
         </a>
         <a href="https://github.com/gpt4vision/R1-SGG">
-          <img src="https://img.shields.io/github/stars/gpt4vision/R1-SGG?style=social&label" alt="Stars">
+          <img src="https://img.shields.io/github/stars/gpt4vision/R1-SGG?style=social" alt="Stars">
         </a></td>
       <td>Ground, Spat., Struct</td>
       <td>Traj, Field</td>
@@ -879,7 +879,7 @@ Summary of reward modeling in RL-centric MLRMs, organized by reward channel. For
           <img src="https://img.shields.io/badge/arXiv-b31b1b.svg" alt="arXiv">
         </a>
         <a href="https://github.com/OpenGVLab/VideoChat-R1">
-          <img src="https://img.shields.io/github/stars/OpenGVLab/VideoChat-R1?style=social&label" alt="Stars">
+          <img src="https://img.shields.io/github/stars/OpenGVLab/VideoChat-R1?style=social" alt="Stars">
         </a></td>
       <td>Temp., Ground, Spat.</td>
       <td>Traj, Field</td>
@@ -899,7 +899,7 @@ Summary of reward modeling in RL-centric MLRMs, organized by reward channel. For
           <img src="https://img.shields.io/badge/arXiv-b31b1b.svg" alt="arXiv">
         </a>
         <a href="https://github.com/PzySeere/MetaSpatial">
-          <img src="https://img.shields.io/github/stars/PzySeere/MetaSpatial?style=social&label=" alt="Stars">
+          <img src="https://img.shields.io/github/stars/PzySeere/MetaSpatial?style=social" alt="Stars">
         </a></td>
       <td>Ground, Struct, Dom.</td>
       <td>Traj, Subgoal</td>
@@ -935,7 +935,7 @@ Summary of reward modeling in RL-centric MLRMs, organized by reward channel. For
           <img src="https://img.shields.io/badge/arXiv-b31b1b.svg" alt="arXiv">
         </a>
         <a href="https://github.com/gogoduan/GoT-R1">
-          <img src="https://img.shields.io/github/stars/gogoduan/GoT-R1?style=social&label" alt="Stars">
+          <img src="https://img.shields.io/github/stars/gogoduan/GoT-R1?style=social" alt="Stars">
         </a></td>
       <td>Ground, Spat., Align, Struct</td>
       <td>Traj, Field</td>
@@ -964,7 +964,7 @@ Summary of reward modeling in RL-centric MLRMs, organized by reward channel. For
           <img src="https://img.shields.io/badge/arXiv-b31b1b.svg" alt="arXiv">
         </a>
         <a href="https://github.com/Visual-Agent/DeepEyes">
-          <img src="https://img.shields.io/github/stars/Visual-Agent/DeepEyes?style=social&label" alt="Stars">
+          <img src="https://img.shields.io/github/stars/Visual-Agent/DeepEyes?style=social" alt="Stars">
         </a></td>
       <td>Ground, Spat.</td>
       <td>Traj, Step</td>
@@ -984,7 +984,7 @@ Summary of reward modeling in RL-centric MLRMs, organized by reward channel. For
           <img src="https://img.shields.io/badge/arXiv-b31b1b.svg" alt="arXiv">
         </a>
         <a href="https://github.com/zongzhao23/STAR-R1">
-          <img src="https://img.shields.io/github/stars/zongzhao23/STAR-R1?style=social&label" alt="Stars">
+          <img src="https://img.shields.io/github/stars/zongzhao23/STAR-R1?style=social" alt="Stars">
         </a></td>
       <td>Spat., Ground</td>
       <td>Traj, Field</td>
@@ -1000,7 +1000,7 @@ Summary of reward modeling in RL-centric MLRMs, organized by reward channel. For
           <img src="https://img.shields.io/badge/arXiv-b31b1b.svg" alt="arXiv">
         </a>
         <a href="https://github.com/XueZeyue/DanceGRPO">
-          <img src="https://img.shields.io/github/stars/XueZeyue/DanceGRPO?style=social&label" alt="Stars">
+          <img src="https://img.shields.io/github/stars/XueZeyue/DanceGRPO?style=social" alt="Stars">
         </a></td>
       <td>Align, Temp., Dom.</td>
       <td>Traj</td>
@@ -1016,7 +1016,7 @@ Summary of reward modeling in RL-centric MLRMs, organized by reward channel. For
           <img src="https://img.shields.io/badge/arXiv-b31b1b.svg" alt="arXiv">
         </a>
         <a href="https://github.com/langfengQ/TimeMaster">
-          <img src="https://img.shields.io/github/stars/langfengQ/TimeMaster?style=social&label" alt="Stars">
+          <img src="https://img.shields.io/github/stars/langfengQ/TimeMaster?style=social" alt="Stars">
         </a></td>
       <td>Temp., Struct, Dom.</td>
       <td>Traj</td>
@@ -1045,7 +1045,7 @@ Summary of reward modeling in RL-centric MLRMs, organized by reward channel. For
           <img src="https://img.shields.io/badge/arXiv-b31b1b.svg" alt="arXiv">
         </a>
         <a href="https://github.com/HKUST-LongGroup/Relation-R1">
-          <img src="https://img.shields.io/github/stars/HKUST-LongGroup/Relation-R1?style=social&label" alt="Stars">
+          <img src="https://img.shields.io/github/stars/HKUST-LongGroup/Relation-R1?style=social" alt="Stars">
         </a></td>
       <td>Ground, Spat., Struct, Dom.</td>
       <td>Traj, Field</td>
@@ -1068,7 +1068,7 @@ Summary of reward modeling in RL-centric MLRMs, organized by reward channel. For
           <img src="https://img.shields.io/badge/arXiv-b31b1b.svg" alt="arXiv">
         </a>
         <a href="https://github.com/CaraJ7/T2I-R1">
-          <img src="https://img.shields.io/github/stars/CaraJ7/T2I-R1?style=social&label" alt="Stars">
+          <img src="https://img.shields.io/github/stars/CaraJ7/T2I-R1?style=social" alt="Stars">
         </a></td>
       <td>Align, Spat., Ground, Dom.</td>
       <td>Traj, Field</td>
@@ -1084,7 +1084,7 @@ Summary of reward modeling in RL-centric MLRMs, organized by reward channel. For
           <img src="https://img.shields.io/badge/arXiv-b31b1b.svg" alt="arXiv">
         </a>
         <a href="https://github.com/kxfan2002/SophiaVL-R1">
-          <img src="https://img.shields.io/github/stars/kxfan2002/SophiaVL-R1?style=social&label" alt="Stars">
+          <img src="https://img.shields.io/github/stars/kxfan2002/SophiaVL-R1?style=social" alt="Stars">
         </a></td>
       <td>Spat., Dom.</td>
       <td>Traj, Step</td>
@@ -1100,7 +1100,7 @@ Summary of reward modeling in RL-centric MLRMs, organized by reward channel. For
           <img src="https://img.shields.io/badge/arXiv-b31b1b.svg" alt="arXiv">
         </a>
         <a href="https://github.com/volcengine/verl">
-          <img src="https://img.shields.io/github/stars/volcengine/verl?style=social&label" alt="Stars">
+          <img src="https://img.shields.io/github/stars/volcengine/verl?style=social" alt="Stars">
         </a></td>
       <td>Align, Dom.</td>
       <td>Traj</td>
@@ -1116,7 +1116,7 @@ Summary of reward modeling in RL-centric MLRMs, organized by reward channel. For
           <img src="https://img.shields.io/badge/arXiv-b31b1b.svg" alt="arXiv">
         </a>
         <a href="https://github.com/HarveyYi/SaFeR-VLM">
-          <img src="https://img.shields.io/github/stars/HarveyYi/SaFeR-VLM?style=social&label" alt="Stars">
+          <img src="https://img.shields.io/github/stars/HarveyYi/SaFeR-VLM?style=social" alt="Stars">
         </a></td>
       <td>Align, Dom.</td>
       <td>Traj</td>
@@ -1136,7 +1136,7 @@ Summary of reward modeling in RL-centric MLRMs, organized by reward channel. For
           <img src="https://img.shields.io/badge/arXiv-b31b1b.svg" alt="arXiv">
         </a>
         <a href="https://github.com/InternLM/Intern-S1">
-          <img src="https://img.shields.io/github/stars/InternLM/Intern-S1?style=social&label" alt="Stars">
+          <img src="https://img.shields.io/github/stars/InternLM/Intern-S1?style=social" alt="Stars">
         </a></td>
       <td>Dom., Struct, Align</td>
       <td>Traj, Field</td>
