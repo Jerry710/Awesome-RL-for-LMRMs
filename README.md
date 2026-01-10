@@ -744,7 +744,7 @@ Summary of reward modeling in RL-centric MLRMs, organized by reward channel. For
       <th>ET</th>
       <th>Init.</th>
       <th>Alg.</th>
-      <th style="width:18%;">Tasks</th>
+      <th style="width:18%; font-size:12px;">Tasks</th>
     </tr>
   </thead>
   <tbody>
