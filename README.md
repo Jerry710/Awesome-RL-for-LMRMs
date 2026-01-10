@@ -727,48 +727,128 @@ This section focuses on *how* RL-centric LMRMs maintain cross-modal consistency 
 
 :diamond_shape_with_a_dot_inside: [Skywork R1V2: Multimodal Hybrid Reinforcement Learning for Reasoning](https://arxiv.org/abs/2504.16656) [![Paper](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2504.16656) [![GitHub Stars](https://img.shields.io/github/stars/SkyworkAI/Skywork-R1V?style=social&label=Star)](https://github.com/SkyworkAI/Skywork-R1V)
 
-:diamond_shape_with_a_dot_inside: [Skywork R1V: Pioneering Multimodal Reasoning with Chain-of-Thought](https://arxiv.org/abs/2504.05599) [![Paper](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2504.05599) [![GitHub Stars](https://img.shields.io/github/stars/ByteDance-Seed/Seed1.5-VL?style=social&label=Star)](https://github.com/ByteDance-Seed/Seed1.5-VL)
+:diamond_shape_with_a_dot_inside: [Skywork R1V: Pioneering Multimodal Reasoning with Chain-of-Thought](https://arxiv.org/abs/2504.05599) [![Paper](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2504.05599) [![GitHub Stars](https://img.shields.io/github/stars/SkyworkAI/Skywork-R1V?style=social&label=Star)](https://github.com/SkyworkAI/Skywork-R1V)
 
-:diamond_shape_with_a_dot_inside: [Skywork-R1V3 Technical Report](https://arxiv.org/abs/2507.06167) [![Paper](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2507.06167) [![GitHub Stars](https://img.shields.io/github/stars/ByteDance-Seed/Seed1.5-VL?style=social&label=Star)](https://github.com/ByteDance-Seed/Seed1.5-VL)
+:diamond_shape_with_a_dot_inside: [Skywork-R1V3 Technical Report](https://arxiv.org/abs/2507.06167) [![Paper](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2507.06167) [![GitHub Stars](https://img.shields.io/github/stars/SkyworkAI/Skywork-R1V?style=social&label=Star)](https://github.com/SkyworkAI/Skywork-R1V)
 
-:diamond_shape_with_a_dot_inside: [MiMo-VL Technical Report](https://arxiv.org/abs/2506.03569) [![Paper](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2506.03569) [![GitHub Stars](https://img.shields.io/github/stars/ByteDance-Seed/Seed1.5-VL?style=social&label=Star)](https://github.com/ByteDance-Seed/Seed1.5-VL)
+:diamond_shape_with_a_dot_inside: [MiMo-VL Technical Report](https://arxiv.org/abs/2506.03569) [![Paper](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2506.03569) [![GitHub Stars](https://img.shields.io/github/stars/XiaomiMiMo/MiMo-VL?style=social&label=Star)](https://github.com/XiaomiMiMo/MiMo-VL)
 
-:diamond_shape_with_a_dot_inside: [Kimi-VL Technical Report](https://arxiv.org/abs/2504.07491) [![Paper](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2504.07491) [![GitHub Stars](https://img.shields.io/github/stars/ByteDance-Seed/Seed1.5-VL?style=social&label=Star)](https://github.com/ByteDance-Seed/Seed1.5-VL)
+:diamond_shape_with_a_dot_inside: [Kimi-VL Technical Report](https://arxiv.org/abs/2504.07491) [![Paper](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2504.07491) [![GitHub Stars](https://img.shields.io/github/stars/MoonshotAI/Kimi-VL?style=social&label=Star)](https://github.com/MoonshotAI/Kimi-VL)
 
 :diamond_shape_with_a_dot_inside: [Seed1.5-VL Technical Report](https://arxiv.org/abs/2505.07062) [![Paper](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2505.07062) [![GitHub Stars](https://img.shields.io/github/stars/ByteDance-Seed/Seed1.5-VL?style=social&label=Star)](https://github.com/ByteDance-Seed/Seed1.5-VL)
 
-:diamond_shape_with_a_dot_inside: [From Answers to Rationales: Self-Aligning Multimodal Reasoning with Answer-Oriented Chain-of-Thought](https://arxiv.org/abs/2507.02984) [![Paper](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2507.02984) [![GitHub Stars](https://img.shields.io/github/stars/ByteDance-Seed/Seed1.5-VL?style=social&label=Star)](https://github.com/ByteDance-Seed/Seed1.5-VL)
+:diamond_shape_with_a_dot_inside: [From Answers to Rationales: Self-Aligning Multimodal Reasoning with Answer-Oriented Chain-of-Thought](https://arxiv.org/abs/2507.02984) [![Paper](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2507.02984) [![GitHub Stars](https://img.shields.io/github/stars/WentaoTan/SMART?style=social&label=Star)](https://github.com/WentaoTan/SMART)
 
-:diamond_shape_with_a_dot_inside: [Embodied-R: Collaborative Framework for Activating Embodied Spatial Reasoning in Foundation Models via Reinforcement Learning](https://arxiv.org/abs/2504.12680) [![Paper](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2504.12680) [![GitHub Stars](https://img.shields.io/github/stars/ByteDance-Seed/Seed1.5-VL?style=social&label=Star)](https://github.com/ByteDance-Seed/Seed1.5-VL)
+:diamond_shape_with_a_dot_inside: [Embodied-R: Collaborative Framework for Activating Embodied Spatial Reasoning in Foundation Models via Reinforcement Learning](https://arxiv.org/abs/2504.12680) [![Paper](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2504.12680) [![GitHub Stars](https://img.shields.io/github/stars/EmbodiedCity/Embodied-R.code?style=social&label=Star)](https://github.com/EmbodiedCity/Embodied-R.code)
 
-:diamond_shape_with_a_dot_inside: [DeepEyes: Incentivizing "Thinking with Images" via Reinforcement Learning](https://arxiv.org/abs/2505.14362) [![Paper](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2505.14362) [![GitHub Stars](https://img.shields.io/github/stars/ByteDance-Seed/Seed1.5-VL?style=social&label=Star)](https://github.com/ByteDance-Seed/Seed1.5-VL)
+:diamond_shape_with_a_dot_inside: [DeepEyes: Incentivizing "Thinking with Images" via Reinforcement Learning](https://arxiv.org/abs/2505.14362) [![Paper](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2505.14362) [![GitHub Stars](https://img.shields.io/github/stars/Visual-Agent/DeepEyes?style=social&label=Star)](https://github.com/Visual-Agent/DeepEyes)
 
-:diamond_shape_with_a_dot_inside: [Chain-of-Focus: Adaptive Visual Search and Zooming for Multimodal Reasoning via RL](https://arxiv.org/abs/2505.15436v1) [![Paper](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2505.15436v1) [![GitHub Stars](https://img.shields.io/github/stars/ByteDance-Seed/Seed1.5-VL?style=social&label=Star)](https://github.com/ByteDance-Seed/Seed1.5-VL)
+:diamond_shape_with_a_dot_inside: [Chain-of-Focus: Adaptive Visual Search and Zooming for Multimodal Reasoning via RL](https://arxiv.org/abs/2505.15436v1) [![Paper](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2505.15436v1) [![GitHub Stars](https://img.shields.io/github/stars/xtong-zhang/Chain-of-Focus?style=social&label=Star)](https://github.com/xtong-zhang/Chain-of-Focus)
 
-:diamond_shape_with_a_dot_inside: [GFlowVLM: Enhancing Multi-step Reasoning in Vision-Language Models with Generative Flow Networks](https://arxiv.org/abs/2503.06514) [![Paper](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2503.06514) [![GitHub Stars](https://img.shields.io/github/stars/ByteDance-Seed/Seed1.5-VL?style=social&label=Star)](https://github.com/ByteDance-Seed/Seed1.5-VL)
+:diamond_shape_with_a_dot_inside: [GFlowVLM: Enhancing Multi-step Reasoning in Vision-Language Models with Generative Flow Networks](https://arxiv.org/abs/2503.06514) [![Paper](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2503.06514)
 
-:diamond_shape_with_a_dot_inside: [Point-RFT: Improving Multimodal Reasoning with Visually Grounded Reinforcement Finetuning](https://arxiv.org/abs/2505.19702) [![Paper](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2505.19702) [![GitHub Stars](https://img.shields.io/github/stars/ByteDance-Seed/Seed1.5-VL?style=social&label=Star)](https://github.com/ByteDance-Seed/Seed1.5-VL)
+:diamond_shape_with_a_dot_inside: [Point-RFT: Improving Multimodal Reasoning with Visually Grounded Reinforcement Finetuning](https://arxiv.org/abs/2505.19702) [![Paper](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2505.19702)
 
-:diamond_shape_with_a_dot_inside: [VLM-R$^3$: Region Recognition, Reasoning, and Refinement for Enhanced Multimodal Chain-of-Thought ](https://arxiv.org/abs/2505.16192) [![Paper](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2505.16192)
+:diamond_shape_with_a_dot_inside: [VLM-R$^3$: Region Recognition, Reasoning, and Refinement for Enhanced Multimodal Chain-of-Thought](https://arxiv.org/abs/2505.16192) [![Paper](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2505.16192)
+
+
+
+
+#### 3.4.2 Learning Algorithm
+
+(1) **Basic Algorithms**
+
+- **PPO**
+
+:diamond_shape_with_a_dot_inside: [Seed1.5-VL Technical Report](https://arxiv.org/abs/2505.07062) [![Paper](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2505.07062) [![GitHub Stars](https://img.shields.io/github/stars/ByteDance-Seed/Seed1.5-VL?style=social&label=Star)](https://github.com/ByteDance-Seed/Seed1.5-VL)
+
+:diamond_shape_with_a_dot_inside: [LMM-R1: Empowering 3B LMMs with Strong Reasoning Abilities Through Two-Stage Rule-Based RL](https://arxiv.org/abs/2503.07536) [![Paper](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2503.07536) [![GitHub Stars](https://img.shields.io/github/stars/TideDra/lmm-r1?style=social&label=Star)](https://github.com/TideDra/lmm-r1)
+
+- **DPO**
+
+:diamond_shape_with_a_dot_inside: [VisRL: Intention-Driven Visual Perception via Reinforced Reasoning](https://arxiv.org/abs/2503.07523) [![Paper](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2503.07523) [![GitHub Stars](https://img.shields.io/github/stars/zhangquanchen/VisRL?style=social&label=Star)](https://github.com/zhangquanchen/VisRL)
+
+:diamond_shape_with_a_dot_inside: [video-SALMONN-o1: Reasoning-enhanced Audio-visual Large Language Model](https://arxiv.org/abs/2502.11775) [![Paper](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2502.11775) [![GitHub Stars](https://img.shields.io/github/stars/BriansIDP/video-SALMONN-o1?style=social&label=Star)](https://github.com/BriansIDP/video-SALMONN-o1)
+
+- **GRPO**
+
+:diamond_shape_with_a_dot_inside: [Seg-Zero: Reasoning-Chain Guided Segmentation via Cognitive Reinforcement]() [![Paper](https://img.shields.io/badge/arXiv-b31b1b.svg)]() [![GitHub Stars](https://img.shields.io/github/stars/JIA-Lab-research/Seg-Zero?style=social&label=Star)](https://github.com/JIA-Lab-research/Seg-Zero)
+
+:diamond_shape_with_a_dot_inside: [VisionReasoner: Unified Reasoning-Integrated Visual Perception via Reinforcement Learning](https://arxiv.org/abs/2505.12081) [![Paper](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2505.12081) [![GitHub Stars](https://img.shields.io/github/stars/JIA-Lab-research/VisionReasoner?style=social&label=Star)](https://github.com/JIA-Lab-research/VisionReasoner)
+
+:diamond_shape_with_a_dot_inside: [Reinforcement Learning Outperforms Supervised Fine-Tuning: A Case Study on Audio Question Answering](https://arxiv.org/abs/2503.11197) [![Paper](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2503.11197) [![GitHub Stars](https://img.shields.io/github/stars/xiaomi-research/r1-aqa?style=social&label=Star)](https://github.com/xiaomi-research/r1-aqa)
+
+(1) <b>GRPO-based enhancements for efficiency and stability</b>
+
+:diamond_shape_with_a_dot_inside: [Fast-Slow Thinking for Large Vision-Language Model Reasoning](https://arxiv.org/abs/2504.13055) [![Paper](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2504.13055) [![GitHub Stars](https://img.shields.io/github/stars/Mr-Loevan/FAST?style=social&label=Star)](https://github.com/Mr-Loevan/FAST)
+
+:diamond_shape_with_a_dot_inside: [Skywork R1V2: Multimodal Hybrid Reinforcement Learning for Reasoning](https://arxiv.org/abs/2504.16656) [![Paper](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2504.16656) [![GitHub Stars](https://img.shields.io/github/stars/SkyworkAI/Skywork-R1V?style=social&label=Star)](https://github.com/SkyworkAI/Skywork-R1V)
+
+:diamond_shape_with_a_dot_inside: [GRIT: Teaching MLLMs to Think with Images](https://arxiv.org/abs/2505.15879) [![Paper](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2505.15879) [![GitHub Stars](https://img.shields.io/github/stars/eric-ai-lab/GRIT?style=social&label=Star)](https://github.com/eric-ai-lab/GRIT)
+
+:diamond_shape_with_a_dot_inside: [R1-VL: Learning to Reason with Multimodal Large Language Models via Step-wise Group Relative Policy Optimization](https://arxiv.org/abs/2503.12937) [![Paper](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2503.12937) [![GitHub Stars](https://img.shields.io/github/stars/jingyi0000/R1-VL?style=social&label=Star)](https://github.com/jingyi0000/R1-VL)
+
+:diamond_shape_with_a_dot_inside: [OmniQuality-R: Advancing Reward Models Through All-Encompassing Quality Assessment](https://arxiv.org/abs/2510.10609) [![Paper](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2510.10609) [![GitHub Stars](https://img.shields.io/github/stars/yeppp27/OmniQuality-R?style=social&label=Star)](https://github.com/yeppp27/OmniQuality-R)
+
+:diamond_shape_with_a_dot_inside: [R1-ShareVL: Incentivizing Reasoning Capability of Multimodal Large Language Models via Share-GRPO](https://arxiv.org/abs/2505.16673) [![Paper](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2505.16673) [![GitHub Stars](https://img.shields.io/github/stars/HJYao00/R1-ShareVL?style=social&label=Star)](https://github.com/HJYao00/R1-ShareVL)
+
+:diamond_shape_with_a_dot_inside: [T2I-R1: Reinforcing Image Generation with Collaborative Semantic-level and Token-level CoT](https://arxiv.org/abs/2505.00703) [![Paper](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2505.00703) [![GitHub Stars](https://img.shields.io/github/stars/CaraJ7/T2I-R1?style=social&label=Star)](https://github.com/CaraJ7/T2I-R1) 
+
+
+
+(2) <b>Reasoning-aware strategies for consistency and process optimization</b>
+
+:diamond_shape_with_a_dot_inside: [SophiaVL-R1: Reinforcing MLLMs Reasoning with Thinking Reward](https://arxiv.org/abs/2505.17018) [![Paper](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2505.17018) [![GitHub Stars](https://img.shields.io/github/stars/kxfan2002/SophiaVL-R1?style=social&label=Star)](https://github.com/kxfan2002/SophiaVL-R1) 
+
+:diamond_shape_with_a_dot_inside: [GRPO-CARE: Consistency-Aware Reinforcement Learning for Multimodal Reasoning](https://arxiv.org/abs/2506.16141) [![Paper](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2506.16141) [![GitHub Stars](https://img.shields.io/github/stars/TencentARC/GRPO-CARE?style=social&label=Star)](https://github.com/TencentARC/GRPO-CARE) 
+
+:diamond_shape_with_a_dot_inside: [Perception-Consistency Multimodal Large Language Models Reasoning via Caption-Regularized Policy Optimization](https://arxiv.org/abs/2509.21854) [![Paper](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2509.21854)
+
+:diamond_shape_with_a_dot_inside: [VLM-R$^3$: Region Recognition, Reasoning, and Refinement for Enhanced Multimodal Chain-of-Thought](https://arxiv.org/abs/2505.16192) [![Paper](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2505.16192)
+
+:diamond_shape_with_a_dot_inside: [Video-R1: Reinforcing Video Reasoning in MLLMs](https://arxiv.org/abs/2503.21776) [![Paper](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2503.21776) [![GitHub Stars](https://img.shields.io/github/stars/tulerfeng/Video-R1?style=social&label=Star)](https://github.com/tulerfeng/Video-R1) 
+
+:diamond_shape_with_a_dot_inside: [MetaSpatial: Reinforcing 3D Spatial Reasoning in VLMs for the Metaverse](https://arxiv.org/abs/2503.18470) [![Paper](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2503.18470) [![GitHub Stars](https://img.shields.io/github/stars/PzySeere/MetaSpatial?style=social&label=Star)](https://github.com/PzySeere/MetaSpatial) 
+
+:diamond_shape_with_a_dot_inside: [OThink-MR1: Stimulating multimodal generalized reasoning capabilities via dynamic reinforcement learning](https://arxiv.org/abs/2503.16081) [![Paper](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2503.16081)
+
+:diamond_shape_with_a_dot_inside: [Visionary-R1: Mitigating Shortcuts in Visual Reasoning with Reinforcement Learning](https://arxiv.org/abs/2505.14677) [![Paper](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2505.14677) [![GitHub Stars](https://img.shields.io/github/stars/maifoundations/Visionary-R1?style=social&label=Star)](https://github.com/maifoundations/Visionary-R1)
+
+:diamond_shape_with_a_dot_inside: [GuardReasoner-VL: Safeguarding VLMs via Reinforced Reasoning](https://arxiv.org/abs/2505.11049) [![Paper](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2505.11049) [![GitHub Stars](https://img.shields.io/github/stars/yueliu1999/GuardReasoner-VL?style=social&label=Star)](https://github.com/yueliu1999/GuardReasoner-VL)
+
+:diamond_shape_with_a_dot_inside: [One RL to See Them All: Visual Triple Unified Reinforcement Learning](https://arxiv.org/abs/2505.18129) [![Paper](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2505.18129) [![GitHub Stars](https://img.shields.io/github/stars/MiniMax-AI/One-RL-to-See-Them-All?style=social&label=Star)](https://github.com/MiniMax-AI/One-RL-to-See-Them-All) 
+
+:diamond_shape_with_a_dot_inside: [Improved Visual-Spatial Reasoning via R1-Zero-Like Training](https://arxiv.org/abs/2504.00883) [![Paper](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2504.00883) [![GitHub Stars](https://img.shields.io/github/stars/zhijie-group/R1-Zero-VSI?style=social&label=Star)](https://github.com/zhijie-group/R1-Zero-VSI) 
+
+(3) <b>Hybrid and alternative strategy</b>
+
+:diamond_shape_with_a_dot_inside: [VerIPO: Cultivating Long Reasoning in Video-LLMs via Verifier-Gudied Iterative Policy Optimization](https://arxiv.org/abs/2505.19000) [![Paper](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2505.19000) [![GitHub Stars](https://img.shields.io/github/stars/HITsz-TMG/VerIPO?style=social&label=Star)](https://github.com/HITsz-TMG/VerIPO) 
+
+:diamond_shape_with_a_dot_inside: [Vision-R1: Incentivizing Reasoning Capability in Multimodal Large Language Models](https://arxiv.org/abs/2503.06749) [![Paper](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2503.06749) [![GitHub Stars](https://img.shields.io/github/stars/Osilly/Vision-R1?style=social&label=Star)](https://github.com/Osilly/Vision-R1)
+
+:diamond_shape_with_a_dot_inside: [MAPO: Mixed Advantage Policy Optimization](https://arxiv.org/abs/2509.18849) [![Paper](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2509.18849) [![GitHub Stars](https://img.shields.io/github/stars/WenkeHuang/MAPO?style=social&label=Star)](https://github.com/WenkeHuang/MAPO) 
+
+:diamond_shape_with_a_dot_inside: [Perception-Aware Policy Optimization for Multimodal Reasoning](https://arxiv.org/abs/2507.06448) [![Paper](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2507.06448) [![GitHub Stars](https://img.shields.io/github/stars/MikeWangWZHL/PAPO?style=social&label=Star)](https://github.com/MikeWangWZHL/PAPO) 
+
+:diamond_shape_with_a_dot_inside: [Kwai Keye-VL Technical Report](https://arxiv.org/abs/2507.01949) [![Paper](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2507.01949) [![GitHub Stars](https://img.shields.io/github/stars/Kwai-Keye/Keye?style=social&label=Star)](https://github.com/Kwai-Keye/Keye) 
 
 
 ## 4. Test-time Inference
 ### <a id="test-41-sampling"></a>4.1 Sampling
 
-:diamond_shape_with_a_dot_inside: []() [![Paper](https://img.shields.io/badge/arXiv-b31b1b.svg)]() [![GitHub Stars](https://img.shields.io/github/stars/ByteDance-Seed/Seed1.5-VL?style=social&label=Star)](https://github.com/ByteDance-Seed/Seed1.5-VL)
-
+:diamond_shape_with_a_dot_inside: :diamond_shape_with_a_dot_inside: []() [![Paper](https://img.shields.io/badge/arXiv-b31b1b.svg)]() [![GitHub Stars](https://img.shields.io/github/stars/?style=social&label=Star)]() 
 ### <a id="test-42-search"></a>4.2 Search
 
-:diamond_shape_with_a_dot_inside: []() [![Paper](https://img.shields.io/badge/arXiv-b31b1b.svg)]() [![GitHub Stars](https://img.shields.io/github/stars/ByteDance-Seed/Seed1.5-VL?style=social&label=Star)](https://github.com/ByteDance-Seed/Seed1.5-VL)
+:diamond_shape_with_a_dot_inside: :diamond_shape_with_a_dot_inside: []() [![Paper](https://img.shields.io/badge/arXiv-b31b1b.svg)]() [![GitHub Stars](https://img.shields.io/github/stars/?style=social&label=Star)]() 
 
 
 ### <a id="test-43-dynamic-verification"></a>4.3 Dynamic Verification
 
-:diamond_shape_with_a_dot_inside: []() [![Paper](https://img.shields.io/badge/arXiv-b31b1b.svg)]() [![GitHub Stars](https://img.shields.io/github/stars/ByteDance-Seed/Seed1.5-VL?style=social&label=Star)](https://github.com/ByteDance-Seed/Seed1.5-VL)
+:diamond_shape_with_a_dot_inside: []() :diamond_shape_with_a_dot_inside: []() [![Paper](https://img.shields.io/badge/arXiv-b31b1b.svg)]() [![GitHub Stars](https://img.shields.io/github/stars/?style=social&label=Star)]() 
 
 ### <a id="test-44-trajectory-optimization"></a>4.4 Trajectory Optimization
 
-:diamond_shape_with_a_dot_inside: []() [![Paper](https://img.shields.io/badge/arXiv-b31b1b.svg)]() [![GitHub Stars](https://img.shields.io/github/stars/ByteDance-Seed/Seed1.5-VL?style=social&label=Star)](https://github.com/ByteDance-Seed/Seed1.5-VL)
+:diamond_shape_with_a_dot_inside: []() :diamond_shape_with_a_dot_inside: []() [![Paper](https://img.shields.io/badge/arXiv-b31b1b.svg)]() [![GitHub Stars](https://img.shields.io/github/stars/?style=social&label=Star)]() 
 
 
 ## 5. Benchmarks & Evaluation
