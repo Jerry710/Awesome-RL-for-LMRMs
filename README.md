@@ -743,7 +743,7 @@ Summary of reward modeling in RL-centric MLRMs, organized by reward channel. For
       <th style="width:5%;">RM</th>
       <th style="width:5%;">ET</th>
       <th style="width:10%;">Init.</th>
-      <th style="width:8%;">Alg.</th>
+      <!-- <th style="width:8%;">Alg.</th> -->
       <th style="width:18%;">Tasks</th>
     </tr>
   </thead>
@@ -767,8 +767,8 @@ Summary of reward modeling in RL-centric MLRMs, organized by reward channel. For
       <td>MR</td>
       <td>H</td>
       <td>RL</td>
-      <td>GRPO</td>
-      <td><small>Math, Detection, Classification</small></td>
+      <!-- <td>GRPO</td> -->
+      <td>Math, Detection, Classification</td>
     </tr>
     <tr>
       <td>MedVLThinker<br><a href="https://arxiv.org/abs/2508.02669">
@@ -781,7 +781,7 @@ Summary of reward modeling in RL-centric MLRMs, organized by reward channel. For
       <td>ORM</td>
       <td>R</td>
       <td>SFT+RL</td>
-      <td>GRPO</td>
+      <!-- <td>GRPO</td> -->
       <td>General-Domain Medical QA, Modality-Specific QA</td>
     </tr>
     <tr>
@@ -795,7 +795,7 @@ Summary of reward modeling in RL-centric MLRMs, organized by reward channel. For
         <td>PRM</td>
         <td>R</td>
         <td>SFT+RL</td>
-        <td>StepGRPO</td>
+        <!-- <td>StepGRPO</td> -->
         <td>Chart Rea., Visual Hallucination, Math, General Visual Rea.</td>
     </tr>
     <tr>
@@ -809,7 +809,7 @@ Summary of reward modeling in RL-centric MLRMs, organized by reward channel. For
       <td>MR</td>
       <td>H</td>
       <td>RL</td>
-      <td>GRPO-GR</td>
+      <!-- <td>GRPO-GR</td> -->
       <td>Math, Spat. Rea., Object Count.</td>
     </tr>
     <tr>
@@ -822,7 +822,7 @@ Summary of reward modeling in RL-centric MLRMs, organized by reward channel. For
       <td>Out.-Acc., Struct-Form</td>
       <td>ORM</td>
       <td>H</td>
-      <td>SFT+RL</td>
+      <!-- <td>SFT+RL</td> -->
       <td>online PMD</td>
       <td>Math, Code Rea. and Gen., MM Rea., Knowledge and Logical Rea.</td>
     </tr>
@@ -843,7 +843,7 @@ Summary of reward modeling in RL-centric MLRMs, organized by reward channel. For
       <td>ORM</td>
       <td>H</td>
       <td>RL</td>
-      <td>GRPO</td>
+      <!-- <td>GRPO</td> -->
       <td>Visual Rea., Math, Chart Rea.</td>
     </tr>
     <tr>
@@ -856,7 +856,7 @@ Summary of reward modeling in RL-centric MLRMs, organized by reward channel. For
       <td>ORM</td>
       <td>H</td>
       <td>SFT+RL</td>
-      <td>GRPO</td>
+      <!-- <td>GRPO</td> -->
       <td>Answer- and Proof-Type Geo QA</td>
     </tr>
     <tr>
@@ -872,7 +872,7 @@ Summary of reward modeling in RL-centric MLRMs, organized by reward channel. For
       <td>ORM</td>
       <td>R</td>
       <td>SFT+RL</td>
-      <td>GRPO</td>
+      <!-- <td>GRPO</td> -->
       <td>Scene Graph Gen. (SGG)</td>
     </tr>
     <tr>
@@ -888,7 +888,7 @@ Summary of reward modeling in RL-centric MLRMs, organized by reward channel. For
       <td>ORM</td>
       <td>H</td>
       <td>RL</td>
-      <td>GRPO</td>
+      <!-- <td>GRPO</td> -->
       <td>Video Rea., Temp. Ground, Tracking, Quality Assessment</td>
     </tr>
     <!-- ===================== Domain-Rule Verification ===================== -->
@@ -908,7 +908,7 @@ Summary of reward modeling in RL-centric MLRMs, organized by reward channel. For
       <td>PRM</td>
       <td>H</td>
       <td>RL</td>
-      <td>GRPO</td>
+      <!-- <td>GRPO</td> -->
       <td>3D Spatial Rea.</td>
     </tr>
     <tr>
@@ -924,7 +924,7 @@ Summary of reward modeling in RL-centric MLRMs, organized by reward channel. For
       <td>MR</td>
       <td>H</td>
       <td>SFT+RL</td>
-      <td>GRPO</td>
+      <!-- <td>GRPO</td> -->
       <td>Binary-/Single-/Multi-Disease Diagnosis</td>
     </tr>
     <!-- ===================== Model-Based Automatic Evaluation ===================== -->
@@ -944,7 +944,7 @@ Summary of reward modeling in RL-centric MLRMs, organized by reward channel. For
       <td>MR</td>
       <td>H</td>
       <td>SFT+RL</td>
-      <td>GRPO</td>
+      <!-- <td>GRPO</td> -->
       <td>Text-to-Image Gen.</td>
     </tr>
     <tr>
@@ -957,7 +957,7 @@ Summary of reward modeling in RL-centric MLRMs, organized by reward channel. For
       <td>PRM</td>
       <td>H</td>
       <td>SFT+RL</td>
-      <td>PPO</td>
+      <!-- <td>PPO</td> -->
       <td>Visual QA, Physics, Chemistry, Biology, Math Rea.</td>
     </tr>
     <tr>
@@ -973,7 +973,7 @@ Summary of reward modeling in RL-centric MLRMs, organized by reward channel. For
       <td>ORM</td>
       <td>R</td>
       <td>RL</td>
-      <td>GRPO</td>
+      <!-- <td>GRPO</td> -->
       <td>Fine-Grained Visual Rea., MM Rea. Math, Grounding and Hallucination</td>
     </tr>
     <!-- ===================== Decomposed Rewards ===================== -->
@@ -993,7 +993,7 @@ Summary of reward modeling in RL-centric MLRMs, organized by reward channel. For
       <td>PRM</td>
       <td>RL</td>
       <td>R</td>
-      <td>GRPO</td>
+      <!-- <td>GRPO</td> -->
       <td>Spatial Transformation Rea.</td>
     </tr>
     <tr>
@@ -1009,7 +1009,7 @@ Summary of reward modeling in RL-centric MLRMs, organized by reward channel. For
       <td>ORM</td>
       <td>H</td>
       <td>RL</td>
-      <td>GRPO</td>
+      <!-- <td>GRPO</td> -->
       <td>Text-to-Image, Video Gen.</td>
     </tr>
     <tr>
@@ -1025,7 +1025,7 @@ Summary of reward modeling in RL-centric MLRMs, organized by reward channel. For
       <td>ORM</td>
       <td>H</td>
       <td>SFT+RL</td>
-      <td>GRPO</td>
+      <!-- <td>GRPO</td> -->
       <td>MM Time-Series Rea.</td>
     </tr>
     <tr>
@@ -1038,7 +1038,7 @@ Summary of reward modeling in RL-centric MLRMs, organized by reward channel. For
       <td>ORM</td>
       <td>R</td>
       <td>SFT+RL</td>
-      <td>GRPO</td>
+      <!-- <td>GRPO</td> -->
       <td>Math, Science, Chart/OCR Rea., Fine-Grained Visual Rea.</td>
     </tr>
     <tr>
@@ -1054,7 +1054,7 @@ Summary of reward modeling in RL-centric MLRMs, organized by reward channel. For
       <td>ORM</td>
       <td>R</td>
       <td>SFT+RL</td>
-      <td>GRPO</td>
+      <!-- <td>GRPO</td> -->
       <td>Binary Relation Detection (SGG), N-ary Relation Rea.</td>
     </tr>
     <!-- ===================== Human Feedback Rewards ===================== -->
@@ -1077,7 +1077,7 @@ Summary of reward modeling in RL-centric MLRMs, organized by reward channel. For
       <td>ORM</td>
       <td>M</td>
       <td>RL</td>
-      <td>BiCoT-GRPO</td>
+      <!-- <td>BiCoT-GRPO</td> -->
       <td>Text-to-Image Gen. with Human Preference Alignment</td>
     </tr>
     <tr>
@@ -1093,7 +1093,7 @@ Summary of reward modeling in RL-centric MLRMs, organized by reward channel. For
       <td>MR</td>
       <td>H</td>
       <td>RL</td>
-      <td>Trust-GRPO</td>
+      <!-- <td>Trust-GRPO</td> -->
       <td>Math, Science, Visual Rea., Chart Rea., General MM QA</td>
     </tr>
     <tr>
@@ -1109,7 +1109,7 @@ Summary of reward modeling in RL-centric MLRMs, organized by reward channel. For
       <td>ORM</td>
       <td>M</td>
       <td>RL</td>
-      <td>GRPO</td>
+      <!-- <td>GRPO</td> -->
       <td>General MM Res.</td>
     </tr>
     <tr>
@@ -1125,7 +1125,7 @@ Summary of reward modeling in RL-centric MLRMs, organized by reward channel. For
       <td>ORM</td>
       <td>H</td>
       <td>SFT+RL</td>
-      <td>GRPO</td>
+      <!-- <td>GRPO</td> -->
       <td>Safety-Aware MM Rea.</td>
     </tr>
     <!-- ===================== Mixture-of-Rewards ===================== -->
@@ -1145,7 +1145,7 @@ Summary of reward modeling in RL-centric MLRMs, organized by reward channel. For
       <td>MR</td>
       <td>H</td>
       <td>SFT+RL</td>
-      <td>OREAL</td>
+      <!-- <td>OREAL</td> -->
       <td>Science, Instruction Following, MM Rea., Interdisciplinary QA</td>
     </tr>
   </tbody>
