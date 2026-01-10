@@ -167,11 +167,11 @@ establishes an integrated framework and clarifies the inter relationship between
 
 Training Initialization focuses on how to initially bootstrap an effective reasoning policy before large-scale RL optimization. We divide the existing methods into three categories:
 
-3.1.1 From-scratch policy initialization, which acquires reasoning behaviors solely from RL signals without reliance on pre-existing policies; 
+:one: From-scratch policy initialization, which acquires reasoning behaviors solely from RL signals without reliance on pre-existing policies; 
 
-3.1.2 Cold-start policy initialization, which leverages a strong foundational MLLM prior through knowledge transfer, command interaction, or trajectory injection to enhance training stability in early phases; 
+:two: Cold-start policy initialization, which leverages a strong foundational MLLM prior through knowledge transfer, command interaction, or trajectory injection to enhance training stability in early phases; 
 
-3.1.3 Curriculum-guided multistage optimization, which systematically refines the policy across sequential stages to improve robustness and generalization. 
+:three: Curriculum-guided multistage optimization, which systematically refines the policy across sequential stages to improve robustness and generalization. 
 
 As illustrated, existing approaches can be characterized along two dimensions, strength of behavioral prior and required level of interaction granularity (ranging from static perception to tool-level interaction and fine-grained control), providing a unified framework for understanding the trade-offs among training stability, controllability, and sample efficiency in different initialization strategies.
 
@@ -649,6 +649,43 @@ Summary of reward modeling in RL-centric MLRMs, organized by reward channel. For
 
 
 ### <a id="train-33-trajectory-sampling"></a>3.3 Trajectory Sampling
+
+Sampling governs how the policy generates reasoning trajectories for exploration and learning. Multimodal reasoning often requires explicit control over diversity, reasoning depth, task adaptability, and input distribution coverage. We group training-time sampling into four strategies:
+
+:one: **Group Sampling & Rejection Sampling**: sample multiple trajectories per iteration; select high-advantage samples and optionally filter low-quality ones with external verifiers.
+
+
+[Kimi k1.5: Scaling Reinforcement Learning with LLMs](https://arxiv.org/abs/2501.12599) [![Paper](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2501.12599) [![GitHub Stars](https://img.shields.io/github/stars/MoonshotAI/Kimi-k1.5?style=social&label=Star)](https://github.com/MoonshotAI/Kimi-k1.5)
+
+[MedVLM-R1: Incentivizing Medical Reasoning Capability of Vision-Language Models (VLMs) via Reinforcement Learning](https://arxiv.org/abs/2502.19634) [![Paper](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2502.19634) [![GitHub Stars](https://img.shields.io/github/stars/JZPeterPan/MedVLM-R1?style=social&label=Star)](https://github.com/JZPeterPan/MedVLM-R1)
+
+
+
+:two: **Fine-grained Sampling**: reuse and revise high-reward trajectories via mandatory rethinking / self-reflection to deepen reasoning chains.
+
+[VL-Rethinker: Incentivizing Self-Reflection of Vision-Language Models with Reinforcement Learning](https://arxiv.org/abs/2504.08837) [![Paper](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2504.08837) [![GitHub Stars](https://img.shields.io/github/stars/TIGER-AI-Lab/VL-Rethinker?style=social&label=Star)](https://github.com/TIGER-AI-Lab/VL-Rethinker)
+
+[Skywork R1V2: Multimodal Hybrid Reinforcement Learning for Reasoning](https://arxiv.org/abs/2504.16656) [![Paper](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2504.16656) [![GitHub Stars](https://img.shields.io/github/stars/SkyworkAI/Skywork-R1V?style=social&label=Star)](https://github.com/SkyworkAI/Skywork-R1V)
+
+[GoT-R1: Unleashing Reasoning Capability of MLLM for Visual Generation with Reinforcement Learning](https://arxiv.org/abs/2505.17022) [![Paper](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2505.17022) [![GitHub Stars](https://img.shields.io/github/stars/gogoduan/GoT-R1?style=social&label=Star)](https://github.com/gogoduan/GoT-R1)
+
+:three: **Dynamic Sampling**: adapt trajectory length/complexity to task difficulty; retain effective-gradient samples to improve stability and efficiency.
+
+[Seed1.5-Thinking: Advancing Superb Reasoning Models with Reinforcement Learning](https://arxiv.org/abs/2504.13914) [![Paper](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2504.13914) [![GitHub Stars](https://img.shields.io/github/stars/ByteDance-Seed/Seed-Thinking-v1.5?style=social&label=Star)](https://github.com/ByteDance-Seed/Seed-Thinking-v1.5)
+
+[Boosting the Generalization and Reasoning of Vision Language Models with Curriculum Reinforcement Learning](https://arxiv.org/abs/2503.07065) [![Paper](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2503.07065) [![GitHub Stars](https://img.shields.io/github/stars/ding523/Curr_REFT?style=social&label=Star)](https://github.com/ding523/Curr_REFT)
+
+[Fast-Slow Thinking GRPO for Large Vision-Language Model Reasoning](https://arxiv.org/abs/2504.18458) [![Paper](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2504.18458) [![GitHub Stars](https://img.shields.io/github/stars/Mr-Loevan/FAST?style=social&label=Star)](https://github.com/Mr-Loevan/FAST)
+
+[GuardReasoner-VL: Safeguarding VLMs via Reinforced Reasoning](https://arxiv.org/abs/2505.11049) [![Paper](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2505.11049) [![GitHub Stars](https://img.shields.io/github/stars/yueliu1999/GuardReasoner-VL?style=social&label=Star)](https://github.com/yueliu1999/GuardReasoner-VL)
+
+:four: **Cross-modal Input Sampling**: extend sampling from text to visual inputs (*e.g.*, frame selection/subsampling) to control context length and computation.
+
+[Omni-R1: Reinforcement Learning for Omnimodal Reasoning via Two-System Collaboration](https://arxiv.org/abs/2505.20256) [![Paper](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2505.20256) [![GitHub Stars](https://img.shields.io/github/stars/aim-uofa/Omni-R1?style=social&label=Star)](https://github.com/aim-uofa/Omni-R1)
+
+[Seed1.5-VL Technical Report](https://arxiv.org/abs/2505.07062) [![Paper](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2505.07062) [![GitHub Stars](https://img.shields.io/github/stars/ByteDance-Seed/Seed1.5-VL?style=social&label=Star)](https://github.com/ByteDance-Seed/Seed1.5-VL)
+
+
 ### <a id="train-34-alignment--algorithms"></a>3.4 Alignment & Algorithms
 
 ## 4. Test-time Inference
