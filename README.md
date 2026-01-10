@@ -736,9 +736,9 @@ Summary of reward modeling in RL-centric MLRMs, organized by reward channel. For
   </colgroup> -->
   <thead>
     <tr>
-      <th style="width:20%;">MLRM</th>
+      <th style="width:25%;">MLRM</th>
       <th style="width:10%;">MM Char.</th>
-      <th style="width:12%;">Gran.</th>
+      <th>Gran.</th>
       <th style="width:22%;">Target</th>
       <th>RM</th>
       <th>ET</th>
@@ -916,7 +916,7 @@ Summary of reward modeling in RL-centric MLRMs, organized by reward channel. For
           <img src="https://img.shields.io/badge/arXiv-b31b1b.svg" alt="arXiv">
         </a>
         <a href="https://github.com/MAGIC-AI4Med/ChestX-Reasoner">
-          <img src="https://img.shields.io/github/stars/MAGIC-AI4Med/ChestX-Reasoner?style=social&label=" alt="Stars">
+          <img src="https://img.shields.io/github/stars/MAGIC-AI4Med/ChestX-Reasoner?style=social" alt="Stars">
         </a></td>
       <td>Dom., Temp.</td>
       <td>Traj</td>
