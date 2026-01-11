@@ -888,19 +888,12 @@ Highlight an open question: rather than relying on single-modality heuristics, w
 
 ## 🎖 5. Datasets & Benchmarks
 ### <a id="bench-51-goal-driven-reasoning"></a>5.1 Goal-driven Reasoning
-
-#### General Visual Reasoning 
-
-
-#### Structured and Task-Specific Reasoning
-
-
 <table>
   <thead>
     <tr>
       <th>Benchmark</th>
-      <th align="right">Year</th>
-      <th align="right">Size</th>
+      <th>Year</th>
+      <th>Size</th>
       <th>Metrics</th>
       <th>Q-Type</th>
       <th>Dom.</th>
@@ -909,13 +902,13 @@ Highlight an open question: rather than relying on single-modality heuristics, w
     </tr>
   </thead>
   <tr>
-    <td colspan="8"><i><b><span style="color:#32a7f7;">General Visual Reasoning</span></b></i></td>
+    <td colspan="8"><i><b><span style="color:blue;">General Visual Reasoning</span></b></i></td>
   </tr>
   <tbody>
     <tr>
       <td>MMBench</td>
-      <td align="right">2024</td>
-      <td align="right">3.2K</td>
+      <td>2024</td>
+      <td>3.2K</td>
       <td>Acc., CircularEval</td>
       <td>MC</td>
       <td>General</td>
@@ -924,8 +917,8 @@ Highlight an open question: rather than relying on single-modality heuristics, w
     </tr>
     <tr>
       <td>MMMU</td>
-      <td align="right">2024</td>
-      <td align="right">11.5K</td>
+      <td>2024</td>
+      <td>11.5K</td>
       <td>Acc.</td>
       <td>MC, OE</td>
       <td>Interdisciplinary</td>
@@ -934,8 +927,8 @@ Highlight an open question: rather than relying on single-modality heuristics, w
     </tr>
     <tr>
       <td>AGIEval</td>
-      <td align="right">2024</td>
-      <td align="right">8K</td>
+      <td>2024</td>
+      <td>8K</td>
       <td>Acc., F1 Score, Exact Match</td>
       <td>MC, OE</td>
       <td>Exams</td>
@@ -944,8 +937,8 @@ Highlight an open question: rather than relying on single-modality heuristics, w
     </tr>
     <tr>
       <td>HallusionBench</td>
-      <td align="right">2024</td>
-      <td align="right">0.2K</td>
+      <td>2024</td>
+      <td>0.2K</td>
       <td>Acc., AS (GPT4)</td>
       <td>OE</td>
       <td>Robustness</td>
@@ -957,8 +950,8 @@ Highlight an open question: rather than relying on single-modality heuristics, w
     </tr>
     <tr>
       <td>STAR</td>
-      <td align="right">2024</td>
-      <td align="right">60K</td>
+      <td>2024</td>
+      <td>60K</td>
       <td>Acc.</td>
       <td>MC</td>
       <td>Situational Rea.</td>
@@ -967,8 +960,8 @@ Highlight an open question: rather than relying on single-modality heuristics, w
     </tr>
     <tr>
       <td>Multimodal RewardBench</td>
-      <td align="right">2025</td>
-      <td align="right">5.2K</td>
+      <td>2025</td>
+      <td>5.2K</td>
       <td>Acc.</td>
       <td>MC, OE</td>
       <td>General, Safety</td>
@@ -994,7 +987,7 @@ Highlight an open question: rather than relying on single-modality heuristics, w
     </tr>
     <tr>
       <td colspan="8"> 
-        ❤️<font style="color:#32a7f7;"><b>Other Benchmarks (Emerging):</b></span><br>
+        ❤️<font style="color:#32a7f7;"><b>Other Benchmarks (Emerging):</b></font><br>
         VERIFY [353], FineCops-Ref [354], FIND-Bench [355], CompCap [356], CapQA [250],
         Ksavir-VQA-x1 [357], MMRB [358], MMESGBench [359], GUIDE [282], SMIR [360],
         CII-Bench [361], MAGEBench [362], PunchBench [363], MV-CoRe [364],
