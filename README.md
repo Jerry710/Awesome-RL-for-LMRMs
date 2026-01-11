@@ -903,7 +903,7 @@ Highlight an open question: rather than relying on single-modality heuristics, w
   </tr>
   <tbody>
     <tr>
-      <td><a href="#https://arxiv.org/abs/2307.06281">MMBench</a></td>
+      <td><a href="https://arxiv.org/abs/2307.06281">MMBench</a></td>
       <td>2024</td>
       <td>3.2K</td>
       <td>Acc., CircularEval</td>
@@ -913,7 +913,7 @@ Highlight an open question: rather than relying on single-modality heuristics, w
       <td align="center"><a href="https://huggingface.co/datasets/HuggingFaceM4/MMBench">🤗</a></td>
     </tr>
     <tr>
-      <td><a href="#https://arxiv.org/abs/2311.16502">MMMU</a></td>
+      <td><a href="https://arxiv.org/abs/2311.16502">MMMU</a></td>
       <td>2024</td>
       <td>11.5K</td>
       <td>Acc.</td>
