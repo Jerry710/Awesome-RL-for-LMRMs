@@ -871,16 +871,245 @@ Highlight an open question: rather than relying on single-modality heuristics, w
 
 ### <a id="test-42-search"></a>4.2 Search
 
-:diamond_shape_with_a_dot_inside: []() [![Paper](https://img.shields.io/badge/arXiv-b31b1b.svg)]() [![GitHub Stars](https://img.shields.io/github/stars/?style=social&label=Star)]() 
+Relative to sampling-based generation, search-based methods improve multimodal reasoning at test time by actively maintaining candidate branches and iteratively refining them, continually selecting higher-quality paths from the pool of sampled trajectories. Such methods can be broadly grouped into three categories: parallel search, sequential search, and structured search.
+
+(1) **Parallel search** — diversity mitigates single-trajectory bias
+
+Parallel search explores multiple candidate trajectories concurrently and selects the final answer via voting or scoring, thereby increasing the likelihood of recovering the correct solution. 
+
+
+:diamond_shape_with_a_dot_inside: [Self-Consistency Improves Chain of Thought Reasoning in Language Models](https://arxiv.org/abs/2203.11171) [![Paper](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2203.11171)
+
+:diamond_shape_with_a_dot_inside: [Rewarding Curse: Analyze and Mitigate Reward Modeling Issues for LLM Reasoning](https://arxiv.org/abs/2503.05188) [![Paper](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2503.05188)
+
+:diamond_shape_with_a_dot_inside: [Not All Votes Count! Programs as Verifiers Improve Self-Consistency of Language Models for Math Reasoning](https://arxiv.org/abs/2410.12608) [![Paper](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2410.12608) [![GitHub Stars](https://img.shields.io/github/stars/declare-lab/prove?style=social&label=Star)](https://github.com/declare-lab/prove)
+
+:diamond_shape_with_a_dot_inside: [Efficient Test-Time Scaling via Self-Calibration](https://arxiv.org/abs/2503.00031) [![Paper](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2503.00031) [![GitHub Stars](https://img.shields.io/github/stars/Chengsong-Huang/Self-Calibration?style=social&label=Star)](https://github.com/Chengsong-Huang/Self-Calibration)
+
+:diamond_shape_with_a_dot_inside: [Bridging Internal Probability and Self-Consistency for Effective and Efficient LLM Reasoning](https://arxiv.org/abs/2502.00511) [![Paper](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2502.00511) [![GitHub Stars](https://img.shields.io/github/stars/wnjxyk/RPC?style=social&label=Star)](https://github.com/wnjxyk/RPC)
+
+:diamond_shape_with_a_dot_inside: [PairJudge RM: Perform Best-of-N Sampling with Knockout Tournament](https://arxiv.org/abs/2501.13007v2) [![Paper](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2501.13007v2) [![GitHub Stars](https://img.shields.io/github/stars/THU-KEG/PairJudgeRM?style=social&label=Star)](https://github.com/THU-KEG/PairJudgeRM)
+
+:diamond_shape_with_a_dot_inside: [TreeBoN: Enhancing Inference-Time Alignment with Speculative Tree-Search and Best-of-N Sampling](https://arxiv.org/abs/2410.16033) [![Paper](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2410.16033)
+
+:diamond_shape_with_a_dot_inside: [Fast Best-of-N Decoding via Speculative Rejection](https://arxiv.org/abs/2410.20290) [![Paper](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2410.20290) [![GitHub Stars](https://img.shields.io/github/stars/Zanette-Labs/SpeculativeRejection?style=social&label=Star)](https://github.com/Zanette-Labs/SpeculativeRejection)
+
+:diamond_shape_with_a_dot_inside: [Scaling Flaws of Verifier-Guided Search in Mathematical Reasoning](https://arxiv.org/abs/2502.00271) [![Paper](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2502.00271) 
+
+:diamond_shape_with_a_dot_inside: [Accelerating Best-of-N via Speculative Rejection](https://openreview.net/forum?id=FKelfq62ay) [![Paper](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://openreview.net/forum?id=FKelfq62ay) [![GitHub Stars](https://img.shields.io/github/stars/Zanette-Labs/SpeculativeRejection?style=social&label=Star)](https://github.com/Zanette-Labs/SpeculativeRejection)
+
+:diamond_shape_with_a_dot_inside: [Adaptive Inference-Time Compute: LLMs Can Predict if They Can Do Better, Even Mid-Generation](https://arxiv.org/abs/2410.02725) [![Paper](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2410.02725) 
+
+:diamond_shape_with_a_dot_inside: [VisualPRM: An Effective Process Reward Model for Multimodal Reasoning](https://arxiv.org/abs/2503.10291v1) [![Paper](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2503.10291v1) [![GitHub Stars](https://img.shields.io/github/stars/OpenGVLab/InternVL?style=social&label=Star)](https://github.com/OpenGVLab/InternVL)
+
+:no_entry_sign: **Limitation**
+
+when trajectories interleave visual evidence with language-based reasoning, it remains unclear how to define fair and consistent voting or scoring criteria and simultaneously ensure semantic correctness and cross-modal alignment during selection.
+
+
+(2) **Sequential search** — feedback-driven self-correction
+
+Sequential search does not select a final answer in a single pass; instead, it repeatedly revises the reasoning trajectory using external feedback. 
+<!-- Early methods relied on human corrections, later shifting toward programmable or domain-specific feedback. Motivated by the premise that verification is easier than generation, subsequent work introduced iterative self-critique for refinement. -->
+
+:diamond_shape_with_a_dot_inside: [NL-edit: Correcting Semantic Parse Errors through Natural Language Interaction](https://arxiv.org/abs/2103.14540) [![Paper](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2103.14540) [![GitHub Stars](https://img.shields.io/github/stars/MSR-LIT/NLEdit?style=social&label=Star)](https://github.com/MSR-LIT/NLEdit)
+
+:diamond_shape_with_a_dot_inside: [Interscript: A Dataset for Interactive Learning of Scripts through Error Feedback](https://arxiv.org/abs/2112.07867) [![Paper](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2112.07867) [![GitHub Stars](https://img.shields.io/github/stars/allenai/interscript?style=social&label=Star)](https://github.com/allenai/interscript)
+
+:diamond_shape_with_a_dot_inside: [Learning to Repair: Repairing Model Output Errors after Deployment using a Dynamic Memory of Feedback](https://arxiv.org/abs/2112.09737) [![Paper](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2112.09737) [![GitHub Stars](https://img.shields.io/github/stars/allenai/interscript?style=social&label=Star)](https://github.com/allenai/interscript)
+
+:diamond_shape_with_a_dot_inside: [Teaching Large Language Models to Self-Debug](https://arxiv.org/abs/2304.05128) [![Paper](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2304.05128) 
+
+:diamond_shape_with_a_dot_inside: [RARR: Researching and Revising What Language Models Say, Using Language Models](https://arxiv.org/abs/2210.08726) [![Paper](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2210.08726) [![GitHub Stars](https://img.shields.io/github/stars/anthonywchen/RARR?style=social&label=Star)](https://github.com/anthonywchen/RARR)
+
+:diamond_shape_with_a_dot_inside: [CRITIC: Large Language Models Can Self-Correct with Tool-Interactive Critiquing](https://arxiv.org/abs/2305.11738) [![Paper](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2305.11738) [![GitHub Stars](https://img.shields.io/github/stars/microsoft/ProphetNet?style=social&label=Star)](https://github.com/microsoft/ProphetNet/tree/master/CRITIC)
+
+:diamond_shape_with_a_dot_inside: [Graph-based Self-supervised Program Repair from Diagnostic Feedback](https://arxiv.org/abs/2005.10636) [![Paper](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2005.10636) [![GitHub Stars](https://img.shields.io/github/stars/michiyasunaga/DrRepair?style=social&label=Star)](https://github.com/michiyasunaga/DrRepair)
+
+:diamond_shape_with_a_dot_inside: [Is Self-Repair a Silver Bullet for Code Generation?](https://arxiv.org/abs/2306.09896) [![Paper](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2306.09896) [![GitHub Stars](https://img.shields.io/github/stars/theoxo/self-repair?style=social&label=Star)](https://github.com/theoxo/self-repair)
+
+:diamond_shape_with_a_dot_inside: [Large Language Models Cannot Self-Correct Reasoning Yet](https://arxiv.org/abs/2310.01798) [![Paper](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2310.01798)
+
+:diamond_shape_with_a_dot_inside: [Reasoning in Token Economics: Budget-aware Evaluation of LLM Reasoning Strategies](https://arxiv.org/abs/2406.06461) [![Paper](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2406.06461)
+
+:diamond_shape_with_a_dot_inside: [Can Large Language Models Really Improve by Self-Critiquing Their Own Plans?](https://arxiv.org/abs/2310.08118) [![Paper](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2310.08118)
+
+:diamond_shape_with_a_dot_inside: [GPT-4 Doesn’t Know It’s Wrong: An Analysis of Iterative Prompting for Reasoning Problems](https://arxiv.org/abs/2310.12397) [![Paper](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2310.12397)
+
+:diamond_shape_with_a_dot_inside: [Training Language Models to Self-Correct via Reinforcement Learning](https://arxiv.org/abs/2409.12917) [![Paper](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2409.12917)
+
+:diamond_shape_with_a_dot_inside: [Advancing Language Model Reasoning through Reinforcement Learning and Inference Scaling](https://arxiv.org/abs/2501.11651) [![Paper](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2501.11651) [![GitHub Stars](https://img.shields.io/github/stars/THUDM/T1?style=social&label=Star)](https://github.com/THUDM/T1)
+
+
+
+:no_entry_sign: **Limitation** 
+
+Under complex or adversarial inputs, self-correction can degrade previously correct solutions. In LMRMs, purely language-based reflection cannot reliably assess whether visual evidence is sufficient and often fails to maintain cross-modal consistency.
+
+(3) **Structured search** — tree- or graph-based exploration and backtracking
+
+Structured search more closely resembles human problem solving by exploring branches and backtracking over tree/graph structures. However, it often incurs high computational overhead, myopic search behavior, and poor performance in continuous spaces. In multimodal settings, it has been used primarily during SFT and has not yet been explicitly coupled with visual or cross-modal interaction.
+
+:diamond_shape_with_a_dot_inside: [Airrag: Activating Intrinsic Reasoning for Retrieval Augmented Generation using Tree-based Search](https://arxiv.org/abs/2501.10053) [![Paper](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2501.10053)
+
+:diamond_shape_with_a_dot_inside: [Serts: Self-rewarding Tree Search for Biomedical Retrieval-augmented Generation](https://arxiv.org/abs/2406.11258) [![Paper](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2406.11258)
+
+:diamond_shape_with_a_dot_inside: [Rag-star: Enhancing Deliberative Reasoning with Retrieval Augmented Verification and Refinement](https://arxiv.org/abs/2412.12881) [![Paper](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2412.12881)
+
+:diamond_shape_with_a_dot_inside: [Think&Cite: Improving Attributed Text Generation with Self-Guided Tree Search and Progress Reward Modeling](https://arxiv.org/abs/2412.14860) [![Paper](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2412.14860) [![GitHub Stars](https://img.shields.io/github/stars/nusnlp/Think-Cite?style=social&label=Star)](https://github.com/nusnlp/Think-Cite)
+
+:diamond_shape_with_a_dot_inside: [Master: A Multi-agent System with LLM Specialized Agents](https://arxiv.org/abs/2501.14304) [![Paper](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2501.14304) 
+
+:diamond_shape_with_a_dot_inside: [Kbqa-o1: Agentic Knowledge Base Question Answering with Monte Carlo Tree Search](https://arxiv.org/abs/2501.18922) [![Paper](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2501.18922) [![GitHub Stars](https://img.shields.io/github/stars/LHRLAB/KBQA-o1?style=social&label=Star)](https://github.com/LHRLAB/KBQA-o1)
+
+:diamond_shape_with_a_dot_inside: [Think more, hallucinate less: Mitigating hallucinations via dual process of fast and slow thinking](https://arxiv.org/abs/2501.01306) [![Paper](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2501.01306) [![GitHub Stars](https://img.shields.io/github/stars/RUCAIBox/Slow_Thinking_with_LLMs?style=social&label=Star)](https://github.com/RUCAIBox/Slow_Thinking_with_LLMs)
+
+:diamond_shape_with_a_dot_inside: [Mcts-sql: An effective framework for text-to-sql with monte carlo tree search](https://arxiv.org/abs/2501.16607) [![Paper](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2501.16607)
+
+:diamond_shape_with_a_dot_inside: [Mulberry: Empowering MLLM with o1-like Reasoning and Reflection via Collective Monte Carlo Tree Search](https://arxiv.org/abs/2412.18319) [![Paper](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2412.18319) [![GitHub Stars](https://img.shields.io/github/stars/HJYao00/Mulberry?style=social&label=Star)](https://github.com/HJYao00/Mulberry)
+
+:diamond_shape_with_a_dot_inside: [SoTA with Less: MCTS-Guided Sample Selection for Data-Efficient Visual Reasoning Self-Improvement](https://arxiv.org/abs/2504.07934) [![Paper](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2504.07934) [![GitHub Stars](https://img.shields.io/github/stars/si0wang/ThinkLite-VL?style=social&label=Star)](https://github.com/si0wang/ThinkLite-VL)
+
+:diamond_shape_with_a_dot_inside: [Mastering the game of Go without human knowledge](https://arxiv.org/abs/1712.01815) [![Paper](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/1712.01815) 
+
+:diamond_shape_with_a_dot_inside: [Marco-o1: Towards Open Reasoning Models for Open-Ended Solutions](https://arxiv.org/abs/2411.14405) [![Paper](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2411.14405) [![GitHub Stars](https://img.shields.io/github/stars/AIDC-AI/Marco-o1?style=social&label=Star)](https://github.com/AIDC-AI/Marco-o1)
+
+:diamond_shape_with_a_dot_inside: [Inference scaling laws: An empirical analysis of compute-optimal inference for problem-solving with language models](https://arxiv.org/abs/2408.00724) [![Paper](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2408.00724) [![GitHub Stars](https://img.shields.io/github/stars/thu-wyz/inference_scaling?style=social&label=Star)](https://github.com/thu-wyz/inference_scaling)
+
+
+:diamond_shape_with_a_dot_inside: [rStar-Math: Small LLMs Can Master Math Reasoning with Self-evolved Deep Thinking](https://arxiv.org/abs/2501.04519) [![Paper](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2501.04519) [![GitHub Stars](https://img.shields.io/github/stars/microsoft/rStar?style=social&label=Star)](https://github.com/microsoft/rStar)
+
+:diamond_shape_with_a_dot_inside: [Graph of Thoughts: Solving Elaborate Problems with Large Language Models](https://arxiv.org/abs/2308.09687) [![Paper](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2308.09687) [![GitHub Stars](https://img.shields.io/github/stars/spcl/graph-of-thoughts?style=social&label=Star)](https://github.com/spcl/graph-of-thoughts)
+
+
+
+:no_entry_sign: **Limitation** 
+
+For LMRMs, the primary bottleneck lies in node construction and node evaluation. Redundant multimodal information complicates node selection, while existing evaluators struggle to quantify cross-modal alignment and the completeness of available information.
+
+:round_pushpin: **Improvement direction**
+
+- Establish a unified scoring criterion for heterogeneous trajectories
+- Adaptively allocate computational resources to branches whose hypotheses are more consistent with the evidence;
+- Leverage process-level rewards and intermediate evaluation to correct errors early, reduce backtracking, and lower search overhead.
+
+
 
 
 ### <a id="test-43-dynamic-verification"></a>4.3 Dynamic Verification
 
-:diamond_shape_with_a_dot_inside: []() [![Paper](https://img.shields.io/badge/arXiv-b31b1b.svg)]() [![GitHub Stars](https://img.shields.io/github/stars/?style=social&label=Star)]() 
+Dynamic verification assigns a rule-defined scalar score to assess how consistent LRMR-generated outputs are with either the ground-truth answer or a reference human reasoning process. By the source of the scoring signal, methods can be grouped into three types: outcome-based, process-based, and generative.
+
+
+(1) **Outcome-based verification**
+
+:diamond_shape_with_a_dot_inside: [Training Verifiers to Solve Math Word Problems](https://arxiv.org/abs/2110.14168) [![Paper](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2110.14168) [![GitHub Stars](https://img.shields.io/github/stars/openai/grade-school-math?style=social&label=Star)](https://github.com/openai/grade-school-math)
+
+:diamond_shape_with_a_dot_inside: [When Is Tree Search Useful for LLM Planning? It Depends on the Discriminator](https://arxiv.org/abs/2402.10890) [![Paper](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2402.10890) [![GitHub Stars](https://img.shields.io/github/stars/OSU-NLP-Group/llm-planning-eval?style=social&label=Star)](https://github.com/OSU-NLP-Group/llm-planning-eval)
+
+:diamond_shape_with_a_dot_inside: [Plan, Verify and Switch: Integrated Reasoning with Diverse X-of-Thoughts](https://arxiv.org/abs/2310.14628) [![Paper](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2310.14628) [![GitHub Stars](https://img.shields.io/github/stars/tengxiaoliu/XoT?style=social&label=Star)](https://github.com/tengxiaoliu/XoT)
+
+:diamond_shape_with_a_dot_inside: [Wrong-of-Thought: An Integrated Reasoning Framework with Multi-Perspective Verification and Wrong Information](https://arxiv.org/abs/2410.04463) [![Paper](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2410.04463) [![GitHub Stars](https://img.shields.io/github/stars/BRZ911/Wrong-of-Thought?style=social&label=Star)](https://github.com/BRZ911/Wrong-of-Thought)
+
+:diamond_shape_with_a_dot_inside: [Multi-Agent Verification: Scaling Test-Time Compute with Multiple Verifiers](https://arxiv.org/abs/2502.20379) [![Paper](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2502.20379) [![GitHub Stars](https://img.shields.io/github/stars/Shalev-Lifshitz/MultiAgentVerification?style=social&label=Star)](https://github.com/Shalev-Lifshitz/MultiAgentVerification)
+
+:diamond_shape_with_a_dot_inside: [PlanGEN: A Multi-Agent Framework for Generating Planning and Reasoning Trajectories for Complex Problem Solving](https://arxiv.org/abs/2502.16111) [![Paper](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2502.16111) 
+
+:diamond_shape_with_a_dot_inside: [Archon: An Architecture Search Framework for Inference-Time Techniques](https://arxiv.org/abs/2409.15254) [![Paper](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2409.15254) [![GitHub Stars](https://img.shields.io/github/stars/ScalingIntelligence/Archon?style=social&label=Star)](https://github.com/ScalingIntelligence/Archon)
+
+:no_entry_sign: **Limitation** 
+Sensitive to linguistic variation and visual noise, and can be easily disrupted by linguistic paraphrases or visual perturbations.
+
+(2) **Process-based verification**
+
+:diamond_shape_with_a_dot_inside: [Can Large Language Models Be an Alternative to Human Evaluations?](https://arxiv.org/abs/2305.01937) [![Paper](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2305.01937) [![GitHub Stars](https://img.shields.io/github/stars/zjunlp/LLM-Evaluation?style=social&label=Star)](https://github.com/zjunlp/LLM-Evaluation)
+
+:diamond_shape_with_a_dot_inside: [G-Eval: NLG Evaluation using GPT-4 with Better Human Alignment](https://arxiv.org/abs/2303.16634) [![Paper](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2303.16634) [![GitHub Stars](https://img.shields.io/github/stars/nlpyang/geval?style=social&label=Star)](https://github.com/nlpyang/geval)
+
+:diamond_shape_with_a_dot_inside: [ChatGPT as a Factual Inconsistency Evaluator for Text Summarization](https://arxiv.org/abs/2303.15621) [![Paper](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2303.15621)  
+
+:diamond_shape_with_a_dot_inside: [Is ChatGPT a Good NLG Evaluator? A Preliminary Study](https://arxiv.org/abs/2303.04048) [![Paper](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2303.04048) [![GitHub Stars](https://img.shields.io/github/stars/krystalan/chatgpt_as_nlg_evaluator?style=social&label=Star)](https://github.com/krystalan/chatgpt_as_nlg_evaluator)
+
+:diamond_shape_with_a_dot_inside: [Judging LLM-as-a-Judge with MT-Bench and Chatbot Arena](https://arxiv.org/abs/2306.05685) [![Paper](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2306.05685) [![GitHub Stars](https://img.shields.io/github/stars/lm-sys/FastChat?style=social&label=Star)](https://github.com/lm-sys/FastChat)
+
+:diamond_shape_with_a_dot_inside: [Learning to Retrieve Prompts for In-Context Learning](https://arxiv.org/abs/2112.08633) [![Paper](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2112.08633) [![GitHub Stars](https://img.shields.io/github/stars/OhadRubin/EPR?style=social&label=Star)](https://github.com/OhadRubin/EPR)
+
+:diamond_shape_with_a_dot_inside: [Fenec: Fine-grained Language Model Evaluation and Correction Extended through Branching and Bridging](https://arxiv.org/abs/2405.12163) [![Paper](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2405.12163) [![GitHub Stars](https://img.shields.io/github/stars/dropreg/Fennec?style=social&label=Star)](https://github.com/dropreg/Fennec)
+
+:diamond_shape_with_a_dot_inside: [PandaLM: An Automatic Evaluation Benchmark for LLM Instruction Tuning Optimization](https://arxiv.org/abs/2306.05087) [![Paper](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2306.05087) [![GitHub Stars](https://img.shields.io/github/stars/WeOpenML/PandaLM?style=social&label=Star)](https://github.com/WeOpenML/PandaLM)
+
+:diamond_shape_with_a_dot_inside: [JudgeLM: Fine-tuned Large Language Models are Scalable Judges](https://arxiv.org/abs/2310.17631) [![Paper](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2310.17631) [![GitHub Stars](https://img.shields.io/github/stars/baaivision/JudgeLM?style=social&label=Star)](https://github.com/baaivision/JudgeLM)
+
+:diamond_shape_with_a_dot_inside: [Shepherd: A Critic for Language Model Generation](https://arxiv.org/abs/2308.04592) [![Paper](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2308.04592) [![GitHub Stars](https://img.shields.io/github/stars/facebookresearch/shepherd?style=social&label=Star)](https://github.com/facebookresearch/shepherd)
+
+:diamond_shape_with_a_dot_inside: [Generative Judge for Evaluating Alignment](https://arxiv.org/abs/2310.05470) [![Paper](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2310.05470) [![GitHub Stars](https://img.shields.io/github/stars/GAIR-NLP/auto-j?style=social&label=Star)](https://github.com/GAIR-NLP/auto-j)
+
+:diamond_shape_with_a_dot_inside: [Prometheus: Inducing Fine-grained Evaluation Capability in Language Models](https://arxiv.org/abs/2310.08491) [![Paper](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2310.08491) [![GitHub Stars](https://img.shields.io/github/stars/prometheus-eval/prometheus?style=social&label=Star)](https://github.com/prometheus-eval/prometheus)
+
+:diamond_shape_with_a_dot_inside: [Prometheus 2: An Open Source Language Model Specialized in Evaluating Other Language Models](https://arxiv.org/abs/2405.01535) [![Paper](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2405.01535) [![GitHub Stars](https://img.shields.io/github/stars/prometheus-eval/prometheus-eval?style=social&label=Star)](https://github.com/prometheus-eval/prometheus-eval)
+
+
+:no_entry_sign: **Limitation** 
+
+Offers stronger diagnostic capability, but depends on costly intermediate annotations, resulting in scarce data and high labeling cost.
+
+(3) **Generative verification**
+
+:diamond_shape_with_a_dot_inside: [Tree of Thoughts: Deliberate Problem Solving with Large Language Models](https://arxiv.org/abs/2305.10601) [![Paper](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2305.10601) [![GitHub Stars](https://img.shields.io/github/stars/princeton-nlp/tree-of-thought-llm?style=social&label=Star)](https://github.com/princeton-nlp/tree-of-thought-llm)
+
+:diamond_shape_with_a_dot_inside: [Self-evaluation guided beam search for reasoning](https://arxiv.org/abs/2305.00633) [![Paper](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2305.00633) [![GitHub Stars](https://img.shields.io/github/stars/YuxiXie/SelfEval-Guided-Decoding?style=social&label=Star)](https://github.com/YuxiXie/SelfEval-Guided-Decoding)
+
+:diamond_shape_with_a_dot_inside: [Math-Shepherd: Verify and Reinforce LLMs Step-by-Step without Human Annotations](https://arxiv.org/abs/2312.08935) [![Paper](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2312.08935) [![GitHub](https://img.shields.io/badge/web-00BFFF.svg)](https://achieved-bellflower-4d6.notion.site/Math-Shepherd-Verify-and-Reinforce-LLMs-Step-by-step-without-Human-Annotations-41b6e73c860840e08697d347f8889bac?pvs=4)
+
+:diamond_shape_with_a_dot_inside: [Improve Mathematical Reasoning in Language Models by Automated Process Supervision](https://arxiv.org/abs/2406.06592) [![Paper](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2406.06592) [![GitHub Stars](https://img.shields.io/github/stars/sanowl/OmegaPRM?style=social&label=Star)](https://github.com/sanowl/OmegaPRM)
+
+:diamond_shape_with_a_dot_inside: [An Efficient and Precise Training Data Construction Framework for Process-Supervised Reward Model in Mathematical Reasoning](https://arxiv.org/abs/2503.02382) [![Paper](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2503.02382) [![GitHub Stars](https://img.shields.io/github/stars/xiaolizh1/EpicPRM?style=social&label=Star)](https://github.com/xiaolizh1/EpicPRM)
+
+
+:no_entry_sign: **Limitation** 
+
+Highly sensitive to the choice of model and prompting, and often exhibits text bias at the expense of visual fidelity. Moreover, models' intrinsic biases and invocation costs are difficult to eliminate entirely.
+
+:round_pushpin: **Improvement direction**
+Use RL as a trajectory verifier at test time, leveraging verifier feedback to dynamically guide exploration, pruning, and backtracking. This could mitigate the brittleness of outcome-, process-, and generative verification in multimodal settings, yielding more reliable multimodal reasoning without parameter updates.
+
 
 ### <a id="test-44-trajectory-optimization"></a>4.4 Trajectory Optimization
 
-:diamond_shape_with_a_dot_inside: []() [![Paper](https://img.shields.io/badge/arXiv-b31b1b.svg)]() [![GitHub Stars](https://img.shields.io/github/stars/?style=social&label=Star)]() 
+In this context, trajectory optimization denotes controlling and refining candidate reasoning trajectories without parameter updates. Conditioned on task difficulty and uncertainty, it adaptively adjusts trajectory length and structure, improving accuracy while also increasing computational efficiency.
+
+(1) **RL-free methods**
+
+Data-driven distillation extracts shorter reasoning trajectories from a teacher model, which can mitigate overly long CoT traces in text-only tasks.
+
+:diamond_shape_with_a_dot_inside: [Distilling Reasoning Capabilities into Smaller Language Models](https://arxiv.org/abs/2212.00193) [![Paper](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2212.00193) [![GitHub Stars](https://img.shields.io/github/stars/kumar-shridhar/Distiiling-LM?style=social&label=Star)](https://github.com/kumar-shridhar/Distiiling-LM)
+
+:diamond_shape_with_a_dot_inside: [Distilling Step-by-Step! Outperforming Larger Language Models with Less Training Data and Smaller Model Sizes](https://arxiv.org/abs/2305.02301) [![Paper](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2305.02301) [![GitHub Stars](https://img.shields.io/github/stars/google-research/distilling-step-by-step?style=social&label=Star)](https://github.com/google-research/distilling-step-by-step)
+
+:diamond_shape_with_a_dot_inside: [Unveiling the Key Factors for Distilling Chain-of-Thought Reasoning](https://arxiv.org/abs/2502.18001) [![Paper](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2502.18001) [![GitHub Stars](https://img.shields.io/github/stars/EIT-NLP/Distilling-CoT-Reasoning?style=social&label=Star)](https://github.com/EIT-NLP/Distilling-CoT-Reasoning)
+
+:diamond_shape_with_a_dot_inside: [Recall with Reasoning: Chain-of-Thought Distillation for Mamba's Long-Context Memory and Extrapolation](https://arxiv.org/abs/2505.03320) [![Paper](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2505.03320)
+
+:diamond_shape_with_a_dot_inside: [LLaVA-KD: A Framework of Distilling Multimodal Large Language Models](https://arxiv.org/abs/2410.16236) [![Paper](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2410.16236) [![GitHub Stars](https://img.shields.io/github/stars/Fantasyele/LLaVA-KD?style=social&label=Star)](https://github.com/Fantasyele/LLaVA-KD)
+
+
+(2) **RL-based methods**
+
+By incorporating sample selection, RL-based methods can enable early backtracking and prune erroneous trajectories, controlling computational cost under a fixed compute budget while preserving diversity. Appropriate reward signals further align the outputs with the intended reasoning objectives.
+
+:diamond_shape_with_a_dot_inside: [Scaling Test-Time Compute Without Verification or RL is Suboptimal](https://arxiv.org/abs/2502.12118) [![Paper](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2502.12118)
+
+:diamond_shape_with_a_dot_inside: [Optimizing Test-Time Compute via Meta Reinforcement Fine-Tuning](https://arxiv.org/abs/2503.07572) [![Paper](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2503.07572) [![GitHub Stars](https://img.shields.io/github/stars/CMU-AIRe/MRT?style=social&label=Star)](https://github.com/CMU-AIRe/MRT)
+
+
+:no_entry_sign: **Limitation** 
+
+In LMRMs, tasks such as VQA often require multiple rounds of region-level attention, retrieval, and cross-modal verification, yielding longer trajectories and more pronounced error accumulation. The resulting expansion of the state space makes it difficult for distillation to cover the full set of reasoning states, which can lead to underfitting or the overlooking of high-value paths.
+
+:round_pushpin: **Improvement direction**
+
+In LMRMs, test-time trajectory optimization should move beyond naïve short-trajectory distillation toward alignment-aware process distillation, and integrate RL reward signals or trajectory selection mechanisms. By dynamically optimizing trajectories while preserving cross-modal consistency, such approaches will more robustly improve *System-2*-style reasoning quality.
+
 
 
 ## 🎖 5. Datasets & Benchmarks
@@ -984,7 +1213,7 @@ Highlight an open question: rather than relying on single-modality heuristics, w
     </tr>
     <tr>
       <td colspan="8"> 
-        ❤️<font color="#32a7f7"><b>Other Benchmarks (Emerging):</b></font><br>
+        ❤️<b>Other Benchmarks (Emerging):</b><br>
         <a href="https://huggingface.co/datasets/jing-bi/verify-teaser">VERIFY</a>, <a href="https://github.com/liujunzhuo/FineCops-Ref">FineCops-Ref</a>, <a href="https://huggingface.co/datasets/xueyanz/FIND-Bench">FIND-Bench</a>, <a href="https://huggingface.co/datasets/htlou/mm-interp-CompCap-gpt4-data">CompCap</a>, <a href="https://huggingface.co/datasets/wphu/CapQA">CapQA</a>,
         <a href="https://huggingface.co/datasets/SimulaMet/Kvasir-VQA-x1">Ksavir-VQA-x1</a>, <a href="https://huggingface.co/datasets/HarrytheOrange/MMRB">MMRB</a>, <a href="https://github.com/Zhanglei1103/MMESGBench">MMESGBench</a>, <a href="https://github.com/jfliang3324/GUIDE">GUIDE</a>, <a href="https://github.com/togethercomputer/SMiR">SMIR</a>,
         <a href="https://huggingface.co/datasets/m-a-p/CII-Bench">CII-Bench</a>, <a href="https://github.com/microsoft/MageBench">MAGEBench</a>, <a href="https://huggingface.co/datasets/RUBBISHLIKE/PunchBench">PunchBench</a>,
@@ -1099,7 +1328,7 @@ Highlight an open question: rather than relying on single-modality heuristics, w
     </tr>
     <tr>
       <td colspan="8"> 
-        ❤️<font color="#32a7f7"><b>Other Benchmarks (Emerging):</b></font><br>
+        ❤️<b>Other Benchmarks (Emerging):</b><br>
         MCDGRAPH [269], MathScape [389], CausalChaos! [267], iVISPAR [390], MDK12-Bench [391], MPBench [392], MuCR [393], PuzzleTest [394],
         PhysUniBench [395], Geoint [86], MARBLE [396], MathReal [397], AVI-MATH [398], CRAVE [260], ISO-BENCH [399], MLLM-Cbench [400].
       </td>
@@ -1183,7 +1412,7 @@ Highlight an open question: rather than relying on single-modality heuristics, w
     </tr>
     <tr>
       <td colspan="8"> 
-        ❤️<font color="#32a7f7"><b>Other Benchmarks (Emerging):</b></font><br>
+        ❤️<b>Other Benchmarks (Emerging):</b><br>
         GUIDE [282], V-MAGE [406], MuEP [407], FrameCap [278], ActiView [280], ADL-X [281], MMR-V [408], VideoMathQA [409], CVBench [410],
         MMIR [305], TLQA [276], PulseCheck457 [411], VideoVista-CulturalLingo [412].
       </td>
@@ -1291,7 +1520,7 @@ Highlight an open question: rather than relying on single-modality heuristics, w
     </tr>
     <tr>
       <td colspan="8"> 
-        ❤️<font color="#32a7f7"><b>Other Benchmarks (Emerging):</b></font><br>
+        ❤️<b>Other Benchmarks (Emerging):</b><br>
         GVCCI [432], Agent-X [433], Point-It-Out [434], OSUniverse [435], OmniEAR [436].
       </td>
     </tr>
@@ -1376,7 +1605,7 @@ Highlight an open question: rather than relying on single-modality heuristics, w
     </tr>
     <tr>
       <td colspan="8"> 
-        ❤️<font color="#32a7f7"><b>Other Benchmarks (Emerging):</b></font><br>
+        ❤️<b>Other Benchmarks (Emerging):</b><br>
         MMIR [305], FIRE [299], MiCEval [440], MTMEUR [441], TIIL [301], MMAT-1M [442].
       </td>
     </tr>
