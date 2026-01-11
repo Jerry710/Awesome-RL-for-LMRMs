@@ -9,7 +9,7 @@
 [![Awesome](https://img.shields.io/badge/Awesome-0066CC?style=flat&logo=awesome-lists&logoColor=white)](https://github.com/sindresorhus/awesome) 
 [![Survey](https://img.shields.io/badge/Paper-A42C25?style=flat&logo=arxiv&logoColor=white)](#) 
 [![Github](https://img.shields.io/badge/Awesome--RL--for--LRMs-000000?style=flat&logo=github&logoColor=white)](https://github.com/Jerry710/Awesome-RL-for-LMRMs) 
-[![HF Papers](https://img.shields.io/badge/HF--Paper-%23FFD14D?style=flat&logo=huggingface&logoColor=black)]() 
+[![HF Papers](https://img.shields.io/badge/🤗%20Paper-%23FFD14D?style=flat)]() 
 [![Twitter](https://img.shields.io/badge/Twitter-%23000000.svg?style=flat&logo=x&logoColor=white)]( )
 
 </div>
@@ -211,7 +211,7 @@ As illustrated, existing approaches can be characterized along two dimensions, s
 | 2025.05 | `Seed1.5-VL` | Seed1.5-VL Technical Report | [![Paper](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2505.07062) | [![GitHub Stars](https://img.shields.io/github/stars/ByteDance-Seed/Seed1.5-VL?style=social&label=Star)](https://github.com/ByteDance-Seed/Seed1.5-VL)  |
 | 2025.07 | `GLM-4.1V-Thinking` | GLM-4.5V and GLM-4.1V-Thinking: Towards Versatile Multimodal Reasoning with Scalable Reinforcement Learning | [![Paper](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2507.01006) | [![GitHub Stars](https://img.shields.io/github/stars/zai-org/GLM-V?style=social&label=Star)](https://github.com/zai-org/GLM-V)  |
 | 2025.08 | `CX-Mind` | CX-Mind: A Pioneering Multimodal Large Language Model for Interleaved Reasoning in Chest X-ray via Curriculum-Guided Reinforcement Learning | [![Paper](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2508.03733) | [![GitHub Stars](https://img.shields.io/github/stars/SII-WenjieLisjtu/CX-Mind?style=social&label=Star)](https://github.com/SII-WenjieLisjtu/CX-Mind)  |
-| 2025.06 | `Lingshu` | Lingshu: A Generalist Foundation Model for Unified Multimodal Medical Understanding and Reasoning | [![Paper](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2506.07044) | [![Hugging Face](https://img.shields.io/badge/HF%20Model-white?style=flat&logo=huggingface&logoColor=%23FFD14D)](https://huggingface.co/collections/lingshu-medical-mllm/lingshu-mllms) |
+| 2025.06 | `Lingshu` | Lingshu: A Generalist Foundation Model for Unified Multimodal Medical Understanding and Reasoning | [![Paper](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2506.07044) | [![Hugging Face](https://img.shields.io/badge/🤗%20Model-white?style=flat)](https://huggingface.co/collections/lingshu-medical-mllm/lingshu-mllms) |
 | 2025.06 | `MMedAgent-RL` | MMedAgent-RL: Optimizing Multi-Agent Collaboration for Multimodal Medical Reasoning | [![Paper](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2506.00555) | - |
 
 
@@ -888,6 +888,123 @@ Highlight an open question: rather than relying on single-modality heuristics, w
 
 ## 🎖 5. Datasets & Benchmarks
 ### <a id="bench-51-goal-driven-reasoning"></a>5.1 Goal-driven Reasoning
+
+#### General Visual Reasoning 
+
+
+#### Structured and Task-Specific Reasoning
+
+
+<table>
+  <thead>
+    <tr>
+      <th>Benchmark</th>
+      <th align="right">Year</th>
+      <th align="right">Size</th>
+      <th>Metrics</th>
+      <th>Q-Type</th>
+      <th>Dom.</th>
+      <th>Ann.</th>
+      <th>Link</th>
+    </tr>
+  </thead>
+  <tr>
+    <td colspan="8"><i><b><span style="color:#32a7f7;">General Visual Reasoning</span></b></i></td>
+  </tr>
+  <tbody>
+    <tr>
+      <td>MMBench</td>
+      <td align="right">2024</td>
+      <td align="right">3.2K</td>
+      <td>Acc., CircularEval</td>
+      <td>MC</td>
+      <td>General</td>
+      <td>HA + AA</td>
+      <td>🤗</td>
+    </tr>
+    <tr>
+      <td>MMMU</td>
+      <td align="right">2024</td>
+      <td align="right">11.5K</td>
+      <td>Acc.</td>
+      <td>MC, OE</td>
+      <td>Interdisciplinary</td>
+      <td>HA</td>
+      <td>🤗</td>
+    </tr>
+    <tr>
+      <td>AGIEval</td>
+      <td align="right">2024</td>
+      <td align="right">8K</td>
+      <td>Acc., F1 Score, Exact Match</td>
+      <td>MC, OE</td>
+      <td>Exams</td>
+      <td>AA</td>
+      <td>🤗</td>
+    </tr>
+    <tr>
+      <td>HallusionBench</td>
+      <td align="right">2024</td>
+      <td align="right">0.2K</td>
+      <td>Acc., AS (GPT4)</td>
+      <td>OE</td>
+      <td>Robustness</td>
+      <td>HA</td>
+      <td>🤗</td>
+    </tr>
+    <tr>
+      <td colspan="8"><i><b><span style="color:#32a7f7;">Structured and Task-Specific Reasoning</span></b></i></td>
+    </tr>
+    <tr>
+      <td>STAR</td>
+      <td align="right">2024</td>
+      <td align="right">60K</td>
+      <td>Acc.</td>
+      <td>MC</td>
+      <td>Situational Rea.</td>
+      <td>AA + HA</td>
+      <td>🤗</td>
+    </tr>
+    <tr>
+      <td>Multimodal RewardBench</td>
+      <td align="right">2025</td>
+      <td align="right">5.2K</td>
+      <td>Acc.</td>
+      <td>MC, OE</td>
+      <td>General, Safety</td>
+      <td>HA</td>
+      <td>🤗</td>
+    </tr>
+    <tr>
+      <td colspan="8">
+        💖<span style="color:#32a7f7;"><b>Core Benchmarks (Milestone):</b></span><br>
+        Visual Genome [248], A-OKVQA [249], ScienceQA [330], SEED-bench [331], Blink [332],
+        SpatialEval [333], Mulberry-260K [190], Visual-RFT [52].
+      </td>
+    </tr>
+    <tr>
+      <td colspan="8"> 
+        💕<span style="color:#32a7f7;"><b>Representative Benchmarks:</b></span><br>
+        T-SoQ [334], Sherlock [335], VL-GPT [336], AttCoSeg [337], MM-Vet v2 [338],
+        MMBench [39], MM-SPA [340], CoMT [341], AVTrustBench [342], ProVision [343],
+        VL-RewardBench [252], MMMU [344], AVHBench [345], ShareGPT-4o-Image [346],
+        PCA-Bench [347], MAGIC-VQA [348], Mmi-q [251], MAVIS [349], II-Bench [350],
+        MicroVQA [351], GeoComp [352].
+      </td>
+    </tr>
+    <tr>
+      <td colspan="8"> 
+        ❤️<span style="color:#32a7f7;"><b>Other Benchmarks (Emerging):</b></span><br>
+        VERIFY [353], FineCops-Ref [354], FIND-Bench [355], CompCap [356], CapQA [250],
+        Ksavir-VQA-x1 [357], MMRB [358], MMESGBench [359], GUIDE [282], SMIR [360],
+        CII-Bench [361], MAGEBench [362], PunchBench [363], MV-CoRe [364],
+        JourneyBench [365], VisuRiddles [366].
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+
 
 
 ### <a id="bench-52-causal--verifiable-reasoning"></a>5.2 Causal & Verifiable Reasoning 
