@@ -994,7 +994,7 @@ Highlight an open question: rather than relying on single-modality heuristics, w
     </tr>
     <tr>
       <td colspan="8"> 
-        ❤️<span style="color:#32a7f7;"><b>Other Benchmarks (Emerging):</b></span><br>
+        ❤️<font style="color:#32a7f7;"><b>Other Benchmarks (Emerging):</b></span><br>
         VERIFY [353], FineCops-Ref [354], FIND-Bench [355], CompCap [356], CapQA [250],
         Ksavir-VQA-x1 [357], MMRB [358], MMESGBench [359], GUIDE [282], SMIR [360],
         CII-Bench [361], MAGEBench [362], PunchBench [363], MV-CoRe [364],
