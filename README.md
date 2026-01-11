@@ -107,7 +107,7 @@
       </td>
     </tr>
     <tr>
-      <td>🏁 <a href="#5-benchmarks--evaluation">5. Benchmarks &amp; Evaluation</a></td>
+      <td>🎖 <a href="#-5-datasets--benchmarks"> 5. Datasets &amp; Benchmarks</a></td>
       <td>
         <a href="#51-goal-driven-reasoning">5.1 Goal-driven Reasoning</a><br>
         <a href="#53-temporal--planning-reasoning">5.3 Temporal &amp; Planning Reasoning</a><br>
@@ -886,7 +886,7 @@ Highlight an open question: rather than relying on single-modality heuristics, w
 :diamond_shape_with_a_dot_inside: []() [![Paper](https://img.shields.io/badge/arXiv-b31b1b.svg)]() [![GitHub Stars](https://img.shields.io/github/stars/?style=social&label=Star)]() 
 
 
-## 5. Benchmarks & Evaluation
+## 🎖 5. Datasets & Benchmarks
 ### <a id="bench-51-goal-driven-reasoning"></a>5.1 Goal-driven Reasoning
 
 
