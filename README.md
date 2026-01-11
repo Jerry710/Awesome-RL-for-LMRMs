@@ -214,9 +214,6 @@ As illustrated, existing approaches can be characterized along two dimensions, s
 | 2025.06 | `Lingshu` | Lingshu: A Generalist Foundation Model for Unified Multimodal Medical Understanding and Reasoning | [![Paper](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2506.07044) | [![Hugging Face](https://img.shields.io/badge/🤗%20Model-white?style=flat)](https://huggingface.co/collections/lingshu-medical-mllm/lingshu-mllms) |
 | 2025.06 | `MMedAgent-RL` | MMedAgent-RL: Optimizing Multi-Agent Collaboration for Multimodal Medical Reasoning | [![Paper](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2506.00555) | - |
 
-
-
-
 ### <a id="train-32-reward-modeling"></a>3.2 Reward Modeling
 Summary of reward modeling in RL-centric MLRMs, organized by reward channel. For each method we report the input modalities, multimodal reasoning characteristics, feedback granularity, optimization target, reward type, evaluation type, initialization, learning algorithm, and tasks.
 
@@ -902,96 +899,96 @@ Highlight an open question: rather than relying on single-modality heuristics, w
     </tr>
   </thead>
   <tr>
-    <td colspan="8"><i><b><span style="color:blue;">General Visual Reasoning</span></b></i></td>
+    <td colspan="8"><i><b>General Visual Reasoning</b></i></td>
   </tr>
   <tbody>
     <tr>
-      <td>MMBench</td>
+      <td><a href="#https://arxiv.org/abs/2307.06281">MMBench</a></td>
       <td>2024</td>
       <td>3.2K</td>
       <td>Acc., CircularEval</td>
       <td>MC</td>
       <td>General</td>
       <td>HA + AA</td>
-      <td>🤗</td>
+      <td align="center"><a href="https://huggingface.co/datasets/HuggingFaceM4/MMBench">🤗</a></td>
     </tr>
     <tr>
-      <td>MMMU</td>
+      <td><a href="#https://arxiv.org/abs/2311.16502">MMMU</a></td>
       <td>2024</td>
       <td>11.5K</td>
       <td>Acc.</td>
       <td>MC, OE</td>
       <td>Interdisciplinary</td>
       <td>HA</td>
-      <td>🤗</td>
+      <td align="center"><a href="https://huggingface.co/datasets/MMMU/MMMU">🤗</a></td>
     </tr>
     <tr>
-      <td>AGIEval</td>
+      <td><a href="https://arxiv.org/abs/2304.06364">AGIEval</a></td>
       <td>2024</td>
       <td>8K</td>
       <td>Acc., F1 Score, Exact Match</td>
       <td>MC, OE</td>
       <td>Exams</td>
       <td>AA</td>
-      <td>🤗</td>
+      <td align="center"><a href="https://github.com/ruixiangcui/AGIEval"><img src="https://img.shields.io/badge/-181717?style=social&logo=github" alt="GitHub"></a></td>
     </tr>
     <tr>
-      <td>HallusionBench</td>
+      <td><a href="https://arxiv.org/abs/2310.14566">HallusionBench</a></td>
       <td>2024</td>
       <td>0.2K</td>
       <td>Acc., AS (GPT4)</td>
       <td>OE</td>
       <td>Robustness</td>
       <td>HA</td>
-      <td>🤗</td>
+      <td align="center"><a href="https://github.com/tianyi-lab/HallusionBench"><img src="https://img.shields.io/badge/-181717?style=social&logo=github" alt="GitHub"></a></td>
     </tr>
     <tr>
-      <td colspan="8"><i><b><span style="color:#32a7f7;">Structured and Task-Specific Reasoning</span></b></i></td>
+      <td colspan="8"><i><b>Structured and Task-Specific Reasoning</b></i></td>
     </tr>
     <tr>
-      <td>STAR</td>
+      <td><a href="https://arxiv.org/abs/2405.09711">STAR</a></td>
       <td>2024</td>
       <td>60K</td>
       <td>Acc.</td>
       <td>MC</td>
       <td>Situational Rea.</td>
       <td>AA + HA</td>
-      <td>🤗</td>
+      <td align="center"><a href="https://github.com/tianyi-lab/HallusionBench"><img src="https://img.shields.io/badge/web-00BFFF.svg" alt="GitHub"></a></td>
     </tr>
     <tr>
-      <td>Multimodal RewardBench</td>
+      <td><a href="https://arxiv.org/abs/2502.14191">Multimodal RewardBench</a></td>
       <td>2025</td>
       <td>5.2K</td>
       <td>Acc.</td>
       <td>MC, OE</td>
       <td>General, Safety</td>
       <td>HA</td>
-      <td>🤗</td>
+      <td align="center"><a href="https://huggingface.co/datasets/syhuggingface/multimodal_rewardbench">🤗</a></td>
     </tr>
     <tr>
       <td colspan="8">
-        💖<span style="color:#32a7f7;"><b>Core Benchmarks (Milestone):</b></span><br>
-        Visual Genome [248], A-OKVQA [249], ScienceQA [330], SEED-bench [331], Blink [332],
-        SpatialEval [333], Mulberry-260K [190], Visual-RFT [52].
+        💖<b>Core Benchmarks (Milestone):</b><br>
+        <a href="https://huggingface.co/datasets/ranjaykrishna/visual_genome">Visual Genome</a>, <a href="https://huggingface.co/datasets/HuggingFaceM4/A-OKVQA">A-OKVQA</a>, <a href="https://huggingface.co/datasets/derek-thomas/ScienceQA">ScienceQA</a>, <a href="https://huggingface.co/datasets/AILab-CVC/SEED-Bench">SEED-bench</a>, <a href="https://huggingface.co/datasets/BLINK-Benchmark/BLINK">Blink</a>,
+        <a href="https://huggingface.co/datasets/MilaWang/SpatialEval">SpatialEval</a>, <a href="https://huggingface.co/datasets/HuanjinYao/Mulberry-SFT">Mulberry-260K</a>, <a href="https://huggingface.co/collections/laolao77/virft-datasets">Visual-RFT</a>.
       </td>
     </tr>
     <tr>
       <td colspan="8"> 
-        💕<span style="color:#32a7f7;"><b>Representative Benchmarks:</b></span><br>
-        T-SoQ [334], Sherlock [335], VL-GPT [336], AttCoSeg [337], MM-Vet v2 [338],
-        MMBench [39], MM-SPA [340], CoMT [341], AVTrustBench [342], ProVision [343],
-        VL-RewardBench [252], MMMU [344], AVHBench [345], ShareGPT-4o-Image [346],
-        PCA-Bench [347], MAGIC-VQA [348], Mmi-q [251], MAVIS [349], II-Bench [350],
-        MicroVQA [351], GeoComp [352].
+        💕<b>Representative Benchmarks:</b><br>
+        <a href="https://github.com/T-SciQ/T-SciQ">T-SciQ dataset</a>, <a href="https://visualabduction.com/">Sherlock</a>, <a href="https://github.com/AILab-CVC/VL-GPT">VL-GPT</a>, <a href="https://shramanpramanick.github.io/VistaLLM/">CoinIt</a>, <a href="https://huggingface.co/datasets/whyu/mm-vet-v2">MM-Vet v2</a>,
+        <a href="https://huggingface.co/datasets/Harold328/OmniBench-99">OmniBench</a>, <a href="https://huggingface.co/datasets/NukaSarsae/MM-SAP">MM-SPA</a>, <a href="https://huggingface.co/datasets/czh-up/CoMT">CoMT</a>, <a href="https://schowdhury671.github.io/avtrustbench_project/">AVTrustBench</a>, <a href="https://huggingface.co/datasets/Salesforce/ProVision-10M">ProVision</a>,
+        <a href="https://huggingface.co/datasets/MMInstruction/VL-RewardBench">VL-RewardBench</a>, <a href="https://huggingface.co/datasets/luckychao/EMMA">EMMA</a>, <a href="https://github.com/kaist-ami/AVHBench">AVHBench</a>, <a href="https://huggingface.co/datasets/FreedomIntelligence/ShareGPT-4o-Image">ShareGPT-4o-Image</a>,
+        <a href="https://huggingface.co/datasets/PCA-Bench/PCA-Bench-V1">PCA-Bench</a>, <a href="https://github.com/adlnlp/magic_vqa">MAGIC-VQA</a>, <a href="https://huggingface.co/datasets/huanqia/MM-IQ">Mm-iq</a>, <a href="https://github.com/ZrrSkywalker/MAVIS">MAVIS</a>, <a href="https://huggingface.co/datasets/m-a-p/II-Bench">II-Bench</a>,
+        <a href="https://huggingface.co/datasets/jmhb/microvqa">MicroVQA</a>, <a href="https://huggingface.co/datasets/ShirohAO/tuxun#citation-information">GeoComp</a>.
       </td>
     </tr>
     <tr>
       <td colspan="8"> 
         ❤️<font color="#32a7f7"><b>Other Benchmarks (Emerging):</b></font><br>
-        VERIFY [353], FineCops-Ref [354], FIND-Bench [355], CompCap [356], CapQA [250],
-        Ksavir-VQA-x1 [357], MMRB [358], MMESGBench [359], GUIDE [282], SMIR [360],
-        CII-Bench [361], MAGEBench [362], PunchBench [363], MV-CoRe [364],
-        JourneyBench [365], VisuRiddles [366].
+        <a href="https://huggingface.co/datasets/jing-bi/verify-teaser">VERIFY</a>, <a href="https://github.com/liujunzhuo/FineCops-Ref">FineCops-Ref</a>, <a href="https://huggingface.co/datasets/xueyanz/FIND-Bench">FIND-Bench</a>, <a href="https://huggingface.co/datasets/htlou/mm-interp-CompCap-gpt4-data">CompCap</a>, <a href="https://huggingface.co/datasets/wphu/CapQA">CapQA</a>,
+        <a href="https://huggingface.co/datasets/SimulaMet/Kvasir-VQA-x1">Ksavir-VQA-x1</a>, <a href="https://huggingface.co/datasets/HarrytheOrange/MMRB">MMRB</a>, <a href="https://github.com/Zhanglei1103/MMESGBench">MMESGBench</a>, <a href="https://github.com/jfliang3324/GUIDE">GUIDE</a>, <a href="https://github.com/togethercomputer/SMiR">SMIR</a>,
+        <a href="https://huggingface.co/datasets/m-a-p/CII-Bench">CII-Bench</a>, <a href="https://github.com/microsoft/MageBench">MAGEBench</a>, <a href="https://huggingface.co/datasets/RUBBISHLIKE/PunchBench">PunchBench</a>,
+        <a href="https://journeybench.github.io/">JourneyBench</a>, <a href="https://huggingface.co/datasets/yh0075/VisuRiddles">VisuRiddles</a>.
       </td>
     </tr>
   </tbody>
@@ -1001,10 +998,6 @@ Highlight an open question: rather than relying on single-modality heuristics, w
 
 
 ### <a id="bench-52-causal--verifiable-reasoning"></a>5.2 Causal & Verifiable Reasoning 
-
-| Date | Name | Title | Paper | Github |
-|:-:|:-:|:-|:-:|:-:|
-| 2025-08 | `Intern-S1` | Intern-S1: A Scientific Multimodal Foundation Model | [![Paper](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2508.15763v1) | [![GitHub Stars](https://img.shields.io/github/stars/InternLM/Intern-S1?style=social&label=Star)](https://github.com/InternLM/Intern-S1) |
 
 <table>
   <thead>
@@ -1021,7 +1014,7 @@ Highlight an open question: rather than relying on single-modality heuristics, w
   </thead>
   <tbody>
     <tr>
-      <td colspan="8"><i><b><span style="color:#32a7f7;">Domain-Specific Reasoning</span></b></i></td>
+      <td colspan="8"><i><b>Domain-Specific Reasoning</b></i></td>
     </tr>
     <tr>
       <td>MathVista</td>
@@ -1031,7 +1024,7 @@ Highlight an open question: rather than relying on single-modality heuristics, w
       <td>MC, OE</td>
       <td>Math, Visual Und.</td>
       <td>AA + MV</td>
-      <td>🤗</td>
+      <td><a href="https://huggingface.co/datasets/MMMU/MMMU">🤗</a></td>
     </tr>
     <tr>
       <td>MM-Star</td>
@@ -1041,7 +1034,7 @@ Highlight an open question: rather than relying on single-modality heuristics, w
       <td>MC</td>
       <td>Visual Abductive Rea.</td>
       <td>AA + MV</td>
-      <td>🤗</td>
+      <td><a href="https://huggingface.co/datasets/MMMU/MMMU">🤗</a></td>
     </tr>
     <tr>
       <td>MMMU-Pro</td>
@@ -1051,10 +1044,10 @@ Highlight an open question: rather than relying on single-modality heuristics, w
       <td>MC</td>
       <td>Interdisciplinary</td>
       <td>AA + MV</td>
-      <td>🤗</td>
+      <td><a href="https://huggingface.co/datasets/MMMU/MMMU">🤗</a></td>
     </tr>
     <tr>
-      <td colspan="8"><i><b><span style="color:#32a7f7;">Diagrammatic and Spatial Reasoning</span></b></i></td>
+      <td colspan="8"><i><b>Diagrammatic and Spatial Reasoning</b></i></td>
     </tr>
     <tr>
       <td>SpatialVLM-Dataset</td>
@@ -1064,7 +1057,7 @@ Highlight an open question: rather than relying on single-modality heuristics, w
       <td>OE</td>
       <td>Embodied Robot Rea., Spat. Rea.</td>
       <td>AA</td>
-      <td>🤗</td>
+      <td><a href="https://huggingface.co/datasets/MMMU/MMMU">🤗</a></td>
     </tr>
     <tr>
       <td>CharX</td>
@@ -1074,10 +1067,10 @@ Highlight an open question: rather than relying on single-modality heuristics, w
       <td>OE</td>
       <td>Chart Und.</td>
       <td>HA</td>
-      <td>🤗</td>
+      <td><a href="https://huggingface.co/datasets/MMMU/MMMU">🤗</a></td>
     </tr>
     <tr>
-      <td colspan="8"><i><b><span style="color:#32a7f7;">Counterfactual and Logical Reasoning</span></b></i></td>
+      <td colspan="8"><i><b>Counterfactual and Logical Reasoning</b></i></td>
     </tr>
     <tr>
       <td>LogicVista</td>
@@ -1087,18 +1080,18 @@ Highlight an open question: rather than relying on single-modality heuristics, w
       <td>MC</td>
       <td>Logical Rea.</td>
       <td>HA</td>
-      <td>🤗</td>
+      <td><a href="https://huggingface.co/datasets/MMMU/MMMU">🤗</a></td>
     </tr>
     <tr>
       <td colspan="8">
-        💖<span style="color:#32a7f7;"><b>Core Benchmarks (Milestone):</b></span><br>
+        💖<b>Core Benchmarks (Milestone):</b><br>
         CLEVR [369], ChartQA [370], OlympiadBench [244], InfographicVQA [262], MathVerse [306], WhatsUp [371], GAIA-1 [372], TheoremQA [373], 
         MATH-Vision [257], RoboGen [374], VSIBench [375], Visual-CoT [233], WE-MATH [307].
       </td>
     </tr>
     <tr>
       <td colspan="8"> 
-        💕<span style="color:#32a7f7;"><b>Representative Benchmarks:</b></span><br>
+        💕<b>Representative Benchmarks:</b><br>
         AI2D [261], VideoPhy [259], ChartBench [263], ChartMimic [376], Plot2Code [377], PhysBench [258], M4U [378], MV-MATH [379], C-VQA [266],
         CMMMU [380], CMM-Math [381], GAOKAO-MM [382], HumanEval-V [383], NPHardEval4V [384], MV-MATH [379], CounterCurate [265], Grounded [385], MultiChartQA [264],
         ImgCode-8.6M [117], VisuLogic [231], MM-MathInstruct-3M [117], GeoSense [386], DC2 [387], Migician [388].
@@ -1131,7 +1124,7 @@ Highlight an open question: rather than relying on single-modality heuristics, w
   </thead>
   <tbody>
     <tr>
-      <td colspan="8"><i><b><span style="color:#32a7f7;">Planning Reasoning</span></b></i></td>
+      <td colspan="8"><i><b>Planning Reasoning</b></i></td>
     </tr>
     <tr>
       <td>MineDojo </td>
@@ -1141,10 +1134,20 @@ Highlight an open question: rather than relying on single-modality heuristics, w
       <td>MC</td>
       <td>Long-Term Planning</td>
       <td>HA</td>
-      <td>🤗</td>
+      <td><a href="https://huggingface.co/datasets/MMMU/MMMU">🤗</a></td>
     </tr>
     <tr>
-      <td colspan="8"><i><b><span style="color:#32a7f7;">Temporal Reasoning</span></b></i></td>
+      <td>DHPR</td>
+      <td>2024</td>
+      <td>15K</td>
+      <td>Avg. Rank of GT, NDCG</td>
+      <td>OE</td>
+      <td>Visual Abductive Rea.</td>
+      <td>HA</td>
+      <td><a href="https://huggingface.co/datasets/MMMU/MMMU">🤗</a></td>
+    </tr>
+    <tr>
+      <td colspan="8"><i><b>Temporal Reasoning</b></i></td>
     </tr>
     <tr>
       <td>Videovista</td>
@@ -1154,7 +1157,7 @@ Highlight an open question: rather than relying on single-modality heuristics, w
       <td>MC</td>
       <td>Vid. Und. and Rea.</td>
       <td>AA + MV</td>
-      <td>🤗</td>
+      <td><a href="https://huggingface.co/datasets/MMMU/MMMU">🤗</a></td>
     </tr>
     <tr>
       <td>VideoEspresso</td>
@@ -1164,17 +1167,17 @@ Highlight an open question: rather than relying on single-modality heuristics, w
       <td>OE</td>
       <td>Fine-Grained Vid. Rea.</td>
       <td>AA</td>
-      <td>🤗</td>
+      <td><a href="https://huggingface.co/datasets/MMMU/MMMU">🤗</a></td>
     </tr>
     <tr>
       <td colspan="8">
-        💖<span style="color:#32a7f7;"><b>Core Benchmarks (Milestone):</b></span><br>
+        💖<b>Core Benchmarks (Milestone):</b><br>
         Video-R1-data.
       </td>
     </tr>
     <tr>
       <td colspan="8"> 
-        💕<span style="color:#32a7f7;"><b>Representative Benchmarks:</b></span><br>
+        💕<b>Representative Benchmarks:</b><br>
         REXTIME [277], TOMATO [402], VideoCoT [403], RefAVS [404], DrivingDojo [405], TemporalVQA [275].
       </td>
     </tr>
@@ -1206,7 +1209,7 @@ Highlight an open question: rather than relying on single-modality heuristics, w
   </thead>
   <tbody>
     <tr>
-      <td colspan="8"><i><b><span style="color:#32a7f7;">GUI Navigation Reasoning</span></b></i></td>
+      <td colspan="8"><i><b>GUI Navigation Reasoning</b></i></td>
     </tr>
     <tr>
       <td>OSWorld</td>
@@ -1216,7 +1219,7 @@ Highlight an open question: rather than relying on single-modality heuristics, w
       <td>IE</td>
       <td>GUI Navi.</td>
       <td>HA</td>
-      <td>🤗</td>
+      <td><a href="https://huggingface.co/datasets/MMMU/MMMU">🤗</a></td>
     </tr>
     <tr>
       <td>VisualWebBench</td>
@@ -1226,7 +1229,7 @@ Highlight an open question: rather than relying on single-modality heuristics, w
       <td>MC, OE</td>
       <td>Webpage Und.</td>
       <td>HA</td>
-      <td>🤗</td>
+      <td><a href="https://huggingface.co/datasets/MMMU/MMMU">🤗</a></td>
     </tr>
     <tr>
       <td>GUIOdysse</td>
@@ -1236,10 +1239,10 @@ Highlight an open question: rather than relying on single-modality heuristics, w
       <td>IE</td>
       <td>Cross-App. GUI Navi.</td>
       <td>HA</td>
-      <td>🤗</td>
+      <td><a href="https://huggingface.co/datasets/MMMU/MMMU">🤗</a></td>
     </tr>
     <tr>
-      <td colspan="8"><i><b><span style="color:#32a7f7;">Embodied Robotics Reasoning</span></b></i></td>
+      <td colspan="8"><i><b>Embodied Robotics Reasoning</b></i></td>
     </tr>
     <tr>
     <tr>
@@ -1250,7 +1253,7 @@ Highlight an open question: rather than relying on single-modality heuristics, w
       <td>IE</td>
       <td>Multi-Env. Embodied Rea.</td>
       <td>AA + HA</td>
-      <td>🤗</td>
+      <td><a href="https://huggingface.co/datasets/MMMU/MMMU">🤗</a></td>
     </tr>
     <tr>
       <td>Embodied Reasoning</td>
@@ -1260,7 +1263,7 @@ Highlight an open question: rather than relying on single-modality heuristics, w
       <td>MC</td>
       <td>Embodied Rea.</td>
       <td>HA</td>
-      <td>🤗</td>
+      <td><a href="https://huggingface.co/datasets/MMMU/MMMU">🤗</a></td>
     </tr>
     <tr>
       <td>PARTNR</td>
@@ -1270,18 +1273,18 @@ Highlight an open question: rather than relying on single-modality heuristics, w
       <td>OE</td>
       <td>Embodied AI Collab.</td>
       <td>AA + MV</td>
-      <td>🤗</td>
+      <td><a href="https://huggingface.co/datasets/MMMU/MMMU">🤗</a></td>
     </tr>
     <tr>
       <td colspan="8">
-        💖<span style="color:#32a7f7;"><b>Core Benchmarks (Milestone):</b></span><br>
+        💖<b>Core Benchmarks (Milestone):</b><br>
         Habitat [285], AI2-THOR [286], Mind2Web [283], WebShop [416], SAPIEN [417], WebArena [418], CALVIN [419], Isaac Lab [288], EgoCoT [290],
         iGibson 2.0 [287], ScreenSpot [420], Isaac Lab [288], ProcTHOR [289], Ferret-UI [421], HomeRobot [422], AgentClinic [423], HoloAssist [292].
       </td>
     </tr>
     <tr>
       <td colspan="8"> 
-        💕<span style="color:#32a7f7;"><b>Representative Benchmarks:</b></span><br>
+        💕<b>Representative Benchmarks:</b><br>
         BEHAVIOR-1K [424], VisualAgentBench [425], OmniACT [296], UI-Vision [426], LlamaTouch [427], OpenVocabManip [428], GUI-World [429],
         EMMA-X-Dataset [291], InfiGUIAgent-Data [430], Embodied-Points-200K [431], Windows Agent Arena [295].
       </td>
@@ -1312,7 +1315,7 @@ Highlight an open question: rather than relying on single-modality heuristics, w
   </thead>
   <tbody>
     <tr>
-      <td colspan="8"><i><b><span style="color:#32a7f7;">Multi-Round Reasoning</span></b></i></td>
+      <td colspan="8"><i><b>Multi-Round Reasoning</b></i></td>
     </tr>
     <tr>
       <td>LLava-CoT-100k</td>
@@ -1322,7 +1325,7 @@ Highlight an open question: rather than relying on single-modality heuristics, w
       <td>MC, OE</td>
       <td>General, Science, Math, Hallucinatio</td>
       <td>AA</td>
-      <td>🤗</td>
+      <td><a href="https://huggingface.co/datasets/MMMU/MMMU">🤗</a></td>
     </tr>
     <tr>
       <td>M<sup>3</sup>CoT</td>
@@ -1332,10 +1335,10 @@ Highlight an open question: rather than relying on single-modality heuristics, w
       <td>SC, IE</td>
       <td>General, Science, Math</td>
       <td>AA + HA</td>
-      <td>🤗</td>
+      <td><a href="https://huggingface.co/datasets/MMMU/MMMU">🤗</a></td>
     </tr>
     <tr>
-      <td colspan="8"><i><b><span style="color:#32a7f7;">Self-Reflection Reasoning</span></b></i></td>
+      <td colspan="8"><i><b>Self-Reflection Reasoning</b></i></td>
     </tr>
     <tr>
     <tr>
@@ -1346,7 +1349,7 @@ Highlight an open question: rather than relying on single-modality heuristics, w
       <td>SC, YN, IE</td>
       <td>Multi-Env. Embodied Rea.</td>
       <td>AA + HA</td>
-      <td>🤗</td>
+      <td><a href="https://huggingface.co/datasets/MMMU/MMMU">🤗</a></td>
     </tr>
     <tr>
       <td>Embodied Reasoning</td>
@@ -1356,17 +1359,17 @@ Highlight an open question: rather than relying on single-modality heuristics, w
       <td>OE</td>
       <td>Embodied Rea.</td>
       <td>HA</td>
-      <td>🤗</td>
+      <td><a href="https://huggingface.co/datasets/MMMU/MMMU">🤗</a></td>
     </tr>
     <tr>
       <td colspan="8">
-        💖<span style="color:#32a7f7;"><b>Core Benchmarks (Milestone):</b></span><br>
+        💖<b>Core Benchmarks (Milestone):</b><br>
         Silkie [437].
       </td>
     </tr>
     <tr>
       <td colspan="8"> 
-        💕<span style="color:#32a7f7;"><b>Representative Benchmarks:</b></span><br>
+        💕<b>Representative Benchmarks:</b><br>
         VLFeedback [300], MM-Verify [272], VisualPRM400K [167], ConMe [302], WorldQA [438], MME-CoT [303], ZeroBench [439], VCR-Bench [293],
         MAmmoTH-VL-Instruct [304].
       </td>
