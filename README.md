@@ -1022,7 +1022,7 @@ Sensitive to linguistic variation and visual noise, and can be easily disrupted 
 
 (2) **Process-based verification**
 
-:diamond_shape_with_a_dot_inside: [Can Large Language Models Be an Alternative to Human Evaluations?](https://arxiv.org/abs/2305.01937) [![Paper](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2305.01937) [![GitHub Stars](https://img.shields.io/github/stars/zjunlp/LLM-Evaluation?style=social&label=Star)](https://github.com/zjunlp/LLM-Evaluation)
+:diamond_shape_with_a_dot_inside: [Can Large Language Models Be an Alternative to Human Evaluations?](https://arxiv.org/abs/2305.01937) [![Paper](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2305.01937) [![GitHub Stars](https://img.shields.io/github/stars/d223302/LLM-Evaluation?style=social&label=Star)](https://github.com/d223302/LLM-Evaluation)
 
 :diamond_shape_with_a_dot_inside: [G-Eval: NLG Evaluation using GPT-4 with Better Human Alignment](https://arxiv.org/abs/2303.16634) [![Paper](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2303.16634) [![GitHub Stars](https://img.shields.io/github/stars/nlpyang/geval?style=social&label=Star)](https://github.com/nlpyang/geval)
 
