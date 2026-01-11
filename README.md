@@ -1006,26 +1006,379 @@ Highlight an open question: rather than relying on single-modality heuristics, w
 |:-:|:-:|:-|:-:|:-:|
 | 2025-08 | `Intern-S1` | Intern-S1: A Scientific Multimodal Foundation Model | [![Paper](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2508.15763v1) | [![GitHub Stars](https://img.shields.io/github/stars/InternLM/Intern-S1?style=social&label=Star)](https://github.com/InternLM/Intern-S1) |
 
+<table>
+  <thead>
+    <tr>
+      <th>Benchmark</th>
+      <th>Year</th>
+      <th>Size</th>
+      <th>Metrics</th>
+      <th>Q-Type</th>
+      <th>Dom.</th>
+      <th>Ann.</th>
+      <th>Link</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td colspan="8"><i><b><span style="color:#32a7f7;">Domain-Specific Reasoning</span></b></i></td>
+    </tr>
+    <tr>
+      <td>MathVista</td>
+      <td>2023</td>
+      <td>6.1K</td>
+      <td>Acc.</td>
+      <td>MC, OE</td>
+      <td>Math, Visual Und.</td>
+      <td>AA + MV</td>
+      <td>🤗</td>
+    </tr>
+    <tr>
+      <td>MM-Star</td>
+      <td>2024</td>
+      <td>1.5K</td>
+      <td>Acc., Multimodal Gain and Leakag</td>
+      <td>MC</td>
+      <td>Visual Abductive Rea.</td>
+      <td>AA + MV</td>
+      <td>🤗</td>
+    </tr>
+    <tr>
+      <td>MMMU-Pro</td>
+      <td>2025</td>
+      <td>3.5K</td>
+      <td>Acc.</td>
+      <td>MC</td>
+      <td>Interdisciplinary</td>
+      <td>AA + MV</td>
+      <td>🤗</td>
+    </tr>
+    <tr>
+      <td colspan="8"><i><b><span style="color:#32a7f7;">Diagrammatic and Spatial Reasoning</span></b></i></td>
+    </tr>
+    <tr>
+      <td>SpatialVLM-Dataset</td>
+      <td>2024</td>
+      <td>2B</td>
+      <td>Acc., MSE</td>
+      <td>OE</td>
+      <td>Embodied Robot Rea., Spat. Rea.</td>
+      <td>AA</td>
+      <td>🤗</td>
+    </tr>
+    <tr>
+      <td>CharX</td>
+      <td>2024</td>
+      <td>11.6K</td>
+      <td>AS</td>
+      <td>OE</td>
+      <td>Chart Und.</td>
+      <td>HA</td>
+      <td>🤗</td>
+    </tr>
+    <tr>
+      <td colspan="8"><i><b><span style="color:#32a7f7;">Counterfactual and Logical Reasoning</span></b></i></td>
+    </tr>
+    <tr>
+      <td>LogicVista</td>
+      <td>2024</td>
+      <td>0.45K</td>
+      <td>Acc.</td>
+      <td>MC</td>
+      <td>Logical Rea.</td>
+      <td>HA</td>
+      <td>🤗</td>
+    </tr>
+    <tr>
+      <td colspan="8">
+        💖<span style="color:#32a7f7;"><b>Core Benchmarks (Milestone):</b></span><br>
+        CLEVR [369], ChartQA [370], OlympiadBench [244], InfographicVQA [262], MathVerse [306], WhatsUp [371], GAIA-1 [372], TheoremQA [373], 
+        MATH-Vision [257], RoboGen [374], VSIBench [375], Visual-CoT [233], WE-MATH [307].
+      </td>
+    </tr>
+    <tr>
+      <td colspan="8"> 
+        💕<span style="color:#32a7f7;"><b>Representative Benchmarks:</b></span><br>
+        AI2D [261], VideoPhy [259], ChartBench [263], ChartMimic [376], Plot2Code [377], PhysBench [258], M4U [378], MV-MATH [379], C-VQA [266],
+        CMMMU [380], CMM-Math [381], GAOKAO-MM [382], HumanEval-V [383], NPHardEval4V [384], MV-MATH [379], CounterCurate [265], Grounded [385], MultiChartQA [264],
+        ImgCode-8.6M [117], VisuLogic [231], MM-MathInstruct-3M [117], GeoSense [386], DC2 [387], Migician [388].
+      </td>
+    </tr>
+    <tr>
+      <td colspan="8"> 
+        ❤️<font color="#32a7f7"><b>Other Benchmarks (Emerging):</b></font><br>
+        MCDGRAPH [269], MathScape [389], CausalChaos! [267], iVISPAR [390], MDK12-Bench [391], MPBench [392], MuCR [393], PuzzleTest [394],
+        PhysUniBench [395], Geoint [86], MARBLE [396], MathReal [397], AVI-MATH [398], CRAVE [260], ISO-BENCH [399], MLLM-Cbench [400].
+      </td>
+    </tr>
+  </tbody>
+</table>
 
 ### <a id="bench-53-temporal--planning-reasoning"></a>5.3 Temporal & Planning Reasoning
 
-| Date | Name | Title | Paper | Github |
-|:-:|:-:|:-|:-:|:-:|
-| 2025-08 | `Intern-S1` | Intern-S1: A Scientific Multimodal Foundation Model | [![Paper](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2508.15763v1) | [![GitHub Stars](https://img.shields.io/github/stars/InternLM/Intern-S1?style=social&label=Star)](https://github.com/InternLM/Intern-S1) |
+<table>
+  <thead>
+    <tr>
+      <th>Benchmark</th>
+      <th>Year</th>
+      <th>Size</th>
+      <th>Metrics</th>
+      <th>Q-Type</th>
+      <th>Dom.</th>
+      <th>Ann.</th>
+      <th>Link</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td colspan="8"><i><b><span style="color:#32a7f7;">Planning Reasoning</span></b></i></td>
+    </tr>
+    <tr>
+      <td>MineDojo </td>
+      <td>2022</td>
+      <td>-</td>
+      <td>SR, F1 Score, COR</td>
+      <td>MC</td>
+      <td>Long-Term Planning</td>
+      <td>HA</td>
+      <td>🤗</td>
+    </tr>
+    <tr>
+      <td colspan="8"><i><b><span style="color:#32a7f7;">Temporal Reasoning</span></b></i></td>
+    </tr>
+    <tr>
+      <td>Videovista</td>
+      <td>2024</td>
+      <td>24.9K</td>
+      <td>Acc.</td>
+      <td>MC</td>
+      <td>Vid. Und. and Rea.</td>
+      <td>AA + MV</td>
+      <td>🤗</td>
+    </tr>
+    <tr>
+      <td>VideoEspresso</td>
+      <td>2024</td>
+      <td>200K+</td>
+      <td>Acc., AS </td>
+      <td>OE</td>
+      <td>Fine-Grained Vid. Rea.</td>
+      <td>AA</td>
+      <td>🤗</td>
+    </tr>
+    <tr>
+      <td colspan="8">
+        💖<span style="color:#32a7f7;"><b>Core Benchmarks (Milestone):</b></span><br>
+        Video-R1-data.
+      </td>
+    </tr>
+    <tr>
+      <td colspan="8"> 
+        💕<span style="color:#32a7f7;"><b>Representative Benchmarks:</b></span><br>
+        REXTIME [277], TOMATO [402], VideoCoT [403], RefAVS [404], DrivingDojo [405], TemporalVQA [275].
+      </td>
+    </tr>
+    <tr>
+      <td colspan="8"> 
+        ❤️<font color="#32a7f7"><b>Other Benchmarks (Emerging):</b></font><br>
+        GUIDE [282], V-MAGE [406], MuEP [407], FrameCap [278], ActiView [280], ADL-X [281], MMR-V [408], VideoMathQA [409], CVBench [410],
+        MMIR [305], TLQA [276], PulseCheck457 [411], VideoVista-CulturalLingo [412].
+      </td>
+    </tr>
+  </tbody>
+</table>
+
 
 ### <a id="bench-54-tool-enhanced--embodied-reasoning"></a>5.4 Tool-Enhanced & Embodied Reasoning
 
-| Date | Name | Title | Paper | Github |
-|:-:|:-:|:-|:-:|:-:|
-| 2025-08 | `Intern-S1` | Intern-S1: A Scientific Multimodal Foundation Model | [![Paper](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2508.15763v1) | [![GitHub Stars](https://img.shields.io/github/stars/InternLM/Intern-S1?style=social&label=Star)](https://github.com/InternLM/Intern-S1) |
-
+<table>
+  <thead>
+    <tr>
+      <th>Benchmark</th>
+      <th>Year</th>
+      <th>Size</th>
+      <th>Metrics</th>
+      <th>Q-Type</th>
+      <th>Dom.</th>
+      <th>Ann.</th>
+      <th>Link</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td colspan="8"><i><b><span style="color:#32a7f7;">GUI Navigation Reasoning</span></b></i></td>
+    </tr>
+    <tr>
+      <td>OSWorld</td>
+      <td>2024</td>
+      <td>0.4K</td>
+      <td>Execution-Based SR</td>
+      <td>IE</td>
+      <td>GUI Navi.</td>
+      <td>HA</td>
+      <td>🤗</td>
+    </tr>
+    <tr>
+      <td>VisualWebBench</td>
+      <td>2024</td>
+      <td>1.5K</td>
+      <td>ROUGE-L, SQuAD style F1, Acc.</td>
+      <td>MC, OE</td>
+      <td>Webpage Und.</td>
+      <td>HA</td>
+      <td>🤗</td>
+    </tr>
+    <tr>
+      <td>GUIOdysse</td>
+      <td>2025</td>
+      <td>7.7K</td>
+      <td>Action Matching Score, SR</td>
+      <td>IE</td>
+      <td>Cross-App. GUI Navi.</td>
+      <td>HA</td>
+      <td>🤗</td>
+    </tr>
+    <tr>
+      <td colspan="8"><i><b><span style="color:#32a7f7;">Embodied Robotics Reasoning</span></b></i></td>
+    </tr>
+    <tr>
+    <tr>
+      <td>Embodiedbench</td>
+      <td>2025</td>
+      <td>1.1K</td>
+      <td>Task SR, Subgoal SR, Avg. Steps</td>
+      <td>IE</td>
+      <td>Multi-Env. Embodied Rea.</td>
+      <td>AA + HA</td>
+      <td>🤗</td>
+    </tr>
+    <tr>
+      <td>Embodied Reasoning</td>
+      <td>2025</td>
+      <td>0.61K</td>
+      <td>Acc.</td>
+      <td>MC</td>
+      <td>Embodied Rea.</td>
+      <td>HA</td>
+      <td>🤗</td>
+    </tr>
+    <tr>
+      <td>PARTNR</td>
+      <td>2024</td>
+      <td>100K</td>
+      <td>SR, Steps, Percent Complete</td>
+      <td>OE</td>
+      <td>Embodied AI Collab.</td>
+      <td>AA + MV</td>
+      <td>🤗</td>
+    </tr>
+    <tr>
+      <td colspan="8">
+        💖<span style="color:#32a7f7;"><b>Core Benchmarks (Milestone):</b></span><br>
+        Habitat [285], AI2-THOR [286], Mind2Web [283], WebShop [416], SAPIEN [417], WebArena [418], CALVIN [419], Isaac Lab [288], EgoCoT [290],
+        iGibson 2.0 [287], ScreenSpot [420], Isaac Lab [288], ProcTHOR [289], Ferret-UI [421], HomeRobot [422], AgentClinic [423], HoloAssist [292].
+      </td>
+    </tr>
+    <tr>
+      <td colspan="8"> 
+        💕<span style="color:#32a7f7;"><b>Representative Benchmarks:</b></span><br>
+        BEHAVIOR-1K [424], VisualAgentBench [425], OmniACT [296], UI-Vision [426], LlamaTouch [427], OpenVocabManip [428], GUI-World [429],
+        EMMA-X-Dataset [291], InfiGUIAgent-Data [430], Embodied-Points-200K [431], Windows Agent Arena [295].
+      </td>
+    </tr>
+    <tr>
+      <td colspan="8"> 
+        ❤️<font color="#32a7f7"><b>Other Benchmarks (Emerging):</b></font><br>
+        GVCCI [432], Agent-X [433], Point-It-Out [434], OSUniverse [435], OmniEAR [436].
+      </td>
+    </tr>
+  </tbody>
+</table>
 
 ### <a id="bench-55-self-reflection-reasoning"></a>5.5 Self-Reflection Reasoning
 
-| Date | Name | Title | Paper | Github |
-|:-:|:-:|:-|:-:|:-:|
-| 2025-08 | `Intern-S1` | Intern-S1: A Scientific Multimodal Foundation Model | [![Paper](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2508.15763v1) | [![GitHub Stars](https://img.shields.io/github/stars/InternLM/Intern-S1?style=social&label=Star)](https://github.com/InternLM/Intern-S1) |
-
+<table>
+  <thead>
+    <tr>
+      <th>Benchmark</th>
+      <th>Year</th>
+      <th>Size</th>
+      <th>Metrics</th>
+      <th>Q-Type</th>
+      <th>Dom.</th>
+      <th>Ann.</th>
+      <th>Link</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td colspan="8"><i><b><span style="color:#32a7f7;">Multi-Round Reasoning</span></b></i></td>
+    </tr>
+    <tr>
+      <td>LLava-CoT-100k</td>
+      <td>2025</td>
+      <td>99K</td>
+      <td>Acc.</td>
+      <td>MC, OE</td>
+      <td>General, Science, Math, Hallucinatio</td>
+      <td>AA</td>
+      <td>🤗</td>
+    </tr>
+    <tr>
+      <td>M<sup>3</sup>CoT</td>
+      <td>2024</td>
+      <td>11.9K</td>
+      <td>Acc.</td>
+      <td>SC, IE</td>
+      <td>General, Science, Math</td>
+      <td>AA + HA</td>
+      <td>🤗</td>
+    </tr>
+    <tr>
+      <td colspan="8"><i><b><span style="color:#32a7f7;">Self-Reflection Reasoning</span></b></i></td>
+    </tr>
+    <tr>
+    <tr>
+      <td>Embodiedbench</td>
+      <td>2024</td>
+      <td>254K</td>
+      <td>F1 Score, Acc., Hallucination Rate</td>
+      <td>SC, YN, IE</td>
+      <td>Multi-Env. Embodied Rea.</td>
+      <td>AA + HA</td>
+      <td>🤗</td>
+    </tr>
+    <tr>
+      <td>Embodied Reasoning</td>
+      <td>2024</td>
+      <td>1.65K</td>
+      <td>F1 Score, VISCore, Correction Gain</td>
+      <td>OE</td>
+      <td>Embodied Rea.</td>
+      <td>HA</td>
+      <td>🤗</td>
+    </tr>
+    <tr>
+      <td colspan="8">
+        💖<span style="color:#32a7f7;"><b>Core Benchmarks (Milestone):</b></span><br>
+        Silkie [437].
+      </td>
+    </tr>
+    <tr>
+      <td colspan="8"> 
+        💕<span style="color:#32a7f7;"><b>Representative Benchmarks:</b></span><br>
+        VLFeedback [300], MM-Verify [272], VisualPRM400K [167], ConMe [302], WorldQA [438], MME-CoT [303], ZeroBench [439], VCR-Bench [293],
+        MAmmoTH-VL-Instruct [304].
+      </td>
+    </tr>
+    <tr>
+      <td colspan="8"> 
+        ❤️<font color="#32a7f7"><b>Other Benchmarks (Emerging):</b></font><br>
+        MMIR [305], FIRE [299], MiCEval [440], MTMEUR [441], TIIL [301], MMAT-1M [442].
+      </td>
+    </tr>
+  </tbody>
+</table>
 
 ---
 
