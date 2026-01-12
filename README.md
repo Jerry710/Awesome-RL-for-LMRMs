@@ -1139,7 +1139,7 @@ In LMRMs, test-time trajectory optimization should move beyond naïve short-traj
       <td>MC</td>
       <td>General</td>
       <td>HA + AA</td>
-      <td align="center"><a href="https://huggingface.co/datasets/HuggingFaceM4/MMBench">🤗</a></td>
+      <td align="center"><a href="https://huggingface.co/datasets/HuggingFaceM4/MMBench"><img src="https://huggingface.co/front/assets/huggingface_logo-noborder.svg" alt="HF" width="18"></a></td>
     </tr>
     <tr>
       <td><a href="https://arxiv.org/abs/2311.16502">MMMU</a></td>
@@ -1149,7 +1149,7 @@ In LMRMs, test-time trajectory optimization should move beyond naïve short-traj
       <td>MC, OE</td>
       <td>Interdisciplinary</td>
       <td>HA</td>
-      <td align="center"><a href="https://huggingface.co/datasets/MMMU/MMMU">🤗</a></td>
+      <td align="center"><a href="https://huggingface.co/datasets/MMMU/MMMU"><img src="https://huggingface.co/front/assets/huggingface_logo-noborder.svg" alt="HF" width="18"></a></td>
     </tr>
     <tr>
       <td><a href="https://arxiv.org/abs/2304.06364">AGIEval</a></td>
@@ -1192,7 +1192,7 @@ In LMRMs, test-time trajectory optimization should move beyond naïve short-traj
       <td>MC, OE</td>
       <td>General, Safety</td>
       <td>HA</td>
-      <td align="center"><a href="https://huggingface.co/datasets/syhuggingface/multimodal_rewardbench">🤗</a></td>
+      <td align="center"><a href="https://huggingface.co/datasets/syhuggingface/multimodal_rewardbench"><img src="https://huggingface.co/front/assets/huggingface_logo-noborder.svg" alt="HF" width="18"></a></td>
     </tr>
     <tr>
       <td colspan="8">
@@ -1253,7 +1253,7 @@ In LMRMs, test-time trajectory optimization should move beyond naïve short-traj
       <td>MC, OE</td>
       <td>Math, Visual Und.</td>
       <td>AA + MV</td>
-      <td align="center"><a href="https://huggingface.co/datasets/AI4Math/MathVista">🤗</a></td>
+      <td align="center"><a href="https://huggingface.co/datasets/AI4Math/MathVista"><img src="https://huggingface.co/front/assets/huggingface_logo-noborder.svg" alt="HF" width="18"></a></td>
     </tr>
     <tr>
       <td><a href="https://arxiv.org/abs/2403.20330">MM-Star</a></td>
@@ -1263,7 +1263,7 @@ In LMRMs, test-time trajectory optimization should move beyond naïve short-traj
       <td>MC</td>
       <td>Visual Abductive Rea.</td>
       <td>AA + MV</td>
-      <td align="center"><a href="https://huggingface.co/datasets/Lin-Chen/MMStar">🤗</a></td>
+      <td align="center"><a href="https://huggingface.co/datasets/Lin-Chen/MMStar"><img src="https://huggingface.co/front/assets/huggingface_logo-noborder.svg" alt="HF" width="18"></a></td>
     </tr>
     <tr>
       <td><a href="https://arxiv.org/abs/2409.02813">MMMU-Pro</a></td>
@@ -1273,7 +1273,7 @@ In LMRMs, test-time trajectory optimization should move beyond naïve short-traj
       <td>MC</td>
       <td>Interdisciplinary</td>
       <td>AA + MV</td>
-      <td align="center"><a href="https://huggingface.co/datasets/MMMU/MMMU_Pro">🤗</a></td>
+      <td align="center"><a href="https://huggingface.co/datasets/MMMU/MMMU_Pro"><img src="https://huggingface.co/front/assets/huggingface_logo-noborder.svg" alt="HF" width="18"></a></td>
     </tr>
     <tr>
       <td colspan="8"><i><b>Diagrammatic and Spatial Reasoning</b></i></td>
@@ -1296,7 +1296,7 @@ In LMRMs, test-time trajectory optimization should move beyond naïve short-traj
       <td>OE</td>
       <td>Chart Und.</td>
       <td>HA</td>
-      <td align="center"><a href="https://huggingface.co/datasets/princeton-nlp/CharXiv">🤗</a></td>
+      <td align="center"><a href="https://huggingface.co/datasets/princeton-nlp/CharXiv"><img src="https://huggingface.co/front/assets/huggingface_logo-noborder.svg" alt="HF" width="18"></a></td>
     </tr>
     <tr>
       <td colspan="8"><i><b>Counterfactual and Logical Reasoning</b></i></td>
@@ -1394,7 +1394,7 @@ In LMRMs, test-time trajectory optimization should move beyond naïve short-traj
       <td>OE</td>
       <td>Visual Abductive Rea.</td>
       <td>HA</td>
-      <td align="center"><a href="https://huggingface.co/datasets/DHPR/Driving-Hazard-Prediction-and-Reasoning">🤗</a></td>
+      <td align="center"><a href="https://huggingface.co/datasets/DHPR/Driving-Hazard-Prediction-and-Reasoning"><img src="https://huggingface.co/front/assets/huggingface_logo-noborder.svg" alt="HF" width="18"></a></td>
     </tr>
     <tr>
       <td colspan="8"><i><b>Temporal Reasoning</b></i></td>
@@ -1407,7 +1407,7 @@ In LMRMs, test-time trajectory optimization should move beyond naïve short-traj
       <td>MC</td>
       <td>Vid. Und. and Rea.</td>
       <td>AA + MV</td>
-      <td align="center"><a href="https://huggingface.co/datasets/Uni-MoE/VideoVista">🤗</a></td>
+      <td align="center"><a href="https://huggingface.co/datasets/Uni-MoE/VideoVista"><img src="https://huggingface.co/front/assets/huggingface_logo-noborder.svg" alt="HF" width="18"></a></td>
     </tr>
     <tr>
       <td><a href="https://arxiv.org/abs/2411.14794">VideoEspresso</a></td>
@@ -1417,7 +1417,7 @@ In LMRMs, test-time trajectory optimization should move beyond naïve short-traj
       <td>OE</td>
       <td>Fine-Grained Vid. Rea.</td>
       <td>AA</td>
-      <td align="center"><a href="https://huggingface.co/datasets/hshjerry0315/VideoEspresso-Test">🤗</a></td>
+      <td align="center"><a href="https://huggingface.co/datasets/hshjerry0315/VideoEspresso-Test"><img src="https://huggingface.co/front/assets/huggingface_logo-noborder.svg" alt="HF" width="18"></a></td>
     </tr>
     <tr>
       <td colspan="8">
@@ -1479,7 +1479,7 @@ In LMRMs, test-time trajectory optimization should move beyond naïve short-traj
       <td>MC, OE</td>
       <td>Webpage Und.</td>
       <td>HA</td>
-      <td align="center"><a href="https://huggingface.co/datasets/visualwebbench/VisualWebBench">🤗</a></td>
+      <td align="center"><a href="https://huggingface.co/datasets/visualwebbench/VisualWebBench"><img src="https://huggingface.co/front/assets/huggingface_logo-noborder.svg" alt="HF" width="18"></a></td>
     </tr>
     <tr>
       <td><a href="https://arxiv.org/abs/2406.08451">GUIOdysse</a></td>
@@ -1489,7 +1489,7 @@ In LMRMs, test-time trajectory optimization should move beyond naïve short-traj
       <td>IE</td>
       <td>Cross-App. GUI Navi.</td>
       <td>HA</td>
-      <td align="center"><a href="https://huggingface.co/datasets/hflqf88888/GUIOdyssey">🤗</a></td>
+      <td align="center"><a href="https://huggingface.co/datasets/hflqf88888/GUIOdyssey"><img src="https://huggingface.co/front/assets/huggingface_logo-noborder.svg" alt="HF" width="18"></a></td>
     </tr>
     <tr>
       <td colspan="8"><i><b>Embodied Robotics Reasoning</b></i></td>
@@ -1503,7 +1503,7 @@ In LMRMs, test-time trajectory optimization should move beyond naïve short-traj
       <td>IE</td>
       <td>Multi-Env. Embodied Rea.</td>
       <td>AA + HA</td>
-      <td align="center"><a href="https://huggingface.co/EmbodiedBench">🤗</a></td>
+      <td align="center"><a href="https://huggingface.co/EmbodiedBench"><img src="https://huggingface.co/front/assets/huggingface_logo-noborder.svg" alt="HF" width="18"></a></td>
     </tr>
     <tr>
       <td><a href="https://arxiv.org/abs/2503.15558">Embodied Reasoning</a></td>
@@ -1513,7 +1513,7 @@ In LMRMs, test-time trajectory optimization should move beyond naïve short-traj
       <td>MC</td>
       <td>Embodied Rea.</td>
       <td>HA</td>
-      <td align="center"><a href="https://huggingface.co/collections/nvidia/cosmos-reason1">🤗</a></td>
+      <td align="center"><a href="https://huggingface.co/collections/nvidia/cosmos-reason1"><img src="https://huggingface.co/front/assets/huggingface_logo-noborder.svg" alt="HF" width="18"></a></td>
     </tr>
     <tr>
       <td><a href="https://arxiv.org/abs/2411.00081">PARTNR</a></td>
@@ -1575,7 +1575,7 @@ In LMRMs, test-time trajectory optimization should move beyond naïve short-traj
       <td>MC, OE</td>
       <td>General, Science, Math, Hallucinatio</td>
       <td>AA</td>
-      <td align="center"><a href="https://huggingface.co/datasets/Xkev/LLaVA-CoT-100k">🤗</a></td>
+      <td align="center"><a href="https://huggingface.co/datasets/Xkev/LLaVA-CoT-100k"><img src="https://huggingface.co/front/assets/huggingface_logo-noborder.svg" alt="HF" width="18"></a></td>
     </tr>
     <tr>
       <td><a href="https://arxiv.org/abs/2405.16473">M<sup>3</sup>CoT</a></td>
@@ -1585,7 +1585,7 @@ In LMRMs, test-time trajectory optimization should move beyond naïve short-traj
       <td>SC, IE</td>
       <td>General, Science, Math</td>
       <td>AA + HA</td>
-      <td align="center"><a href="https://huggingface.co/datasets/LightChen2333/M3CoT">🤗</a></td>
+      <td align="center"><a href="https://huggingface.co/datasets/LightChen2333/M3CoT"><img src="https://huggingface.co/front/assets/huggingface_logo-noborder.svg" alt="HF" width="18"></a></td>
     </tr>
     <tr>
       <td colspan="8"><i><b>Self-Reflection Reasoning</b></i></td>
@@ -1599,7 +1599,7 @@ In LMRMs, test-time trajectory optimization should move beyond naïve short-traj
       <td>SC, YN, IE</td>
       <td>General, Hallucination</td>
       <td>AA + HA</td>
-      <td align="center"><a href="https://huggingface.co/datasets/zjr2000/REVERIE">🤗</a></td>
+      <td align="center"><a href="https://huggingface.co/datasets/zjr2000/REVERIE"><img src="https://huggingface.co/front/assets/huggingface_logo-noborder.svg" alt="HF" width="18"></a></td>
     </tr>
     <tr>
       <td><a href="https://arxiv.org/abs/2412.02172">VISCO</a></td>
