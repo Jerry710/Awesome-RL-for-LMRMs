@@ -1246,91 +1246,112 @@ In LMRMs, test-time trajectory optimization should move beyond naïve short-traj
       <td colspan="8"><i><b>Domain-Specific Reasoning</b></i></td>
     </tr>
     <tr>
-      <td>MathVista</td>
+      <td><a href="https://arxiv.org/abs/2310.02255">MathVista</a></td>
       <td>2023</td>
       <td>6.1K</td>
       <td>Acc.</td>
       <td>MC, OE</td>
       <td>Math, Visual Und.</td>
       <td>AA + MV</td>
-      <td><a href="https://huggingface.co/datasets/MMMU/MMMU">🤗</a></td>
+      <td align="center"><a href="https://huggingface.co/datasets/AI4Math/MathVista">🤗</a></td>
     </tr>
     <tr>
-      <td>MM-Star</td>
+      <td><a href="https://arxiv.org/abs/2403.20330">MM-Star</a></td>
       <td>2024</td>
       <td>1.5K</td>
       <td>Acc., Multimodal Gain and Leakag</td>
       <td>MC</td>
       <td>Visual Abductive Rea.</td>
       <td>AA + MV</td>
-      <td><a href="https://huggingface.co/datasets/MMMU/MMMU">🤗</a></td>
+      <td align="center"><a href="https://huggingface.co/datasets/Lin-Chen/MMStar">🤗</a></td>
     </tr>
     <tr>
-      <td>MMMU-Pro</td>
+      <td><a href="https://arxiv.org/abs/2409.02813">MMMU-Pro</a></td>
       <td>2025</td>
       <td>3.5K</td>
       <td>Acc.</td>
       <td>MC</td>
       <td>Interdisciplinary</td>
       <td>AA + MV</td>
-      <td><a href="https://huggingface.co/datasets/MMMU/MMMU">🤗</a></td>
+      <td align="center"><a href="https://huggingface.co/datasets/MMMU/MMMU_Pro">🤗</a></td>
     </tr>
     <tr>
       <td colspan="8"><i><b>Diagrammatic and Spatial Reasoning</b></i></td>
     </tr>
     <tr>
-      <td>SpatialVLM-Dataset</td>
+      <td><a href="https://arxiv.org/abs/2401.12168">SpatialVLM-Dataset</a></td>
       <td>2024</td>
       <td>2B</td>
       <td>Acc., MSE</td>
       <td>OE</td>
       <td>Embodied Robot Rea., Spat. Rea.</td>
       <td>AA</td>
-      <td><a href="https://huggingface.co/datasets/MMMU/MMMU">🤗</a></td>
+      <td align="center"><a href="https://github.com/remyxai/VQASynth"><img src="https://img.shields.io/badge/-181717?style=social&logo=github" alt="GitHub"></a></td>
     </tr>
     <tr>
-      <td>CharX</td>
+      <td><a href="https://arxiv.org/abs/2406.18521">CharXiv</a></td>
       <td>2024</td>
       <td>11.6K</td>
       <td>AS</td>
       <td>OE</td>
       <td>Chart Und.</td>
       <td>HA</td>
-      <td><a href="https://huggingface.co/datasets/MMMU/MMMU">🤗</a></td>
+      <td align="center"><a href="https://huggingface.co/datasets/princeton-nlp/CharXiv">🤗</a></td>
     </tr>
     <tr>
       <td colspan="8"><i><b>Counterfactual and Logical Reasoning</b></i></td>
     </tr>
     <tr>
-      <td>LogicVista</td>
+      <td><a href="https://arxiv.org/abs/2407.04973">LogicVista</a></td>
       <td>2024</td>
       <td>0.45K</td>
       <td>Acc.</td>
       <td>MC</td>
       <td>Logical Rea.</td>
       <td>HA</td>
-      <td><a href="https://huggingface.co/datasets/MMMU/MMMU">🤗</a></td>
+      <td align="center"><a href="https://github.com/Yijia-Xiao/LogicVista"><img src="https://img.shields.io/badge/-181717?style=social&logo=github" alt="GitHub"></a></td>
     </tr>
     <tr>
       <td colspan="8">
         💖<b>Core Benchmarks (Milestone):</b><br>
-        CLEVR [369], ChartQA [370], OlympiadBench [244], InfographicVQA [262], MathVerse [306], WhatsUp [371], GAIA-1 [372], TheoremQA [373], 
-        MATH-Vision [257], RoboGen [374], VSIBench [375], Visual-CoT [233], WE-MATH [307].
+        <a href="https://cs.stanford.edu/people/jcjohns/clevr/">CLEVR</a>, <a href="https://huggingface.co/datasets/lmms-lab/ChartQA">ChartQA</a>, <a href="https://huggingface.co/datasets/Hothan/OlympiadBench">OlympiadBench</a>, <a href="https://www.docvqa.org/datasets/infographicvqa">InfographicVQA</a>, <a href="https://huggingface.co/datasets/AI4Math/MathVerse">MathVerse</a>, <a href="https://github.com/amitakamath/whatsup_vlms">WhatsUp</a>, <a href="https://huggingface.co/datasets/TIGER-Lab/TheoremQA">TheoremQA</a>, 
+        <a href="https://huggingface.co/datasets/MathLLMs/MathVision">MATH-Vision</a>, <a href="https://github.com/Genesis-Embodied-AI/RoboGen">RoboGen</a>, <a href="https://huggingface.co/datasets/nyu-visionx/VSI-Bench">VSIBench</a>, <a href="https://huggingface.co/datasets/deepcs233/Visual-CoT">Visual-CoT</a>, <a href="https://huggingface.co/datasets/We-Math/We-Math">WE-MATH</a>.
       </td>
     </tr>
     <tr>
       <td colspan="8"> 
         💕<b>Representative Benchmarks:</b><br>
-        AI2D [261], VideoPhy [259], ChartBench [263], ChartMimic [376], Plot2Code [377], PhysBench [258], M4U [378], MV-MATH [379], C-VQA [266],
-        CMMMU [380], CMM-Math [381], GAOKAO-MM [382], HumanEval-V [383], NPHardEval4V [384], MV-MATH [379], CounterCurate [265], Grounded [385], MultiChartQA [264],
-        ImgCode-8.6M [117], VisuLogic [231], MM-MathInstruct-3M [117], GeoSense [386], DC2 [387], Migician [388].
+        <a href="https://github.com/thiippal/AI2D-RST">AI2D</a>,
+        <a href="https://huggingface.co/videophysics">VideoPhy</a>,
+        <a href="https://huggingface.co/datasets/SincereX/ChartBench">ChartBench</a>,
+        <a href="https://huggingface.co/datasets/ChartMimic/ChartMimic">ChartMimic</a>,
+        <a href="https://huggingface.co/datasets/TencentARC/Plot2Code">Plot2Code</a>,
+        <a href="https://huggingface.co/datasets/USC-GVL/PhysBench">PhysBench</a>,
+        <a href="https://huggingface.co/datasets/M4U-Benchmark/M4U">M4U</a>,
+        <a href="https://huggingface.co/datasets/PeijieWang/MV-MATH">MV-MATH</a>,
+        <a href="https://github.com/Letian2003/C-VQA">C-VQA</a>,
+        <a href="https://huggingface.co/datasets/m-a-p/CMMMU">CMMMU</a>,
+        <a href="https://github.com/ECNU-ICALK/EduChat-Math">CMM-Math</a>,
+        <a href="https://github.com/OpenMOSS/GAOKAO-MM">GAOKAO-MM</a>,
+        <a href="https://huggingface.co/datasets/HumanEval-V/HumanEval-V-Benchmark">HumanEval-V</a>,
+        <a href="https://github.com/lizhouf/NPHardEval4V">NPHardEval4V</a>,
+        <a href="https://huggingface.co/datasets/HanSolo9682/Flickr30k-Counterfactuals">CounterCurate</a>,
+        <a href="hhttps://huggingface.co/datasets/SurplusDeficit/MultiHop-EgoQA">MultiHop-EgoQA</a>,
+        <a href="https://github.com/Zivenzhu/Multi-chart-QA">MultiChartQA</a>,
+        <a href="https://huggingface.co/datasets/MathLLMs/ImgCode-8.6M">ImgCode-8.6M</a>,
+        <a href="https://huggingface.co/datasets/VisuLogic/VisuLogic">VisuLogic</a>,
+        <a href="https://huggingface.co/datasets/MathLLMs/MM-MathInstruct">MM-MathInstruct-3M</a>,
+        <a href="https://huggingface.co/datasets/OpenStellarTeam/GeoSense">GeoSense</a>,
+        <a href="https://huggingface.co/datasets/DreamMr/HR-Bench">HR-Bench</a>,
+        <a href="https://huggingface.co/datasets/Michael4933/MGrounding-630k">MGrounding-630k</a>, <a href="https://huggingface.co/datasets/Michael4933/MIG-Bench">MIG-Bench</a>.
       </td>
     </tr>
     <tr>
       <td colspan="8"> 
         ❤️<b>Other Benchmarks (Emerging):</b><br>
-        MCDGRAPH [269], MathScape [389], CausalChaos! [267], iVISPAR [390], MDK12-Bench [391], MPBench [392], MuCR [393], PuzzleTest [394],
-        PhysUniBench [395], Geoint [86], MARBLE [396], MathReal [397], AVI-MATH [398], CRAVE [260], ISO-BENCH [399], MLLM-Cbench [400].
+        <a href="https://huggingface.co/datasets/AAAndyZ/VGCure">MCDGRAPH</a>, <a href="https://github.com/Ahalfmoon/MathScape">MathScape</a>, <a href="https://github.com/LUNAProject22/CausalChaos">CausalChaos!</a>, <a href="https://microcosm.ai/ivispar/">iVISPAR</a>, <a href="https://github.com/LanceZPF/MDK12">MDK12-Bench</a>, <a href="https://huggingface.co/datasets/xuzhaopan/MPBench">MPBench</a>, <a href="https://huggingface.co/datasets/Pinkygin/MuCR">MuCR</a>, <a href="https://github.com/declare-lab/LLM-PuzzleTest/tree/master/AlgoPuzzleVQA">AlgoPuzzleVQA</a>,
+        <a href="https://huggingface.co/datasets/PrismaX/PhysUniBench">PhysUniBench</a>, <a href="https://huggingface.co/datasets/OpenRaiser/Geoint">Geoint</a>, <a href="https://huggingface.co/datasets/mrble/MARBLE">MARBLE</a>, <a href="https://huggingface.co/datasets/junfeng0288/MathReal">MathReal</a>, <a href="https://huggingface.co/datasets/erenzhou/AVI-Math">AVI-MATH</a>, <a href="https://huggingface.co/datasets/sunshk/CRAVE-DB">CRAVE</a>, <a href="https://huggingface.co/datasets/isobench/IsoBench">ISO-BENCH</a>, <a href="https://huggingface.co/datasets/yueluoshuangtian/MLLM-CITBench">MLLM-Cbench</a>,
+        <a href="https://huggingface.co/datasets/We-Math/We-Math2.0-Standard">WE-MATH 2.0</a>.
       </td>
     </tr>
   </tbody>
@@ -1356,65 +1377,65 @@ In LMRMs, test-time trajectory optimization should move beyond naïve short-traj
       <td colspan="8"><i><b>Planning Reasoning</b></i></td>
     </tr>
     <tr>
-      <td>MineDojo </td>
+      <td><a href="https://arxiv.org/abs/2206.08853">MineDojo</a></td>
       <td>2022</td>
       <td>-</td>
       <td>SR, F1 Score, COR</td>
       <td>MC</td>
       <td>Long-Term Planning</td>
       <td>HA</td>
-      <td><a href="https://huggingface.co/datasets/MMMU/MMMU">🤗</a></td>
+      <td align="center"><a href="https://github.com/MineDojo/MineDojo"><img src="https://img.shields.io/badge/-181717?style=social&logo=github" alt="GitHub"></a></td>
     </tr>
     <tr>
-      <td>DHPR</td>
+      <td><a href="https://arxiv.org/abs/2310.04671">DHPR</a></td>
       <td>2024</td>
       <td>15K</td>
       <td>Avg. Rank of GT, NDCG</td>
       <td>OE</td>
       <td>Visual Abductive Rea.</td>
       <td>HA</td>
-      <td><a href="https://huggingface.co/datasets/MMMU/MMMU">🤗</a></td>
+      <td align="center"><a href="https://huggingface.co/datasets/DHPR/Driving-Hazard-Prediction-and-Reasoning">🤗</a></td>
     </tr>
     <tr>
       <td colspan="8"><i><b>Temporal Reasoning</b></i></td>
     </tr>
     <tr>
-      <td>Videovista</td>
+      <td><a href="https://arxiv.org/abs/2406.11303">Videovista</a></td>
       <td>2024</td>
       <td>24.9K</td>
       <td>Acc.</td>
       <td>MC</td>
       <td>Vid. Und. and Rea.</td>
       <td>AA + MV</td>
-      <td><a href="https://huggingface.co/datasets/MMMU/MMMU">🤗</a></td>
+      <td align="center"><a href="https://huggingface.co/datasets/Uni-MoE/VideoVista">🤗</a></td>
     </tr>
     <tr>
-      <td>VideoEspresso</td>
+      <td><a href="https://arxiv.org/abs/2411.14794">VideoEspresso</a></td>
       <td>2024</td>
       <td>200K+</td>
       <td>Acc., AS </td>
       <td>OE</td>
       <td>Fine-Grained Vid. Rea.</td>
       <td>AA</td>
-      <td><a href="https://huggingface.co/datasets/MMMU/MMMU">🤗</a></td>
+      <td><a href="https://huggingface.co/datasets/hshjerry0315/VideoEspresso-Test">🤗</a></td>
     </tr>
     <tr>
       <td colspan="8">
         💖<b>Core Benchmarks (Milestone):</b><br>
-        Video-R1-data.
+        <a href="https://huggingface.co/datasets/Video-R1/Video-R1-data">Video-R1-data</a>.
       </td>
     </tr>
     <tr>
       <td colspan="8"> 
         💕<b>Representative Benchmarks:</b><br>
-        REXTIME [277], TOMATO [402], VideoCoT [403], RefAVS [404], DrivingDojo [405], TemporalVQA [275].
+        <a href="">REXTIME</a>, <a href="">TOMATO</a>, <a href="">VideoCoT</a>, <a href="">RefAVS</a>, <a href="">DrivingDojo</a>, <a href="">TemporalVQA</a>.
       </td>
     </tr>
     <tr>
       <td colspan="8"> 
         ❤️<b>Other Benchmarks (Emerging):</b><br>
-        GUIDE [282], V-MAGE [406], MuEP [407], FrameCap [278], ActiView [280], ADL-X [281], MMR-V [408], VideoMathQA [409], CVBench [410],
-        MMIR [305], TLQA [276], PulseCheck457 [411], VideoVista-CulturalLingo [412].
+        <a href="">GUIDE</a>, <a href="">V-MAGE</a>, <a href="">MuEP</a>, <a href="">FrameCap</a>, <a href="">ActiView</a>, <a href="">ADL-X</a>, <a href="">MMR-V</a>, <a href="">VideoMathQA</a>, <a href="">CVBench</a>,
+        <a href="">MMIR</a>, <a href="">TLQA</a>, <a href="">PulseCheck457</a>, <a href="">VideoVista-CulturalLingo</a>.
       </td>
     </tr>
   </tbody>
