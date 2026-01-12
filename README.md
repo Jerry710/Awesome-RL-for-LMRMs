@@ -904,7 +904,7 @@ Parallel search explores multiple candidate trajectories concurrently and select
 
 :no_entry_sign: **Limitation**
 
-when trajectories interleave visual evidence with language-based reasoning, it remains unclear how to define fair and consistent voting or scoring criteria and simultaneously ensure semantic correctness and cross-modal alignment during selection.
+When trajectories interleave visual evidence with language-based reasoning, it remains unclear how to define fair and consistent voting or scoring criteria and simultaneously ensure semantic correctness and cross-modal alignment during selection.
 
 
 (2) **Sequential search** — feedback-driven self-correction
