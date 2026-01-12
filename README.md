@@ -1417,7 +1417,7 @@ In LMRMs, test-time trajectory optimization should move beyond naïve short-traj
       <td>OE</td>
       <td>Fine-Grained Vid. Rea.</td>
       <td>AA</td>
-      <td><a href="https://huggingface.co/datasets/hshjerry0315/VideoEspresso-Test">🤗</a></td>
+      <td align="center"><a href="https://huggingface.co/datasets/hshjerry0315/VideoEspresso-Test">🤗</a></td>
     </tr>
     <tr>
       <td colspan="8">
