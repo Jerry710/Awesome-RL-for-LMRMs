@@ -1575,7 +1575,7 @@ In LMRMs, test-time trajectory optimization should move beyond naïve short-traj
       <td>MC, OE</td>
       <td>General, Science, Math, Hallucinatio</td>
       <td>AA</td>
-      <td><a href="https://huggingface.co/datasets/Xkev/LLaVA-CoT-100k">🤗</a></td>
+      <td align="center"><a href="https://huggingface.co/datasets/Xkev/LLaVA-CoT-100k">🤗</a></td>
     </tr>
     <tr>
       <td><a href="https://arxiv.org/abs/2405.16473">M<sup>3</sup>CoT</a></td>
@@ -1585,7 +1585,7 @@ In LMRMs, test-time trajectory optimization should move beyond naïve short-traj
       <td>SC, IE</td>
       <td>General, Science, Math</td>
       <td>AA + HA</td>
-      <td><a href="https://huggingface.co/datasets/LightChen2333/M3CoT">🤗</a></td>
+      <td align="center"><a href="https://huggingface.co/datasets/LightChen2333/M3CoT">🤗</a></td>
     </tr>
     <tr>
       <td colspan="8"><i><b>Self-Reflection Reasoning</b></i></td>
@@ -1599,7 +1599,7 @@ In LMRMs, test-time trajectory optimization should move beyond naïve short-traj
       <td>SC, YN, IE</td>
       <td>General, Hallucination</td>
       <td>AA + HA</td>
-      <td><a href="https://huggingface.co/datasets/zjr2000/REVERIE">🤗</a></td>
+      <td align="center"><a href="https://huggingface.co/datasets/zjr2000/REVERIE">🤗</a></td>
     </tr>
     <tr>
       <td><a href="https://arxiv.org/abs/2412.02172">VISCO</a></td>
@@ -1609,7 +1609,7 @@ In LMRMs, test-time trajectory optimization should move beyond naïve short-traj
       <td>OE</td>
       <td>General, Science, Math, Hallucination</td>
       <td>HA</td>
-      <td><a href="https://huggingface.co/datasets/uclanlp/VISCO"  style="text-decoration:none;>🤗</a></td>
+      <td align="center"><a href="https://huggingface.co/datasets/uclanlp/VISCO" style="text-decoration:none;">🤗</a></td>
     </tr>
     <tr>
       <td colspan="8">
