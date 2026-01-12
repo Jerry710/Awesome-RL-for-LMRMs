@@ -1609,7 +1609,7 @@ In LMRMs, test-time trajectory optimization should move beyond naïve short-traj
       <td>OE</td>
       <td>General, Science, Math, Hallucination</td>
       <td>HA</td>
-      <td align="center"><a href="https://huggingface.co/datasets/uclanlp/VISCO" style="text-decoration:none;">🤗</a></td>
+      <td align="center"><a href="https://huggingface.co/datasets/uclanlp/VISCO"><img src="https://huggingface.co/front/assets/huggingface_logo-noborder.svg" alt="HF" width="18"></a></td>
     </tr>
     <tr>
       <td colspan="8">
