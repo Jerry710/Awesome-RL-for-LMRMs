@@ -1428,14 +1428,14 @@ In LMRMs, test-time trajectory optimization should move beyond naïve short-traj
     <tr>
       <td colspan="8"> 
         💕<b>Representative Benchmarks:</b><br>
-        <a href="">REXTIME</a>, <a href="">TOMATO</a>, <a href="">VideoCoT</a>, <a href="">RefAVS</a>, <a href="">DrivingDojo</a>, <a href="">TemporalVQA</a>.
+        <a href="https://huggingface.co/datasets/ReXTime/ReXTime">ReXTime</a>, <a href="https://huggingface.co/datasets/yale-nlp/TOMATO">TOMATO</a>, <a href="https://arxiv.org/abs/2407.05355">VideoCoT</a>, <a href="https://gewu-lab.github.io/Ref-AVS/">RefAVS</a>, <a href="https://huggingface.co/datasets/Yuqi1997/DrivingDojo">DrivingDojo</a>, <a href="https://huggingface.co/datasets/fazliimam/temporal-vqa">TemporalVQA</a>.
       </td>
     </tr>
     <tr>
       <td colspan="8"> 
         ❤️<b>Other Benchmarks (Emerging):</b><br>
-        <a href="">GUIDE</a>, <a href="">V-MAGE</a>, <a href="">MuEP</a>, <a href="">FrameCap</a>, <a href="">ActiView</a>, <a href="">ADL-X</a>, <a href="">MMR-V</a>, <a href="">VideoMathQA</a>, <a href="">CVBench</a>,
-        <a href="">MMIR</a>, <a href="">TLQA</a>, <a href="">PulseCheck457</a>, <a href="">VideoVista-CulturalLingo</a>.
+        <a href="https://github.com/jfliang3324/GUIDE">GUIDE</a>, <a href="https://csu-jpg.github.io/V-MAGE/">V-MAGE</a>, <a href="https://huggingface.co/datasets/kanxue/MuEP_Dataset">MuEP</a>, <a href="https://github.com/zihuixue/ProgCaptioner">FrameCap</a>, <a href="https://huggingface.co/datasets/wangphoebe/ActiView">ActiView</a>, <a href="https://huggingface.co/datasets/dreilly/ADL-X">ADL-X</a>, <a href="https://huggingface.co/datasets/JokerJan/MMR-VBench">MMR-V</a>, <a href="https://huggingface.co/datasets/MBZUAI/VideoMathQA">VideoMathQA</a>, <a href="https://huggingface.co/datasets/Dongyh35/CVBench">CVBench</a>,
+        <a href="https://arxiv.org/abs/2501.07214v1">TLQA</a>, <a href="https://huggingface.co/datasets/RyanWW/Spatial457">PulseCheck457</a>, <a href="https://huggingface.co/datasets/Uni-MoE/VideoVista-CulturalLingo">VideoVista-CulturalLingo</a>.
       </td>
     </tr>
   </tbody>
@@ -1462,87 +1462,87 @@ In LMRMs, test-time trajectory optimization should move beyond naïve short-traj
       <td colspan="8"><i><b>GUI Navigation Reasoning</b></i></td>
     </tr>
     <tr>
-      <td>OSWorld</td>
+      <td><a href="https://arxiv.org/abs/2404.07972">OSWorld</a></td>
       <td>2024</td>
       <td>0.4K</td>
       <td>Execution-Based SR</td>
       <td>IE</td>
       <td>GUI Navi.</td>
       <td>HA</td>
-      <td><a href="https://huggingface.co/datasets/MMMU/MMMU">🤗</a></td>
+      <td align="center"><a href="https://github.com/xlang-ai/OSWorld"><img src="https://img.shields.io/badge/-181717?style=social&logo=github" alt="GitHub"></a></td>
     </tr>
     <tr>
-      <td>VisualWebBench</td>
+      <td><a href="https://arxiv.org/abs/2404.05955">VisualWebBench</a></td>
       <td>2024</td>
       <td>1.5K</td>
       <td>ROUGE-L, SQuAD style F1, Acc.</td>
       <td>MC, OE</td>
       <td>Webpage Und.</td>
       <td>HA</td>
-      <td><a href="https://huggingface.co/datasets/MMMU/MMMU">🤗</a></td>
+      <td align="center"><a href="https://huggingface.co/datasets/visualwebbench/VisualWebBench">🤗</a></td>
     </tr>
     <tr>
-      <td>GUIOdysse</td>
+      <td><a href="https://arxiv.org/abs/2406.08451">GUIOdysse</a></td>
       <td>2025</td>
       <td>7.7K</td>
       <td>Action Matching Score, SR</td>
       <td>IE</td>
       <td>Cross-App. GUI Navi.</td>
       <td>HA</td>
-      <td><a href="https://huggingface.co/datasets/MMMU/MMMU">🤗</a></td>
+      <td align="center"><a href="https://huggingface.co/datasets/hflqf88888/GUIOdyssey">🤗</a></td>
     </tr>
     <tr>
       <td colspan="8"><i><b>Embodied Robotics Reasoning</b></i></td>
     </tr>
     <tr>
     <tr>
-      <td>Embodiedbench</td>
+      <td><a href="https://arxiv.org/abs/2502.09560">Embodiedbench</a></td>
       <td>2025</td>
       <td>1.1K</td>
       <td>Task SR, Subgoal SR, Avg. Steps</td>
       <td>IE</td>
       <td>Multi-Env. Embodied Rea.</td>
       <td>AA + HA</td>
-      <td><a href="https://huggingface.co/datasets/MMMU/MMMU">🤗</a></td>
+      <td align="center"><a href="https://huggingface.co/EmbodiedBench">🤗</a></td>
     </tr>
     <tr>
-      <td>Embodied Reasoning</td>
+      <td><a href="https://arxiv.org/abs/2503.15558">Embodied Reasoning</a></td>
       <td>2025</td>
       <td>0.61K</td>
       <td>Acc.</td>
       <td>MC</td>
       <td>Embodied Rea.</td>
       <td>HA</td>
-      <td><a href="https://huggingface.co/datasets/MMMU/MMMU">🤗</a></td>
+      <td align="center"><a href="https://huggingface.co/collections/nvidia/cosmos-reason1">🤗</a></td>
     </tr>
     <tr>
-      <td>PARTNR</td>
+      <td><a href="https://arxiv.org/abs/2411.00081">PARTNR</a></td>
       <td>2024</td>
       <td>100K</td>
       <td>SR, Steps, Percent Complete</td>
       <td>OE</td>
       <td>Embodied AI Collab.</td>
       <td>AA + MV</td>
-      <td><a href="https://huggingface.co/datasets/MMMU/MMMU">🤗</a></td>
+      <td align="center"><a href="https://github.com/facebookresearch/partnr-planner/"><img src="https://img.shields.io/badge/-181717?style=social&logo=github" alt="GitHub"></a></td>
     </tr>
     <tr>
       <td colspan="8">
         💖<b>Core Benchmarks (Milestone):</b><br>
-        Habitat [285], AI2-THOR [286], Mind2Web [283], WebShop [416], SAPIEN [417], WebArena [418], CALVIN [419], Isaac Lab [288], EgoCoT [290],
-        iGibson 2.0 [287], ScreenSpot [420], Isaac Lab [288], ProcTHOR [289], Ferret-UI [421], HomeRobot [422], AgentClinic [423], HoloAssist [292].
+        <a href="https://aihabitat.org/">Habitat</a>, <a href="https://ai2thor.allenai.org/">AI2-THOR</a>, <a href="https://huggingface.co/datasets/osunlp/Mind2Web">Mind2Web</a>, <a href="https://github.com/princeton-nlp/WebShop">WebShop</a>, <a href="https://sapien.ucsd.edu/">SAPIEN</a>, <a href="https://github.com/web-arena-x/webarena">WebArena</a>, <a href="http://calvin.cs.uni-freiburg.de/">CALVIN</a>, <a href="https://github.com/isaac-sim/IsaacLab">Isaac Lab</a>, <a href="https://github.com/EmbodiedGPT/EgoCOT_Dataset">EgoCoT</a>,
+        <a href="https://svl.stanford.edu/igibson/">iGibson 2.0</a>, <a href="https://github.com/njucckevin/SeeClick">ScreenSpot</a>, <a href="https://procthor.allenai.org/">ProcTHOR</a>, <a href="https://arxiv.org/abs/2404.05719">Ferret-UI</a>, <a href="https://ovmm.github.io/">HomeRobot</a>, <a href="https://github.com/samuelschmidgall/agentclinic">AgentClinic</a>, <a href="https://holoassist.github.io/">HoloAssist</a>.
       </td>
     </tr>
     <tr>
       <td colspan="8"> 
         💕<b>Representative Benchmarks:</b><br>
-        BEHAVIOR-1K [424], VisualAgentBench [425], OmniACT [296], UI-Vision [426], LlamaTouch [427], OpenVocabManip [428], GUI-World [429],
-        EMMA-X-Dataset [291], InfiGUIAgent-Data [430], Embodied-Points-200K [431], Windows Agent Arena [295].
+        <a href="https://github.com/StanfordVL/BEHAVIOR-1K">BEHAVIOR-1K</a>, <a href="https://github.com/THUDM/VisualAgentBench">VisualAgentBench</a>, <a href="https://huggingface.co/datasets/Writer/omniact">OmniACT</a>, <a href="https://huggingface.co/datasets/ServiceNow/ui-vision">UI-Vision</a>, <a href="https://github.com/LlamaTouch/LlamaTouch">LlamaTouch</a>, <a href="https://huggingface.co/datasets/ONE-Lab/GUI-World">GUI-World</a>,
+        <a href="https://huggingface.co/declare-lab/Emma-X">EMMA-X-Dataset</a>, <a href="https://github.com/InfiXAI/InfiGUIAgent">InfiGUIAgent-Data</a>, <a href="https://huggingface.co/collections/IffYuan/embodied-r1">Embodied-Points-200K</a>, <a href="https://github.com/microsoft/WindowsAgentArena">Windows Agent Arena</a>.
       </td>
     </tr>
     <tr>
       <td colspan="8"> 
         ❤️<b>Other Benchmarks (Emerging):</b><br>
-        GVCCI [432], Agent-X [433], Point-It-Out [434], OSUniverse [435], OmniEAR [436].
+        <a href="https://github.com/JHKim-snu/GVCCI">GVCCI</a>, <a href="https://huggingface.co/datasets/Tajamul21/Agent-X">Agent-X</a>, <a href="https://github.com/xavihart/PIO">Point-It-Out</a>, <a href="https://github.com/agentsea/osuniverse">OSUniverse</a>, <a href="https://huggingface.co/datasets/wangzx1210/OmniEAR">OmniEAR</a>.
       </td>
     </tr>
   </tbody>
@@ -1568,66 +1568,66 @@ In LMRMs, test-time trajectory optimization should move beyond naïve short-traj
       <td colspan="8"><i><b>Multi-Round Reasoning</b></i></td>
     </tr>
     <tr>
-      <td>LLava-CoT-100k</td>
+      <td><a href="https://arxiv.org/abs/2411.10440">LLava-CoT-100k</a></td>
       <td>2025</td>
       <td>99K</td>
       <td>Acc.</td>
       <td>MC, OE</td>
       <td>General, Science, Math, Hallucinatio</td>
       <td>AA</td>
-      <td><a href="https://huggingface.co/datasets/MMMU/MMMU">🤗</a></td>
+      <td><a href="https://huggingface.co/datasets/Xkev/LLaVA-CoT-100k">🤗</a></td>
     </tr>
     <tr>
-      <td>M<sup>3</sup>CoT</td>
+      <td><a href="https://arxiv.org/abs/2405.16473">M<sup>3</sup>CoT</a></td>
       <td>2024</td>
       <td>11.9K</td>
       <td>Acc.</td>
       <td>SC, IE</td>
       <td>General, Science, Math</td>
       <td>AA + HA</td>
-      <td><a href="https://huggingface.co/datasets/MMMU/MMMU">🤗</a></td>
+      <td><a href="https://huggingface.co/datasets/LightChen2333/M3CoT">🤗</a></td>
     </tr>
     <tr>
       <td colspan="8"><i><b>Self-Reflection Reasoning</b></i></td>
     </tr>
     <tr>
     <tr>
-      <td>Embodiedbench</td>
+      <td><a href="https://arxiv.org/abs/2407.11422">Reflective</a></td>
       <td>2024</td>
       <td>254K</td>
       <td>F1 Score, Acc., Hallucination Rate</td>
       <td>SC, YN, IE</td>
-      <td>Multi-Env. Embodied Rea.</td>
+      <td>General, Hallucination</td>
       <td>AA + HA</td>
-      <td><a href="https://huggingface.co/datasets/MMMU/MMMU">🤗</a></td>
+      <td><a href="https://huggingface.co/datasets/zjr2000/REVERIE">🤗</a></td>
     </tr>
     <tr>
-      <td>Embodied Reasoning</td>
+      <td><a href="https://arxiv.org/abs/2412.02172">VISCO</a></td>
       <td>2024</td>
       <td>1.65K</td>
       <td>F1 Score, VISCore, Correction Gain</td>
       <td>OE</td>
-      <td>Embodied Rea.</td>
+      <td>General, Science, Math, Hallucination</td>
       <td>HA</td>
-      <td><a href="https://huggingface.co/datasets/MMMU/MMMU">🤗</a></td>
+      <td><a href="https://huggingface.co/datasets/uclanlp/VISCO">🤗</a></td>
     </tr>
     <tr>
       <td colspan="8">
         💖<b>Core Benchmarks (Milestone):</b><br>
-        Silkie [437].
+        <a href="https://huggingface.co/datasets/MMInstruction/VLFeedback">VLFeedback</a>.
       </td>
     </tr>
     <tr>
       <td colspan="8"> 
         💕<b>Representative Benchmarks:</b><br>
-        VLFeedback [300], MM-Verify [272], VisualPRM400K [167], ConMe [302], WorldQA [438], MME-CoT [303], ZeroBench [439], VCR-Bench [293],
-        MAmmoTH-VL-Instruct [304].
+        <a href="https://huggingface.co/datasets/lhpku20010120/MM-Verify-Data">MM-Verify</a>, <a href="https://huggingface.co/datasets/OpenGVLab/VisualPRM400K">VisualPRM400K</a>, <a href="https://huggingface.co/conme/ConMe">ConMe</a>, <a href="https://zhangyuanhan-ai.github.io/WorldQA/">WorldQA</a>, <a href="https://huggingface.co/datasets/CaraJ/MME-CoT">MME-CoT</a>, <a href="https://huggingface.co/datasets/jonathan-roberts1/zerobench">ZeroBench</a>, <a href="https://huggingface.co/datasets/VLM-Reasoning/VCR-Bench">VCR-Bench</a>,
+        <a href="https://huggingface.co/datasets/MAmmoTH-VL/MAmmoTH-VL-Instruct-12M">MAmmoTH-VL-Instruct</a>.
       </td>
     </tr>
     <tr>
       <td colspan="8"> 
         ❤️<b>Other Benchmarks (Emerging):</b><br>
-        MMIR [305], FIRE [299], MiCEval [440], MTMEUR [441], TIIL [301], MMAT-1M [442].
+        <a href="https://huggingface.co/datasets/rippleripple/MMIR">MMIR</a>, <a href="https://huggingface.co/datasets/PengxiangLi/FIRE">FIRE</a>, <a href="https://github.com/alenai97/MiCEval">MiCEval</a>, <a href="https://huggingface.co/datasets/MindIntLab/MTMEUR">MTMEUR</a>, <a href="https://github.com/Mingzhen-Huang/D-TIIL">D-TIIL</a>, <a href="https://huggingface.co/datasets/VIS-MPU-Agent/MMAT-1M">MMAT-1M</a>.
       </td>
     </tr>
   </tbody>
