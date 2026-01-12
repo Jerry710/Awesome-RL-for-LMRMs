@@ -1336,7 +1336,7 @@ In LMRMs, test-time trajectory optimization should move beyond naïve short-traj
         <a href="https://huggingface.co/datasets/HumanEval-V/HumanEval-V-Benchmark">HumanEval-V</a>,
         <a href="https://github.com/lizhouf/NPHardEval4V">NPHardEval4V</a>,
         <a href="https://huggingface.co/datasets/HanSolo9682/Flickr30k-Counterfactuals">CounterCurate</a>,
-        <a href="hhttps://huggingface.co/datasets/SurplusDeficit/MultiHop-EgoQA">MultiHop-EgoQA</a>,
+        <a href="https://huggingface.co/datasets/SurplusDeficit/MultiHop-EgoQA">MultiHop-EgoQA</a>,
         <a href="https://github.com/Zivenzhu/Multi-chart-QA">MultiChartQA</a>,
         <a href="https://huggingface.co/datasets/MathLLMs/ImgCode-8.6M">ImgCode-8.6M</a>,
         <a href="https://huggingface.co/datasets/VisuLogic/VisuLogic">VisuLogic</a>,
