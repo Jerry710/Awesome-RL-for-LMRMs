@@ -2,7 +2,7 @@
 
 <div align="center">
 
-<img src="figures/survey_logo.png" style="width: 70%;"/>
+<!-- <img src="figures/survey_logo.png" style="width: 70%;"/> -->
 
 ## Control, Evaluate, and Improve: A Reinforcement Learning-Centric Multimodal Reasoning Survey
 
@@ -10,11 +10,13 @@
 [![Survey](https://img.shields.io/badge/Paper-A42C25?style=flat&logo=arxiv&logoColor=white)](#) 
 [![Github](https://img.shields.io/badge/Awesome--RL--for--LRMs-000000?style=flat&logo=github&logoColor=white)](https://github.com/Jerry710/Awesome-RL-for-LMRMs) 
 [![HF Papers](https://img.shields.io/badge/🤗%20Paper-%23FFD14D?style=flat)]() 
-[![Twitter](https://img.shields.io/badge/Twitter-%23000000.svg?style=flat&logo=x&logoColor=white)]( )
+[![Citation](https://img.shields.io/badge/✒️%20Citation-F5F5F5?style=flat)](#Citation)
+<!-- [:black_nib: Citation](#Citation) -->
 
 </div>
 
 > 💡 *You're very welcome to join our discussion (on WeChat or Slack) on the topic of multimodal reasoning.*  
+> :rocket: *If you like our project, please consider giving us a star* ⭐ *on GitHub to stay updated with the latest developments.*
 > 📌 *Please feel free to ping us for any possibly missed related work.*
 
 ---
@@ -107,7 +109,7 @@ It also links this CEI pipeline to **five slow-thinking capability categories** 
       </td>
     </tr>
     <tr>
-      <td>🏗️ <a href="#3-train-time-optimization">3. Train-time Optimization</a></td>
+      <td> 🚗 <a href="#3-train-time-optimization-of-RL-centric-multimodal-reasoning">3. Train-time Optimization of RL-Centric Multimodal Reasoning</a></td>
       <td>
         <a href="#31-training-initialization">3.1 Training Initialization</a><br>
         <a href="#33-trajectory-sampling">3.3 Trajectory Sampling</a>
@@ -118,7 +120,7 @@ It also links this CEI pipeline to **five slow-thinking capability categories** 
       </td>
     </tr>
     <tr>
-      <td>🧠 <a href="#4-test-time-inference-of-RL-centric-multimodal-reasoning">4. Test-time Inference of RL-centric Multimodal Reasoning</a></td>
+      <td> 🚈 <a href="#4-test-time-inference-of-RL-centric-multimodal-reasoning">4. Test-time Inference of RL-centric Multimodal Reasoning</a></td>
       <td>
         <a href="#41-sampling">4.1 Sampling</a><br>
         <a href="#43-dynamic-verification">4.3 Dynamic Verification</a>
@@ -179,7 +181,7 @@ establishes an integrated framework and clarifies the inter relationship between
 ### <a id="evaluate"></a>Evaluate
 ### <a id="improve"></a>Improve
 
-## 3. Train-time Optimization
+## 3. Train-time Optimization of RL-Centric Multimodal Reasoning
 ### <a id="train-31--training-initialization"></a>3.1 Training Initialization
 
 <p align="center">
