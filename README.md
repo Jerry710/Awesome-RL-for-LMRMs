@@ -32,6 +32,28 @@
 <!--   <img src="./Images/methods.jpg" width="45%" height="50%" /> -->
 </p>
 
+
+RL is rapidly reshaping multimodal *System-2* reasoning. While most multimodal LLMs still behave like *System 1* (fast, fluent, pattern-driven), recent models (*e.g.*, o1, o3, and DeepSeek-R1) show that RL can internalize slow, deliberative reasoning, *i.e.*, planning before answering, verifying intermediate steps, and revising when uncertain. 
+
+This repo accompanies our survey on RL-centric Large Multimodal Reasoning Models (LMRMs), where RL is treated not as a peripheral trick, but as the primary mechanism for building controllable, multi-step reasoning.
+
+The above overview diagram summarizes our **GPI-inspired Control–Evaluate–Improve (CEI)** lens across the *entire train–test pipeline*:
+
+* **Control:** how trajectories are generated via initialization, sampling, and search.
+* **Evaluate:** how reward modeling and dynamic verification provide feedback signals.
+* **Improve:** how train-time policy optimization and test-time trajectory optimization refine reasoning paths.
+
+It also links this CEI pipeline to **five slow-thinking capability categories** (goal-driven, causal & verifiable, temporal & planning, tool & embodied, self-reflective), serving as a  map to place methods and benchmarks into a single coordinate system.
+  
+
+### What you'll get from this GitHub
+
+:one: A clean taxonomy of RL-centric LMRMs (data → training → test-time inference → evaluation).
+
+:two: Curated papers, code, and benchmarks organized around CEI, not scattered chronologically.
+
+:three: A gap-and-opportunity checklist for pushing multimodal slow thinking beyond current heuristic pipelines.
+
 ---
 
 <!-- ## 📚 Contents
