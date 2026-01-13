@@ -21,13 +21,12 @@
 
 📌 *Please feel free to ping us for any possibly missed related work.*
 
----
+
 
 ## 🔔 News
 
 - **2025-11-XX**: Repository initialized.
 
----
 
 ## 🧭 Overview
 
@@ -58,7 +57,7 @@ It also links this CEI pipeline to **five slow-thinking capability categories** 
 
 :three: A gap-and-opportunity checklist for pushing multimodal slow thinking beyond current heuristic pipelines.
 
----
+
 
 <!-- ## 📚 Contents
 
@@ -148,7 +147,6 @@ It also links this CEI pipeline to **five slow-thinking capability categories** 
 </table>
 
 
----
 
 
 
@@ -1659,7 +1657,6 @@ In LMRMs, test-time trajectory optimization should move beyond naïve short-traj
   </tbody>
 </table>
 
----
 
 
 ## Citation
