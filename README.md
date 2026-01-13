@@ -46,7 +46,7 @@ The above overview diagram summarizes our **GPI-inspired Control–Evaluate–Im
 It also links this CEI pipeline to **five slow-thinking capability categories** (goal-driven, causal & verifiable, temporal & planning, tool & embodied, self-reflective), serving as a  map to place methods and benchmarks into a single coordinate system.
   
 
-### What you'll get from this GitHub
+#### What you'll get from this GitHub
 
 :one: A clean taxonomy of RL-centric LMRMs (data → training → test-time inference → evaluation).
 
@@ -202,7 +202,7 @@ As illustrated, existing approaches can be characterized along two dimensions, s
 
 
 
-| Date | Name | Title | Paper | Github |
+| Date | Name | Title | Paper | Link |
 |:-:|:-:|:-|:-:|:-:|
 | 2025.04 | `VLAA-Thinking-RL` | SFT or RL? An Early Investigation into Training R1-Like Reasoning Large Vision-Language Models | [![Paper](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2504.11468) | [![GitHub Stars](https://img.shields.io/github/stars/UCSC-VLAA/VLAA-Thinking?style=social&label=Star)](https://github.com/UCSC-VLAA/VLAA-Thinking)  |
 | 2025.03 | `VisualThinker-R1-Zero` | R1-Zero's "Aha Moment" in Visual Reasoning on a 2B Non-SFT Model | [![Paper](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2503.05132) | [![GitHub Stars](https://img.shields.io/github/stars/turningpoint-ai/VisualThinker-R1-Zero?style=social&label=Star)](https://github.com/turningpoint-ai/VisualThinker-R1-Zero) |
