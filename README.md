@@ -16,9 +16,9 @@
 </div>
 
 > 💡 *You're very welcome to join our discussion (on WeChat or Slack) on the topic of multimodal reasoning.*  
-> 
+
 > :rocket: *If you like our project, please consider giving us a star* ⭐ *on GitHub to stay updated with the latest developments.*
-> 
+
 > 📌 *Please feel free to ping us for any possibly missed related work.*
 
 ---
