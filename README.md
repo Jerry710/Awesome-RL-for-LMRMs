@@ -104,7 +104,7 @@ It also links this CEI pipeline to **five slow-thinking capability categories** 
       <td><a href="#contributions">Contributions</a></td>
     </tr>
     <tr>
-      <td>🧩 <a href="#2-cei-framework-gpi-view">2. CEI Framework</a></td>
+      <td>🧩 <a href="#2-car-framework">2. CAR Framework</a></td>
       <td colspan="2">
         <a href="#control">Control</a> · <a href="#evaluate">Evaluate</a> · <a href="#improve">Improve</a>
       </td>
@@ -176,7 +176,13 @@ establishes an integrated framework and clarifies the inter relationship between
 :three: Section 6 explores the challenges and future directions of RL-centric multimodal reasoning, with a particular emphasis on the intrinsic coupling between RL mechanisms and multimodal scenarios.
 
 
-## 2. CEI Framework
+## 2. CAR Framework
+
+<p align="center">
+  <img src="figures\topic.png" width="80%" />
+<!--   <img src="./Images/methods.jpg" width="45%" height="50%" /> -->
+</p>
+
 ### <a id="control"></a>Control
 ### <a id="evaluate"></a>Evaluate
 ### <a id="improve"></a>Improve
@@ -669,12 +675,20 @@ Summary of reward modeling in RL-centric MLRMs, organized by reward channel. For
   </tbody>
 </table>
 
+> **Abbreviations.**
+(1) **MM Char.**: *Ground* = structured visual grounding (*e.g.*, boxes, masks, counting), *Spat.* = spatial relations, *Temp.* = temporal or time-series reasoning, *Struct* = structured outputs (*e.g.*, tables, JSON, scene graphs), *Dom.* = domain priors (*e.g.*, physics, medicine), *Align* = cross-modal alignment. 
+(2) **Gran.**: *Traj* = trajectory-level, only one reward for the entire reasoning chain, *Step* = step-level (score each reasoning step or intermediate action), *Field* = field-level or token-level, check each field or coordinate in the answer one by one, *Subgoal* = subgoal-level, decompose reasoning subtasks, regions, or time slices.
+(3) **Target**: *Out.-Acc.* = final-answer or task accuracy, *Proc.-Acc.* = correctness of intermediate reasoning steps, *Struct-Form* = format, syntax, or structural validity, *Spat.-Temp.* = spatial or temporal consistency, *Dom.-Rule* = satisfaction of domain rules (*e.g.*, physics, medical, safety constraints), *Align-CM* = cross-modal alignment scores, *Pref-Qual* = human preference or quality (helpfulness, fluency).  
+(4) **RM (Reward Model)**: ORM = outcome reward model, PRM = process reward model, MR = mixed reward model.
+(5) **ET (Evalation Type)**: *R* = rule-based rewards, *M* = model-based rewards, *H* = hybrid rewards.
+(6) **Init.**: initialization strategy (RL from scratch vs. SFT+RL).
+
 
 
 
 ### <a id="train-33-trajectory-sampling"></a>3.3 Trajectory Sampling
 
-Sampling governs how the policy generates reasoning trajectories for exploration and learning. Multimodal reasoning often requires explicit control over diversity, reasoning depth, task adaptability, and input distribution coverage. We group training-time sampling into four strategies:
+Sampling governs how the policy generates reasoning trajectories for exploration and learning. Multimodal reasoning often requires explicit control over diversity, reasoning depth, task adaptability, and input distribution coverage. We group training-time trajectory sampling into four strategies:
 
 :one: **Group Sampling & Rejection Sampling**: sample multiple trajectories per iteration; select high-advantage samples and optionally filter low-quality ones with external verifiers.
 
@@ -1189,7 +1203,7 @@ In LMRMs, test-time trajectory optimization should move beyond naïve short-traj
       <td><a href="https://arxiv.org/abs/2310.14566">HallusionBench</a></td>
       <td>2024</td>
       <td>0.2K</td>
-      <td>Acc., AS (GPT4)</td>
+      <td>Acc., AS</td>
       <td>OE</td>
       <td>Robustness</td>
       <td>HA</td>
@@ -1247,7 +1261,10 @@ In LMRMs, test-time trajectory optimization should move beyond naïve short-traj
   </tbody>
 </table>
 
-
+> **Abbreviations.**
+(1) **Metrics**: *AS* = Auto-Score.
+(2) **Q-Type**: *OE* = Open-Ended Questions, *MC* = Multiple Choice Questions (Select all that apply).
+(3) **Ann.**: *HA* = Human Annotation, *AA* = Auto-Annotation.
 
 
 ### <a id="bench-52-causal--verifiable-reasoning"></a>5.2 Causal & Verifiable Reasoning 
@@ -1381,6 +1398,11 @@ In LMRMs, test-time trajectory optimization should move beyond naïve short-traj
   </tbody>
 </table>
 
+> **Abbreviations.**
+(1) **Metrics**: *AS* = Auto-Score.
+(2) **Q-Type**: *OE* = Open-Ended Questions, *MC* = Multiple Choice Questions (Select all that apply).
+(3) **Ann.**: *HA* = Human Annotation, *AA* = Auto-Annotation, *MV* = Manual Verification.
+
 ### <a id="bench-53-temporal--planning-reasoning"></a>5.3 Temporal & Planning Reasoning
 
 <table>
@@ -1465,6 +1487,10 @@ In LMRMs, test-time trajectory optimization should move beyond naïve short-traj
   </tbody>
 </table>
 
+> **Abbreviations.**
+(1) **Metrics**: *AS* = Auto-Score, *SR* = Success Rate.
+(2) **Q-Type**: *OE* = Open-Ended Questions, *MC* = Multiple Choice Questions (Select all that apply).
+(3) **Ann.**: *HA* = Human Annotation, *AA* = Auto-Annotation, *MV* = Manual Verification.
 
 ### <a id="bench-54-tool-enhanced--embodied-reasoning"></a>5.4 Tool-Enhanced & Embodied Reasoning
 
@@ -1572,6 +1598,11 @@ In LMRMs, test-time trajectory optimization should move beyond naïve short-traj
   </tbody>
 </table>
 
+> **Abbreviations.**
+(1) **Metrics**: *SR* = Success Rate.
+(2) **Q-Type**: *OE* = Open-Ended Questions, *MC* = Multiple Choice Questions (Select all that apply), *IE* = Instruction Execution.
+(3) **Ann.**: *HA* = Human Annotation, *AA* = Auto-Annotation, *MV* = Manual Verification.
+
 ### <a id="bench-55-self-reflection-reasoning"></a>5.5 Self-Reflection Reasoning
 
 <table>
@@ -1606,7 +1637,7 @@ In LMRMs, test-time trajectory optimization should move beyond naïve short-traj
       <td>2024</td>
       <td>11.9K</td>
       <td>Acc.</td>
-      <td>SC, IE</td>
+      <td>SC, MR</td>
       <td>General, Science, Math</td>
       <td>AA + HA</td>
       <td align="center"><a href="https://huggingface.co/datasets/LightChen2333/M3CoT"><img src="https://huggingface.co/front/assets/huggingface_logo-noborder.svg" alt="HF" width="18"></a></td>
@@ -1657,7 +1688,10 @@ In LMRMs, test-time trajectory optimization should move beyond naïve short-traj
   </tbody>
 </table>
 
-
+> **Abbreviations.**
+(1) **Metrics**: *AS* = Auto-Score, *SR* = Success Rate.
+(2) **Q-Type**: *OE* = Open-Ended Questions, *MC* = Multiple Choice Questions (Select all that apply), *IE* = Instruction Execution, *MR* = Multi-step Reasoning, *SC* = Single Choice Questions, *YN* = Yes-No Questions.
+(3) **Ann.**: *HA* = Human Annotation, *AA* = Auto-Annotation, *MV* = Manual Verification.
 
 ## Citation
 
