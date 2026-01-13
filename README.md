@@ -132,7 +132,7 @@ It also links this CEI pipeline to **five slow-thinking capability categories** 
       </td>
     </tr>
     <tr>
-      <td>🎖 <a href="#-5-datasets--benchmarks"> 5. Datasets &amp; Benchmarks</a></td>
+      <td> 🏆 <a href="#-5-datasets--benchmarks"> 5. Datasets &amp; Benchmarks</a></td>
       <td>
         <a href="#51-goal-driven-reasoning">5.1 Goal-driven Reasoning</a><br>
         <a href="#53-temporal--planning-reasoning">5.3 Temporal &amp; Planning Reasoning</a><br>
@@ -1150,7 +1150,7 @@ In LMRMs, test-time trajectory optimization should move beyond naïve short-traj
 
 
 
-## 🎖 5. Datasets & Benchmarks
+## 5. Datasets & Benchmarks
 ### <a id="bench-51-goal-driven-reasoning"></a>5.1 Goal-driven Reasoning
 <table>
   <thead>
@@ -1399,11 +1399,9 @@ In LMRMs, test-time trajectory optimization should move beyond naïve short-traj
 </table>
 
 > **Abbreviations.**
-> (1) **Metrics**: *AS* = Auto-Score.
-> 
-> (2) **Q-Type**: *OE* = Open-Ended Questions, *MC* = Multiple Choice Questions (Select all that apply).
-> 
-> (3) **Ann.**: *HA* = Human Annotation, *AA* = Auto-Annotation, *MV* = Manual Verification.
+(1) **Metrics**: *AS* = Auto-Score.
+(2) **Q-Type**: *OE* = Open-Ended Questions, *MC* = Multiple Choice Questions (Select all that apply).
+(3) **Ann.**: *HA* = Human Annotation, *AA* = Auto-Annotation, *MV* = Manual Verification.
 
 ### <a id="bench-53-temporal--planning-reasoning"></a>5.3 Temporal & Planning Reasoning
 
