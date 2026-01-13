@@ -1399,9 +1399,9 @@ In LMRMs, test-time trajectory optimization should move beyond naïve short-traj
 </table>
 
 > **Abbreviations.**
-(1) **Metrics**: *AS* = Auto-Score.
-(2) **Q-Type**: *OE* = Open-Ended Questions, *MC* = Multiple Choice Questions (Select all that apply).
-(3) **Ann.**: *HA* = Human Annotation, *AA* = Auto-Annotation, *MV* = Manual Verification.
+> (1) **Metrics**: *AS* = Auto-Score.
+> (2) **Q-Type**: *OE* = Open-Ended Questions, *MC* = Multiple Choice Questions (Select all that apply).
+> (3) **Ann.**: *HA* = Human Annotation, *AA* = Auto-Annotation, *MV* = Manual Verification.
 
 ### <a id="bench-53-temporal--planning-reasoning"></a>5.3 Temporal & Planning Reasoning
 
