@@ -106,7 +106,8 @@ It also links this CEI pipeline to **five slow-thinking capability categories** 
     <tr>
       <td>🧩 <a href="#2-car-framework">2. CAR Framework</a></td>
       <td colspan="2">
-        <a href="#control">Control</a> · <a href="#evaluate">Evaluate</a> · <a href="#improve">Improve</a>
+        Construct-Assess-Refine
+        <!-- <a href="#control">Construct</a> · <a href="#evaluate">Assess</a> · <a href="#improve">Refine</a> -->
       </td>
     </tr>
     <tr>
@@ -179,16 +180,34 @@ establishes an integrated framework and clarifies the inter relationship between
 ## 2. CAR Framework
 
 <p align="center">
-  <img src="figures\topic.png" width="80%" />
+  <img src="figures\topic.png" width="60%" />
 <!--   <img src="./Images/methods.jpg" width="45%" height="50%" /> -->
 </p>
 
-### <a id="control"></a>Control
-### <a id="evaluate"></a>Evaluate
-### <a id="improve"></a>Improve
+Our overview figure organizes RL-centric LMRMs as a unified train–test loop under a GPI-style pipeline:
+**Construct → Assess → Refine**.  
+
+- :one: **Construct: build and control reasoning trajectories**
+  - Training-time: [learning strategies & initialization](#31-training-initialization).
+  - Test-time: inference-time construct that establishs candidate trajectories, including [sampling-based](#41-sampling) and [search-based](#42-search) inference.
+
+- :two: **Assess: measure and verify reasoning**
+  - Training-time: [reward modeling and supervision](#32-reward-modeling).
+  - Test-time: [dynamic verification](#43-dynamic-verification) that scores and filters trajectories on the fly.
+
+- :three: **Refine: optimize reasoning behavior**
+  - Training-time: reasoning behavior improvement via trajectory-level refinement strategies and learning algorithms, including  
+    [sampling strategies for trajectory optimization](#33-trajectory-sampling) and [modal alignment and learning algorithms](#34-modal-alignment--learning-algorithm) that improve policies.
+  - Test-time: [trajectory optimization](#44-trajectory-optimization) that refines surviving paths under compute budgets.
+
+**Why CAR matters.** 
+
+It turns a fast-growing literature into a single, navigable map:  
+*how we generate trajectories (Construct), how we score them (Assess), and how we improve them (Refine)—consistently across training and inference.*
+
 
 ## 3. Train-time Optimization of RL-Centric Multimodal Reasoning
-### <a id="train-31--training-initialization"></a>3.1 Training Initialization
+### <a id="31--training-initialization"></a>3.1 Training Initialization
 
 <p align="center">
   <img src="figures\initialization.png" width="80%" />
@@ -244,7 +263,7 @@ As illustrated, existing approaches can be characterized along two dimensions, s
 | 2025.06 | `Lingshu` | Lingshu: A Generalist Foundation Model for Unified Multimodal Medical Understanding and Reasoning | [![Paper](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2506.07044) | [![Hugging Face](https://img.shields.io/badge/🤗%20Model-white?style=flat)](https://huggingface.co/collections/lingshu-medical-mllm/lingshu-mllms) |
 | 2025.06 | `MMedAgent-RL` | MMedAgent-RL: Optimizing Multi-Agent Collaboration for Multimodal Medical Reasoning | [![Paper](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2506.00555) | - |
 
-### <a id="train-32-reward-modeling"></a>3.2 Reward Modeling
+### <a id="32-reward-modeling"></a>3.2 Reward Modeling
 Summary of reward modeling in RL-centric MLRMs, organized by reward channel. For each method we report the input modalities, multimodal reasoning characteristics, feedback granularity, optimization target, reward type, evaluation type, initialization, learning algorithm, and tasks.
 
 <table>
@@ -869,7 +888,7 @@ This section focuses on *how* RL-centric LMRMs maintain cross-modal consistency 
 
 
 ## 4. Test-time Inference of RL-centric Multimodal Reasoning
-### <a id="test-41-sampling"></a>4.1 Sampling
+### <a id="41-sampling"></a>4.1 Sampling
 
 Test-time decoding and sampling strategies strongly influence the coherence and diversity of reasoning outputs. The objective is to explore the solution space efficiently under a limited compute budget and generate high-quality candidate outputs.
 Common strategies include [greedy decoding](https://arxiv.org/abs/1409.0473), random sampling, [Top-k](https://arxiv.org/abs/1805.04833), [Top-p](https://arxiv.org/abs/1904.09751), and [beam search](https://arxiv.org/abs/1409.3215).
