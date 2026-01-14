@@ -203,7 +203,7 @@ Our overview figure organizes RL-centric LMRMs as a unified train–test loop un
 **Why CAR matters.** 
 
 It turns a fast-growing literature into a single, navigable map:  
-*how we generate trajectories (Construct), how we score them (Assess), and how we improve them (Refine)—consistently across training and inference.*
+*how LMRMs establish the reasoning substrate (Construct), how LMRMs measure reasoning competence (Assess), and how LMRMs optimize reasoning behavior (Refine), consistently across training and inference.*
 
 
 ## 3. Train-time Optimization of RL-Centric Multimodal Reasoning
