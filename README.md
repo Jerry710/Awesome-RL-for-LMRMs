@@ -1768,7 +1768,7 @@ In LMRMs, test-time trajectory optimization should move beyond naïve short-traj
   - [ ] Intervention-driven training signals.
 
 > :eight_pointed_black_star: **Supplementary Remark**: 
-> Within an RL-centric perspective, **multimodal abstract reasoning**, often open-ended, supported by distributed evidence, and hard to evaluate, can be made amenable to systematic optimization.
+> RL renders open-ended **multimodal abstract reasoning**, characterized by its dispersed evidence, and difficult evaluation, amenable to systematic optimization.
 > - [ ] Shift from data collection to controlled synthesis and preference construction.
 > - [ ] Shift from a linear state representation to a structured state graph.
 > - [ ] Shift from single-metric to multi-dimensional preference evaluation.
