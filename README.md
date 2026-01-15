@@ -317,7 +317,7 @@ Summary of reward modeling in RL-centric MLRMs, organized by reward channel. For
       <td>Math, Detection, Classification</td>
     </tr>
     <tr>
-      <td>MedVLThinker<br><a href="https://arxiv.org/abs/2508.02669">
+      <td><code>MedVLThinker</code><br><a href="https://arxiv.org/abs/2508.02669">
         <img src="https://img.shields.io/badge/arXiv-b31b1b.svg" alt="arXiv"></a>
         <a href="https://github.com/UCSC-VLAA/MedVLThinker">
         <img src="https://img.shields.io/github/stars/UCSC-VLAA/MedVLThinker?style=social" alt="Stars"></a></td>
@@ -331,7 +331,7 @@ Summary of reward modeling in RL-centric MLRMs, organized by reward channel. For
       <td>General-Domain Medical QA, Modality-Specific QA</td>
     </tr>
     <tr>
-      <td>R1-VL<br><a href="https://arxiv.org/abs/2503.12937">
+      <td><code>R1-VL</code><br><a href="https://arxiv.org/abs/2503.12937">
           <img src="https://img.shields.io/badge/arXiv-b31b1b.svg" alt="arXiv"></a>
           <a href="https://github.com/jingyi0000/R1-VL">
           <img src="https://img.shields.io/github/stars/jingyi0000/R1-VL?style=social" alt="Stars"></a></td>
@@ -345,7 +345,7 @@ Summary of reward modeling in RL-centric MLRMs, organized by reward channel. For
         <td>Chart Rea., Visual Hallucination, Math, General Visual Rea.</td>
     </tr>
     <tr>
-      <td>GRIT<br><a href="https://arxiv.org/abs/2505.15879">
+      <td><code>GRIT</code><br><a href="https://arxiv.org/abs/2505.15879">
         <img src="https://img.shields.io/badge/arXiv-b31b1b.svg" alt="arXiv"></a>
         <a href="https://github.com/eric-ai-lab/GRIT">
         <img src="https://img.shields.io/github/stars/eric-ai-lab/GRIT?style=social" alt="Stars"></a></td>
@@ -359,7 +359,7 @@ Summary of reward modeling in RL-centric MLRMs, organized by reward channel. For
       <td>Math, Spat. Rea., Object Count.</td>
     </tr>
     <tr>
-      <td>Kimi k1.5<br><a href="https://arxiv.org/abs/2501.12599">
+      <td><code>Kimi k1.5</code><br><a href="https://arxiv.org/abs/2501.12599">
         <img src="https://img.shields.io/badge/arXiv-b31b1b.svg" alt="arXiv"></a>
         <a href="https://github.com/MoonshotAI/Kimi-k1.5">
         <img src="https://img.shields.io/github/stars/MoonshotAI/Kimi-k1.5?style=social" alt="Stars"></a></td>
@@ -377,7 +377,7 @@ Summary of reward modeling in RL-centric MLRMs, organized by reward channel. For
       <td colspan="10"><i>Structural Constraints</i></td>
     </tr>
     <tr>
-      <td>Visionary-R1<br><a href="https://arxiv.org/abs/2505.14677">
+      <td><code>Visionary-R1</code><br><a href="https://arxiv.org/abs/2505.14677">
           <img src="https://img.shields.io/badge/arXiv-b31b1b.svg" alt="arXiv">
         </a>
         <a href="https://github.com/maifoundations/Visionary-R1">
@@ -393,7 +393,7 @@ Summary of reward modeling in RL-centric MLRMs, organized by reward channel. For
       <td>Visual Rea., Math, Chart Rea.</td>
     </tr>
     <tr>
-      <td>Geoint-R1<br><a href="https://arxiv.org/abs/2508.03173">
+      <td><code>Geoint-R1</code><br><a href="https://arxiv.org/abs/2508.03173">
           <img src="https://img.shields.io/badge/arXiv-b31b1b.svg" alt="arXiv">
         </a></td>
       <td>Ground, Spat., Struct, Dom.</td>
@@ -406,7 +406,7 @@ Summary of reward modeling in RL-centric MLRMs, organized by reward channel. For
       <td>Answer- and Proof-Type Geo QA</td>
     </tr>
     <tr>
-      <td>R1-SGG<br><a href="https://arxiv.org/abs/2504.13617">
+      <td><code>R1-SGG</code><br><a href="https://arxiv.org/abs/2504.13617">
           <img src="https://img.shields.io/badge/arXiv-b31b1b.svg" alt="arXiv">
         </a>
         <a href="https://github.com/gpt4vision/R1-SGG">
@@ -422,7 +422,7 @@ Summary of reward modeling in RL-centric MLRMs, organized by reward channel. For
       <td>Scene Graph Gen. (SGG)</td>
     </tr>
     <tr>
-      <td>VideoChat-R1<br><a href="https://arxiv.org/abs/2504.06958">
+      <td><code>VideoChat-R1</code><br><a href="https://arxiv.org/abs/2504.06958">
           <img src="https://img.shields.io/badge/arXiv-b31b1b.svg" alt="arXiv">
         </a>
         <a href="https://github.com/OpenGVLab/VideoChat-R1">
@@ -442,7 +442,7 @@ Summary of reward modeling in RL-centric MLRMs, organized by reward channel. For
       <td colspan="10"><i>Domain-Rule Verification</i></td>
     </tr>
     <tr>
-      <td>MetaSpatial<br><a href="https://arxiv.org/abs/2503.18470">
+      <td><code>MetaSpatial</code><br><a href="https://arxiv.org/abs/2503.18470">
           <img src="https://img.shields.io/badge/arXiv-b31b1b.svg" alt="arXiv">
         </a>
         <a href="https://github.com/PzySeere/MetaSpatial">
@@ -458,7 +458,7 @@ Summary of reward modeling in RL-centric MLRMs, organized by reward channel. For
       <td>3D Spatial Rea.</td>
     </tr>
     <tr>
-      <td>ChestX-Reasoner<br><a href="https://arxiv.org/abs/2504.20930">
+      <td><code>ChestX-Reasoner</code><br><a href="https://arxiv.org/abs/2504.20930">
           <img src="https://img.shields.io/badge/arXiv-b31b1b.svg" alt="arXiv">
         </a>
         <a href="https://github.com/MAGIC-AI4Med/ChestX-Reasoner">
@@ -478,7 +478,7 @@ Summary of reward modeling in RL-centric MLRMs, organized by reward channel. For
       <td colspan="10"><i>Model-Based Automatic Evaluation</i></td>
     </tr>
     <tr>
-      <td>GoT-R1<br><a href="https://arxiv.org/abs/2505.17022">
+      <td><code>GoT-R1</code><br><a href="https://arxiv.org/abs/2505.17022">
           <img src="https://img.shields.io/badge/arXiv-b31b1b.svg" alt="arXiv">
         </a>
         <a href="https://github.com/gogoduan/GoT-R1">
@@ -494,7 +494,7 @@ Summary of reward modeling in RL-centric MLRMs, organized by reward channel. For
       <td>Text-to-Image Gen.</td>
     </tr>
     <tr>
-      <td>StructVRM<br><a href="https://arxiv.org/abs/2508.05383">
+      <td><code>StructVRM</code><br><a href="https://arxiv.org/abs/2508.05383">
           <img src="https://img.shields.io/badge/arXiv-b31b1b.svg" alt="arXiv">
         </a></td>
       <td>Struct, Dom.</td>
@@ -507,7 +507,7 @@ Summary of reward modeling in RL-centric MLRMs, organized by reward channel. For
       <td>Visual QA, Physics, Chemistry, Biology, Math Rea.</td>
     </tr>
     <tr>
-      <td>DeepEyes<br><a href="https://arxiv.org/abs/2505.14362">
+      <td><code>DeepEyes</code><br><a href="https://arxiv.org/abs/2505.14362">
           <img src="https://img.shields.io/badge/arXiv-b31b1b.svg" alt="arXiv">
         </a>
         <a href="https://github.com/Visual-Agent/DeepEyes">
@@ -527,7 +527,7 @@ Summary of reward modeling in RL-centric MLRMs, organized by reward channel. For
       <td colspan="10"><i>Decomposed Rewards</i></td>
     </tr>
     <tr>
-      <td>STAR-R1<br><a href="https://arxiv.org/abs/2505.15804">
+      <td><code>STAR-R1</code><br><a href="https://arxiv.org/abs/2505.15804">
           <img src="https://img.shields.io/badge/arXiv-b31b1b.svg" alt="arXiv">
         </a>
         <a href="https://github.com/zongzhao23/STAR-R1">
@@ -543,7 +543,7 @@ Summary of reward modeling in RL-centric MLRMs, organized by reward channel. For
       <td>Spatial Transformation Rea.</td>
     </tr>
     <tr>
-      <td>DanceGRPO<br><a href="https://arxiv.org/abs/2505.07818">
+      <td><code>DanceGRPO</code><br><a href="https://arxiv.org/abs/2505.07818">
           <img src="https://img.shields.io/badge/arXiv-b31b1b.svg" alt="arXiv">
         </a>
         <a href="https://github.com/XueZeyue/DanceGRPO">
@@ -559,7 +559,7 @@ Summary of reward modeling in RL-centric MLRMs, organized by reward channel. For
       <td>Text-to-Image, Video Gen.</td>
     </tr>
     <tr>
-      <td>TimeMaster<br><a href="https://arxiv.org/abs/2506.13705">
+      <td><code>TimeMaster</code><br><a href="https://arxiv.org/abs/2506.13705">
           <img src="https://img.shields.io/badge/arXiv-b31b1b.svg" alt="arXiv">
         </a>
         <a href="https://github.com/langfengQ/TimeMaster">
@@ -575,7 +575,7 @@ Summary of reward modeling in RL-centric MLRMs, organized by reward channel. For
       <td>MM Time-Series Rea.</td>
     </tr>
     <tr>
-      <td>Mixed-R1<br><a href="https://arxiv.org/abs/2505.24164">
+      <td><code>Mixed-R1</code><br><a href="https://arxiv.org/abs/2505.24164">
           <img src="https://img.shields.io/badge/arXiv-b31b1b.svg" alt="arXiv">
         </a></td>
       <td>Ground, Align, Spat.</td>
@@ -588,7 +588,7 @@ Summary of reward modeling in RL-centric MLRMs, organized by reward channel. For
       <td>Math, Science, Chart/OCR Rea., Fine-Grained Visual Rea.</td>
     </tr>
     <tr>
-      <td>Relation-R1<br><a href="https://arxiv.org/abs/2504.14642">
+      <td><code>Relation-R1</code><br><a href="https://arxiv.org/abs/2504.14642">
           <img src="https://img.shields.io/badge/arXiv-b31b1b.svg" alt="arXiv">
         </a>
         <a href="https://github.com/HKUST-LongGroup/Relation-R1">
@@ -611,7 +611,7 @@ Summary of reward modeling in RL-centric MLRMs, organized by reward channel. For
       <td colspan="10"><i>Direct Human Preference</i></td>
     </tr>
     <tr>
-      <td>T2I-R1<br><a href="https://arxiv.org/abs/2505.00703">
+      <td><code>T2I-R1</code><br><a href="https://arxiv.org/abs/2505.00703">
           <img src="https://img.shields.io/badge/arXiv-b31b1b.svg" alt="arXiv">
         </a>
         <a href="https://github.com/CaraJ7/T2I-R1">
@@ -627,7 +627,7 @@ Summary of reward modeling in RL-centric MLRMs, organized by reward channel. For
       <td>Text-to-Image Gen. with Human Preference Alignment</td>
     </tr>
     <tr>
-      <td>SophiaVL-R1<br><a href="https://arxiv.org/abs/2505.17018">
+      <td><code>SophiaVL-R1</code><br><a href="https://arxiv.org/abs/2505.17018">
           <img src="https://img.shields.io/badge/arXiv-b31b1b.svg" alt="arXiv">
         </a>
         <a href="https://github.com/kxfan2002/SophiaVL-R1">
@@ -643,7 +643,7 @@ Summary of reward modeling in RL-centric MLRMs, organized by reward channel. For
       <td>Math, Science, Visual Rea., Chart Rea., General MM QA</td>
     </tr>
     <tr>
-      <td>Generative RLHF-V<br><a href="https://arxiv.org/abs/2505.18531">
+      <td><code>Generative RLHF-V</code><br><a href="https://arxiv.org/abs/2505.18531">
           <img src="https://img.shields.io/badge/arXiv-b31b1b.svg" alt="arXiv">
         </a>
         <a href="https://github.com/volcengine/verl">
@@ -659,7 +659,7 @@ Summary of reward modeling in RL-centric MLRMs, organized by reward channel. For
       <td>General MM Res.</td>
     </tr>
     <tr>
-      <td>SaFeR-VLM<br><a href="https://arxiv.org/abs/2510.06871">
+      <td><code>SaFeR-VLM</code><br><a href="https://arxiv.org/abs/2510.06871">
           <img src="https://img.shields.io/badge/arXiv-b31b1b.svg" alt="arXiv">
         </a>
         <a href="https://github.com/HarveyYi/SaFeR-VLM">
@@ -679,7 +679,7 @@ Summary of reward modeling in RL-centric MLRMs, organized by reward channel. For
       <td colspan="10"><i>Mixture-of-Rewards</i></td>
     </tr>
     <tr>
-      <td>Intern-S1<br><a href="https://arxiv.org/abs/2508.15763">
+      <td><code>Intern-S1</code><br><a href="https://arxiv.org/abs/2508.15763">
           <img src="https://img.shields.io/badge/arXiv-b31b1b.svg" alt="arXiv">
         </a>
         <a href="https://github.com/InternLM/Intern-S1">
@@ -1192,7 +1192,7 @@ In LMRMs, test-time trajectory optimization should move beyond naïve short-traj
   </tr>
   <tbody>
     <tr>
-      <td><a href="https://arxiv.org/abs/2307.06281">MMBench</a></td>
+      <td><a href="https://arxiv.org/abs/2307.06281"><code>MMBench</code></a></td>
       <td>2024</td>
       <td>3.2K</td>
       <td>Acc., CircularEval</td>
@@ -1202,7 +1202,7 @@ In LMRMs, test-time trajectory optimization should move beyond naïve short-traj
       <td align="center"><a href="https://huggingface.co/datasets/HuggingFaceM4/MMBench"><img src="https://huggingface.co/front/assets/huggingface_logo-noborder.svg" alt="HF" width="18"></a></td>
     </tr>
     <tr>
-      <td><a href="https://arxiv.org/abs/2311.16502">MMMU</a></td>
+      <td><a href="https://arxiv.org/abs/2311.16502"><code>MMMU</code></a></td>
       <td>2024</td>
       <td>11.5K</td>
       <td>Acc.</td>
@@ -1212,7 +1212,7 @@ In LMRMs, test-time trajectory optimization should move beyond naïve short-traj
       <td align="center"><a href="https://huggingface.co/datasets/MMMU/MMMU"><img src="https://huggingface.co/front/assets/huggingface_logo-noborder.svg" alt="HF" width="18"></a></td>
     </tr>
     <tr>
-      <td><a href="https://arxiv.org/abs/2304.06364">AGIEval</a></td>
+      <td><a href="https://arxiv.org/abs/2304.06364"><code>AGIEval</code></a></td>
       <td>2024</td>
       <td>8K</td>
       <td>Acc., F1 Score, Exact Match</td>
@@ -1222,7 +1222,7 @@ In LMRMs, test-time trajectory optimization should move beyond naïve short-traj
       <td align="center"><a href="https://github.com/ruixiangcui/AGIEval"><img src="https://img.shields.io/badge/-181717?style=social&logo=github" alt="GitHub"></a></td>
     </tr>
     <tr>
-      <td><a href="https://arxiv.org/abs/2310.14566">HallusionBench</a></td>
+      <td><a href="https://arxiv.org/abs/2310.14566"><code>HallusionBench</code></a></td>
       <td>2024</td>
       <td>0.2K</td>
       <td>Acc., AS</td>
@@ -1235,7 +1235,7 @@ In LMRMs, test-time trajectory optimization should move beyond naïve short-traj
       <td colspan="8"><i><b>Structured and Task-Specific Reasoning</b></i></td>
     </tr>
     <tr>
-      <td><a href="https://arxiv.org/abs/2405.09711">STAR</a></td>
+      <td><a href="https://arxiv.org/abs/2405.09711"><code>STAR</code></a></td>
       <td>2024</td>
       <td>60K</td>
       <td>Acc.</td>
@@ -1245,7 +1245,7 @@ In LMRMs, test-time trajectory optimization should move beyond naïve short-traj
       <td align="center"><a href="https://github.com/tianyi-lab/HallusionBench"><img src="https://img.shields.io/badge/web-00BFFF.svg" alt="GitHub"></a></td>
     </tr>
     <tr>
-      <td><a href="https://arxiv.org/abs/2502.14191">Multimodal RewardBench</a></td>
+      <td><a href="https://arxiv.org/abs/2502.14191"><code>Multimodal RewardBench</code></a></td>
       <td>2025</td>
       <td>5.2K</td>
       <td>Acc.</td>
@@ -1257,27 +1257,27 @@ In LMRMs, test-time trajectory optimization should move beyond naïve short-traj
     <tr>
       <td colspan="8">
         💖<b>Core Benchmarks (Milestone):</b><br>
-        <a href="https://huggingface.co/datasets/ranjaykrishna/visual_genome">Visual Genome</a>, <a href="https://huggingface.co/datasets/HuggingFaceM4/A-OKVQA">A-OKVQA</a>, <a href="https://huggingface.co/datasets/derek-thomas/ScienceQA">ScienceQA</a>, <a href="https://huggingface.co/datasets/AILab-CVC/SEED-Bench">SEED-bench</a>, <a href="https://huggingface.co/datasets/BLINK-Benchmark/BLINK">Blink</a>,
-        <a href="https://huggingface.co/datasets/MilaWang/SpatialEval">SpatialEval</a>, <a href="https://huggingface.co/datasets/HuanjinYao/Mulberry-SFT">Mulberry-260K</a>, <a href="https://huggingface.co/collections/laolao77/virft-datasets">Visual-RFT</a>.
+        <a href="https://huggingface.co/datasets/ranjaykrishna/visual_genome"><code>Visual Genome</code></a>, <a href="https://huggingface.co/datasets/HuggingFaceM4/A-OKVQA"><code>A-OKVQA</code></a>, <a href="https://huggingface.co/datasets/derek-thomas/ScienceQA"><code>ScienceQA</code></a>, <a href="https://huggingface.co/datasets/AILab-CVC/SEED-Bench"><code>SEED-bench</code></a>, <a href="https://huggingface.co/datasets/BLINK-Benchmark/BLINK"><code>Blink</code></a>,
+        <a href="https://huggingface.co/datasets/MilaWang/SpatialEval"><code>SpatialEval</code></a>, <a href="https://huggingface.co/datasets/HuanjinYao/Mulberry-SFT"><code>Mulberry-260K</code></a>, <a href="https://huggingface.co/collections/laolao77/virft-datasets"><code>Visual-RFT</code></a>.
       </td>
     </tr>
     <tr>
       <td colspan="8"> 
         💕<b>Representative Benchmarks:</b><br>
-        <a href="https://github.com/T-SciQ/T-SciQ">T-SciQ dataset</a>, <a href="https://visualabduction.com/">Sherlock</a>, <a href="https://github.com/AILab-CVC/VL-GPT">VL-GPT</a>, <a href="https://shramanpramanick.github.io/VistaLLM/">CoinIt</a>, <a href="https://huggingface.co/datasets/whyu/mm-vet-v2">MM-Vet v2</a>,
-        <a href="https://huggingface.co/datasets/Harold328/OmniBench-99">OmniBench</a>, <a href="https://huggingface.co/datasets/NukaSarsae/MM-SAP">MM-SPA</a>, <a href="https://huggingface.co/datasets/czh-up/CoMT">CoMT</a>, <a href="https://schowdhury671.github.io/avtrustbench_project/">AVTrustBench</a>, <a href="https://huggingface.co/datasets/Salesforce/ProVision-10M">ProVision</a>,
-        <a href="https://huggingface.co/datasets/MMInstruction/VL-RewardBench">VL-RewardBench</a>, <a href="https://huggingface.co/datasets/luckychao/EMMA">EMMA</a>, <a href="https://github.com/kaist-ami/AVHBench">AVHBench</a>, <a href="https://huggingface.co/datasets/FreedomIntelligence/ShareGPT-4o-Image">ShareGPT-4o-Image</a>,
-        <a href="https://huggingface.co/datasets/PCA-Bench/PCA-Bench-V1">PCA-Bench</a>, <a href="https://github.com/adlnlp/magic_vqa">MAGIC-VQA</a>, <a href="https://huggingface.co/datasets/huanqia/MM-IQ">Mm-iq</a>, <a href="https://github.com/ZrrSkywalker/MAVIS">MAVIS</a>, <a href="https://huggingface.co/datasets/m-a-p/II-Bench">II-Bench</a>,
-        <a href="https://huggingface.co/datasets/jmhb/microvqa">MicroVQA</a>, <a href="https://huggingface.co/datasets/ShirohAO/tuxun#citation-information">GeoComp</a>.
+        <a href="https://github.com/T-SciQ/T-SciQ"><code>T-SciQ dataset</code></a>, <a href="https://visualabduction.com/"><code>Sherlock</code></a>, <a href="https://github.com/AILab-CVC/VL-GPT"><code>VL-GPT</code></a>, <a href="https://shramanpramanick.github.io/VistaLLM/"><code>CoinIt</code></a>, <a href="https://huggingface.co/datasets/whyu/mm-vet-v2"><code>MM-Vet v2</code></a>,
+        <a href="https://huggingface.co/datasets/Harold328/OmniBench-99"><code>OmniBench</code></a>, <a href="https://huggingface.co/datasets/NukaSarsae/MM-SAP"><code>MM-SPA</code></a>, <a href="https://huggingface.co/datasets/czh-up/CoMT"><code>CoMT</code></a>, <a href="https://schowdhury671.github.io/avtrustbench_project/"><code>AVTrustBench</code></a>, <a href="https://huggingface.co/datasets/Salesforce/ProVision-10M"><code>ProVision</code></a>,
+        <a href="https://huggingface.co/datasets/MMInstruction/VL-RewardBench"><code>VL-RewardBench</code></a>, <a href="https://huggingface.co/datasets/luckychao/EMMA"><code>EMMA</code></a>, <a href="https://github.com/kaist-ami/AVHBench"><code>AVHBench</code></a>, <a href="https://huggingface.co/datasets/FreedomIntelligence/ShareGPT-4o-Image"><code>ShareGPT-4o-Image</code></a>,
+        <a href="https://huggingface.co/datasets/PCA-Bench/PCA-Bench-V1"><code>PCA-Bench</code></a>, <a href="https://github.com/adlnlp/magic_vqa"><code>MAGIC-VQA</code></a>, <a href="https://huggingface.co/datasets/huanqia/MM-IQ"><code>Mm-iq</code></a>, <a href="https://github.com/ZrrSkywalker/MAVIS"><code>MAVIS</code></a>, <a href="https://huggingface.co/datasets/m-a-p/II-Bench"><code>II-Bench</code></a>,
+        <a href="https://huggingface.co/datasets/jmhb/microvqa"><code>MicroVQA</code></a>, <a href="https://huggingface.co/datasets/ShirohAO/tuxun#citation-information"><code>GeoComp</code></a>.
       </td>
     </tr>
     <tr>
       <td colspan="8"> 
         ❤️<b>Other Benchmarks (Emerging):</b><br>
-        <a href="https://huggingface.co/datasets/jing-bi/verify-teaser">VERIFY</a>, <a href="https://github.com/liujunzhuo/FineCops-Ref">FineCops-Ref</a>, <a href="https://huggingface.co/datasets/xueyanz/FIND-Bench">FIND-Bench</a>, <a href="https://huggingface.co/datasets/htlou/mm-interp-CompCap-gpt4-data">CompCap</a>, <a href="https://huggingface.co/datasets/wphu/CapQA">CapQA</a>,
-        <a href="https://huggingface.co/datasets/SimulaMet/Kvasir-VQA-x1">Ksavir-VQA-x1</a>, <a href="https://huggingface.co/datasets/HarrytheOrange/MMRB">MMRB</a>, <a href="https://github.com/Zhanglei1103/MMESGBench">MMESGBench</a>, <a href="https://github.com/jfliang3324/GUIDE">GUIDE</a>, <a href="https://github.com/togethercomputer/SMiR">SMIR</a>,
-        <a href="https://huggingface.co/datasets/m-a-p/CII-Bench">CII-Bench</a>, <a href="https://github.com/microsoft/MageBench">MAGEBench</a>, <a href="https://huggingface.co/datasets/RUBBISHLIKE/PunchBench">PunchBench</a>,
-        <a href="https://journeybench.github.io/">JourneyBench</a>, <a href="https://huggingface.co/datasets/yh0075/VisuRiddles">VisuRiddles</a>.
+        <a href="https://huggingface.co/datasets/jing-bi/verify-teaser"><code>VERIFY</code></a>, <a href="https://github.com/liujunzhuo/FineCops-Ref"><code>FineCops-Ref</code></a>, <a href="https://huggingface.co/datasets/xueyanz/FIND-Bench"><code>FIND-Bench</code></a>, <a href="https://huggingface.co/datasets/htlou/mm-interp-CompCap-gpt4-data"><code>CompCap</code></a>, <a href="https://huggingface.co/datasets/wphu/CapQA"><code>CapQA</code></a>,
+        <a href="https://huggingface.co/datasets/SimulaMet/Kvasir-VQA-x1"><code>Ksavir-VQA-x1</code></a>, <a href="https://huggingface.co/datasets/HarrytheOrange/MMRB"><code>MMRB</code></a>, <a href="https://github.com/Zhanglei1103/MMESGBench"><code>MMESGBench</code></a>, <a href="https://github.com/jfliang3324/GUIDE"><code>GUIDE</code></a>, <a href="https://github.com/togethercomputer/SMiR"><code>SMIR</code></a>,
+        <a href="https://huggingface.co/datasets/m-a-p/CII-Bench"><code>CII-Bench</code></a>, <a href="https://github.com/microsoft/MageBench"><code>MAGEBench</code></a>, <a href="https://huggingface.co/datasets/RUBBISHLIKE/PunchBench"><code>PunchBench</code></a>,
+        <a href="https://journeybench.github.io/"><code>JourneyBench</code></a>, <a href="https://huggingface.co/datasets/yh0075/VisuRiddles"><code>VisuRiddles</code></a>.
       </td>
     </tr>
   </tbody>
@@ -1309,7 +1309,7 @@ In LMRMs, test-time trajectory optimization should move beyond naïve short-traj
       <td colspan="8"><i><b>Domain-Specific Reasoning</b></i></td>
     </tr>
     <tr>
-      <td><a href="https://arxiv.org/abs/2310.02255">MathVista</a></td>
+      <td><a href="https://arxiv.org/abs/2310.02255"><code>MathVista</code></a></td>
       <td>2023</td>
       <td>6.1K</td>
       <td>Acc.</td>
@@ -1319,7 +1319,7 @@ In LMRMs, test-time trajectory optimization should move beyond naïve short-traj
       <td align="center"><a href="https://huggingface.co/datasets/AI4Math/MathVista"><img src="https://huggingface.co/front/assets/huggingface_logo-noborder.svg" alt="HF" width="18"></a></td>
     </tr>
     <tr>
-      <td><a href="https://arxiv.org/abs/2403.20330">MM-Star</a></td>
+      <td><a href="https://arxiv.org/abs/2403.20330"><code>MM-Star</code></a></td>
       <td>2024</td>
       <td>1.5K</td>
       <td>Acc., Multimodal Gain and Leakag</td>
@@ -1329,7 +1329,7 @@ In LMRMs, test-time trajectory optimization should move beyond naïve short-traj
       <td align="center"><a href="https://huggingface.co/datasets/Lin-Chen/MMStar"><img src="https://huggingface.co/front/assets/huggingface_logo-noborder.svg" alt="HF" width="18"></a></td>
     </tr>
     <tr>
-      <td><a href="https://arxiv.org/abs/2409.02813">MMMU-Pro</a></td>
+      <td><a href="https://arxiv.org/abs/2409.02813"><code>MMMU-Pro</code></a></td>
       <td>2025</td>
       <td>3.5K</td>
       <td>Acc.</td>
@@ -1342,7 +1342,7 @@ In LMRMs, test-time trajectory optimization should move beyond naïve short-traj
       <td colspan="8"><i><b>Diagrammatic and Spatial Reasoning</b></i></td>
     </tr>
     <tr>
-      <td><a href="https://arxiv.org/abs/2401.12168">SpatialVLM-Dataset</a></td>
+      <td><a href="https://arxiv.org/abs/2401.12168"><code>SpatialVLM-Dataset</code></a></td>
       <td>2024</td>
       <td>2B</td>
       <td>Acc., MSE</td>
@@ -1352,7 +1352,7 @@ In LMRMs, test-time trajectory optimization should move beyond naïve short-traj
       <td align="center"><a href="https://github.com/remyxai/VQASynth"><img src="https://img.shields.io/badge/-181717?style=social&logo=github" alt="GitHub"></a></td>
     </tr>
     <tr>
-      <td><a href="https://arxiv.org/abs/2406.18521">CharXiv</a></td>
+      <td><a href="https://arxiv.org/abs/2406.18521"><code>CharXiv</code></a></td>
       <td>2024</td>
       <td>11.6K</td>
       <td>AS</td>
@@ -1365,7 +1365,7 @@ In LMRMs, test-time trajectory optimization should move beyond naïve short-traj
       <td colspan="8"><i><b>Counterfactual and Logical Reasoning</b></i></td>
     </tr>
     <tr>
-      <td><a href="https://arxiv.org/abs/2407.04973">LogicVista</a></td>
+      <td><a href="https://arxiv.org/abs/2407.04973"><code>LogicVista</code></a></td>
       <td>2024</td>
       <td>0.45K</td>
       <td>Acc.</td>
@@ -1377,44 +1377,44 @@ In LMRMs, test-time trajectory optimization should move beyond naïve short-traj
     <tr>
       <td colspan="8">
         💖<b>Core Benchmarks (Milestone):</b><br>
-        <a href="https://cs.stanford.edu/people/jcjohns/clevr/">CLEVR</a>, <a href="https://huggingface.co/datasets/lmms-lab/ChartQA">ChartQA</a>, <a href="https://huggingface.co/datasets/Hothan/OlympiadBench">OlympiadBench</a>, <a href="https://www.docvqa.org/datasets/infographicvqa">InfographicVQA</a>, <a href="https://huggingface.co/datasets/AI4Math/MathVerse">MathVerse</a>, <a href="https://github.com/amitakamath/whatsup_vlms">WhatsUp</a>, <a href="https://huggingface.co/datasets/TIGER-Lab/TheoremQA">TheoremQA</a>, 
-        <a href="https://huggingface.co/datasets/MathLLMs/MathVision">MATH-Vision</a>, <a href="https://github.com/Genesis-Embodied-AI/RoboGen">RoboGen</a>, <a href="https://huggingface.co/datasets/nyu-visionx/VSI-Bench">VSIBench</a>, <a href="https://huggingface.co/datasets/deepcs233/Visual-CoT">Visual-CoT</a>, <a href="https://huggingface.co/datasets/We-Math/We-Math">WE-MATH</a>.
+        <a href="https://cs.stanford.edu/people/jcjohns/clevr/"><code>CLEVR</code></a>, <a href="https://huggingface.co/datasets/lmms-lab/ChartQA"><code>ChartQA</code></a>, <a href="https://huggingface.co/datasets/Hothan/OlympiadBench"><code>OlympiadBench</code></a>, <a href="https://www.docvqa.org/datasets/infographicvqa"><code>InfographicVQA</code></a>, <a href="https://huggingface.co/datasets/AI4Math/MathVerse"><code>MathVerse</code></a>, <a href="https://github.com/amitakamath/whatsup_vlms"><code>WhatsUp</code></a>, <a href="https://huggingface.co/datasets/TIGER-Lab/TheoremQA"><code>TheoremQA</code></a>, 
+        <a href="https://huggingface.co/datasets/MathLLMs/MathVision"><code>MATH-Vision</code></a>, <a href="https://github.com/Genesis-Embodied-AI/RoboGen"><code>RoboGen</code></a>, <a href="https://huggingface.co/datasets/nyu-visionx/VSI-Bench"><code>VSIBench</code></a>, <a href="https://huggingface.co/datasets/deepcs233/Visual-CoT"><code>Visual-CoT</code></a>, <a href="https://huggingface.co/datasets/We-Math/We-Math"><code>WE-MATH</code></a>.
       </td>
     </tr>
     <tr>
       <td colspan="8"> 
         💕<b>Representative Benchmarks:</b><br>
-        <a href="https://github.com/thiippal/AI2D-RST">AI2D</a>,
-        <a href="https://huggingface.co/videophysics">VideoPhy</a>,
-        <a href="https://huggingface.co/datasets/SincereX/ChartBench">ChartBench</a>,
-        <a href="https://huggingface.co/datasets/ChartMimic/ChartMimic">ChartMimic</a>,
-        <a href="https://huggingface.co/datasets/TencentARC/Plot2Code">Plot2Code</a>,
-        <a href="https://huggingface.co/datasets/USC-GVL/PhysBench">PhysBench</a>,
-        <a href="https://huggingface.co/datasets/M4U-Benchmark/M4U">M4U</a>,
-        <a href="https://huggingface.co/datasets/PeijieWang/MV-MATH">MV-MATH</a>,
-        <a href="https://github.com/Letian2003/C-VQA">C-VQA</a>,
-        <a href="https://huggingface.co/datasets/m-a-p/CMMMU">CMMMU</a>,
-        <a href="https://github.com/ECNU-ICALK/EduChat-Math">CMM-Math</a>,
-        <a href="https://github.com/OpenMOSS/GAOKAO-MM">GAOKAO-MM</a>,
-        <a href="https://huggingface.co/datasets/HumanEval-V/HumanEval-V-Benchmark">HumanEval-V</a>,
-        <a href="https://github.com/lizhouf/NPHardEval4V">NPHardEval4V</a>,
-        <a href="https://huggingface.co/datasets/HanSolo9682/Flickr30k-Counterfactuals">CounterCurate</a>,
-        <a href="https://huggingface.co/datasets/SurplusDeficit/MultiHop-EgoQA">MultiHop-EgoQA</a>,
-        <a href="https://github.com/Zivenzhu/Multi-chart-QA">MultiChartQA</a>,
-        <a href="https://huggingface.co/datasets/MathLLMs/ImgCode-8.6M">ImgCode-8.6M</a>,
-        <a href="https://huggingface.co/datasets/VisuLogic/VisuLogic">VisuLogic</a>,
-        <a href="https://huggingface.co/datasets/MathLLMs/MM-MathInstruct">MM-MathInstruct-3M</a>,
-        <a href="https://huggingface.co/datasets/OpenStellarTeam/GeoSense">GeoSense</a>,
-        <a href="https://huggingface.co/datasets/DreamMr/HR-Bench">HR-Bench</a>,
-        <a href="https://huggingface.co/datasets/Michael4933/MGrounding-630k">MGrounding-630k</a>, <a href="https://huggingface.co/datasets/Michael4933/MIG-Bench">MIG-Bench</a>.
+        <a href="https://github.com/thiippal/AI2D-RST"><code>AI2D</code></a>,
+        <a href="https://huggingface.co/videophysics"><code>VideoPhy</code></a>,
+        <a href="https://huggingface.co/datasets/SincereX/ChartBench"><code>ChartBench</code></a>,
+        <a href="https://huggingface.co/datasets/ChartMimic/ChartMimic"><code>ChartMimic</code></a>,
+        <a href="https://huggingface.co/datasets/TencentARC/Plot2Code"><code>Plot2Code</code></a>,
+        <a href="https://huggingface.co/datasets/USC-GVL/PhysBench"><code>PhysBench</code></a>,
+        <a href="https://huggingface.co/datasets/M4U-Benchmark/M4U"><code>M4U</code></a>,
+        <a href="https://huggingface.co/datasets/PeijieWang/MV-MATH"><code>MV-MATH</code></a>,
+        <a href="https://github.com/Letian2003/C-VQA"><code>C-VQA</code></a>,
+        <a href="https://huggingface.co/datasets/m-a-p/CMMMU"><code>CMMMU</code></a>,
+        <a href="https://github.com/ECNU-ICALK/EduChat-Math"><code>CMM-Math</code></a>,
+        <a href="https://github.com/OpenMOSS/GAOKAO-MM"><code>GAOKAO-MM</code></a>,
+        <a href="https://huggingface.co/datasets/HumanEval-V/HumanEval-V-Benchmark"><code>HumanEval-V</code></a>,
+        <a href="https://github.com/lizhouf/NPHardEval4V"><code>NPHardEval4V</code></a>,
+        <a href="https://huggingface.co/datasets/HanSolo9682/Flickr30k-Counterfactuals"><code>CounterCurate</code></a>,
+        <a href="https://huggingface.co/datasets/SurplusDeficit/MultiHop-EgoQA"><code>MultiHop-EgoQA</code></a>,
+        <a href="https://github.com/Zivenzhu/Multi-chart-QA"><code>MultiChartQA</code></a>,
+        <a href="https://huggingface.co/datasets/MathLLMs/ImgCode-8.6M"><code>ImgCode-8.6M</code></a>,
+        <a href="https://huggingface.co/datasets/VisuLogic/VisuLogic"><code>VisuLogic</code></a>,
+        <a href="https://huggingface.co/datasets/MathLLMs/MM-MathInstruct"><code>MM-MathInstruct-3M</code></a>,
+        <a href="https://huggingface.co/datasets/OpenStellarTeam/GeoSense"><code>GeoSense</code></a>,
+        <a href="https://huggingface.co/datasets/DreamMr/HR-Bench"><code>HR-Bench</code></a>,
+        <a href="https://huggingface.co/datasets/Michael4933/MGrounding-630k"><code>MGrounding-630k</code></a>, <a href="https://huggingface.co/datasets/Michael4933/MIG-Bench"><code>MIG-Bench</code></a>.
       </td>
     </tr>
     <tr>
       <td colspan="8"> 
         ❤️<b>Other Benchmarks (Emerging):</b><br>
-        <a href="https://huggingface.co/datasets/AAAndyZ/VGCure">MCDGRAPH</a>, <a href="https://github.com/Ahalfmoon/MathScape">MathScape</a>, <a href="https://github.com/LUNAProject22/CausalChaos">CausalChaos!</a>, <a href="https://microcosm.ai/ivispar/">iVISPAR</a>, <a href="https://github.com/LanceZPF/MDK12">MDK12-Bench</a>, <a href="https://huggingface.co/datasets/xuzhaopan/MPBench">MPBench</a>, <a href="https://huggingface.co/datasets/Pinkygin/MuCR">MuCR</a>, <a href="https://github.com/declare-lab/LLM-PuzzleTest/tree/master/AlgoPuzzleVQA">AlgoPuzzleVQA</a>,
-        <a href="https://huggingface.co/datasets/PrismaX/PhysUniBench">PhysUniBench</a>, <a href="https://huggingface.co/datasets/OpenRaiser/Geoint">Geoint</a>, <a href="https://huggingface.co/datasets/mrble/MARBLE">MARBLE</a>, <a href="https://huggingface.co/datasets/junfeng0288/MathReal">MathReal</a>, <a href="https://huggingface.co/datasets/erenzhou/AVI-Math">AVI-MATH</a>, <a href="https://huggingface.co/datasets/sunshk/CRAVE-DB">CRAVE</a>, <a href="https://huggingface.co/datasets/isobench/IsoBench">ISO-BENCH</a>, <a href="https://huggingface.co/datasets/yueluoshuangtian/MLLM-CITBench">MLLM-Cbench</a>,
-        <a href="https://huggingface.co/datasets/We-Math/We-Math2.0-Standard">WE-MATH 2.0</a>.
+        <a href="https://huggingface.co/datasets/AAAndyZ/VGCure"><code>MCDGRAPH</code></a>, <a href="https://github.com/Ahalfmoon/MathScape"><code>MathScape</code></a>, <a href="https://github.com/LUNAProject22/CausalChaos"><code>CausalChaos!</code></a>, <a href="https://microcosm.ai/ivispar/"><code>iVISPAR</code></a>, <a href="https://github.com/LanceZPF/MDK12"><code>MDK12-Bench</code></a>, <a href="https://huggingface.co/datasets/xuzhaopan/MPBench"><code>MPBench</code></a>, <a href="https://huggingface.co/datasets/Pinkygin/MuCR"><code>MuCR</code></a>, <a href="https://github.com/declare-lab/LLM-PuzzleTest/tree/master/AlgoPuzzleVQA"><code>AlgoPuzzleVQA</code></a>,
+        <a href="https://huggingface.co/datasets/PrismaX/PhysUniBench"><code>PhysUniBench</code></a>, <a href="https://huggingface.co/datasets/OpenRaiser/Geoint"><code>Geoint</code></a>, <a href="https://huggingface.co/datasets/mrble/MARBLE"><code>MARBLE</code></a>, <a href="https://huggingface.co/datasets/junfeng0288/MathReal"><code>MathReal</code></a>, <a href="https://huggingface.co/datasets/erenzhou/AVI-Math"><code>AVI-MATH</code></a>, <a href="https://huggingface.co/datasets/sunshk/CRAVE-DB"><code>CRAVE</code></a>, <a href="https://huggingface.co/datasets/isobench/IsoBench"><code>ISO-BENCH</code></a>, <a href="https://huggingface.co/datasets/yueluoshuangtian/MLLM-CITBench"><code>MLLM-Cbench</code></a>,
+        <a href="https://huggingface.co/datasets/We-Math/We-Math2.0-Standard"><code>WE-MATH 2.0</code></a>.
       </td>
     </tr>
   </tbody>
@@ -1445,7 +1445,7 @@ In LMRMs, test-time trajectory optimization should move beyond naïve short-traj
       <td colspan="8"><i><b>Planning Reasoning</b></i></td>
     </tr>
     <tr>
-      <td><a href="https://arxiv.org/abs/2206.08853">MineDojo</a></td>
+      <td><a href="https://arxiv.org/abs/2206.08853"><code>MineDojo</code></a></td>
       <td>2022</td>
       <td>-</td>
       <td>SR, F1 Score, COR</td>
@@ -1455,7 +1455,7 @@ In LMRMs, test-time trajectory optimization should move beyond naïve short-traj
       <td align="center"><a href="https://github.com/MineDojo/MineDojo"><img src="https://img.shields.io/badge/-181717?style=social&logo=github" alt="GitHub"></a></td>
     </tr>
     <tr>
-      <td><a href="https://arxiv.org/abs/2310.04671">DHPR</a></td>
+      <td><a href="https://arxiv.org/abs/2310.04671"><code>DHPR</code></a></td>
       <td>2024</td>
       <td>15K</td>
       <td>Avg. Rank of GT, NDCG</td>
@@ -1468,7 +1468,7 @@ In LMRMs, test-time trajectory optimization should move beyond naïve short-traj
       <td colspan="8"><i><b>Temporal Reasoning</b></i></td>
     </tr>
     <tr>
-      <td><a href="https://arxiv.org/abs/2406.11303">Videovista</a></td>
+      <td><a href="https://arxiv.org/abs/2406.11303"><code>Videovista</code></a></td>
       <td>2024</td>
       <td>24.9K</td>
       <td>Acc.</td>
@@ -1478,7 +1478,7 @@ In LMRMs, test-time trajectory optimization should move beyond naïve short-traj
       <td align="center"><a href="https://huggingface.co/datasets/Uni-MoE/VideoVista"><img src="https://huggingface.co/front/assets/huggingface_logo-noborder.svg" alt="HF" width="18"></a></td>
     </tr>
     <tr>
-      <td><a href="https://arxiv.org/abs/2411.14794">VideoEspresso</a></td>
+      <td><a href="https://arxiv.org/abs/2411.14794"><code>VideoEspresso</code></a></td>
       <td>2024</td>
       <td>200K+</td>
       <td>Acc., AS </td>
@@ -1490,20 +1490,20 @@ In LMRMs, test-time trajectory optimization should move beyond naïve short-traj
     <tr>
       <td colspan="8">
         💖<b>Core Benchmarks (Milestone):</b><br>
-        <a href="https://huggingface.co/datasets/Video-R1/Video-R1-data">Video-R1-data</a>.
+        <a href="https://huggingface.co/datasets/Video-R1/Video-R1-data"><code>Video-R1-data</code></a>.
       </td>
     </tr>
     <tr>
       <td colspan="8"> 
         💕<b>Representative Benchmarks:</b><br>
-        <a href="https://huggingface.co/datasets/ReXTime/ReXTime">ReXTime</a>, <a href="https://huggingface.co/datasets/yale-nlp/TOMATO">TOMATO</a>, <a href="https://arxiv.org/abs/2407.05355">VideoCoT</a>, <a href="https://gewu-lab.github.io/Ref-AVS/">RefAVS</a>, <a href="https://huggingface.co/datasets/Yuqi1997/DrivingDojo">DrivingDojo</a>, <a href="https://huggingface.co/datasets/fazliimam/temporal-vqa">TemporalVQA</a>.
+        <a href="https://huggingface.co/datasets/ReXTime/ReXTime"><code>ReXTime</code></a>, <a href="https://huggingface.co/datasets/yale-nlp/TOMATO"><code>TOMATO</code></a>, <a href="https://arxiv.org/abs/2407.05355"><code>VideoCoT</code></a>, <a href="https://gewu-lab.github.io/Ref-AVS/"><code>RefAVS</code></a>, <a href="https://huggingface.co/datasets/Yuqi1997/DrivingDojo"><code>DrivingDojo</code></a>, <a href="https://huggingface.co/datasets/fazliimam/temporal-vqa"><code>TemporalVQA</code></a>.
       </td>
     </tr>
     <tr>
       <td colspan="8"> 
         ❤️<b>Other Benchmarks (Emerging):</b><br>
-        <a href="https://github.com/jfliang3324/GUIDE">GUIDE</a>, <a href="https://csu-jpg.github.io/V-MAGE/">V-MAGE</a>, <a href="https://huggingface.co/datasets/kanxue/MuEP_Dataset">MuEP</a>, <a href="https://github.com/zihuixue/ProgCaptioner">FrameCap</a>, <a href="https://huggingface.co/datasets/wangphoebe/ActiView">ActiView</a>, <a href="https://huggingface.co/datasets/dreilly/ADL-X">ADL-X</a>, <a href="https://huggingface.co/datasets/JokerJan/MMR-VBench">MMR-V</a>, <a href="https://huggingface.co/datasets/MBZUAI/VideoMathQA">VideoMathQA</a>, <a href="https://huggingface.co/datasets/Dongyh35/CVBench">CVBench</a>,
-        <a href="https://arxiv.org/abs/2501.07214v1">TLQA</a>, <a href="https://huggingface.co/datasets/RyanWW/Spatial457">PulseCheck457</a>, <a href="https://huggingface.co/datasets/Uni-MoE/VideoVista-CulturalLingo">VideoVista-CulturalLingo</a>.
+        <a href="https://github.com/jfliang3324/GUIDE"><code>GUIDE</code></a>, <a href="https://csu-jpg.github.io/V-MAGE/"><code>V-MAGE</code></a>, <a href="https://huggingface.co/datasets/kanxue/MuEP_Dataset"><code>MuEP</code></a>, <a href="https://github.com/zihuixue/ProgCaptioner"><code>FrameCap</code></a>, <a href="https://huggingface.co/datasets/wangphoebe/ActiView"><code>ActiView</code></a>, <a href="https://huggingface.co/datasets/dreilly/ADL-X"><code>ADL-X</code></a>, <a href="https://huggingface.co/datasets/JokerJan/MMR-VBench"><code>MMR-V</code></a>, <a href="https://huggingface.co/datasets/MBZUAI/VideoMathQA"><code>VideoMathQA</code></a>, <a href="https://huggingface.co/datasets/Dongyh35/CVBench"><code>CVBench</code></a>,
+        <a href="https://arxiv.org/abs/2501.07214v1"><code>TLQA</code></a>, <a href="https://huggingface.co/datasets/RyanWW/Spatial457"><code>PulseCheck457</code></a>, <a href="https://huggingface.co/datasets/Uni-MoE/VideoVista-CulturalLingo"><code>VideoVista-CulturalLingo</code></a>.
       </td>
     </tr>
   </tbody>
@@ -1534,7 +1534,7 @@ In LMRMs, test-time trajectory optimization should move beyond naïve short-traj
       <td colspan="8"><i><b>GUI Navigation Reasoning</b></i></td>
     </tr>
     <tr>
-      <td><a href="https://arxiv.org/abs/2404.07972">OSWorld</a></td>
+      <td><a href="https://arxiv.org/abs/2404.07972"><code>OSWorld</code></a></td>
       <td>2024</td>
       <td>0.4K</td>
       <td>Execution-Based SR</td>
@@ -1544,7 +1544,7 @@ In LMRMs, test-time trajectory optimization should move beyond naïve short-traj
       <td align="center"><a href="https://github.com/xlang-ai/OSWorld"><img src="https://img.shields.io/badge/-181717?style=social&logo=github" alt="GitHub"></a></td>
     </tr>
     <tr>
-      <td><a href="https://arxiv.org/abs/2404.05955">VisualWebBench</a></td>
+      <td><a href="https://arxiv.org/abs/2404.05955"><code>VisualWebBench</code></a></td>
       <td>2024</td>
       <td>1.5K</td>
       <td>ROUGE-L, SQuAD style F1, Acc.</td>
@@ -1554,7 +1554,7 @@ In LMRMs, test-time trajectory optimization should move beyond naïve short-traj
       <td align="center"><a href="https://huggingface.co/datasets/visualwebbench/VisualWebBench"><img src="https://huggingface.co/front/assets/huggingface_logo-noborder.svg" alt="HF" width="18"></a></td>
     </tr>
     <tr>
-      <td><a href="https://arxiv.org/abs/2406.08451">GUIOdysse</a></td>
+      <td><a href="https://arxiv.org/abs/2406.08451"><code>GUIOdysse</code></a></td>
       <td>2025</td>
       <td>7.7K</td>
       <td>Action Matching Score, SR</td>
@@ -1568,7 +1568,7 @@ In LMRMs, test-time trajectory optimization should move beyond naïve short-traj
     </tr>
     <tr>
     <tr>
-      <td><a href="https://arxiv.org/abs/2502.09560">Embodiedbench</a></td>
+      <td><a href="https://arxiv.org/abs/2502.09560"><code>Embodiedbench</code></a></td>
       <td>2025</td>
       <td>1.1K</td>
       <td>Task SR, Subgoal SR, Avg. Steps</td>
@@ -1578,7 +1578,7 @@ In LMRMs, test-time trajectory optimization should move beyond naïve short-traj
       <td align="center"><a href="https://huggingface.co/EmbodiedBench"><img src="https://huggingface.co/front/assets/huggingface_logo-noborder.svg" alt="HF" width="18"></a></td>
     </tr>
     <tr>
-      <td><a href="https://arxiv.org/abs/2503.15558">Embodied Reasoning</a></td>
+      <td><a href="https://arxiv.org/abs/2503.15558"><code>Embodied Reasoning</code></a></td>
       <td>2025</td>
       <td>0.61K</td>
       <td>Acc.</td>
@@ -1588,7 +1588,7 @@ In LMRMs, test-time trajectory optimization should move beyond naïve short-traj
       <td align="center"><a href="https://huggingface.co/collections/nvidia/cosmos-reason1"><img src="https://huggingface.co/front/assets/huggingface_logo-noborder.svg" alt="HF" width="18"></a></td>
     </tr>
     <tr>
-      <td><a href="https://arxiv.org/abs/2411.00081">PARTNR</a></td>
+      <td><a href="https://arxiv.org/abs/2411.00081"><code>PARTNR</code></a></td>
       <td>2024</td>
       <td>100K</td>
       <td>SR, Steps, Percent Complete</td>
@@ -1600,21 +1600,21 @@ In LMRMs, test-time trajectory optimization should move beyond naïve short-traj
     <tr>
       <td colspan="8">
         💖<b>Core Benchmarks (Milestone):</b><br>
-        <a href="https://aihabitat.org/">Habitat</a>, <a href="https://ai2thor.allenai.org/">AI2-THOR</a>, <a href="https://huggingface.co/datasets/osunlp/Mind2Web">Mind2Web</a>, <a href="https://github.com/princeton-nlp/WebShop">WebShop</a>, <a href="https://sapien.ucsd.edu/">SAPIEN</a>, <a href="https://github.com/web-arena-x/webarena">WebArena</a>, <a href="http://calvin.cs.uni-freiburg.de/">CALVIN</a>, <a href="https://github.com/isaac-sim/IsaacLab">Isaac Lab</a>, <a href="https://github.com/EmbodiedGPT/EgoCOT_Dataset">EgoCoT</a>,
-        <a href="https://svl.stanford.edu/igibson/">iGibson 2.0</a>, <a href="https://github.com/njucckevin/SeeClick">ScreenSpot</a>, <a href="https://procthor.allenai.org/">ProcTHOR</a>, <a href="https://arxiv.org/abs/2404.05719">Ferret-UI</a>, <a href="https://ovmm.github.io/">HomeRobot</a>, <a href="https://github.com/samuelschmidgall/agentclinic">AgentClinic</a>, <a href="https://holoassist.github.io/">HoloAssist</a>.
+        <a href="https://aihabitat.org/"><code>Habitat</code></a>, <a href="https://ai2thor.allenai.org/"><code>AI2-THOR</code></a>, <a href="https://huggingface.co/datasets/osunlp/Mind2Web"><code>Mind2Web</code></a>, <a href="https://github.com/princeton-nlp/WebShop"><code>WebShop</code></a>, <a href="https://sapien.ucsd.edu/"><code>SAPIEN</code></a>, <a href="https://github.com/web-arena-x/webarena"><code>WebArena</code></a>, <a href="http://calvin.cs.uni-freiburg.de/"><code>CALVIN</code></a>, <a href="https://github.com/isaac-sim/IsaacLab"><code>Isaac Lab</code></a>, <a href="https://github.com/EmbodiedGPT/EgoCOT_Dataset"><code>EgoCoT</code></a>,
+        <a href="https://svl.stanford.edu/igibson/"><code>iGibson 2.0</code></a>, <a href="https://github.com/njucckevin/SeeClick"><code>ScreenSpot</code></a>, <a href="https://procthor.allenai.org/"><code>ProcTHOR</code></a>, <a href="https://arxiv.org/abs/2404.05719"><code>Ferret-UI</code></a>, <a href="https://ovmm.github.io/"><code>HomeRobot</code></a>, <a href="https://github.com/samuelschmidgall/agentclinic"><code>AgentClinic</code></a>, <a href="https://holoassist.github.io/"><code>HoloAssist</code></a>.
       </td>
     </tr>
     <tr>
       <td colspan="8"> 
         💕<b>Representative Benchmarks:</b><br>
-        <a href="https://github.com/StanfordVL/BEHAVIOR-1K">BEHAVIOR-1K</a>, <a href="https://github.com/THUDM/VisualAgentBench">VisualAgentBench</a>, <a href="https://huggingface.co/datasets/Writer/omniact">OmniACT</a>, <a href="https://huggingface.co/datasets/ServiceNow/ui-vision">UI-Vision</a>, <a href="https://github.com/LlamaTouch/LlamaTouch">LlamaTouch</a>, <a href="https://huggingface.co/datasets/ONE-Lab/GUI-World">GUI-World</a>,
-        <a href="https://huggingface.co/declare-lab/Emma-X">EMMA-X-Dataset</a>, <a href="https://github.com/InfiXAI/InfiGUIAgent">InfiGUIAgent-Data</a>, <a href="https://huggingface.co/collections/IffYuan/embodied-r1">Embodied-Points-200K</a>, <a href="https://github.com/microsoft/WindowsAgentArena">Windows Agent Arena</a>.
+        <a href="https://github.com/StanfordVL/BEHAVIOR-1K"><code>BEHAVIOR-1K</code></a>, <a href="https://github.com/THUDM/VisualAgentBench"><code>VisualAgentBench</code></a>, <a href="https://huggingface.co/datasets/Writer/omniact"><code>OmniACT</code></a>, <a href="https://huggingface.co/datasets/ServiceNow/ui-vision"><code>UI-Vision</code></a>, <a href="https://github.com/LlamaTouch/LlamaTouch"><code>LlamaTouch</code></a>, <a href="https://huggingface.co/datasets/ONE-Lab/GUI-World"><code>GUI-World</code></a>,
+        <a href="https://huggingface.co/declare-lab/Emma-X"><code>EMMA-X-Dataset</code></a>, <a href="https://github.com/InfiXAI/InfiGUIAgent"><code>InfiGUIAgent-Data</code></a>, <a href="https://huggingface.co/collections/IffYuan/embodied-r1"><code>Embodied-Points-200K</code></a>, <a href="https://github.com/microsoft/WindowsAgentArena"><code>Windows Agent Arena</code></a>.
       </td>
     </tr>
     <tr>
       <td colspan="8"> 
         ❤️<b>Other Benchmarks (Emerging):</b><br>
-        <a href="https://github.com/JHKim-snu/GVCCI">GVCCI</a>, <a href="https://huggingface.co/datasets/Tajamul21/Agent-X">Agent-X</a>, <a href="https://github.com/xavihart/PIO">Point-It-Out</a>, <a href="https://github.com/agentsea/osuniverse">OSUniverse</a>, <a href="https://huggingface.co/datasets/wangzx1210/OmniEAR">OmniEAR</a>.
+        <a href="https://github.com/JHKim-snu/GVCCI"><code>GVCCI</code></a>, <a href="https://huggingface.co/datasets/Tajamul21/Agent-X"><code>Agent-X</code></a>, <a href="https://github.com/xavihart/PIO"><code>Point-It-Out</code></a>, <a href="https://github.com/agentsea/osuniverse"><code>OSUniverse</code></a>, <a href="https://huggingface.co/datasets/wangzx1210/OmniEAR"><code>OmniEAR</code></a>.
       </td>
     </tr>
   </tbody>
@@ -1645,7 +1645,7 @@ In LMRMs, test-time trajectory optimization should move beyond naïve short-traj
       <td colspan="8"><i><b>Multi-Round Reasoning</b></i></td>
     </tr>
     <tr>
-      <td><a href="https://arxiv.org/abs/2411.10440">LLava-CoT-100k</a></td>
+      <td><a href="https://arxiv.org/abs/2411.10440"><code>LLava-CoT-100k</code></a></td>
       <td>2025</td>
       <td>99K</td>
       <td>Acc.</td>
@@ -1655,7 +1655,7 @@ In LMRMs, test-time trajectory optimization should move beyond naïve short-traj
       <td align="center"><a href="https://huggingface.co/datasets/Xkev/LLaVA-CoT-100k"><img src="https://huggingface.co/front/assets/huggingface_logo-noborder.svg" alt="HF" width="18"></a></td>
     </tr>
     <tr>
-      <td><a href="https://arxiv.org/abs/2405.16473">M<sup>3</sup>CoT</a></td>
+      <td><a href="https://arxiv.org/abs/2405.16473"><code>M<sup>3</sup>CoT</code></a></td>
       <td>2024</td>
       <td>11.9K</td>
       <td>Acc.</td>
@@ -1669,7 +1669,7 @@ In LMRMs, test-time trajectory optimization should move beyond naïve short-traj
     </tr>
     <tr>
     <tr>
-      <td><a href="https://arxiv.org/abs/2407.11422">Reflective</a></td>
+      <td><a href="https://arxiv.org/abs/2407.11422"><code>Reflective</code></a></td>
       <td>2024</td>
       <td>254K</td>
       <td>F1 Score, Acc., Hallucination Rate</td>
@@ -1679,7 +1679,7 @@ In LMRMs, test-time trajectory optimization should move beyond naïve short-traj
       <td align="center"><a href="https://huggingface.co/datasets/zjr2000/REVERIE"><img src="https://huggingface.co/front/assets/huggingface_logo-noborder.svg" alt="HF" width="18"></a></td>
     </tr>
     <tr>
-      <td><a href="https://arxiv.org/abs/2412.02172">VISCO</a></td>
+      <td><a href="https://arxiv.org/abs/2412.02172"><code>VISCO</code></a></td>
       <td>2024</td>
       <td>1.65K</td>
       <td>F1 Score, VISCore, Correction Gain</td>
@@ -1691,20 +1691,20 @@ In LMRMs, test-time trajectory optimization should move beyond naïve short-traj
     <tr>
       <td colspan="8">
         💖<b>Core Benchmarks (Milestone):</b><br>
-        <a href="https://huggingface.co/datasets/MMInstruction/VLFeedback">VLFeedback</a>.
+        <a href="https://huggingface.co/datasets/MMInstruction/VLFeedback"><code>VLFeedback</code></a>.
       </td>
     </tr>
     <tr>
       <td colspan="8"> 
         💕<b>Representative Benchmarks:</b><br>
-        <a href="https://huggingface.co/datasets/lhpku20010120/MM-Verify-Data">MM-Verify</a>, <a href="https://huggingface.co/datasets/OpenGVLab/VisualPRM400K">VisualPRM400K</a>, <a href="https://huggingface.co/conme/ConMe">ConMe</a>, <a href="https://zhangyuanhan-ai.github.io/WorldQA/">WorldQA</a>, <a href="https://huggingface.co/datasets/CaraJ/MME-CoT">MME-CoT</a>, <a href="https://huggingface.co/datasets/jonathan-roberts1/zerobench">ZeroBench</a>, <a href="https://huggingface.co/datasets/VLM-Reasoning/VCR-Bench">VCR-Bench</a>,
-        <a href="https://huggingface.co/datasets/MAmmoTH-VL/MAmmoTH-VL-Instruct-12M">MAmmoTH-VL-Instruct</a>.
+        <a href="https://huggingface.co/datasets/lhpku20010120/MM-Verify-Data"><code>MM-Verify</code></a>, <a href="https://huggingface.co/datasets/OpenGVLab/VisualPRM400K"><code>VisualPRM400K</code></a>, <a href="https://huggingface.co/conme/ConMe"><code>ConMe</code></a>, <a href="https://zhangyuanhan-ai.github.io/WorldQA/"><code>WorldQA</code></a>, <a href="https://huggingface.co/datasets/CaraJ/MME-CoT"><code>MME-CoT</code></a>, <a href="https://huggingface.co/datasets/jonathan-roberts1/zerobench"><code>ZeroBench</code></a>, <a href="https://huggingface.co/datasets/VLM-Reasoning/VCR-Bench"><code>VCR-Bench</code></a>,
+        <a href="https://huggingface.co/datasets/MAmmoTH-VL/MAmmoTH-VL-Instruct-12M"><code>MAmmoTH-VL-Instruct</code></a>.
       </td>
     </tr>
     <tr>
       <td colspan="8"> 
         ❤️<b>Other Benchmarks (Emerging):</b><br>
-        <a href="https://huggingface.co/datasets/rippleripple/MMIR">MMIR</a>, <a href="https://huggingface.co/datasets/PengxiangLi/FIRE">FIRE</a>, <a href="https://github.com/alenai97/MiCEval">MiCEval</a>, <a href="https://huggingface.co/datasets/MindIntLab/MTMEUR">MTMEUR</a>, <a href="https://github.com/Mingzhen-Huang/D-TIIL">D-TIIL</a>, <a href="https://huggingface.co/datasets/VIS-MPU-Agent/MMAT-1M">MMAT-1M</a>.
+        <a href="https://huggingface.co/datasets/rippleripple/MMIR"><code>MMIR</code></a>, <a href="https://huggingface.co/datasets/PengxiangLi/FIRE"><code>FIRE</code></a>, <a href="https://github.com/alenai97/MiCEval"><code>MiCEval</code></a>, <a href="https://huggingface.co/datasets/MindIntLab/MTMEUR"><code>MTMEUR</code></a>, <a href="https://github.com/Mingzhen-Huang/D-TIIL"><code>D-TIIL</code></a>, <a href="https://huggingface.co/datasets/VIS-MPU-Agent/MMAT-1M"><code>MMAT-1M</code></a>.
       </td>
     </tr>
   </tbody>
