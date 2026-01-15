@@ -1767,7 +1767,7 @@ In LMRMs, test-time trajectory optimization should move beyond naïve short-traj
   - [ ] Causal state extraction for multimodal MDPs.
   - [ ] Intervention-driven training signals.
 
-> **Supplementary Remark**: 
+> :eight_pointed_black_star: **Supplementary Remark**: 
 > Within an RL-centric perspective, **multimodal abstract reasoning**, often open-ended, supported by distributed evidence, and hard to evaluate, can be made amenable to systematic optimization.
 > - [ ] Shift from data collection to controlled synthesis and preference construction.
 > - [ ] Shift from a linear state representation to a structured state graph.
