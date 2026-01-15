@@ -302,7 +302,7 @@ Summary of reward modeling in RL-centric MLRMs, organized by reward channel. For
       <td colspan="10"><i>Task-Level Correctness</i></td>
     </tr>
     <tr>
-      <td>Curr-ReFT <br>
+      <td><code>Curr-ReFT</code><br>
         <a href="https://arxiv.org/abs/2503.07065">
         <img src="https://img.shields.io/badge/arXiv-b31b1b.svg" alt="arXiv"></a>
         <a href="https://github.com/ding523/Curr_REFT">
