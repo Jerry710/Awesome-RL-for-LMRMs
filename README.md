@@ -15,7 +15,7 @@
 
 </div>
 
-💡 *You're very welcome to join our discussion (on WeChat or Email) on the topic of multimodal reasoning.*  
+🎉 *You're very welcome to join our discussion (on WeChat or Email) on the topic of multimodal reasoning.*  
 
 :heart_decoration: *If you like our project, please consider giving us a star* ⭐ *on GitHub to stay updated with the latest developments.*
 
@@ -133,7 +133,7 @@ It also links this CEI pipeline to **five slow-thinking capability categories** 
       </td>
     </tr>
     <tr>
-      <td> 🏆 <a href="#-5-datasets--benchmarks"> 5. Datasets &amp; Benchmarks</a></td>
+      <td> 🏆 <a href="#5-datasets--benchmarks"> 5. Datasets &amp; Benchmarks</a></td>
       <td>
         <a href="#51-goal-driven-reasoning">5.1 Goal-driven Reasoning</a><br>
         <a href="#53-temporal--planning-reasoning">5.3 Temporal &amp; Planning Reasoning</a><br>
@@ -143,6 +143,9 @@ It also links this CEI pipeline to **five slow-thinking capability categories** 
         <a href="#52-causal--verifiable-reasoning">5.2 Causal &amp; Verifiable Reasoning</a><br>
         <a href="#54-tool-enhanced--embodied-reasoning">5.4 Tool-Enhanced &amp; Embodied Reasoning</a>
       </td>
+    </tr>
+    <tr>
+      <td colspan="3"> 💡 <a href="#6-challenges--opportunities"> 6. Challenges &amp; Opportunities</a></td>
     </tr>
   </tbody>
 </table>
@@ -1711,6 +1714,89 @@ In LMRMs, test-time trajectory optimization should move beyond naïve short-traj
 (1) **Metrics**: *AS* = Auto-Score, *SR* = Success Rate.
 (2) **Q-Type**: *OE* = Open-Ended Questions, *MC* = Multiple Choice Questions (Select all that apply), *IE* = Instruction Execution, *MR* = Multi-step Reasoning, *SC* = Single Choice Questions, *YN* = Yes-No Questions.
 (3) **Ann.**: *HA* = Human Annotation, *AA* = Auto-Annotation, *MV* = Manual Verification.
+
+
+## 6. Challenges & Opportunities
+
+### 6.1 The Foundational Substrate of Multimodal Reasoning
+
+:triangular_flag_on_post: **Multimodal Reward Fuzziness**
+
+  *How to eliminate the impact of noise, marking a shift from rigid scoring to interference- resistant rewards.*
+
+  - [ ] Enhancing multimodal rewards with dense soft-reward mechanisms.
+  - [ ] Counterfactual alignment verification.
+
+:triangular_flag_on_post: **Cross-Modal Credit Assignment Inadequacy**
+
+  *How to decouple the reasoning process, marking a shift from black-box reasoning to controllable and interpretable hierarchical reasoning.*
+
+  - [ ] Hierarchical reinforcement learning.
+  - [ ] Process labeling.
+  - [ ] Interpretability evaluation.
+
+:triangular_flag_on_post: **Error accumulation**
+
+  *How to detect and track accumulated errors, marking a shift from passive failure logging to active self-correction.*
+
+  - [ ] Checkpoint evaluation.
+  - [ ] Verification–rollback.
+
+:triangular_flag_on_post: **Modal Imbalance**
+
+  *How to mitigate unbalanced contributions, marking a shift from text-dominant learning to balanced learning.*
+
+  - [ ] Modality-wise decomposition of rewards and advantages.
+  - [ ] Process reward models for modality verification.
+  - [ ] Expert-based decision structures.
+
+### 6.2 Ground-Truth Feedback and Evidential Reliability
+
+:triangular_flag_on_post: **Fragmentation of Benchmarks**
+
+  *How to evaluate the benefits of RL and feed them back into algorithm design, marking a shift from reasoning outcome evaluation to reasoning algorithm evaluation.*
+
+  - [ ] Developing a unified capability taxonomy aligned with RL paradigms.
+  - [ ] Establishing process-oriented evaluation protocols.
+
+:triangular_flag_on_post: **Beyond Linear If-Then Reasoning**
+
+  *How to shift multimodal reasoning from correlation-driven reasoning to causal reasoning grounded in RL.*
+
+  - [ ] Structured RL training for analogical reasoning.
+  - [ ] Causal state extraction for multimodal MDPs.
+  - [ ] Intervention-driven training signals.
+
+> **Supplementary Remark**: 
+> Within an RL-centric perspective, **multimodal abstract reasoning**, often open-ended, supported by distributed evidence, and hard to evaluate, can be made amenable to systematic optimization.
+> - [ ] Shift from data collection to controlled synthesis and preference construction.
+> - [ ] Shift from a linear state representation to a structured state graph.
+> - [ ] Shift from single-metric to multi-dimensional preference evaluation.
+
+:triangular_flag_on_post: **Catastrophic Forgetting**
+
+  *How to relieve multimodal forgetting under RL-centric post-training, and feed retention signals back into optimization and data curation, marking a shift from single-capability retention checks to joint-distribution preservation across perception–alignment–reasoning–tool use.*
+
+  - [ ] Retention-aware on-policy (or near on-policy) multimodal data pipelines.
+  - [ ] Continual RL for long-term multimodal reasoning with memory and retention guarantees.
+
+### 6.3 Continuous Catalysis and the Engine of Progress
+
+:triangular_flag_on_post: **Absence of Environmental Feedback**
+
+  *how to integrate real-time environmental feedback, marking a shift from simulation environments to real-world deployment.*
+
+  -[ ] Environment-aligned multi-source rewards.
+  -[ ] Narrowing the sim-to-real gap.
+  -[ ] Budget-constrained policy optimization under real-time constraints.
+
+:triangular_flag_on_post: **Multimodal Multi-Agent**
+
+  *how to simultaneously realize a plan representation that is executable, process-level evaluation that is verifiable, and coordination strategies that are learnable within a multimodal MDP.*
+
+  - [ ] Execution-plan-centric agent capability building.
+  - [ ] Imagination-based collaboration with world models.
+
 
 ## Citation
 
