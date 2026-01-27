@@ -4,7 +4,7 @@
 
 <!-- <img src="figures/survey_logo.png" style="width: 70%;"/> -->
 
-## Control, Evaluate, and Improve: A Reinforcement Learning-Centric Multimodal Reasoning Survey
+## Steer, Assess, and Refine: A Reinforcement Learning-Centric Multimodal Reasoning Survey
 
 [![Awesome](https://img.shields.io/badge/Awesome-0066CC?style=flat&logo=awesome-lists&logoColor=white)](https://github.com/sindresorhus/awesome) 
 [![Survey](https://img.shields.io/badge/Paper-A42C25?style=flat&logo=arxiv&logoColor=white)](#) 
@@ -267,7 +267,7 @@ As illustrated, existing approaches can be characterized along two dimensions, s
 | 2025.06 | `MMedAgent-RL` | MMedAgent-RL: Optimizing Multi-Agent Collaboration for Multimodal Medical Reasoning | [![Paper](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2506.00555) | - |
 
 ### <a id="32-reward-modeling"></a>3.2 Reward Modeling
-Summary of reward modeling in RL-centric MLRMs, organized by reward channel. For each method we report the input modalities, multimodal reasoning characteristics, feedback granularity, optimization target, reward type, evaluation type, initialization, learning algorithm, and tasks.
+Summary of reward modeling in RL-centric LMRMs, organized by reward channel. For each method we report the input modalities, multimodal reasoning characteristics, feedback granularity, optimization target, reward type, evaluation type, initialization, learning algorithm, and tasks.
 
 <table>
   <colgroup>
@@ -282,7 +282,7 @@ Summary of reward modeling in RL-centric MLRMs, organized by reward channel. For
   </colgroup>
   <thead>
     <tr>
-      <th>MLRM</th>
+      <th>LMRM</th>
       <th>MM Char.</th>
       <th>Gran.</th>
       <th>Target</th>
