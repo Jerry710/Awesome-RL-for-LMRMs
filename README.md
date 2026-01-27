@@ -1803,8 +1803,8 @@ In LMRMs, test-time trajectory optimization should move beyond naïve short-traj
 
 ```bibtex
 @article{Key,
-  title={...},
+  title={Steer, Assess, and Refine: A Reinforcement Learning-Centric Multimodal Reasoning Survey},
   author={...},
   journal={...},
-  year={2025}
+  year={2026}
 }
