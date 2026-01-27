@@ -106,8 +106,8 @@ It also links this CEI pipeline to **five slow-thinking capability categories** 
     <tr>
       <td>🧩 <a href="#2-car-framework">2. CAR Framework</a></td>
       <td colspan="2">
-        Construct-Assess-Refine
-        <!-- <a href="#control">Construct</a> · <a href="#evaluate">Assess</a> · <a href="#improve">Refine</a> -->
+        Steer-Assess-Refine
+        <!-- <a href="#control">Steer</a> · <a href="#evaluate">Assess</a> · <a href="#improve">Refine</a> -->
       </td>
     </tr>
     <tr>
@@ -188,9 +188,9 @@ establishes an integrated framework and clarifies the inter relationship between
 </p>
 
 Our overview figure organizes RL-centric LMRMs as a unified train–test loop under a GPI-style pipeline:
-**Construct → Assess → Refine**.  
+**Steer → Assess → Refine**.  
 
-- :one: **Construct: build and control reasoning trajectories**
+- :one: **Construct: guide and control reasoning trajectories**
   - Training-time: [learning strategies & initialization](#31-training-initialization).
   - Test-time: inference-time construct that establishs candidate trajectories, including [sampling-based](#41-sampling) and [search-based](#42-search) inference.
 
