@@ -104,7 +104,7 @@ It also links this SAR pipeline to **five slow-thinking capability categories** 
       <td><a href="#contributions">Contributions</a></td>
     </tr>
     <tr>
-      <td>🧩 <a href="#2-car-framework">2. CAR Framework</a></td>
+      <td>🧩 <a href="#2-sar-framework">2. SAR Framework</a></td>
       <td colspan="2">
         Steer-Assess-Refine
         <!-- <a href="#control">Steer</a> · <a href="#evaluate">Assess</a> · <a href="#improve">Refine</a> -->
@@ -180,7 +180,7 @@ establishes an integrated framework and clarifies the inter relationship between
 :three: Section 6 explores the challenges and future directions of RL-centric multimodal reasoning, with a particular emphasis on the intrinsic coupling between RL mechanisms and multimodal scenarios.
 
 
-## 2. CAR Framework
+## 2. SAR Framework
 
 <p align="center">
   <img src="figures\topic.png" width="60%" />
@@ -190,7 +190,7 @@ establishes an integrated framework and clarifies the inter relationship between
 Our overview figure organizes RL-centric LMRMs as a unified train–test loop under a GPI-style pipeline:
 **Steer → Assess → Refine**.  
 
-- :one: **Construct: guide and control reasoning trajectories**
+- :one: **Steer: guide and control reasoning trajectories**
   - Training-time: [learning strategies & initialization](#31-training-initialization).
   - Test-time: inference-time construct that establishs candidate trajectories, including [sampling-based](#41-sampling) and [search-based](#42-search) inference.
 
@@ -203,10 +203,10 @@ Our overview figure organizes RL-centric LMRMs as a unified train–test loop un
     [sampling strategies for trajectory optimization](#33-trajectory-sampling) and [modal alignment and learning algorithms](#34-modal-alignment--learning-algorithm) that improve policies.
   - Test-time: [trajectory optimization](#44-trajectory-optimization) that refines surviving paths under compute budgets.
 
-**Why CAR matters.** 
+**Why SAR matters.** 
 
 It turns a fast-growing literature into a single, navigable map:  
-*how LMRMs establish the reasoning substrate (Construct), how LMRMs measure reasoning competence (Assess), and how LMRMs optimize reasoning behavior (Refine), consistently across training and inference.*
+*how LMRMs establish the reasoning substrate (Steer), how LMRMs measure reasoning competence (Assess), and how LMRMs optimize reasoning behavior (Refine), consistently across training and inference.*
 
 
 ## 3. Train-time Optimization of RL-Centric Multimodal Reasoning
