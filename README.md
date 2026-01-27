@@ -40,20 +40,20 @@ RL is rapidly reshaping multimodal *System-2* reasoning. While most multimodal L
 
 This repo accompanies our survey on RL-centric Large Multimodal Reasoning Models (LMRMs), where RL is treated not as a peripheral trick, but as the primary mechanism for building controllable, multi-step reasoning.
 
-The above overview diagram summarizes our **GPI-inspired Control–Evaluate–Improve (CEI)** lens across the *entire train–test pipeline*:
+The above overview diagram summarizes our **GPI-inspired Steer–Assess–Refine (SAR)** lens across the *entire train–test pipeline*:
 
-* **Control:** how trajectories are generated via initialization, sampling, and search.
-* **Evaluate:** how reward modeling and dynamic verification provide feedback signals.
-* **Improve:** how train-time policy optimization and test-time trajectory optimization refine reasoning paths.
+* **Steer:** how trajectories are generated via initialization, sampling, and search.
+* **Assess:** how reward modeling and dynamic verification provide feedback signals.
+* **Refine:** how train-time policy optimization and test-time trajectory optimization refine reasoning paths.
 
-It also links this CEI pipeline to **five slow-thinking capability categories** (goal-driven, causal & verifiable, temporal & planning, tool & embodied, self-reflective), serving as a  map to place methods and benchmarks into a single coordinate system.
+It also links this SAR pipeline to **five slow-thinking capability categories** (goal-driven, causal & verifiable, temporal & planning, tool & embodied, self-reflective), serving as a  map to place methods and benchmarks into a single coordinate system.
   
 
 #### What you'll get from this GitHub
 
 :one: A clean taxonomy of RL-centric LMRMs (data → training → test-time inference → evaluation).
 
-:two: Curated papers, code, and benchmarks organized around CEI, not scattered chronologically.
+:two: Curated papers, code, and benchmarks organized around SAR, not scattered chronologically.
 
 :three: A gap-and-opportunity checklist for pushing multimodal slow thinking beyond current heuristic pipelines.
 
@@ -172,10 +172,10 @@ It also links this CEI pipeline to **five slow-thinking capability categories** 
 
 
 ### <a id="contributions"></a> :star2: Contributions
-:one: Sections 3 and 4 follow the CEI framework systematically review and compare methods in the training and testing phases under a unified GPI perspective. This
+:one: Sections 3 and 4 follow the SAR framework systematically review and compare methods in the training and testing phases under a unified GPI perspective. This
 establishes an integrated framework and clarifies the inter relationship between the two phases.
 
-:two: Section 5 introduces a novel RL-based benchmark taxonomy, achieving a CEI-aligned restructuring of multimodal reasoning benchmarks.
+:two: Section 5 introduces a novel RL-based benchmark taxonomy, achieving a SAR-aligned restructuring of multimodal reasoning benchmarks.
 
 :three: Section 6 explores the challenges and future directions of RL-centric multimodal reasoning, with a particular emphasis on the intrinsic coupling between RL mechanisms and multimodal scenarios.
 
