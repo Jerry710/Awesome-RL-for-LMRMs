@@ -4,7 +4,7 @@
 
 <!-- <img src="figures/survey_logo.png" style="width: 70%;"/> -->
 
-## Steer, Assess, and Refine: A Reinforcement Learning-Centric Multimodal Reasoning Survey
+## Steer, Assess, and Refine: <br> A Reinforcement Learning-Centric Multimodal Reasoning Survey
 
 [![Awesome](https://img.shields.io/badge/Awesome-0066CC?style=flat&logo=awesome-lists&logoColor=white)](https://github.com/sindresorhus/awesome) 
 [![Survey](https://img.shields.io/badge/Paper-A42C25?style=flat&logo=arxiv&logoColor=white)](#) 
