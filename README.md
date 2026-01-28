@@ -8,7 +8,7 @@
 
 [![Awesome](https://img.shields.io/badge/Awesome-0066CC?style=flat&logo=awesome-lists&logoColor=white)](https://github.com/sindresorhus/awesome) 
 [![Survey](https://img.shields.io/badge/Paper-A42C25?style=flat&logo=arxiv&logoColor=white)](#) 
-[![Github](https://img.shields.io/badge/Awesome--RL--for--LRMs-000000?style=flat&logo=github&logoColor=white)](https://github.com/Jerry710/Awesome-RL-for-LMRMs) 
+[![Github](https://img.shields.io/badge/Awesome--RL--for--LMRMs-000000?style=flat&logo=github&logoColor=white)](https://github.com/Jerry710/Awesome-RL-for-LMRMs) 
 [![HF Papers](https://img.shields.io/badge/🤗%20Paper-%23FFD14D?style=flat)]() 
 [![Citation](https://img.shields.io/badge/✒️%20Citation-F5F5F5?style=flat)](#Citation)
 <!-- [:black_nib: Citation](#Citation) -->
