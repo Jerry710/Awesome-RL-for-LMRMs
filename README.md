@@ -1283,10 +1283,10 @@ In LMRMs, test-time trajectory optimization should move beyond naïve short-traj
   </tbody>
 </table>
 
-> **Abbreviations.**
-(1) **Metrics**: *AS* = Auto-Score.
-(2) **Q-Type**: *OE* = Open-Ended Questions, *MC* = Multiple Choice Questions (Select all that apply).
-(3) **Ann.**: *HA* = Human Annotation, *AA* = Auto-Annotation.
+> **Abbreviations.**  
+(1) **Metrics**: *AS* = Auto-Score.  
+(2) **Q-Type**: *OE* = Open-Ended Questions, *MC* = Multiple Choice Questions (Select all that apply).  
+(3) **Ann.**: *HA* = Human Annotation, *AA* = Auto-Annotation.  
 
 
 ### <a id="bench-52-causal--verifiable-reasoning"></a>5.2 Causal & Verifiable Reasoning 
@@ -1420,10 +1420,10 @@ In LMRMs, test-time trajectory optimization should move beyond naïve short-traj
   </tbody>
 </table>
 
-> **Abbreviations.**
-(1) **Metrics**: *AS* = Auto-Score.
-(2) **Q-Type**: *OE* = Open-Ended Questions, *MC* = Multiple Choice Questions (Select all that apply).
-(3) **Ann.**: *HA* = Human Annotation, *AA* = Auto-Annotation, *MV* = Manual Verification.
+> **Abbreviations.**  
+(1) **Metrics**: *AS* = Auto-Score.  
+(2) **Q-Type**: *OE* = Open-Ended Questions, *MC* = Multiple Choice Questions (Select all that apply).  
+(3) **Ann.**: *HA* = Human Annotation, *AA* = Auto-Annotation, *MV* = Manual Verification.  
 
 ### <a id="bench-53-temporal--planning-reasoning"></a>5.3 Temporal & Planning Reasoning
 
@@ -1509,10 +1509,10 @@ In LMRMs, test-time trajectory optimization should move beyond naïve short-traj
   </tbody>
 </table>
 
-> **Abbreviations.**
-(1) **Metrics**: *AS* = Auto-Score, *SR* = Success Rate.
-(2) **Q-Type**: *OE* = Open-Ended Questions, *MC* = Multiple Choice Questions (Select all that apply).
-(3) **Ann.**: *HA* = Human Annotation, *AA* = Auto-Annotation, *MV* = Manual Verification.
+> **Abbreviations.**  
+(1) **Metrics**: *AS* = Auto-Score, *SR* = Success Rate.  
+(2) **Q-Type**: *OE* = Open-Ended Questions, *MC* = Multiple Choice Questions (Select all that apply).  
+(3) **Ann.**: *HA* = Human Annotation, *AA* = Auto-Annotation, *MV* = Manual Verification.  
 
 ### <a id="bench-54-tool-enhanced--embodied-reasoning"></a>5.4 Tool-Enhanced & Embodied Reasoning
 
@@ -1621,9 +1621,9 @@ In LMRMs, test-time trajectory optimization should move beyond naïve short-traj
 </table>
 
 > **Abbreviations.**
-(1) **Metrics**: *SR* = Success Rate.
-(2) **Q-Type**: *OE* = Open-Ended Questions, *MC* = Multiple Choice Questions (Select all that apply), *IE* = Instruction Execution.
-(3) **Ann.**: *HA* = Human Annotation, *AA* = Auto-Annotation, *MV* = Manual Verification.
+(1) **Metrics**: *SR* = Success Rate.  
+(2) **Q-Type**: *OE* = Open-Ended Questions, *MC* = Multiple Choice Questions (Select all that apply), *IE* = Instruction Execution.  
+(3) **Ann.**: *HA* = Human Annotation, *AA* = Auto-Annotation, *MV* = Manual Verification.  
 
 ### <a id="bench-55-self-reflection-reasoning"></a>5.5 Self-Reflection Reasoning
 
@@ -1711,9 +1711,9 @@ In LMRMs, test-time trajectory optimization should move beyond naïve short-traj
 </table>
 
 > **Abbreviations.**
-(1) **Metrics**: *AS* = Auto-Score, *SR* = Success Rate.
-(2) **Q-Type**: *OE* = Open-Ended Questions, *MC* = Multiple Choice Questions (Select all that apply), *IE* = Instruction Execution, *MR* = Multi-step Reasoning, *SC* = Single Choice Questions, *YN* = Yes-No Questions.
-(3) **Ann.**: *HA* = Human Annotation, *AA* = Auto-Annotation, *MV* = Manual Verification.
+(1) **Metrics**: *AS* = Auto-Score, *SR* = Success Rate.  
+(2) **Q-Type**: *OE* = Open-Ended Questions, *MC* = Multiple Choice Questions (Select all that apply), *IE* = Instruction Execution, *MR* = Multi-step Reasoning, *SC* = Single Choice Questions, *YN* = Yes-No Questions.  
+(3) **Ann.**: *HA* = Human Annotation, *AA* = Auto-Annotation, *MV* = Manual Verification.  
 
 
 ## 6. Challenges & Opportunities
