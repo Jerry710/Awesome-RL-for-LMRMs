@@ -698,12 +698,12 @@ Summary of reward modeling in RL-centric LMRMs, organized by reward channel. For
 </table>
 
 > **Abbreviations.**
-(1) **MM Char.**: *Ground* = structured visual grounding (*e.g.*, boxes, masks, counting), *Spat.* = spatial relations, *Temp.* = temporal or time-series reasoning, *Struct* = structured outputs (*e.g.*, tables, JSON, scene graphs), *Dom.* = domain priors (*e.g.*, physics, medicine), *Align* = cross-modal alignment. 
-(2) **Gran.**: *Traj* = trajectory-level, only one reward for the entire reasoning chain, *Step* = step-level (score each reasoning step or intermediate action), *Field* = field-level or token-level, check each field or coordinate in the answer one by one, *Subgoal* = subgoal-level, decompose reasoning subtasks, regions, or time slices.
+(1) **MM Char.**: *Ground* = structured visual grounding (*e.g.*, boxes, masks, counting), *Spat.* = spatial relations, *Temp.* = temporal or time-series reasoning, *Struct* = structured outputs (*e.g.*, tables, JSON, scene graphs), *Dom.* = domain priors (*e.g.*, physics, medicine), *Align* = cross-modal alignment.  
+(2) **Gran.**: *Traj* = trajectory-level, only one reward for the entire reasoning chain, *Step* = step-level (score each reasoning step or intermediate action), *Field* = field-level or token-level, check each field or coordinate in the answer one by one, *Subgoal* = subgoal-level, decompose reasoning subtasks, regions, or time slices.  
 (3) **Target**: *Out.-Acc.* = final-answer or task accuracy, *Proc.-Acc.* = correctness of intermediate reasoning steps, *Struct-Form* = format, syntax, or structural validity, *Spat.-Temp.* = spatial or temporal consistency, *Dom.-Rule* = satisfaction of domain rules (*e.g.*, physics, medical, safety constraints), *Align-CM* = cross-modal alignment scores, *Pref-Qual* = human preference or quality (helpfulness, fluency).  
-(4) **RM (Reward Model)**: ORM = outcome reward model, PRM = process reward model, MR = mixed reward model.
-(5) **ET (Evalation Type)**: *R* = rule-based rewards, *M* = model-based rewards, *H* = hybrid rewards.
-(6) **Init.**: initialization strategy (RL from scratch vs. SFT+RL).
+(4) **RM (Reward Model)**: ORM = outcome reward model, PRM = process reward model, MR = mixed reward model.  
+(5) **ET (Evalation Type)**: *R* = rule-based rewards, *M* = model-based rewards, *H* = hybrid rewards.  
+(6) **Init.**: initialization strategy (RL from scratch vs. SFT+RL).  
 
 
 
