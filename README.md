@@ -697,7 +697,7 @@ Summary of reward modeling in RL-centric LMRMs, organized by reward channel. For
   </tbody>
 </table>
 
-> **Abbreviations.**
+> **Abbreviations.**  
 (1) **MM Char.**: *Ground* = structured visual grounding (*e.g.*, boxes, masks, counting), *Spat.* = spatial relations, *Temp.* = temporal or time-series reasoning, *Struct* = structured outputs (*e.g.*, tables, JSON, scene graphs), *Dom.* = domain priors (*e.g.*, physics, medicine), *Align* = cross-modal alignment.  
 (2) **Gran.**: *Traj* = trajectory-level, only one reward for the entire reasoning chain, *Step* = step-level (score each reasoning step or intermediate action), *Field* = field-level or token-level, check each field or coordinate in the answer one by one, *Subgoal* = subgoal-level, decompose reasoning subtasks, regions, or time slices.  
 (3) **Target**: *Out.-Acc.* = final-answer or task accuracy, *Proc.-Acc.* = correctness of intermediate reasoning steps, *Struct-Form* = format, syntax, or structural validity, *Spat.-Temp.* = spatial or temporal consistency, *Dom.-Rule* = satisfaction of domain rules (*e.g.*, physics, medical, safety constraints), *Align-CM* = cross-modal alignment scores, *Pref-Qual* = human preference or quality (helpfulness, fluency).  
@@ -1620,7 +1620,7 @@ In LMRMs, test-time trajectory optimization should move beyond naïve short-traj
   </tbody>
 </table>
 
-> **Abbreviations.**
+> **Abbreviations.**  
 (1) **Metrics**: *SR* = Success Rate.  
 (2) **Q-Type**: *OE* = Open-Ended Questions, *MC* = Multiple Choice Questions (Select all that apply), *IE* = Instruction Execution.  
 (3) **Ann.**: *HA* = Human Annotation, *AA* = Auto-Annotation, *MV* = Manual Verification.  
@@ -1710,7 +1710,7 @@ In LMRMs, test-time trajectory optimization should move beyond naïve short-traj
   </tbody>
 </table>
 
-> **Abbreviations.**
+> **Abbreviations.**  
 (1) **Metrics**: *AS* = Auto-Score, *SR* = Success Rate.  
 (2) **Q-Type**: *OE* = Open-Ended Questions, *MC* = Multiple Choice Questions (Select all that apply), *IE* = Instruction Execution, *MR* = Multi-step Reasoning, *SC* = Single Choice Questions, *YN* = Yes-No Questions.  
 (3) **Ann.**: *HA* = Human Annotation, *AA* = Auto-Annotation, *MV* = Manual Verification.  
