@@ -537,8 +537,8 @@ Summary of reward modeling in RL-centric LMRMs, organized by reward channel. For
       <td>Traj, Field</td>
       <td>Out.-Acc., Struct-Form</td>
       <td>PRM</td>
-      <td>RL</td>
       <td>R</td>
+      <td>RL</td>
       <!-- <td>GRPO</td> -->
       <td>Spatial Transformation Rea.</td>
     </tr>
