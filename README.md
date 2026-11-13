@@ -2,16 +2,13 @@
 
 <div align="center">
 
-<!-- <img src="figures/survey_logo.png" style="width: 70%;"/> -->
-
 ## Steer, Assess, and Refine: <br> A Reinforcement Learning-Centric Multimodal Reasoning Survey
 
 [![Awesome](https://img.shields.io/badge/Awesome-0066CC?style=flat&logo=awesome-lists&logoColor=white)](https://github.com/sindresorhus/awesome) 
 [![Survey](https://img.shields.io/badge/Paper-A42C25?style=flat&logo=arxiv&logoColor=white)](#) 
-[![Github](https://img.shields.io/badge/Awesome--RL--for--LMRMs-000000?style=flat&logo=github&logoColor=white)](https://github.com/Jerry710/Awesome-RL-for-LMRMs) 
+[![Github](https://img.shields.io/badge/Awesome--RL--for--LRMs-000000?style=flat&logo=github&logoColor=white)](https://github.com/Jerry710/Awesome-RL-for-LMRMs) 
 [![HF Papers](https://img.shields.io/badge/🤗%20Paper-%23FFD14D?style=flat)]() 
-[![Citation](https://img.shields.io/badge/✒️%20Citation-F5F5F5?style=flat)](#Citation)
-<!-- [:black_nib: Citation](#Citation) -->
+[![Citation](https://img.shields.io/badge/✒️%20Citation-F5F5F5?style=flat)](#citation)
 
 </div>
 
@@ -31,14 +28,13 @@
 ## 🧭 Overview
 
 <p align="center">
-  <img src="figures\Fig-1.png" width="80%" />
-<!--   <img src="./Images/methods.jpg" width="45%" height="50%" /> -->
+  <img src="figures\Fig-1.png" width="90%" />
 </p>
 
 
 RL is rapidly reshaping multimodal *System-2* reasoning. While most multimodal LLMs still behave like *System 1* (fast, fluent, pattern-driven), recent models (*e.g.*, o1, o3, and DeepSeek-R1) show that RL can internalize slow, deliberative reasoning, *i.e.*, planning before answering, verifying intermediate steps, and revising when uncertain. 
 
-This repo accompanies our survey on RL-centric Large Multimodal Reasoning Models (LMRMs), where RL is treated not as a peripheral trick, but as the primary mechanism for building controllable, multi-step reasoning.
+This repo accompanies our survey on RL-centric Large Multimodal Reasoning Models (LMRMs), where RL is treated not as a peripheral trick, but as a central mechanism for feedback-driven multimodal reasoning.
 
 The above overview diagram summarizes our **GPI-inspired Steer–Assess–Refine (SAR)** lens across the *entire train–test pipeline*:
 
@@ -57,38 +53,7 @@ It also links this SAR pipeline to **five slow-thinking capability categories** 
 
 :three: A gap-and-opportunity checklist for pushing multimodal slow thinking beyond current heuristic pipelines.
 
-
-
-<!-- ## 📚 Contents
-
-- [1. Introduction & Background](#1-introduction--background)
-- [3. Train-time Optimization](#3-train-time-optimization)
-  - [3.1 Learning Strategies & Initialization](#31-learning-strategies--initialization)
-  - [3.2 Reward Modeling & Supervision](#32-reward-modeling--supervision)
-  - [3.3 Trajectory Sampling](#33-trajectory-sampling)
-  - [3.4 Modal Alignment & Learning Algorithm](#34-modal-alignment--learning-algorithm)
-- [4. Test-time Inference](#4-test-time-inference)
-  - [4.1 Sampling-based Inference](#41-sampling-based-inference)
-  - [4.2 Search-based Inference](#42-search-based-inference)
-  - [4.3 Dynamic Verification](#43-dynamic-verfication)
-  - [4.4 Trajectory Optimization](#44-trajectory-optimization)
-- [Benchmarks (5 Families)](#benchmarks)
-- [Models & Systems](#models)
-- [Datasets & Tools](#datasets--tools)
-- [Timeline / Trends](#timeline--trends)
-- [Contributing](#contributing)
-- [Citation](#citation)
---- -->
-
 ## 🧭 Contents
-<!-- | Section | Subsection |  |
-|:--|:--|:--|
-| 📚 [1. Introduction](#1-introduction) | [Related surveys](#related-surveys) | [Contributions](#contributions) |
-| 🧩 [2. CEI Framework](#2-cei-framework-gpi-view) | [Control](#control) · [Evaluate](#evaluate) · [Improve](#improve) |
-| 🏗️ [3. Train-time Optimization](#3-train-time-optimization) | [3.1 Initialization](#31-initialization)<br> [3.3 Trajectory Sampling](#33-trajectory-sampling) | [3.2 Reward Modeling](#32-reward-modeling)<br> [3.4 Alignment & Algorithms](#34-alignment--algorithms) |
-| 🧠 [4. Test-time Inference](#4-test-time-inference) | [4.1 Sampling](#41-sampling)<br> [4.3 Dynamic Verification](#43-dynamic-verification) | [4.2 Search](#42-search)<br> [4.4 Trajectory Optimization](#44-trajectory-optimization) |
-| 🏁 [5. Benchmarks & Evaluation](#5-benchmarks--evaluation) | [5.1 Goal-driven](#51-goal-driven)<br> [5.3 Temporal & Planning](#53-temporal--planning)<br> [5.5 Self-Reflection](#55-self-reflection) | [5.2 Causal & Verifiable](#52-causal--verifiable)<br> [5.4 Tool-Enhanced & Embodied](#54-tool-enhanced--embodied) | -->
-
 
 <table>
   <thead>
@@ -107,41 +72,40 @@ It also links this SAR pipeline to **five slow-thinking capability categories** 
       <td>🧩 <a href="#2-sar-framework">2. SAR Framework</a></td>
       <td colspan="2">
         Steer-Assess-Refine
-        <!-- <a href="#control">Steer</a> · <a href="#evaluate">Assess</a> · <a href="#improve">Refine</a> -->
       </td>
     </tr>
     <tr>
-      <td> 🚗 <a href="#3-train-time-optimization-of-RL-centric-multimodal-reasoning">3. Train-time Optimization of RL-Centric Multimodal Reasoning</a></td>
+      <td> 🚗 <a href="#3-train-time-optimization-of-rl-centric-multimodal-reasoning">3. Train-time Optimization of RL-Centric Multimodal Reasoning</a></td>
       <td>
-        <a href="#31-training-initialization">3.1 Training Initialization</a><br>
-        <a href="#33-trajectory-sampling">3.3 Trajectory Sampling</a>
+        <a href="#train-31-training-initialization">3.1 Training Initialization</a><br>
+        <a href="#train-33-trajectory-sampling">3.3 Trajectory Sampling</a>
       </td>
       <td>
-        <a href="#32-reward-modeling">3.2 Reward Modeling</a><br>
+        <a href="#train-32-reward-modeling">3.2 Reward Modeling</a><br>
         <a href="#train-34-modal-alignment--learning-algorithm">3.4 Modal Alignment &amp; Learning Algorithm</a>
       </td>
     </tr>
     <tr>
-      <td> 🚈 <a href="#4-test-time-inference-of-RL-centric-multimodal-reasoning">4. Test-time Inference of RL-centric Multimodal Reasoning</a></td>
+      <td> 🚈 <a href="#4-test-time-inference-of-rl-centric-multimodal-reasoning">4. Test-time Inference of RL-centric Multimodal Reasoning</a></td>
       <td>
-        <a href="#41-sampling">4.1 Sampling</a><br>
-        <a href="#43-dynamic-verification">4.3 Dynamic Verification</a>
+        <a href="#test-41-sampling">4.1 Sampling</a><br>
+        <a href="#test-43-dynamic-verification">4.3 Dynamic Verification</a>
       </td>
       <td>
-        <a href="#42-search">4.2 Search</a><br>
-        <a href="#44-trajectory-optimization">4.4 Trajectory Optimization</a>
+        <a href="#test-42-search">4.2 Search</a><br>
+        <a href="#test-44-trajectory-optimization">4.4 Trajectory Optimization</a>
       </td>
     </tr>
     <tr>
       <td> 🏆 <a href="#5-datasets--benchmarks"> 5. Datasets &amp; Benchmarks</a></td>
       <td>
-        <a href="#51-goal-driven-reasoning">5.1 Goal-driven Reasoning</a><br>
-        <a href="#53-temporal--planning-reasoning">5.3 Temporal &amp; Planning Reasoning</a><br>
-        <a href="#55-self-reflection-reasoning">5.5 Self-Reflection Reasoning</a>
+        <a href="#bench-51-goal-driven-reasoning">5.1 Goal-driven Reasoning</a><br>
+        <a href="#bench-53-temporal--planning-reasoning">5.3 Temporal &amp; Planning Reasoning</a><br>
+        <a href="#bench-55-self-reflection-reasoning">5.5 Self-Reflection Reasoning</a>
       </td>
       <td>
-        <a href="#52-causal--verifiable-reasoning">5.2 Causal &amp; Verifiable Reasoning</a><br>
-        <a href="#54-tool-enhanced--embodied-reasoning">5.4 Tool-Enhanced &amp; Embodied Reasoning</a>
+        <a href="#bench-52-causal--verifiable-reasoning">5.2 Causal &amp; Verifiable Reasoning</a><br>
+        <a href="#bench-54-tool-enhanced--embodied-reasoning">5.4 Tool-Enhanced &amp; Embodied Reasoning</a>
       </td>
     </tr>
     <tr>
@@ -172,49 +136,43 @@ It also links this SAR pipeline to **five slow-thinking capability categories** 
 
 
 ### <a id="contributions"></a> :star2: Contributions
-:one: Sections 3 and 4 follow the SAR framework systematically review and compare methods in the training and testing phases under a unified GPI perspective. This
-establishes an integrated framework and clarifies the inter relationship between the two phases.
 
-:two: Section 5 introduces a novel RL-based benchmark taxonomy, achieving a SAR-aligned restructuring of multimodal reasoning benchmarks.
+:one: We establish an operation-level analysis of RL-centric multimodal reasoning under SAR, revealing how exploration, assessment, and feedback-driven improvement interact within individual methods and where distinct functional bottlenecks arise.
 
-:three: Section 6 explores the challenges and future directions of RL-centric multimodal reasoning, with a particular emphasis on the intrinsic coupling between RL mechanisms and multimodal scenarios.
+:two: We provide a cross-stage analysis of RL-centric multimodal reasoning, highlighting the interdependence of candidate coverage, assessment reliability, and feedback utilization in reasoning improvement. This analysis further reveals how these limitations manifest differently in training-time policy optimization and feedback-guided test-time inference.
+
+:three: We classify multimodal datasets and benchmarks by their primary reasoning capabilities and examine their SAR functional support through available supervision and evaluation settings. This analysis highlights how aggregate task metrics obscure the contributions of individual SAR functions, motivating function-level evaluation to identify reasoning bottlenecks and guide targeted improvements.
 
 
 ## 2. SAR Framework
 
 <p align="center">
-  <img src="figures\topic.png" width="60%" />
-<!--   <img src="./Images/methods.jpg" width="45%" height="50%" /> -->
+  <img src="figures\topic.png" width="90%" />
 </p>
 
-Our overview figure organizes RL-centric LMRMs as a unified train–test loop under a GPI-style pipeline:
-**Steer → Assess → Refine**.  
+Our overview figure adopts Generalized Policy Iteration (GPI) as a unifying evaluation--improvement perspective across training and testing. During training, reward-based evaluation guides policy updates; at test time, feedback guides instance-specific search and revision with fixed model parameters. Because standard GPI leaves the source and coverage of evaluated trajectories implicit, SAR treats candidate exploration as a distinct analytical function alongside evaluation and improvement:
 
-- :one: **Steer: guide and control reasoning trajectories**
-  - Training-time: [learning strategies & initialization](#31-training-initialization).
-  - Test-time: inference-time construct that establishs candidate trajectories, including [sampling-based](#41-sampling) and [search-based](#42-search) inference.
+- :one: **Steer: generate and explore candidate reasoning trajectories**
+  - Training-time: [reasoning policy learning and initialization](#train-31--training-initialization) shapes the initial trajectory distribution, while [trajectory sampling](#train-33-trajectory-sampling) generates candidate trajectories.
+  - Test-time: [sampling-based inference](#test-41-sampling) generates candidate trajectories, while [search-based inference](#test-42-search) expands alternative reasoning paths.
 
-- :two: **Assess: measure and verify reasoning**
-  - Training-time: [reward modeling and supervision](#32-reward-modeling).
-  - Test-time: [dynamic verification](#43-dynamic-verification) that scores and filters trajectories on the fly.
+- :two: **Assess: evaluate candidate quality and produce feedback**
+  - Training-time: [reward modeling and supervision](#train-32-reward-modeling) evaluates sampled trajectories using verifiable criteria, process signals, or preference judgments.
+  - Test-time: [dynamic verification](#test-43-dynamic-verification) evaluates candidate outputs and intermediate reasoning states.
 
-- :three: **Refine: optimize reasoning behavior**
-  - Training-time: reasoning behavior improvement via trajectory-level refinement strategies and learning algorithms, including  
-    [sampling strategies for trajectory optimization](#33-trajectory-sampling) and [modal alignment and learning algorithms](#34-modal-alignment--learning-algorithm) that improve policies.
-  - Test-time: [trajectory optimization](#44-trajectory-optimization) that refines surviving paths under compute budgets.
+- :three: **Refine: use assessment feedback to improve reasoning**
+  - Training-time: feedback-based trajectory selection connects candidate exploration to subsequent policy improvement, while [modal alignment and learning algorithms](#train-34-modal-alignment--learning-algorithm) support grounded, reward-guided policy updates.
+  - Test-time: [trajectory optimization](#test-44-trajectory-optimization) uses assessment feedback to select or revise trajectories and adjust inference control without updating model parameters.
 
-**Why SAR matters.** 
+**SAR role assignment.** SAR roles are assigned to individual operations according to their direct functions, allowing one method to fulfill multiple roles.
 
-It turns a fast-growing literature into a single, navigable map:  
-*how LMRMs establish the reasoning substrate (Steer), how LMRMs measure reasoning competence (Assess), and how LMRMs optimize reasoning behavior (Refine), consistently across training and inference.*
-
+**Why SAR matters.** SAR makes candidate exploration explicit and distinguishes it from quality assessment and feedback-driven improvement, while providing a common functional view of training-time policy optimization and feedback-guided test-time inference.
 
 ## 3. Train-time Optimization of RL-Centric Multimodal Reasoning
-### <a id="31--training-initialization"></a>3.1 Training Initialization
+### <a id="train-31-training-initialization"></a>3.1 Training Initialization
 
 <p align="center">
   <img src="figures\initialization.png" width="80%" />
-<!--   <img src="./Images/methods.jpg" width="45%" height="50%" /> -->
 </p>
 
 Training Initialization focuses on how to initially bootstrap an effective reasoning policy before large-scale RL optimization. We divide the existing methods into three categories:
@@ -225,7 +183,7 @@ From-scratch policy initialization acquires reasoning behaviors solely from RL s
 #### 3.1.2 Cold-Start Policy Initialization
 Cold-start policy initialization leverages a strong foundational MLLM prior through knowledge transfer, command interaction, or trajectory injection to enhance training stability in early phases.
 
-#### 3.1.3 Curriculum-Guided Multistage Policy Optimization
+#### 3.1.3 Curriculum-Guided Multistage Policy Initialization
 Curriculum-guided multistage optimization systematically refines the policy across sequential stages to improve robustness and generalization. 
 
 As illustrated, existing approaches can be characterized along two dimensions, strength of behavioral prior and required level of interaction granularity (ranging from static perception to tool-level interaction and fine-grained control), providing a unified framework for understanding the trade-offs among training stability, controllability, and sample efficiency in different initialization strategies.
@@ -238,7 +196,7 @@ As illustrated, existing approaches can be characterized along two dimensions, s
 | 2025.03 | `VisualThinker-R1-Zero` | R1-Zero's "Aha Moment" in Visual Reasoning on a 2B Non-SFT Model | [![Paper](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2503.05132) | [![GitHub Stars](https://img.shields.io/github/stars/turningpoint-ai/VisualThinker-R1-Zero?style=social&label=Star)](https://github.com/turningpoint-ai/VisualThinker-R1-Zero) |
 | 2025.03 | `MM-Eureka` | MM-Eureka: Exploring Visual Aha Moment with Rule-based Large-scale Reinforcement Learning | [![Paper](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2503.07365) | [![GitHub Stars](https://img.shields.io/github/stars/ModalMinds/MM-EUREKA?style=social&label=Star)](https://github.com/ModalMinds/MM-EUREKA)  |
 | 2025.04 | `NoisyRollout` | NoisyRollout: Reinforcing Visual Reasoning with Data Augmentation | [![Paper](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2504.18458) | [![GitHub Stars](https://img.shields.io/github/stars/NUS-TRAIL/NoisyRollout?style=social&label=Star)](https://github.com/NUS-TRAIL/NoisyRollout) |
-| 2025.04 | `FAST-GRPO` | Fast-Slow Thinking for Large Vision-Language Model Reasoning | [![Paper](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2504.13055) | [![GitHub Stars](https://img.shields.io/github/stars/Mr-Loevan/FAST?style=social&label=Star)](https://github.com/Mr-Loevan/FAST) |
+| 2025.04 | `FAST-GRPO` | Fast-Slow Thinking for Large Vision-Language Model Reasoning | [![Paper](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2504.~~18458~~) | [![GitHub Stars](https://img.shields.io/github/stars/Mr-Loevan/FAST?style=social&label=Star)](https://github.com/Mr-Loevan/FAST) |
 | 2025.06 | `Metis-RISE` | Metis-RISE: RL Incentivizes and SFT Enhances Multimodal Reasoning Model Learning |  [![Paper](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2506.13056) | [![GitHub Stars](https://img.shields.io/github/stars/MM-Thinking/Metis-RISE?style=social&label=Star)](https://github.com/MM-Thinking/Metis-RISE) |
 | 2025.08 | `Affordance-R1` | Affordance-R1: Reinforcement Learning for Generalizable Affordance Reasoning in Multimodal Large Language Model | [![Paper](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2508.06206) | [![GitHub Stars](https://img.shields.io/github/stars/hq-King/Affordance-R1?style=social&label=Star)](https://github.com/hq-King/Affordance-R1) |
 | 2025.03 | `UI-RL` | UI-R1: Enhancing Efficient Action Prediction of GUI Agents by Reinforcement Learning | [![Paper](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2503.21620) | [![GitHub Stars](https://img.shields.io/github/stars/lll6gg/UI-R1?style=social&label=Star)](https://github.com/lll6gg/UI-R1) |
@@ -247,7 +205,7 @@ As illustrated, existing approaches can be characterized along two dimensions, s
 | 2025.03 | `OpenVLThinker` | OpenVLThinker: Complex Vision-Language Reasoning via Iterative SFT-RL Cycles | [![Paper](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2503.17352) | [![GitHub Stars](https://img.shields.io/github/stars/yihedeng9/OpenVLThinker?style=social&label=Star)](https://github.com/yihedeng9/OpenVLThinker)  |
 | 2025.05 | `X-Reasoner` | X-Reasoner: Towards Generalizable Reasoning Across Modalities and Domains | [![Paper](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2505.03981) | [![GitHub Stars](https://img.shields.io/github/stars/microsoft/x-reasoner?style=social&label=Star)](https://github.com/microsoft/x-reasoner)  |
 | 2025.06 | `ReVisual-R1` | Advancing Multimodal Reasoning: From Optimized Cold Start to Staged Reinforcement Learning | [![Paper](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2506.04207) | [![GitHub Stars](https://img.shields.io/github/stars/CSfufu/Revisual-R1?style=social&label=Star)](https://github.com/CSfufu/Revisual-R1)  |
-| 2025.03 | `Visual-RFT` | Visual-RFT: Visual Reinforcement Fine-Tuning | [![Paper](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2503.01785) | [![GitHub Stars](https://img.shields.io/github/stars/Liuziyu77/Visual-RFT?style=social&label=Star)](ttps://github.com/Liuziyu77/Visual-RFT)  |
+| 2025.03 | `Visual-RFT` | Visual-RFT: Visual Reinforcement Fine-Tuning | [![Paper](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2503.01785) | [![GitHub Stars](https://img.shields.io/github/stars/Liuziyu77/Visual-RFT?style=social&label=Star)](https://github.com/Liuziyu77/Visual-RFT)  |
 | 2025.01 | `Kimi k1.5` | Kimi k1.5: Scaling Reinforcement Learning with LLMs | [![Paper](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2501.12599) | [![GitHub Stars](https://img.shields.io/github/stars/MoonshotAI/Kimi-k1.5?style=social&label=Star)](https://github.com/MoonshotAI/Kimi-k1.5)  |
 | 2025.05 | `OpenThinkIMG` | OpenThinkIMG: Learning to Think with Images via Visual Tool Reinforcement Learning | [![Paper](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2505.08617) | [![GitHub Stars](https://img.shields.io/github/stars/OpenThinkIMG/OpenThinkIMG?style=social&label=Star)](https://github.com/OpenThinkIMG/OpenThinkIMG) |
 | 2025.08 | `VITAL` | Thinking With Videos: Multimodal Tool-Augmented Reinforcement Learning for Long Video Reasoning | [![Paper](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2508.04416) | [![GitHub Stars](https://img.shields.io/github/stars/zhang9302002/ThinkingWithVideos?style=social&label=Star)](https://github.com/zhang9302002/ThinkingWithVideos) |
@@ -266,7 +224,7 @@ As illustrated, existing approaches can be characterized along two dimensions, s
 | 2025.06 | `Lingshu` | Lingshu: A Generalist Foundation Model for Unified Multimodal Medical Understanding and Reasoning | [![Paper](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2506.07044) | [![Hugging Face](https://img.shields.io/badge/🤗%20Model-white?style=flat)](https://huggingface.co/collections/lingshu-medical-mllm/lingshu-mllms) |
 | 2025.06 | `MMedAgent-RL` | MMedAgent-RL: Optimizing Multi-Agent Collaboration for Multimodal Medical Reasoning | [![Paper](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2506.00555) | - |
 
-### <a id="32-reward-modeling"></a>3.2 Reward Modeling
+### <a id="train-32-reward-modeling"></a>3.2 Reward Modeling
 Summary of reward modeling in RL-centric LMRMs, organized by reward channel. For each method we report the input modalities, multimodal reasoning characteristics, feedback granularity, optimization target, reward type, evaluation type, initialization, learning algorithm, and tasks.
 
 <table>
@@ -289,7 +247,6 @@ Summary of reward modeling in RL-centric LMRMs, organized by reward channel. For
       <th>RM</th>
       <th>ET</th>
       <th>Init.</th>
-      <!-- <th style="width:8%;">Alg.</th> -->
       <th>Tasks</th>
     </tr>
   </thead>
@@ -313,7 +270,6 @@ Summary of reward modeling in RL-centric LMRMs, organized by reward channel. For
       <td>MR</td>
       <td>H</td>
       <td>RL</td>
-      <!-- <td>GRPO</td> -->
       <td>Math, Detection, Classification</td>
     </tr>
     <tr>
@@ -327,7 +283,6 @@ Summary of reward modeling in RL-centric LMRMs, organized by reward channel. For
       <td>ORM</td>
       <td>R</td>
       <td>SFT+RL</td>
-      <!-- <td>GRPO</td> -->
       <td>General-Domain Medical QA, Modality-Specific QA</td>
     </tr>
     <tr>
@@ -341,7 +296,6 @@ Summary of reward modeling in RL-centric LMRMs, organized by reward channel. For
         <td>PRM</td>
         <td>R</td>
         <td>SFT+RL</td>
-        <!-- <td>StepGRPO</td> -->
         <td>Chart Rea., Visual Hallucination, Math, General Visual Rea.</td>
     </tr>
     <tr>
@@ -355,7 +309,6 @@ Summary of reward modeling in RL-centric LMRMs, organized by reward channel. For
       <td>MR</td>
       <td>H</td>
       <td>RL</td>
-      <!-- <td>GRPO-GR</td> -->
       <td>Math, Spat. Rea., Object Count.</td>
     </tr>
     <tr>
@@ -368,7 +321,6 @@ Summary of reward modeling in RL-centric LMRMs, organized by reward channel. For
       <td>Out.-Acc., Struct-Form</td>
       <td>ORM</td>
       <td>H</td>
-      <!-- <td>SFT+RL</td> -->
       <td>online PMD</td>
       <td>Math, Code Rea. and Gen., MM Rea., Knowledge and Logical Rea.</td>
     </tr>
@@ -389,7 +341,6 @@ Summary of reward modeling in RL-centric LMRMs, organized by reward channel. For
       <td>ORM</td>
       <td>H</td>
       <td>RL</td>
-      <!-- <td>GRPO</td> -->
       <td>Visual Rea., Math, Chart Rea.</td>
     </tr>
     <tr>
@@ -402,7 +353,6 @@ Summary of reward modeling in RL-centric LMRMs, organized by reward channel. For
       <td>ORM</td>
       <td>H</td>
       <td>SFT+RL</td>
-      <!-- <td>GRPO</td> -->
       <td>Answer- and Proof-Type Geo QA</td>
     </tr>
     <tr>
@@ -418,7 +368,6 @@ Summary of reward modeling in RL-centric LMRMs, organized by reward channel. For
       <td>ORM</td>
       <td>R</td>
       <td>SFT+RL</td>
-      <!-- <td>GRPO</td> -->
       <td>Scene Graph Gen. (SGG)</td>
     </tr>
     <tr>
@@ -434,7 +383,6 @@ Summary of reward modeling in RL-centric LMRMs, organized by reward channel. For
       <td>ORM</td>
       <td>H</td>
       <td>RL</td>
-      <!-- <td>GRPO</td> -->
       <td>Video Rea., Temp. Ground, Tracking, Quality Assessment</td>
     </tr>
     <!-- ===================== Domain-Rule Verification ===================== -->
@@ -454,7 +402,6 @@ Summary of reward modeling in RL-centric LMRMs, organized by reward channel. For
       <td>PRM</td>
       <td>H</td>
       <td>RL</td>
-      <!-- <td>GRPO</td> -->
       <td>3D Spatial Rea.</td>
     </tr>
     <tr>
@@ -470,7 +417,6 @@ Summary of reward modeling in RL-centric LMRMs, organized by reward channel. For
       <td>MR</td>
       <td>H</td>
       <td>SFT+RL</td>
-      <!-- <td>GRPO</td> -->
       <td>Binary-/Single-/Multi-Disease Diagnosis</td>
     </tr>
     <!-- ===================== Model-Based Automatic Evaluation ===================== -->
@@ -490,7 +436,6 @@ Summary of reward modeling in RL-centric LMRMs, organized by reward channel. For
       <td>MR</td>
       <td>H</td>
       <td>SFT+RL</td>
-      <!-- <td>GRPO</td> -->
       <td>Text-to-Image Gen.</td>
     </tr>
     <tr>
@@ -503,7 +448,6 @@ Summary of reward modeling in RL-centric LMRMs, organized by reward channel. For
       <td>PRM</td>
       <td>H</td>
       <td>SFT+RL</td>
-      <!-- <td>PPO</td> -->
       <td>Visual QA, Physics, Chemistry, Biology, Math Rea.</td>
     </tr>
     <tr>
@@ -519,7 +463,6 @@ Summary of reward modeling in RL-centric LMRMs, organized by reward channel. For
       <td>ORM</td>
       <td>R</td>
       <td>RL</td>
-      <!-- <td>GRPO</td> -->
       <td>Fine-Grained Visual Rea., MM Rea. Math, Grounding and Hallucination</td>
     </tr>
     <!-- ===================== Decomposed Rewards ===================== -->
@@ -537,9 +480,8 @@ Summary of reward modeling in RL-centric LMRMs, organized by reward channel. For
       <td>Traj, Field</td>
       <td>Out.-Acc., Struct-Form</td>
       <td>PRM</td>
-      <td>R</td>
       <td>RL</td>
-      <!-- <td>GRPO</td> -->
+      <td>R</td>
       <td>Spatial Transformation Rea.</td>
     </tr>
     <tr>
@@ -555,7 +497,6 @@ Summary of reward modeling in RL-centric LMRMs, organized by reward channel. For
       <td>ORM</td>
       <td>H</td>
       <td>RL</td>
-      <!-- <td>GRPO</td> -->
       <td>Text-to-Image, Video Gen.</td>
     </tr>
     <tr>
@@ -571,7 +512,6 @@ Summary of reward modeling in RL-centric LMRMs, organized by reward channel. For
       <td>ORM</td>
       <td>H</td>
       <td>SFT+RL</td>
-      <!-- <td>GRPO</td> -->
       <td>MM Time-Series Rea.</td>
     </tr>
     <tr>
@@ -584,7 +524,6 @@ Summary of reward modeling in RL-centric LMRMs, organized by reward channel. For
       <td>ORM</td>
       <td>R</td>
       <td>SFT+RL</td>
-      <!-- <td>GRPO</td> -->
       <td>Math, Science, Chart/OCR Rea., Fine-Grained Visual Rea.</td>
     </tr>
     <tr>
@@ -600,7 +539,6 @@ Summary of reward modeling in RL-centric LMRMs, organized by reward channel. For
       <td>ORM</td>
       <td>R</td>
       <td>SFT+RL</td>
-      <!-- <td>GRPO</td> -->
       <td>Binary Relation Detection (SGG), N-ary Relation Rea.</td>
     </tr>
     <!-- ===================== Human Feedback Rewards ===================== -->
@@ -623,7 +561,6 @@ Summary of reward modeling in RL-centric LMRMs, organized by reward channel. For
       <td>ORM</td>
       <td>M</td>
       <td>RL</td>
-      <!-- <td>BiCoT-GRPO</td> -->
       <td>Text-to-Image Gen. with Human Preference Alignment</td>
     </tr>
     <tr>
@@ -639,7 +576,6 @@ Summary of reward modeling in RL-centric LMRMs, organized by reward channel. For
       <td>MR</td>
       <td>H</td>
       <td>RL</td>
-      <!-- <td>Trust-GRPO</td> -->
       <td>Math, Science, Visual Rea., Chart Rea., General MM QA</td>
     </tr>
     <tr>
@@ -655,7 +591,6 @@ Summary of reward modeling in RL-centric LMRMs, organized by reward channel. For
       <td>ORM</td>
       <td>M</td>
       <td>RL</td>
-      <!-- <td>GRPO</td> -->
       <td>General MM Res.</td>
     </tr>
     <tr>
@@ -671,7 +606,6 @@ Summary of reward modeling in RL-centric LMRMs, organized by reward channel. For
       <td>ORM</td>
       <td>H</td>
       <td>SFT+RL</td>
-      <!-- <td>GRPO</td> -->
       <td>Safety-Aware MM Rea.</td>
     </tr>
     <!-- ===================== Mixture-of-Rewards ===================== -->
@@ -691,26 +625,25 @@ Summary of reward modeling in RL-centric LMRMs, organized by reward channel. For
       <td>MR</td>
       <td>H</td>
       <td>SFT+RL</td>
-      <!-- <td>OREAL</td> -->
       <td>Science, Instruction Following, MM Rea., Interdisciplinary QA</td>
     </tr>
   </tbody>
 </table>
 
-> **Abbreviations.**  
-(1) **MM Char.**: *Ground* = structured visual grounding (*e.g.*, boxes, masks, counting), *Spat.* = spatial relations, *Temp.* = temporal or time-series reasoning, *Struct* = structured outputs (*e.g.*, tables, JSON, scene graphs), *Dom.* = domain priors (*e.g.*, physics, medicine), *Align* = cross-modal alignment.  
-(2) **Gran.**: *Traj* = trajectory-level, only one reward for the entire reasoning chain, *Step* = step-level (score each reasoning step or intermediate action), *Field* = field-level or token-level, check each field or coordinate in the answer one by one, *Subgoal* = subgoal-level, decompose reasoning subtasks, regions, or time slices.  
+> **Abbreviations.**
+(1) **MM Char.**: *Ground* = structured visual grounding (*e.g.*, boxes, masks, counting), *Spat.* = spatial relations, *Temp.* = temporal or time-series reasoning, *Struct* = structured outputs (*e.g.*, tables, JSON, scene graphs), *Dom.* = domain priors (*e.g.*, physics, medicine), *Align* = cross-modal alignment. 
+(2) **Gran.**: *Traj* = trajectory-level, only one reward for the entire reasoning chain, *Step* = step-level (score each reasoning step or intermediate action), *Field* = field-level or token-level, check each field or coordinate in the answer one by one, *Subgoal* = subgoal-level, decompose reasoning subtasks, regions, or time slices.
 (3) **Target**: *Out.-Acc.* = final-answer or task accuracy, *Proc.-Acc.* = correctness of intermediate reasoning steps, *Struct-Form* = format, syntax, or structural validity, *Spat.-Temp.* = spatial or temporal consistency, *Dom.-Rule* = satisfaction of domain rules (*e.g.*, physics, medical, safety constraints), *Align-CM* = cross-modal alignment scores, *Pref-Qual* = human preference or quality (helpfulness, fluency).  
-(4) **RM (Reward Model)**: ORM = outcome reward model, PRM = process reward model, MR = mixed reward model.  
-(5) **ET (Evalation Type)**: *R* = rule-based rewards, *M* = model-based rewards, *H* = hybrid rewards.  
-(6) **Init.**: initialization strategy (RL from scratch vs. SFT+RL).  
+(4) **RM (Reward Model)**: ORM = outcome reward model, PRM = process reward model, MR = mixed reward model.
+(5) **ET (Evalation Type)**: *R* = rule-based rewards, *M* = model-based rewards, *H* = hybrid rewards.
+(6) **Init.**: initialization strategy (RL from scratch vs. SFT+RL).
 
 
 
 
 ### <a id="train-33-trajectory-sampling"></a>3.3 Trajectory Sampling
 
-Sampling governs how the policy generates reasoning trajectories for exploration and learning. Multimodal reasoning often requires explicit control over diversity, reasoning depth, task adaptability, and input distribution coverage. We group training-time trajectory sampling into four strategies:
+Sampling strategies shape solution-space exploration by generating reasoning trajectories from the current policy. Within SAR, candidate sampling realizes **Steer**, whereas feedback-based trajectory selection links exploration to subsequent policy improvement under **Refine**. Multimodal reasoning often requires explicit control over diversity, reasoning depth, task adaptability, and input-distribution coverage. We group training-time trajectory sampling into four strategies:
 
 :one: **Group Sampling & Rejection Sampling**: sample multiple trajectories per iteration; select high-advantage samples and optionally filter low-quality ones with external verifiers.
 
@@ -752,7 +685,6 @@ This section focuses on *how* RL-centric LMRMs maintain cross-modal consistency 
 
 <p align="center">
   <img src="figures\alignment.png" width="80%" />
-<!--   <img src="./Images/methods.jpg" width="45%" height="50%" /> -->
 </p>
 
 #### 3.4.1 Modal Alignment
@@ -829,7 +761,7 @@ This section focuses on *how* RL-centric LMRMs maintain cross-modal consistency 
 
 - **GRPO**
 
-:diamond_shape_with_a_dot_inside: [Seg-Zero: Reasoning-Chain Guided Segmentation via Cognitive Reinforcement]() [![Paper](https://img.shields.io/badge/arXiv-b31b1b.svg)]() [![GitHub Stars](https://img.shields.io/github/stars/JIA-Lab-research/Seg-Zero?style=social&label=Star)](https://github.com/JIA-Lab-research/Seg-Zero)
+:diamond_shape_with_a_dot_inside: [Seg-Zero: Reasoning-Chain Guided Segmentation via Cognitive Reinforcement](https://arxiv.org/abs/2503.06520) [![Paper](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2503.06520) [![GitHub Stars](https://img.shields.io/github/stars/JIA-Lab-research/Seg-Zero?style=social&label=Star)](https://github.com/JIA-Lab-research/Seg-Zero)
 
 :diamond_shape_with_a_dot_inside: [VisionReasoner: Unified Reasoning-Integrated Visual Perception via Reinforcement Learning](https://arxiv.org/abs/2505.12081) [![Paper](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2505.12081) [![GitHub Stars](https://img.shields.io/github/stars/JIA-Lab-research/VisionReasoner?style=social&label=Star)](https://github.com/JIA-Lab-research/VisionReasoner)
 
@@ -891,7 +823,7 @@ This section focuses on *how* RL-centric LMRMs maintain cross-modal consistency 
 
 
 ## 4. Test-time Inference of RL-centric Multimodal Reasoning
-### <a id="41-sampling"></a>4.1 Sampling
+### <a id="test-41-sampling"></a>4.1 Sampling
 
 Test-time decoding and sampling strategies strongly influence the coherence and diversity of reasoning outputs. The objective is to explore the solution space efficiently under a limited compute budget and generate high-quality candidate outputs.
 Common strategies include [greedy decoding](https://arxiv.org/abs/1409.0473), random sampling, [Top-k](https://arxiv.org/abs/1805.04833), [Top-p](https://arxiv.org/abs/1904.09751), and [beam search](https://arxiv.org/abs/1409.3215).
@@ -969,8 +901,7 @@ When trajectories interleave visual evidence with language-based reasoning, it r
 
 (2) **Sequential search** — feedback-driven self-correction
 
-Sequential search does not select a final answer in a single pass; instead, it repeatedly revises the reasoning trajectory using external feedback. 
-<!-- Early methods relied on human corrections, later shifting toward programmable or domain-specific feedback. Motivated by the premise that verification is easier than generation, subsequent work introduced iterative self-critique for refinement. -->
+Sequential search does not select a final answer in a single pass; instead, it repeatedly revises the reasoning trajectory using external feedback.
 
 :diamond_shape_with_a_dot_inside: [NL-edit: Correcting Semantic Parse Errors through Natural Language Interaction](https://arxiv.org/abs/2103.14540) [![Paper](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2103.14540) [![GitHub Stars](https://img.shields.io/github/stars/MSR-LIT/NLEdit?style=social&label=Star)](https://github.com/MSR-LIT/NLEdit)
 
@@ -1058,7 +989,7 @@ For LMRMs, the primary bottleneck lies in node construction and node evaluation.
 
 ### <a id="test-43-dynamic-verification"></a>4.3 Dynamic Verification
 
-Dynamic verification assigns a rule-defined scalar score to assess how consistent LRMR-generated outputs are with either the ground-truth answer or a reference human reasoning process. By the source of the scoring signal, methods can be grouped into three types: outcome-based, process-based, and generative.
+Dynamic verification implements test-time **Assess** by providing feedback for candidate pruning, selection, and subsequent revision. We distinguish outcome- and process-based verification by their evaluation targets, while generative verification describes how assessment feedback is produced.
 
 
 (1) **Outcome-based verification**
@@ -1077,22 +1008,37 @@ Dynamic verification assigns a rule-defined scalar score to assess how consisten
 
 :diamond_shape_with_a_dot_inside: [Archon: An Architecture Search Framework for Inference-Time Techniques](https://arxiv.org/abs/2409.15254) [![Paper](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2409.15254) [![GitHub Stars](https://img.shields.io/github/stars/ScalingIntelligence/Archon?style=social&label=Star)](https://github.com/ScalingIntelligence/Archon)
 
-:no_entry_sign: **Limitation** 
+:no_entry_sign: **Limitation**
+
 Sensitive to linguistic variation and visual noise, and can be easily disrupted by linguistic paraphrases or visual perturbations.
 
 (2) **Process-based verification**
+
+:diamond_shape_with_a_dot_inside: [Tree of Thoughts: Deliberate Problem Solving with Large Language Models](https://arxiv.org/abs/2305.10601) [![Paper](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2305.10601) [![GitHub Stars](https://img.shields.io/github/stars/princeton-nlp/tree-of-thought-llm?style=social&label=Star)](https://github.com/princeton-nlp/tree-of-thought-llm)
+
+:diamond_shape_with_a_dot_inside: [Self-evaluation Guided Beam Search for Reasoning](https://arxiv.org/abs/2305.00633) [![Paper](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2305.00633) [![GitHub Stars](https://img.shields.io/github/stars/YuxiXie/SelfEval-Guided-Decoding?style=social&label=Star)](https://github.com/YuxiXie/SelfEval-Guided-Decoding)
+
+:diamond_shape_with_a_dot_inside: [Math-Shepherd: Verify and Reinforce LLMs Step-by-Step without Human Annotations](https://arxiv.org/abs/2312.08935) [![Paper](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2312.08935) [![Project](https://img.shields.io/badge/web-00BFFF.svg)](https://achieved-bellflower-4d6.notion.site/Math-Shepherd-Verify-and-Reinforce-LLMs-Step-by-step-without-Human-Annotations-41b6e73c860840e08697d347f8889bac?pvs=4)
+
+:diamond_shape_with_a_dot_inside: [Improve Mathematical Reasoning in Language Models by Automated Process Supervision](https://arxiv.org/abs/2406.06592) [![Paper](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2406.06592) [![GitHub Stars](https://img.shields.io/github/stars/sanowl/OmegaPRM?style=social&label=Star)](https://github.com/sanowl/OmegaPRM)
+
+:diamond_shape_with_a_dot_inside: [An Efficient and Precise Training Data Construction Framework for Process-Supervised Reward Model in Mathematical Reasoning](https://arxiv.org/abs/2503.02382) [![Paper](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2503.02382) [![GitHub Stars](https://img.shields.io/github/stars/xiaolizh1/EpicPRM?style=social&label=Star)](https://github.com/xiaolizh1/EpicPRM)
+
+:no_entry_sign: **Limitation**
+
+Process-based verification provides localized feedback on intermediate reasoning, but reliable step-level assessment and visual grounding remain difficult under limited supervision and verification budgets.
+
+(3) **Generative verification**
 
 :diamond_shape_with_a_dot_inside: [Can Large Language Models Be an Alternative to Human Evaluations?](https://arxiv.org/abs/2305.01937) [![Paper](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2305.01937) [![GitHub Stars](https://img.shields.io/github/stars/d223302/LLM-Evaluation?style=social&label=Star)](https://github.com/d223302/LLM-Evaluation)
 
 :diamond_shape_with_a_dot_inside: [G-Eval: NLG Evaluation using GPT-4 with Better Human Alignment](https://arxiv.org/abs/2303.16634) [![Paper](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2303.16634) [![GitHub Stars](https://img.shields.io/github/stars/nlpyang/geval?style=social&label=Star)](https://github.com/nlpyang/geval)
 
-:diamond_shape_with_a_dot_inside: [ChatGPT as a Factual Inconsistency Evaluator for Text Summarization](https://arxiv.org/abs/2303.15621) [![Paper](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2303.15621)  
+:diamond_shape_with_a_dot_inside: [ChatGPT as a Factual Inconsistency Evaluator for Text Summarization](https://arxiv.org/abs/2303.15621) [![Paper](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2303.15621)
 
 :diamond_shape_with_a_dot_inside: [Is ChatGPT a Good NLG Evaluator? A Preliminary Study](https://arxiv.org/abs/2303.04048) [![Paper](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2303.04048) [![GitHub Stars](https://img.shields.io/github/stars/krystalan/chatgpt_as_nlg_evaluator?style=social&label=Star)](https://github.com/krystalan/chatgpt_as_nlg_evaluator)
 
 :diamond_shape_with_a_dot_inside: [Judging LLM-as-a-Judge with MT-Bench and Chatbot Arena](https://arxiv.org/abs/2306.05685) [![Paper](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2306.05685) [![GitHub Stars](https://img.shields.io/github/stars/lm-sys/FastChat?style=social&label=Star)](https://github.com/lm-sys/FastChat)
-
-:diamond_shape_with_a_dot_inside: [Learning to Retrieve Prompts for In-Context Learning](https://arxiv.org/abs/2112.08633) [![Paper](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2112.08633) [![GitHub Stars](https://img.shields.io/github/stars/OhadRubin/EPR?style=social&label=Star)](https://github.com/OhadRubin/EPR)
 
 :diamond_shape_with_a_dot_inside: [Fenec: Fine-grained Language Model Evaluation and Correction Extended through Branching and Bridging](https://arxiv.org/abs/2405.12163) [![Paper](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2405.12163) [![GitHub Stars](https://img.shields.io/github/stars/dropreg/Fennec?style=social&label=Star)](https://github.com/dropreg/Fennec)
 
@@ -1108,27 +1054,9 @@ Sensitive to linguistic variation and visual noise, and can be easily disrupted 
 
 :diamond_shape_with_a_dot_inside: [Prometheus 2: An Open Source Language Model Specialized in Evaluating Other Language Models](https://arxiv.org/abs/2405.01535) [![Paper](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2405.01535) [![GitHub Stars](https://img.shields.io/github/stars/prometheus-eval/prometheus-eval?style=social&label=Star)](https://github.com/prometheus-eval/prometheus-eval)
 
+:no_entry_sign: **Limitation**
 
-:no_entry_sign: **Limitation** 
-
-Offers stronger diagnostic capability, but depends on costly intermediate annotations, resulting in scarce data and high labeling cost.
-
-(3) **Generative verification**
-
-:diamond_shape_with_a_dot_inside: [Tree of Thoughts: Deliberate Problem Solving with Large Language Models](https://arxiv.org/abs/2305.10601) [![Paper](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2305.10601) [![GitHub Stars](https://img.shields.io/github/stars/princeton-nlp/tree-of-thought-llm?style=social&label=Star)](https://github.com/princeton-nlp/tree-of-thought-llm)
-
-:diamond_shape_with_a_dot_inside: [Self-evaluation guided beam search for reasoning](https://arxiv.org/abs/2305.00633) [![Paper](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2305.00633) [![GitHub Stars](https://img.shields.io/github/stars/YuxiXie/SelfEval-Guided-Decoding?style=social&label=Star)](https://github.com/YuxiXie/SelfEval-Guided-Decoding)
-
-:diamond_shape_with_a_dot_inside: [Math-Shepherd: Verify and Reinforce LLMs Step-by-Step without Human Annotations](https://arxiv.org/abs/2312.08935) [![Paper](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2312.08935) [![GitHub](https://img.shields.io/badge/web-00BFFF.svg)](https://achieved-bellflower-4d6.notion.site/Math-Shepherd-Verify-and-Reinforce-LLMs-Step-by-step-without-Human-Annotations-41b6e73c860840e08697d347f8889bac?pvs=4)
-
-:diamond_shape_with_a_dot_inside: [Improve Mathematical Reasoning in Language Models by Automated Process Supervision](https://arxiv.org/abs/2406.06592) [![Paper](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2406.06592) [![GitHub Stars](https://img.shields.io/github/stars/sanowl/OmegaPRM?style=social&label=Star)](https://github.com/sanowl/OmegaPRM)
-
-:diamond_shape_with_a_dot_inside: [An Efficient and Precise Training Data Construction Framework for Process-Supervised Reward Model in Mathematical Reasoning](https://arxiv.org/abs/2503.02382) [![Paper](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2503.02382) [![GitHub Stars](https://img.shields.io/github/stars/xiaolizh1/EpicPRM?style=social&label=Star)](https://github.com/xiaolizh1/EpicPRM)
-
-
-:no_entry_sign: **Limitation** 
-
-Highly sensitive to the choice of model and prompting, and often exhibits text bias at the expense of visual fidelity. Moreover, models' intrinsic biases and invocation costs are difficult to eliminate entirely.
+Generative evaluators can provide explanatory feedback, but their judgments remain sensitive to evaluator choice, evaluation criteria, and prompting, while adding inference cost.
 
 :round_pushpin: **Improvement direction**
 Use RL as a trajectory verifier at test time, leveraging verifier feedback to dynamically guide exploration, pruning, and backtracking. This could mitigate the brittleness of outcome-, process-, and generative verification in multimodal settings, yielding more reliable multimodal reasoning without parameter updates.
@@ -1136,41 +1064,39 @@ Use RL as a trajectory verifier at test time, leveraging verifier feedback to dy
 
 ### <a id="test-44-trajectory-optimization"></a>4.4 Trajectory Optimization
 
-In this context, trajectory optimization denotes controlling and refining candidate reasoning trajectories without parameter updates. Conditioned on task difficulty and uncertainty, it adaptively adjusts trajectory length and structure, improving accuracy while also increasing computational efficiency.
-
-(1) **RL-free methods**
-
-Data-driven distillation extracts shorter reasoning trajectories from a teacher model, which can mitigate overly long CoT traces in text-only tasks.
+**Training-time methods supporting inference capabilities**  
+*(Background only; not part of the test-time taxonomy.)*
 
 :diamond_shape_with_a_dot_inside: [Distilling Reasoning Capabilities into Smaller Language Models](https://arxiv.org/abs/2212.00193) [![Paper](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2212.00193) [![GitHub Stars](https://img.shields.io/github/stars/kumar-shridhar/Distiiling-LM?style=social&label=Star)](https://github.com/kumar-shridhar/Distiiling-LM)
 
 :diamond_shape_with_a_dot_inside: [Distilling Step-by-Step! Outperforming Larger Language Models with Less Training Data and Smaller Model Sizes](https://arxiv.org/abs/2305.02301) [![Paper](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2305.02301) [![GitHub Stars](https://img.shields.io/github/stars/google-research/distilling-step-by-step?style=social&label=Star)](https://github.com/google-research/distilling-step-by-step)
 
-:diamond_shape_with_a_dot_inside: [Unveiling the Key Factors for Distilling Chain-of-Thought Reasoning](https://arxiv.org/abs/2502.18001) [![Paper](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2502.18001) [![GitHub Stars](https://img.shields.io/github/stars/EIT-NLP/Distilling-CoT-Reasoning?style=social&label=Star)](https://github.com/EIT-NLP/Distilling-CoT-Reasoning)
-
-:diamond_shape_with_a_dot_inside: [Recall with Reasoning: Chain-of-Thought Distillation for Mamba's Long-Context Memory and Extrapolation](https://arxiv.org/abs/2505.03320) [![Paper](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2505.03320)
-
 :diamond_shape_with_a_dot_inside: [LLaVA-KD: A Framework of Distilling Multimodal Large Language Models](https://arxiv.org/abs/2410.16236) [![Paper](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2410.16236) [![GitHub Stars](https://img.shields.io/github/stars/Fantasyele/LLaVA-KD?style=social&label=Star)](https://github.com/Fantasyele/LLaVA-KD)
-
-
-(2) **RL-based methods**
-
-By incorporating sample selection, RL-based methods can enable early backtracking and prune erroneous trajectories, controlling computational cost under a fixed compute budget while preserving diversity. Appropriate reward signals further align the outputs with the intended reasoning objectives.
 
 :diamond_shape_with_a_dot_inside: [Scaling Test-Time Compute Without Verification or RL is Suboptimal](https://arxiv.org/abs/2502.12118) [![Paper](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2502.12118)
 
 :diamond_shape_with_a_dot_inside: [Optimizing Test-Time Compute via Meta Reinforcement Fine-Tuning](https://arxiv.org/abs/2503.07572) [![Paper](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2503.07572) [![GitHub Stars](https://img.shields.io/github/stars/CMU-AIRe/MRT?style=social&label=Star)](https://github.com/CMU-AIRe/MRT)
 
 
-:no_entry_sign: **Limitation** 
+(1) **Feedback-guided trajectory selection**
 
-In LMRMs, tasks such as VQA often require multiple rounds of region-level attention, retrieval, and cross-modal verification, yielding longer trajectories and more pronounced error accumulation. The resulting expansion of the state space makes it difficult for distillation to cover the full set of reasoning states, which can lead to underfitting or the overlooking of high-value paths.
+:diamond_shape_with_a_dot_inside: [VisualPRM: An Effective Process Reward Model for Multimodal Reasoning](https://arxiv.org/abs/2503.10291) [![Paper](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2503.10291) [![GitHub Stars](https://img.shields.io/github/stars/OpenGVLab/InternVL?style=social&label=Star)](https://github.com/OpenGVLab/InternVL)
 
-:round_pushpin: **Improvement direction**
-
-In LMRMs, test-time trajectory optimization should move beyond naïve short-trajectory distillation toward alignment-aware process distillation, and integrate RL reward signals or trajectory selection mechanisms. By dynamically optimizing trajectories while preserving cross-modal consistency, such approaches will more robustly improve *System-2*-style reasoning quality.
+:diamond_shape_with_a_dot_inside: [Multimodal Graph-of-Thoughts: Hypothesis-Verification Graphs for Multimodal Reasoning in Vision-Language Models](https://openaccess.thecvf.com/content/CVPR2026W/COGVL/html/Belyaeva_Multimodal_Graph-of-Thoughts_Hypothesis-Verification_Graphs_for_Multimodal_Reasoning_in_Vision-Language_Models_CVPRW_2026_paper.html) [![Paper](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://openaccess.thecvf.com/content/CVPR2026W/COGVL/html/Belyaeva_Multimodal_Graph-of-Thoughts_Hypothesis-Verification_Graphs_for_Multimodal_Reasoning_in_Vision-Language_Models_CVPRW_2026_paper.html)
 
 
+(2) **Iterative trajectory revision**
+
+:diamond_shape_with_a_dot_inside: [Critic-V: VLM Critics Help Catch VLM Errors in Multimodal Reasoning](https://arxiv.org/abs/2411.18203) [![Paper](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2411.18203) [![GitHub Stars](https://img.shields.io/github/stars/kyrieLei/Critic-V?style=social&label=Star)](https://github.com/kyrieLei/Critic-V)
+
+:diamond_shape_with_a_dot_inside: [UniT: Unified Multimodal Chain-of-Thought Test-time Scaling](https://arxiv.org/abs/2602.12279) [![Paper](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2602.12279)
+
+
+(3) **Adaptive inference control**
+
+:diamond_shape_with_a_dot_inside: [Multi-Step Visual Reasoning with Visual Tokens Scaling and Verification](https://arxiv.org/abs/2506.07235) [![Paper](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2506.07235) [![GitHub Stars](https://img.shields.io/github/stars/OpenDCAI/vts-v?style=social&label=Star)](https://github.com/OpenDCAI/vts-v)
+
+:diamond_shape_with_a_dot_inside: [VideoChat-R1.5: Visual Test-Time Scaling to Reinforce Multimodal Reasoning by Iterative Perception](https://arxiv.org/abs/2509.21100) [![Paper](https://img.shields.io/badge/arXiv-b31b1b.svg)](https://arxiv.org/abs/2509.21100) [![GitHub Stars](https://img.shields.io/github/stars/OpenGVLab/VideoChat-R1?style=social&label=Star)](https://github.com/OpenGVLab/VideoChat-R1)
 
 ## 5. Datasets & Benchmarks
 ### <a id="bench-51-goal-driven-reasoning"></a>5.1 Goal-driven Reasoning
@@ -1258,7 +1184,7 @@ In LMRMs, test-time trajectory optimization should move beyond naïve short-traj
       <td colspan="8">
         💖<b>Core Benchmarks (Milestone):</b><br>
         <a href="https://huggingface.co/datasets/ranjaykrishna/visual_genome"><code>Visual Genome</code></a>, <a href="https://huggingface.co/datasets/HuggingFaceM4/A-OKVQA"><code>A-OKVQA</code></a>, <a href="https://huggingface.co/datasets/derek-thomas/ScienceQA"><code>ScienceQA</code></a>, <a href="https://huggingface.co/datasets/AILab-CVC/SEED-Bench"><code>SEED-bench</code></a>, <a href="https://huggingface.co/datasets/BLINK-Benchmark/BLINK"><code>Blink</code></a>,
-        <a href="https://huggingface.co/datasets/MilaWang/SpatialEval"><code>SpatialEval</code></a>, <a href="https://huggingface.co/datasets/HuanjinYao/Mulberry-SFT"><code>Mulberry-260K</code></a>, <a href="https://huggingface.co/collections/laolao77/virft-datasets"><code>Visual-RFT</code></a>.
+        <a href="https://huggingface.co/datasets/MilaWang/SpatialEval"><code>SpatialEval</code></a>, <a href="https://huggingface.co/collections/laolao77/virft-datasets"><code>Visual-RFT</code></a>.
       </td>
     </tr>
     <tr>
@@ -1275,7 +1201,7 @@ In LMRMs, test-time trajectory optimization should move beyond naïve short-traj
       <td colspan="8"> 
         ❤️<b>Other Benchmarks (Emerging):</b><br>
         <a href="https://huggingface.co/datasets/jing-bi/verify-teaser"><code>VERIFY</code></a>, <a href="https://github.com/liujunzhuo/FineCops-Ref"><code>FineCops-Ref</code></a>, <a href="https://huggingface.co/datasets/xueyanz/FIND-Bench"><code>FIND-Bench</code></a>, <a href="https://huggingface.co/datasets/htlou/mm-interp-CompCap-gpt4-data"><code>CompCap</code></a>, <a href="https://huggingface.co/datasets/wphu/CapQA"><code>CapQA</code></a>,
-        <a href="https://huggingface.co/datasets/SimulaMet/Kvasir-VQA-x1"><code>Ksavir-VQA-x1</code></a>, <a href="https://huggingface.co/datasets/HarrytheOrange/MMRB"><code>MMRB</code></a>, <a href="https://github.com/Zhanglei1103/MMESGBench"><code>MMESGBench</code></a>, <a href="https://github.com/jfliang3324/GUIDE"><code>GUIDE</code></a>, <a href="https://github.com/togethercomputer/SMiR"><code>SMIR</code></a>,
+        <a href="https://huggingface.co/datasets/SimulaMet/Kvasir-VQA-x1"><code>Kvasir-VQA-x1</code></a>, <a href="https://huggingface.co/datasets/HarrytheOrange/MMRB"><code>MMRB</code></a>, <a href="https://github.com/Zhanglei1103/MMESGBench"><code>MMESGBench</code></a>, <a href="https://github.com/togethercomputer/SMiR"><code>SMIR</code></a>,
         <a href="https://huggingface.co/datasets/m-a-p/CII-Bench"><code>CII-Bench</code></a>, <a href="https://github.com/microsoft/MageBench"><code>MAGEBench</code></a>, <a href="https://huggingface.co/datasets/RUBBISHLIKE/PunchBench"><code>PunchBench</code></a>,
         <a href="https://journeybench.github.io/"><code>JourneyBench</code></a>, <a href="https://huggingface.co/datasets/yh0075/VisuRiddles"><code>VisuRiddles</code></a>.
       </td>
@@ -1283,10 +1209,10 @@ In LMRMs, test-time trajectory optimization should move beyond naïve short-traj
   </tbody>
 </table>
 
-> **Abbreviations.**  
-(1) **Metrics**: *AS* = Auto-Score.  
-(2) **Q-Type**: *OE* = Open-Ended Questions, *MC* = Multiple Choice Questions (Select all that apply).  
-(3) **Ann.**: *HA* = Human Annotation, *AA* = Auto-Annotation.  
+> **Abbreviations.**
+(1) **Metrics**: *AS* = Auto-Score.
+(2) **Q-Type**: *OE* = Open-Ended Questions, *MC* = Multiple Choice Questions (Select all that apply).
+(3) **Ann.**: *HA* = Human Annotation, *AA* = Auto-Annotation.
 
 
 ### <a id="bench-52-causal--verifiable-reasoning"></a>5.2 Causal & Verifiable Reasoning 
@@ -1420,10 +1346,10 @@ In LMRMs, test-time trajectory optimization should move beyond naïve short-traj
   </tbody>
 </table>
 
-> **Abbreviations.**  
-(1) **Metrics**: *AS* = Auto-Score.  
-(2) **Q-Type**: *OE* = Open-Ended Questions, *MC* = Multiple Choice Questions (Select all that apply).  
-(3) **Ann.**: *HA* = Human Annotation, *AA* = Auto-Annotation, *MV* = Manual Verification.  
+> **Abbreviations.**
+(1) **Metrics**: *AS* = Auto-Score.
+(2) **Q-Type**: *OE* = Open-Ended Questions, *MC* = Multiple Choice Questions (Select all that apply).
+(3) **Ann.**: *HA* = Human Annotation, *AA* = Auto-Annotation, *MV* = Manual Verification.
 
 ### <a id="bench-53-temporal--planning-reasoning"></a>5.3 Temporal & Planning Reasoning
 
@@ -1509,10 +1435,10 @@ In LMRMs, test-time trajectory optimization should move beyond naïve short-traj
   </tbody>
 </table>
 
-> **Abbreviations.**  
-(1) **Metrics**: *AS* = Auto-Score, *SR* = Success Rate.  
-(2) **Q-Type**: *OE* = Open-Ended Questions, *MC* = Multiple Choice Questions (Select all that apply).  
-(3) **Ann.**: *HA* = Human Annotation, *AA* = Auto-Annotation, *MV* = Manual Verification.  
+> **Abbreviations.**
+(1) **Metrics**: *AS* = Auto-Score, *SR* = Success Rate.
+(2) **Q-Type**: *OE* = Open-Ended Questions, *MC* = Multiple Choice Questions (Select all that apply).
+(3) **Ann.**: *HA* = Human Annotation, *AA* = Auto-Annotation, *MV* = Manual Verification.
 
 ### <a id="bench-54-tool-enhanced--embodied-reasoning"></a>5.4 Tool-Enhanced & Embodied Reasoning
 
@@ -1554,7 +1480,7 @@ In LMRMs, test-time trajectory optimization should move beyond naïve short-traj
       <td align="center"><a href="https://huggingface.co/datasets/visualwebbench/VisualWebBench"><img src="https://huggingface.co/front/assets/huggingface_logo-noborder.svg" alt="HF" width="18"></a></td>
     </tr>
     <tr>
-      <td><a href="https://arxiv.org/abs/2406.08451"><code>GUIOdysse</code></a></td>
+      <td><a href="https://arxiv.org/abs/2406.08451"><code>GUIOdyssey</code></a></td>
       <td>2025</td>
       <td>7.7K</td>
       <td>Action Matching Score, SR</td>
@@ -1620,10 +1546,10 @@ In LMRMs, test-time trajectory optimization should move beyond naïve short-traj
   </tbody>
 </table>
 
-> **Abbreviations.**  
-(1) **Metrics**: *SR* = Success Rate.  
-(2) **Q-Type**: *OE* = Open-Ended Questions, *MC* = Multiple Choice Questions (Select all that apply), *IE* = Instruction Execution.  
-(3) **Ann.**: *HA* = Human Annotation, *AA* = Auto-Annotation, *MV* = Manual Verification.  
+> **Abbreviations.**
+(1) **Metrics**: *SR* = Success Rate.
+(2) **Q-Type**: *OE* = Open-Ended Questions, *MC* = Multiple Choice Questions (Select all that apply), *IE* = Instruction Execution.
+(3) **Ann.**: *HA* = Human Annotation, *AA* = Auto-Annotation, *MV* = Manual Verification.
 
 ### <a id="bench-55-self-reflection-reasoning"></a>5.5 Self-Reflection Reasoning
 
@@ -1691,7 +1617,7 @@ In LMRMs, test-time trajectory optimization should move beyond naïve short-traj
     <tr>
       <td colspan="8">
         💖<b>Core Benchmarks (Milestone):</b><br>
-        <a href="https://huggingface.co/datasets/MMInstruction/VLFeedback"><code>VLFeedback</code></a>.
+        <a href="https://huggingface.co/datasets/MMInstruction/VLFeedback"><code>VLFeedback</code></a>, <a href="https://huggingface.co/datasets/HuanjinYao/Mulberry-SFT"><code>Mulberry-260K</code></a>.
       </td>
     </tr>
     <tr>
@@ -1710,62 +1636,47 @@ In LMRMs, test-time trajectory optimization should move beyond naïve short-traj
   </tbody>
 </table>
 
-> **Abbreviations.**  
-(1) **Metrics**: *AS* = Auto-Score, *SR* = Success Rate.  
-(2) **Q-Type**: *OE* = Open-Ended Questions, *MC* = Multiple Choice Questions (Select all that apply), *IE* = Instruction Execution, *MR* = Multi-step Reasoning, *SC* = Single Choice Questions, *YN* = Yes-No Questions.  
-(3) **Ann.**: *HA* = Human Annotation, *AA* = Auto-Annotation, *MV* = Manual Verification.  
+> **Abbreviations.**
+(1) **Metrics**: *AS* = Auto-Score, *SR* = Success Rate.
+(2) **Q-Type**: *OE* = Open-Ended Questions, *MC* = Multiple Choice Questions (Select all that apply), *IE* = Instruction Execution, *MR* = Multi-step Reasoning, *SC* = Single Choice Questions, *YN* = Yes-No Questions.
+(3) **Ann.**: *HA* = Human Annotation, *AA* = Auto-Annotation, *MV* = Manual Verification.
 
 
 ## 6. Challenges & Opportunities
 
-### 6.1 The Foundational Substrate of Multimodal Reasoning
+### 6.1 Steer: Exploration and Candidate Coverage
 
-:triangular_flag_on_post: **Multimodal Reward Fuzziness**
+:triangular_flag_on_post: **Limited Coverage of Grounded Reasoning Trajectories**
 
-  *How to eliminate the impact of noise, marking a shift from rigid scoring to interference- resistant rewards.*
+*How to expand grounded candidate coverage beyond familiar reasoning patterns, ensuring informative trajectories for training and test-time inference.*
 
-  - [ ] Enhancing multimodal rewards with dense soft-reward mechanisms.
-  - [ ] Counterfactual alignment verification.
+- [ ] Adaptive sampling for diverse, grounded reasoning trajectories.
+- [ ] Targeted information gathering through visual inspection and tool use.
 
-:triangular_flag_on_post: **Cross-Modal Credit Assignment Inadequacy**
+:triangular_flag_on_post: **Adaptive Exploration under Multimodal Uncertainty**
 
-  *How to decouple the reasoning process, marking a shift from black-box reasoning to controllable and interpretable hierarchical reasoning.*
+*How to balance candidate coverage, reasoning accuracy, and computational cost through uncertainty-guided exploration.*
 
-  - [ ] Hierarchical reinforcement learning.
-  - [ ] Process labeling.
-  - [ ] Interpretability evaluation.
+- [ ] Uncertainty-guided sampling and information acquisition.
+- [ ] Dynamic budget allocation for visual inspection, retrieval, and tool use.
 
-:triangular_flag_on_post: **Error accumulation**
 
-  *How to detect and track accumulated errors, marking a shift from passive failure logging to active self-correction.*
+### 6.2 Assess: Reliability of Multimodal Evaluation
 
-  - [ ] Checkpoint evaluation.
-  - [ ] Verification–rollback.
+:triangular_flag_on_post: **Reward Ambiguity and Verification Reliability**
 
-:triangular_flag_on_post: **Modal Imbalance**
+*How to ensure reliable multimodal assessment, moving beyond outcome correctness toward process verification and multimodal information dependence.*
 
-  *How to mitigate unbalanced contributions, marking a shift from text-dominant learning to balanced learning.*
+- [ ] Reliable process-level verifiers for intermediate reasoning steps.
+- [ ] Counterfactual verification of multimodal information dependence.
 
-  - [ ] Modality-wise decomposition of rewards and advantages.
-  - [ ] Process reward models for modality verification.
-  - [ ] Expert-based decision structures.
+:triangular_flag_on_post: **Limits of Linear If–Then Reasoning**
 
-### 6.2 Ground-Truth Feedback and Evidential Reliability
+*How to evaluate global consistency and causal dependence beyond local, step-by-step correctness.*
 
-:triangular_flag_on_post: **Fragmentation of Benchmarks**
+- [ ] Global consistency evaluation for multi-step reasoning.
+- [ ] Intervention-aware causal evaluation under controlled multimodal input changes.
 
-  *How to evaluate the benefits of RL and feed them back into algorithm design, marking a shift from reasoning outcome evaluation to reasoning algorithm evaluation.*
-
-  - [ ] Developing a unified capability taxonomy aligned with RL paradigms.
-  - [ ] Establishing process-oriented evaluation protocols.
-
-:triangular_flag_on_post: **Beyond Linear If-Then Reasoning**
-
-  *How to shift multimodal reasoning from correlation-driven reasoning to causal reasoning grounded in RL.*
-
-  - [ ] Structured RL training for analogical reasoning.
-  - [ ] Causal state extraction for multimodal MDPs.
-  - [ ] Intervention-driven training signals.
 
 > :eight_pointed_black_star: **Supplementary Remark**: 
 > RL renders open-ended **multimodal abstract reasoning**, characterized by its dispersed evidence, and difficult evaluation, amenable to systematic optimization.
@@ -1780,22 +1691,23 @@ In LMRMs, test-time trajectory optimization should move beyond naïve short-traj
   - [ ] Retention-aware on-policy (or near on-policy) multimodal data pipelines.
   - [ ] Continual RL for long-term multimodal reasoning with memory and retention guarantees.
 
-### 6.3 Continuous Catalysis and the Engine of Progress
 
-:triangular_flag_on_post: **Absence of Environmental Feedback**
+### 6.3 Refine: Effective Feedback-Driven Improvement
 
-  *how to integrate real-time environmental feedback, marking a shift from simulation environments to real-world deployment.*
+🚩 **Cross-Modal Feedback Attribution and Policy Improvement**
 
-  -[ ] Environment-aligned multi-source rewards.
-  -[ ] Narrowing the sim-to-real gap.
-  -[ ] Budget-constrained policy optimization under real-time constraints.
+*How to attribute feedback to individual reasoning steps, enabling targeted and interpretable policy improvement rather than relying solely on trajectory-level rewards.*
 
-:triangular_flag_on_post: **Multimodal Multi-Agent**
+- [ ] Hierarchical reasoning with interpretable process states.
+- [ ] Fine-grained feedback attribution for targeted policy updates.
 
-  *how to simultaneously realize a plan representation that is executable, process-level evaluation that is verifiable, and coordination strategies that are learnable within a multimodal MDP.*
+🚩 **Long-Horizon Adaptation and Feedback Integration**
 
-  - [ ] Execution-plan-centric agent capability building.
-  - [ ] Imagination-based collaboration with world models.
+*How to integrate delayed feedback, environmental changes, and agent interactions to support reliable adaptation across long-horizon tasks.*
+
+- [ ] Execution-grounded refinement using tool outcomes and environmental observations.
+- [ ] Feedback-guided plan revision and adaptive inference control at test time.
+- [ ] Policy improvement through interactive feedback during training.
 
 
 ## Citation
@@ -1808,3 +1720,4 @@ In LMRMs, test-time trajectory optimization should move beyond naïve short-traj
   journal={...},
   year={2026}
 }
+```
