@@ -1712,12 +1712,11 @@ Use RL as a trajectory verifier at test time, leveraging verifier feedback to dy
 
 ## Citation
 
-
 ```bibtex
-@article{Key,
-  title={Steer, Assess, and Refine: A Reinforcement Learning-Centric Multimodal Reasoning Survey},
-  author={...},
-  journal={...},
-  year={2026}
+@misc{huang2026steer,
+  title  = {Steer, Assess, and Refine: A Reinforcement Learning-Centric Multimodal Reasoning Survey},
+  author = {Huang, Jirui and Xiong, Shengwu and Long, Xinwei and Chen, Yaxiong and Xu, Peng},
+  year   = {2026},
+  note   = {Manuscript under review}
 }
 ```
